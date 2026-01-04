@@ -111,14 +111,9 @@ const SYNONYMS = {
 
 // Location keywords for smarter matching
 const LOCATION_KEYWORDS = {
-    'florida keys': ['key west', 'marathon', 'islamorada', 'key largo', 'stock island', 'tavernier', 'big pine'],
-    'miami': ['miami', 'miami beach', 'fort lauderdale', 'hollywood', 'biscayne'],
-    'tampa bay': ['tampa', 'st. petersburg', 'clearwater', 'st. pete', 'tierra verde', 'gulfport'],
-    'southwest florida': ['naples', 'marco island', 'fort myers', 'sanibel', 'captiva', 'goodland'],
-    'panhandle': ['destin', 'pensacola', 'panama city', 'fort walton', 'navarre'],
-    'space coast': ['cocoa beach', 'port canaveral', 'merritt island', 'titusville', 'cape canaveral'],
-    'northeast florida': ['st. augustine', 'jacksonville', 'amelia island', 'daytona'],
-    'central florida': ['orlando', 'crystal river', 'silver springs', 'homosassa', 'spring hill']
+    'south florida': ['key west', 'marathon', 'islamorada', 'key largo', 'miami', 'miami beach', 'fort lauderdale', 'hollywood', 'biscayne', 'naples', 'marco island', 'fort myers', 'sanibel', 'captiva', 'goodland', 'stock island', 'tavernier', 'big pine'],
+    'central florida': ['tampa', 'st. petersburg', 'clearwater', 'st. pete', 'tierra verde', 'gulfport', 'orlando', 'crystal river', 'silver springs', 'homosassa', 'spring hill', 'cocoa beach', 'port canaveral', 'merritt island', 'titusville', 'cape canaveral', 'sarasota', 'bradenton'],
+    'north florida': ['destin', 'pensacola', 'panama city', 'fort walton', 'navarre', 'st. augustine', 'jacksonville', 'amelia island', 'daytona']
 };
 
 // ============================================
