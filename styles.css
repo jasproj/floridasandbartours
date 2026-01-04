@@ -3,18 +3,19 @@
    ============================================ */
 
 :root {
-    /* Primary Colors - Florida Keys Turquoise & Coral */
-    --ocean-deep: #0B5563;
-    --ocean-mid: #0891B2;
-    --ocean-light: #22D3EE;
-    --coral: #E87B4A;
-    --sunset-gold: #FFB347;
-    --sand: #FFF8E7;
-    --palm-green: #10B981;
+    /* Primary Colors - From FST Logo */
+    --ocean-deep: #1B3A57;      /* Navy from logo border */
+    --ocean-mid: #1E6B8A;       /* Teal blue from water */
+    --ocean-light: #3BB8C3;     /* Light turquoise */
+    --coral: #E8832A;           /* Orange from "Florida" text */
+    --wood-brown: #8B5A2B;      /* Brown from wooden plank */
+    --sunset-gold: #F7941D;     /* Golden orange sunset */
+    --sand: #FDF5E6;            /* Warm sand color */
+    --palm-green: #2D8B4E;      /* Palm tree green */
     
     /* Neutrals */
     --white: #FFFFFF;
-    --off-white: #FAFAFA;
+    --off-white: #FDF8F0;
     --gray-100: #F5F5F5;
     --gray-200: #E5E5E5;
     --gray-300: #D4D4D4;
@@ -26,7 +27,7 @@
     --gray-900: #171717;
     
     /* Logo Colors - CONSISTENT EVERYWHERE */
-    --logo-text: #0B5563;
+    --logo-text: #1B3A57;
     
     /* Typography - Fun & Friendly */
     --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -77,7 +78,7 @@ ul, ol { list-style: none; }
     left: 0;
     right: 0;
     z-index: 1000;
-    background: #FDF8F0;
+    background: #FDF5E6;
     border-bottom: 1px solid #E8DFD0;
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
@@ -221,7 +222,7 @@ ul, ol { list-style: none; }
     left: 0;
     width: 0;
     height: 2px;
-    background: #E87B4A;
+    background: #E8832A;
     transition: width var(--transition-fast);
 }
 
@@ -234,7 +235,7 @@ ul, ol { list-style: none; }
     flex-direction: column;
     gap: var(--space-md);
     padding: var(--space-lg);
-    background: #FDF8F0;
+    background: #FDF5E6;
     border-top: 1px solid #E8DFD0;
 }
 
@@ -834,7 +835,7 @@ ul, ol { list-style: none; }
     position: absolute;
     bottom: 12px;
     right: 12px;
-    background: linear-gradient(135deg, #E87B4A 0%, #D66A3D 100%);
+    background: linear-gradient(135deg, #E8832A 0%, #D66A3D 100%);
     color: white;
     font-size: 1rem;
     font-weight: 700;
@@ -1116,7 +1117,7 @@ ul, ol { list-style: none; }
    FOOTER
    ============================================ */
 .footer {
-    background: #FDF8F0;
+    background: #FDF5E6;
     color: #1B3A57;
     padding: var(--space-3xl) 0 var(--space-xl);
     border-top: 1px solid #E8DFD0;
@@ -1136,7 +1137,7 @@ ul, ol { list-style: none; }
 }
 
 .footer-tagline {
-    color: #E87B4A !important;
+    color: #E8832A !important;
     font-weight: 500;
     margin-top: var(--space-md) !important;
 }
@@ -1162,7 +1163,7 @@ ul, ol { list-style: none; }
 }
 
 .footer-links a:hover {
-    color: #E87B4A;
+    color: #E8832A;
 }
 
 .footer-bottom {
@@ -1530,7 +1531,7 @@ ul, ol { list-style: none; }
     position: absolute;
     top: var(--space-sm);
     left: var(--space-sm);
-    background: linear-gradient(135deg, #E87B4A, #FF8E53);
+    background: linear-gradient(135deg, #E8832A, #FF8E53);
     color: var(--white);
     padding: 4px 12px;
     border-radius: var(--radius-full);
@@ -1656,7 +1657,7 @@ ul, ol { list-style: none; }
    1. TOP PROMO BANNER
    =================== */
 .promo-banner {
-    background: linear-gradient(135deg, #E87B4A 0%, #F7B662 100%);
+    background: linear-gradient(135deg, #E8832A 0%, #F7B662 100%);
     color: white;
     padding: 12px 50px 12px 20px;
     text-align: center;
@@ -1797,7 +1798,7 @@ body:has(.promo-banner[style*="display: none"]) .hero {
 
 .area-count {
     display: inline-block;
-    background: #E87B4A;
+    background: #E8832A;
     color: white;
     padding: 6px 14px;
     border-radius: 20px;
@@ -1844,7 +1845,7 @@ body:has(.promo-banner[style*="display: none"]) .hero {
     top: -10px;
     left: 50%;
     transform: translateX(-50%);
-    background: #E87B4A;
+    background: #E8832A;
     color: white;
     padding: 4px 12px;
     border-radius: 12px;
@@ -1918,7 +1919,7 @@ body:has(.promo-banner[style*="display: none"]) .hero {
 }
 
 .guide-form button {
-    background: #E87B4A;
+    background: #E8832A;
     color: white;
     border: none;
     padding: 14px 24px;
