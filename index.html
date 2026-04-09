@@ -8,13 +8,22 @@
     <meta name="keywords" content="Florida tours, South Florida activities, sandbar tours Florida, Florida snorkeling, sunset cruises Florida, dolphin tours Florida, Florida boat tours, Florida fishing charters, sandbar tours Florida, Florida parasailing, jet ski Florida, kayak tours Florida, eco tours Florida, private charter Florida">
     <link rel="canonical" href="https://floridasandbartours.com/">
     
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXX"></script>
+    <!-- Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2FCXCNE07X"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-XXXXXXXXX');
+        gtag('config', 'G-2FCXCNE07X');
+        
+        function trackBookingClick(tourName, tourId, region) {
+            gtag('event', 'booking_click', {
+                'event_category': 'conversion',
+                'event_label': tourName,
+                'tour_id': tourId,
+                'region': region || 'florida'
+            });
+        }
     </script>
     
 
