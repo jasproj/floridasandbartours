@@ -2303,3 +2303,5 @@ body:has(.promo-banner[style*="display: none"]) .hero {
         font-size: 0.85rem;
     }
 }
+
+.blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
