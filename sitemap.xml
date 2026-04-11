@@ -252,4 +252,18 @@
     <ns0:changefreq>monthly</ns0:changefreq>
     <ns0:priority>0.7</ns0:priority>
   </ns0:url>
+  
+  <!-- NEW: Roundup Posts (April 11, 2026) -->
+  <ns0:url>
+    <ns0:loc>https://floridasandbartours.com/blog/10-best-tampa-bay-boat-tours-2026.html</ns0:loc>
+    <ns0:lastmod>2026-04-11</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
+  <ns0:url>
+    <ns0:loc>https://floridasandbartours.com/blog/top-5-florida-sandbar-experiences.html</ns0:loc>
+    <ns0:lastmod>2026-04-11</ns0:lastmod>
+    <ns0:changefreq>monthly</ns0:changefreq>
+    <ns0:priority>0.8</ns0:priority>
+  </ns0:url>
 </ns0:urlset>
