@@ -3,26 +3,7 @@
    ============================================ */
 
 const CONFIG = {
-    toursPerPage: 12,
-    fomoInterval: 45000,
-    fomoNames: [
-        'Sarah from Miami', 'Mike from Tampa', 'Jennifer from Orlando',
-        'David from Atlanta', 'Lisa from Chicago', 'Chris from New York',
-        'Amanda from Boston', 'Brian from Dallas', 'Emily from Denver',
-        'Kevin from Nashville', 'Rachel from Charlotte', 'Jason from Phoenix',
-        'Michelle from Philadelphia', 'Ryan from Seattle', 'Stephanie from Austin',
-        'Tom from San Diego', 'Katie from Portland', 'Dan from Detroit'
-    ],
-    fomoActions: [
-        'just booked a sandbar tour!',
-        'just booked a sunset cruise!',
-        'just booked a snorkel trip!',
-        'just booked a dolphin tour!',
-        'just booked a jet ski rental!',
-        'just booked a fishing charter!',
-        'just booked a parasailing trip!',
-        'just booked a boat tour!'
-    ]
+    toursPerPage: 12
 };
 
 // State
@@ -130,7 +111,6 @@ async function initApp() {
     initMobileMenu();
     initStickyHeader();
     initMobileCTA();
-    initFOMO();
     initWeather();
     initWeatherTicker(); // Live weather ticker
     initializeFAQs();
@@ -191,6 +171,26 @@ async function loadTours() {
 }
 
 // Crypto-grade shuffle using crypto.getRandomValues
+// Format price
+function formatPrice(price) {
+    return Number.isFinite(price) ? `From $${price}` : 'Check live price';
+}
+
+// Clean location display
+function cleanLocation(location = '') {
+    return location
+        .replace(/^United States\/Florida\//, '')
+        .replace(/^Florida\//, '')
+        .trim() || 'Key West';
+}
+
+// Score label
+function scoreLabel(score) {
+    if (score >= 90) return 'Top Rated';
+    if (score >= 75) return 'Popular';
+    return '';
+}
+
 function cryptoShuffle(array) {
     const n = array.length;
     if (n === 0) return array;
@@ -714,30 +714,7 @@ function initMobileCTA() {
 // FOMO NOTIFICATIONS
 // ============================================
 
-function initFOMO() {
-    // Initial delay before first notification
-    setTimeout(() => {
-        showFOMONotification();
-        setInterval(showFOMONotification, CONFIG.fomoInterval);
-    }, 10000);
-}
-
-function showFOMONotification() {
-    const notification = document.getElementById('notification');
-    const nameEl = document.getElementById('notification-name');
-    const actionEl = document.getElementById('notification-action');
-    
-    if (notification && nameEl && actionEl) {
-        nameEl.textContent = CONFIG.fomoNames[Math.floor(Math.random() * CONFIG.fomoNames.length)];
-        actionEl.textContent = CONFIG.fomoActions[Math.floor(Math.random() * CONFIG.fomoActions.length)];
-        
-        notification.classList.add('show');
-        
-        setTimeout(() => {
-            notification.classList.remove('show');
-        }, 5000);
-    }
-}
+// FOMO notifications removed - focus on real booking confirmations only
 
 // ============================================
 // WEATHER WIDGET
