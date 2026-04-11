@@ -219,6 +219,13 @@ function cryptoShuffle(array) {
 // ============================================
 
 function applyFilters() {
+    // Track filter changes
+    if (currentFilters.island) trackFilterChange('area', currentFilters.island);
+    if (currentFilters.activity) trackFilterChange('activity', currentFilters.activity);
+    if (currentFilters.duration) trackFilterChange('duration', currentFilters.duration);
+    if (currentFilters.search) trackSearchUsed(currentFilters.search);
+    if (currentFilters.sort !== 'random') trackFilterChange('sort', currentFilters.sort);
+    
     filteredTours = allTours.filter(tour => {
         // Region filter - match if tour location contains any region keyword
         if (currentFilters.island) {
@@ -460,14 +467,13 @@ function createStarsHTML(rating) {
 
 // GA4 + Facebook Pixel tracking for affiliate clicks
 function trackBookClick(tourId, tourName, company) {
-    // GA4 event
+    // GA4 event - enhanced booking tracking
     if (typeof gtag !== 'undefined') {
-        gtag('event', 'affiliate_click', {
+        gtag('event', 'booking_click', {
             tour_id: tourId,
             tour_name: tourName,
             company: company,
-            event_category: 'booking',
-            event_label: tourName
+            event_category: 'conversion'
         });
     }
     // Facebook Pixel event
@@ -476,6 +482,33 @@ function trackBookClick(tourId, tourName, company) {
             content_name: tourName,
             content_ids: [tourId],
             content_type: 'product'
+        });
+    }
+}
+
+function trackFilterChange(filterType, value) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'filter_used', {
+            filter_type: filterType,
+            value: value,
+            event_category: 'engagement'
+        });
+    }
+}
+
+function trackSearchUsed(searchTerm) {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'search_used', {
+            query: searchTerm,
+            event_category: 'engagement'
+        });
+    }
+}
+
+function trackLoadMoreClick() {
+    if (typeof gtag !== 'undefined') {
+        gtag('event', 'load_more_clicked', {
+            event_category: 'engagement'
         });
     }
 }
@@ -607,6 +640,7 @@ function clearAllFilters() {
 }
 
 function loadMoreTours() {
+    trackLoadMoreClick();
     renderTours(false);
 }
 
