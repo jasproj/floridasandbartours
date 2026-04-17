@@ -1,0 +1,87 @@
+{
+  "// NOTE": "Replace TODO_ placeholders before deploying.",
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://floridasandbartours.com/#business",
+      "name": "FloridaSandbarTours",
+      "description": "Florida sandbar tours and boat charters across the Gulf coast - Tampa Bay, Clearwater, Destin, and the Keys. Glass Bottom Kayak tours, sunset sandbar cruises, and private charters.",
+      "url": "https://floridasandbartours.com",
+      "telephone": "+1-727-623-2652",
+      "email": "jason@floridateleprompter.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "TODO_LOGO_URL"
+      },
+      "priceRange": "$40-$799",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "St. Petersburg",
+        "addressRegion": "FL",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 27.7676,
+        "longitude": -82.6403
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Tampa Bay, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Clearwater Beach, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Destin, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Key West, Florida"
+        },
+        {
+          "@type": "Place",
+          "name": "Jupiter, Florida"
+        }
+      ],
+      "serviceType": [
+        "Sandbar Tour",
+        "Private Boat Charter",
+        "Sunset Cruise",
+        "Kayak Tour",
+        "Eco Tour",
+        "Dolphin Watch Tour"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "TODO_RATING",
+        "reviewCount": "TODO_REVIEW_COUNT",
+        "bestRating": "5"
+      },
+      "sameAs": [
+        "TODO_SOCIAL_FACEBOOK",
+        "TODO_SOCIAL_INSTAGRAM",
+        "TODO_SOCIAL_TRIPADVISOR"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://floridasandbartours.com/#website",
+      "url": "https://floridasandbartours.com",
+      "name": "FloridaSandbarTours",
+      "description": "Florida sandbar tours across the Gulf coast and Atlantic. Shell Key, Crab Island, Anclote Key, and Keys sandbar experiences.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://floridasandbartours.com/tours?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+}
