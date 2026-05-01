@@ -98,6 +98,41 @@ const LOCATION_KEYWORDS = {
 };
 
 // ============================================
+// CONVERSION TRACKING — booking_click event
+// ============================================
+// Canonical signature: trackBookingClick(tourName, tourId, region).
+// Fires the booking_click GA4 event used for conversion attribution.
+// Delegated click handler below wires every FareHarbor link and any
+// .book-btn / .tour-cta anchor without needing per-anchor onclick.
+// Note: this wiring is only active on pages that load app.js. See PR
+// description for the follow-up needed to extend coverage to blog/
+// tour-landing pages that don't currently include app.js.
+
+function trackBookingClick(tourName, tourId, region) {
+    if (typeof gtag === 'undefined') return;
+    gtag('event', 'booking_click', {
+        event_category: 'conversion',
+        event_label: tourName,
+        tour_id: tourId,
+        region: region || 'florida'
+    });
+}
+
+document.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    if (!link) return;
+    const href = link.getAttribute('href') || '';
+    const isFareHarbor = href.includes('fareharbor.com');
+    const isBookBtn = link.classList.contains('book-btn') || link.classList.contains('tour-cta');
+    if (!isFareHarbor && !isBookBtn) return;
+    const tourName = link.dataset.tourName
+        || link.textContent.replace(/[→➤➔\s]+$/, '').trim()
+        || 'unknown';
+    const tourId = link.dataset.tourId || href || 'unknown';
+    trackBookingClick(tourName, tourId, 'florida');
+});
+
+// ============================================
 // INITIALIZATION
 // ============================================
 
