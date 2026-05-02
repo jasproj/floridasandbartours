@@ -173,7 +173,8 @@ async function loadTours() {
 // Crypto-grade shuffle using crypto.getRandomValues
 // Format price
 function formatPrice(price) {
-    return Number.isFinite(price) ? `From $${price}` : 'Check live price';
+    if (!Number.isFinite(price) || price <= 0) return 'Check availability';
+    return `From $${price}`;
 }
 
 // Clean location display
