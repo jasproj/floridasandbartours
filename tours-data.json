@@ -648,7 +648,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/XXdbwAp0RwCtLZI3BxzJ",
     "bookingLink": "https://fareharbor.com/embeds/book/sixfinscharter/items/532164/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1295,
     "description": "Cruise along the picturesque coastline to a selection of outdoor Tiki establishments nestled along the water's edge, each with its charming boat dock waiting to welcome you.",
     "duration": 240,
     "durationText": "Duration\n4 Hour",
@@ -657,7 +657,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "532224",
@@ -670,7 +672,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/nZOAr70bR8yPM5lbbwiq",
     "bookingLink": "https://fareharbor.com/embeds/book/sixfinscharter/items/532224/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1195,
     "description": "Explore the vibrant coral reefs with tropical fish, colorful marine life, and fascinating sea creatures. Our expert guides will lead you to the best snorkeling spots, ensuring an unforgettable experience for beginners and seasoned snorkelers.",
     "duration": 240,
     "durationText": "Duration\n4 Hour",
@@ -679,7 +681,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "532226",
@@ -692,7 +696,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/lfTU36coSeCs6VvlYDkg",
     "bookingLink": "https://fareharbor.com/embeds/book/sixfinscharter/items/532226/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1195,
     "description": "Cruise to secluded sandbars and uninhabited islands, where pristine beaches and crystal-clear waters await.",
     "duration": 240,
     "durationText": "Duration\n4 Hour",
@@ -701,7 +705,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "532228",
@@ -912,7 +918,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/trC4enRduUsMUKHLjJrA",
     "bookingLink": "https://fareharbor.com/embeds/book/sixfinscharter/items/541394/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1795,
     "description": "Set your sights on the clear, turquoise waters off Key West and get ready for a fishing experience that’s fun, relaxed, and full of excitement, without the need for high-end sportfishing gear or elite angling skills.",
     "duration": 240,
     "durationText": "4 hours",
@@ -921,7 +927,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "660704",
@@ -978,7 +986,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/UxWDijTVS9CElGrgZCj8",
     "bookingLink": "https://fareharbor.com/embeds/book/keywestfishing-charters/items/104492/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1950,
     "description": "Health & Safety Notes\nRequired medical disclosure (guest responsibility): Guests must inform the captain before departure of any medical conditions or limitations (e.g.",
     "duration": 600,
     "durationText": "10 Hour Charter",
@@ -987,7 +995,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "107959",
@@ -1220,7 +1230,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ny1IR7ZiTWaZX6LxM49I",
     "bookingLink": "https://fareharbor.com/embeds/book/us2u/items/81669/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 169,
     "description": "Hop aboard for the ultimate Miami to Key West Bus Tour! Ditch the driving and let the adventure begin. Cross 42 incredible bridges and marvel at the breathtaking views along the legendary Overseas Highway and the Seven Mile Bridge.",
     "duration": 900,
     "durationText": "Duration\n15 hour",
@@ -1229,7 +1239,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "107963",
@@ -1264,7 +1276,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/Urj6Sb5jR2qmdDnXq5cQ",
     "bookingLink": "https://fareharbor.com/embeds/book/us2u/items/176702/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 199,
     "description": "Discover the enchanting beauty of South Florida on our unforgettable Miami to Key West tour! Explore the vibrant city of Miami before embarking on a scenic drive along the Overseas Highway.",
     "duration": 840,
     "durationText": "Duration\n14 hour",
@@ -1273,7 +1285,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "372418",
@@ -1550,7 +1564,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/C7jKlgoLRJ2nwI3Hrctb",
     "bookingLink": "https://fareharbor.com/embeds/book/sixfinscharter/items/563185/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1670,
     "description": "Imagine sailing through the crystal-clear waters of the Florida Keys, feeling the gentle breeze on your skin without the constraints of clothing.",
     "duration": 360,
     "durationText": "Duration\n6 Hour",
@@ -1559,7 +1573,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "581622",
@@ -1946,7 +1962,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/z39F7h7TwmSjCXOj1xgM",
     "bookingLink": "https://fareharbor.com/embeds/book/tailfinsislandadventure/items/540929/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 49,
     "description": "The tiki sunset and harbor tour is a unique experience under Destin's setting sun to watch dolphins playing and take in the brilliant night lights of Destin Harbor.",
     "duration": 90,
     "durationText": "Duration\n1.5 Hour",
@@ -1955,7 +1971,10 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "554262",
@@ -1968,7 +1987,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ezsTDfhxTN6S6GiUkEiV",
     "bookingLink": "https://fareharbor.com/embeds/book/sixfinscharter/items/554262/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1895,
     "description": "OPEN ITINERARY & CUSTOMIZABLE—Discover the ultimate wedding experience with Six Fins Charter’s exclusive boat charter services in Key West, FL.",
     "duration": 360,
     "durationText": "Duration\n6 Hour",
@@ -1977,7 +1996,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "107945",
@@ -3376,7 +3397,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/RuyeS1zfSZ2ni7HdFZRX",
     "bookingLink": "https://fareharbor.com/embeds/book/getupandgokayaking-chaz/items/425975/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 79,
     "description": "Get Up And Go Kayaking will not launch in unsafe weather conditions. Because of this, trips may need to be cancelled or rescheduled due to safety issues. If this is the case, your reservation will be refunded in full (if it has already been paid).",
     "duration": 180,
     "durationText": "Duration\n3 hr",
@@ -3385,7 +3406,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "446616",
@@ -3772,7 +3795,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/2FPiFlZRXeg94StgkGpL",
     "bookingLink": "https://fareharbor.com/embeds/book/nautitoons/items/353740/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 28,
     "description": "➡️ Can we have a memorial service to scatter ashes on the water? Can we release balloons?\n​\nThere are federal laws that govern memorials at sea. Releasing human or pet remains is not within our scope of operations.",
     "duration": 15,
     "durationText": "Duration\n15 min",
@@ -3781,7 +3804,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "high",
+    "priceLabel": "per person"
   },
   {
     "id": "363481",
@@ -4278,7 +4303,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/JbJokeykSwSJ0uTW2gyD",
     "bookingLink": "https://fareharbor.com/embeds/book/sail-keywest/items/26520/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 108,
     "description": "The sail usually runs in light rain and other moderate weather situations. The only time we cancel a trip is in the event of severe or unsafe weather conditions.",
     "duration": 120,
     "durationText": "Duration\n2 Hour",
@@ -4287,7 +4312,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "45933",
@@ -4630,7 +4657,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/BJHRzrbySAa8TKSEvbxj",
     "bookingLink": "https://fareharbor.com/embeds/book/floridawatertour/items/328026/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 49,
     "description": "Nights of Lights Extravaganza: As darkness falls, the real magic begins. St. Augustine's Nights of Lights is a sight to behold, with millions of white lights adorning the city's buildings, trees, and streets.",
     "duration": 60,
     "durationText": "Duration\n1 Hour",
@@ -4639,7 +4666,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "343853",
@@ -5114,7 +5143,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/wN5Aw6QzQzajqlAmVFrt",
     "bookingLink": "https://fareharbor.com/embeds/book/stayingafloatpartyboat/items/256293/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1950,
     "description": "BYOBathing suits and jump on the most fun boat experience in Ft. Lauderdale. Enjoy our hilarious tour of the yachts and mansions while cruising through Fort Lauderdale.",
     "duration": 240,
     "durationText": "4 Hours",
@@ -5123,7 +5152,10 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "266822",
@@ -5378,7 +5410,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/9tJ8qFnRMigLpX9uih5g",
     "bookingLink": "https://fareharbor.com/embeds/book/ventureoutdoorsllc/items/386486/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 75,
     "description": "The best time to see bioluminescence is around the New Moon, when there is no moonlight reflecting on the water. However, the week surrounding the New Moon is still a great time to see the bioluminescence.",
     "duration": 90,
     "durationText": "Duration\n\n1.5 Hour",
@@ -5387,7 +5419,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "399685",
@@ -5444,7 +5478,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/M2G8fdQIT4K2ahJuNZMs",
     "bookingLink": "https://fareharbor.com/embeds/book/verotackle/items/416362/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 300,
     "description": "Your evening begins at sunset with a peaceful eco boat tour along the Indian River Lagoon, where dolphins, manatees, and coastal birds are often spotted.",
     "duration": 120,
     "durationText": "2 Hours",
@@ -5453,7 +5487,10 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "416437",
@@ -5796,7 +5833,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/CFF1bBvxQeybKqf0v2Rq",
     "bookingLink": "https://fareharbor.com/embeds/book/kokomocharters/items/524542/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2595,
     "description": "Welcome to the Memory Maker! Experience the ultimate boating adventure aboard our 50' x 22' three story luxury power catamaran. Treat yourselves to an unforgettable day and we'll prepare a perfect float plan. 4, 6 and 8 hour charters available.",
     "duration": 480,
     "durationText": "8 hour charter",
@@ -5805,7 +5842,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "medium",
+    "priceLabel": "starting at"
   },
   {
     "id": "527723",
@@ -6082,7 +6121,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/3YMNBNMSDuB2B801daSd",
     "bookingLink": "https://fareharbor.com/embeds/book/southfloridatrikketours/items/117385/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 89,
     "description": "See Miami from a totally different and refreshing perspective, from the water. This fun four-hour city tour and boat cruise takes you through the streets of the dynamic city, and through the waters around it.",
     "duration": 120,
     "durationText": "2 HOURS",
@@ -6091,7 +6130,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "132676",
@@ -6258,7 +6299,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/Sn2STSuyR5OBpyry4A9E",
     "bookingLink": "https://fareharbor.com/embeds/book/dirtydollyfishcompany/items/307909/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1100,
     "description": "A typical outing begins with gathering live bait close to shore before moving to deeper waters. If live bait is not available, the crew will use alternative techniques to maximize your chances of success.",
     "duration": 300,
     "durationText": "Duration\n5 Hour",
@@ -6267,7 +6308,10 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "307912",
@@ -6302,7 +6346,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/rMStKnuTpqjivT4K1nQw",
     "bookingLink": "https://fareharbor.com/embeds/book/dirtydollyfishcompany/items/307914/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1300,
     "description": "A typical trip begins by gathering live bait nearshore before moving farther offshore. If live bait is not available, alternative techniques will be used to ensure the best chance of success.",
     "duration": 420,
     "durationText": "Duration\n7 Hour",
@@ -6311,7 +6355,10 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "351480",
@@ -7226,7 +7273,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/MSAkswuvQwinsaNjLhj4",
     "bookingLink": "https://fareharbor.com/embeds/book/wannadotours-keywest/items/491046/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 36,
     "description": "All of our boats are double-decker boats, and you can either sit on the lower level, or enjoy the open-air top level. While you enjoy the Miami Sunset Cruise, our local tour guide will reveal fun and interesting facts about all the different sites.",
     "duration": 90,
     "durationText": "Duration\n\n90 Min",
@@ -7235,7 +7282,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "499327",
@@ -7688,7 +7737,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/2WTWY8aT62TcJt5HBmFO",
     "bookingLink": "https://fareharbor.com/embeds/book/destinprivateyachts/items/460041/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 350,
     "description": "",
     "duration": null,
     "durationText": "",
@@ -7697,7 +7746,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 60
+    "qualityScore": 60,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "493012",
@@ -7776,7 +7827,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/IAkBK6h7TVSGILAKTk61",
     "bookingLink": "https://fareharbor.com/embeds/book/kaceyscustomadventures/items/503308/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 40,
     "description": "Join us for an all-inclusive Three Sisters Springs swim tour, choosing between a kayak or paddleboard. During this 2.5 hour guided adventure, you’ll have the chance to swim in the beautiful Three Sisters Springs or stay in your kayak if you prefer.",
     "duration": 150,
     "durationText": "Duration\n2.5 Hour",
@@ -7785,7 +7836,10 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "514674",
@@ -8128,7 +8182,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/vo1jdfNlSEWDcrutZIGQ",
     "bookingLink": "https://fareharbor.com/embeds/book/southfloridatrikketours/items/108010/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 79,
     "description": "As we roll into Key West, get ready to be swept off your feet by the island's charm and beauty. Explore Duval Street, the heartbeat of Key West.",
     "duration": 120,
     "durationText": "2 HOURS",
@@ -8137,7 +8191,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "182251",
@@ -8348,7 +8404,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/t5B5JeoSRiK1vZa1pE5p",
     "bookingLink": "https://fareharbor.com/embeds/book/wannadotours-keywest/items/299104/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 35,
     "description": "Cruise Biscayne Bay in style, with the option of air-conditioned comfort or the open-air top deck for those perfect photos. Our local guides spill all the juicy secrets about the city, in both English and Spanish, so you won't miss a beat.",
     "duration": 90,
     "durationText": "Duration\n90 min",
@@ -8357,7 +8413,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 85
+    "qualityScore": 85,
+    "priceConfidence": "high",
+    "priceLabel": "per adult"
   },
   {
     "id": "309146",
@@ -8700,7 +8758,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/ItNA2kgSRYyH3DJcn0BQ",
     "bookingLink": "https://fareharbor.com/embeds/book/goodhitsportfishing/items/653431/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2000,
     "description": "While it retains its hardcore fishing pedigree, the Conch 33 integrates modern construction standards and a superior finish throughout.",
     "duration": 360,
     "durationText": "Duration\n6 hour",
@@ -8709,7 +8767,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "653433",
@@ -8722,7 +8782,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/cT5MOnEDSKasA2O5Ef6v",
     "bookingLink": "https://fareharbor.com/embeds/book/goodhitsportfishing/items/653433/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 3000,
     "description": "While it retains its hardcore fishing pedigree, the Conch 33 integrates modern construction standards and a superior finish throughout.",
     "duration": 480,
     "durationText": "Duration\n8 hour",
@@ -8731,7 +8791,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "656193",
@@ -9118,7 +9180,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/MFcLh1i8RAmf90p1srZa",
     "bookingLink": "https://fareharbor.com/embeds/book/piratebaypaddle/items/668145/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 70,
     "description": "What to Expect – Sunset & Night Paddle\nLaunch from the Fortunato Park ramp and enjoy a relaxing evening on the water as the sun sets over the Halifax River.",
     "duration": 1440,
     "durationText": "24 hours",
@@ -9127,7 +9189,10 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "unknown",
+    "priceSource": "v52-dominant-gate"
   },
   {
     "id": "12172",
@@ -9448,7 +9513,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/wXvEz32FQvKBJAxR1wYU",
     "bookingLink": "https://fareharbor.com/embeds/book/killentimecharters/items/613379/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2300,
     "description": "This 10-hour trip is ideal for anglers looking for a serious offshore fishing experience, targeting Grouper, Snapper, King Mackerel, Amberjack, and Wahoo, depending on the time of year.",
     "duration": 600,
     "durationText": "Duration\n10 Hour",
@@ -9457,7 +9522,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "626717",
@@ -10042,7 +10109,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/SQ0qxB80S8OAx1zsts05",
     "bookingLink": "https://fareharbor.com/embeds/book/killentimecharters/items/613369/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1200,
     "description": "This 6-hour trip offers an extended fishing experience, targeting a variety of species such as King Mackerel, Red Snapper, and Amberjack. Suitable for beginners and seasoned anglers alike, this trip provides ample time for deep-sea fishing action.",
     "duration": 360,
     "durationText": "Duration\n6 Hour",
@@ -10051,7 +10118,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "613373",
@@ -10064,7 +10133,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/bce1T4P9SQONNu3v3Ql4",
     "bookingLink": "https://fareharbor.com/embeds/book/killentimecharters/items/613373/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 1800,
     "description": "A full-day adventure for serious anglers looking to catch Red Snapper, Grouper, King Mackerel, and Amberjack. Extended fishing time allows access to more remote fishing locations.",
     "duration": 480,
     "durationText": "Duration\n8 Hour",
@@ -10073,7 +10142,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "613382",
@@ -10086,7 +10157,7 @@
     ],
     "image": "https://cdn.filestackcontent.com/J5nsEN5HTMGLl2mVw3GN",
     "bookingLink": "https://fareharbor.com/embeds/book/killentimecharters/items/613382/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-    "price": null,
+    "price": 2700,
     "description": "The 12-hour trip is for serious anglers who want to maximize their fishing time. Depending on the time of year, expect to catch Amberjack, Grouper, Mahi Mahi, Tuna, and Wahoo.",
     "duration": 720,
     "durationText": "Duration\n12 Hour",
@@ -10095,7 +10166,9 @@
     "rating": null,
     "reviewCount": null,
     "ratingSource": "tripadvisor",
-    "qualityScore": 90
+    "qualityScore": 90,
+    "priceConfidence": "medium",
+    "priceLabel": "charter"
   },
   {
     "id": "662890",
