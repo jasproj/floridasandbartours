@@ -344,8 +344,19 @@ function renderTours(reset = false) {
     toShow.forEach((tour, idx) => {
         const card = createTourCard(tour, displayedCount + idx);
         grid.appendChild(card);
+        const overallIdx = displayedCount + idx;
+        if (overallIdx === 7 && !document.querySelector('[data-slot-id="home-mrec-1"]')) {
+            const slot = document.createElement('div');
+            slot.className = 'sponsor-slot';
+            slot.setAttribute('data-slot-id', 'home-mrec-1');
+            slot.setAttribute('data-slot-format', 'mrec');
+            grid.appendChild(slot);
+            if (window.SponsorSlot && typeof window.SponsorSlot.refresh === 'function') {
+                window.SponsorSlot.refresh();
+            }
+        }
     });
-    
+
     displayedCount += toShow.length;
     
     // Show/hide load more button
