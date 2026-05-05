@@ -296,28 +296,29 @@ ul, ol { list-style: none; }
     transform: scale(1.05);
 }
 
+/* TODO: redesign hero to ≤120px mobile per network CTO standard — follow-up PR */
 .hero-slide:nth-child(1) {
-    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=2400&q=90');
+    background-image: url('florida-sandbar-hero-1.jpg');
     animation-delay: 0s;
 }
 
 .hero-slide:nth-child(2) {
-    background-image: url('https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=2400&q=90');
+    background-image: url('florida-sandbar-hero-2.jpg');
     animation-delay: 6s;
 }
 
 .hero-slide:nth-child(3) {
-    background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=2400&q=90');
+    background-image: url('florida-sandbar-hero-3.jpg');
     animation-delay: 12s;
 }
 
 .hero-slide:nth-child(4) {
-    background-image: url('https://images.unsplash.com/photo-1495954484750-af469f1357be?w=2400&q=90');
+    background-image: url('florida-sandbar-hero-4.jpg');
     animation-delay: 18s;
 }
 
 .hero-slide:nth-child(5) {
-    background-image: url('https://images.unsplash.com/photo-1439405326854-014607f694d7?w=2400&q=90');
+    background-image: url('florida-sandbar-hero-5.jpg');
     animation-delay: 24s;
 }
 
