@@ -297,6 +297,30 @@ ul, ol { list-style: none; }
 }
 
 /* TODO: redesign hero to ≤120px mobile per network CTO standard — follow-up PR */
+
+/* Sub-page photo hero (dolphin-tours, family-tours, island-tours,
+   private-charters, sandbar-tours, sunset-cruises). Each page sets its own
+   background-image inline; this rule provides the overlay, sizing, and the
+   ~130px mobile collapse to keep tour grids above the fold. */
+.hero-section.hero-photo {
+    position: relative;
+    min-height: 320px;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .hero-section.hero-photo {
+        min-height: 130px;
+        padding: 40px 0 !important;
+    }
+    .hero-section.hero-photo h1 { font-size: 1.8rem !important; margin-bottom: 8px !important; }
+    .hero-section.hero-photo p  { font-size: 1rem !important; margin-bottom: 14px !important; }
+}
+
 .hero-slide:nth-child(1) {
     background-image: url('florida-sandbar-hero-1.jpg');
     animation-delay: 0s;
