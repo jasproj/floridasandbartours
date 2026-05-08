@@ -131,7 +131,33 @@
             margin: 40px auto 24px;
             max-width: 1200px;
         }
-    </style>
+    
+    /* Manifest-consumer compatibility alias (added 2026-05-07).
+       FST's hand-coded .blog-card-body is renamed-equivalent to the
+       cross-site manifest JS template's .blog-card-content. Adding
+       the alias so a future manifest consumer renders correctly here.
+       Existing .blog-card-body retained — this is purely additive. */
+    .blog-card-content {
+padding: 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+    }
+
+  
+    /* Manifest-consumer compatibility alias for image div (added 2026-05-07).
+       FST's existing blog/index.html cards are text-only (no <img> child).
+       The cross-site manifest JS template renders .blog-card-img as a <div>
+       with background-image. Adding this rule so manifest-rendered cards
+       display their hero correctly on FST. Height of 200px matches
+       the default used on the WPR alias PR for cross-site visual parity. */
+    .blog-card-img {
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+    }
+</style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2FCXCNE07X"></script>
 <script>
