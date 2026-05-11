@@ -314,11 +314,14 @@ ul, ol { list-style: none; }
 }
 @media (max-width: 768px) {
     .hero-section.hero-photo {
-        min-height: 130px;
-        padding: 40px 0 !important;
+        min-height: 90px;
+        max-height: 120px;
+        padding: 8px 16px !important;
     }
-    .hero-section.hero-photo h1 { font-size: 1.8rem !important; margin-bottom: 8px !important; }
-    .hero-section.hero-photo p  { font-size: 1rem !important; margin-bottom: 14px !important; }
+    .hero-section.hero-photo h1 { font-size: 1.1rem !important; margin-bottom: 4px !important; }
+    .hero-section.hero-photo p  { display: none !important; }
+    .hero-section.hero-photo a,
+    .hero-section.hero-photo button { min-height: 44px; }
 }
 
 .hero-slide:nth-child(1) {
