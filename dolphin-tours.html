@@ -262,7 +262,8 @@
         async function loadToursData() {
             try {
                 const response = await fetch('tours-data.json');
-                allTours = await response.json();
+                const _raw = await response.json();
+                allTours = Array.isArray(_raw) ? _raw : _raw.tours;
                 filterAndDisplayTours();
             } catch (error) {
                 console.error('Error loading tours:', error);
