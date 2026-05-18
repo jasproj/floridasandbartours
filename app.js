@@ -125,7 +125,8 @@ async function loadTours() {
     try {
         // Cache-bust to ensure fresh data
         const response = await fetch('tours-data.json?t=' + Date.now());
-        allTours = await response.json();
+        const _raw = await response.json();
+        allTours = Array.isArray(_raw) ? _raw : _raw.tours;
         
         // Pure crypto shuffle - truly random every time
         allTours = cryptoShuffle([...allTours]);
