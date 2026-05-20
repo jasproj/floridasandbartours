@@ -411,7 +411,7 @@ function createTourCard(tour, index) {
             ${starsHTML}
             ${descHTML}
             <div class="tour-tags">${tagsHTML}</div>
-            <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-cta" onclick="trackBookClick('${tour.id}', '${tour.name.replace(/'/g, "\\'")}', '${tour.company.replace(/'/g, "\\'")}')">Check Availability →</a>
+            <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-cta" onclick="trackBookClick('${tour.id}', '${tour.name.replace(/'/g, "\\'")}', '${tour.company.replace(/'/g, "\\'")}')">Check Availability →</a>
         </div>
     `;
     
