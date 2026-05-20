@@ -127,7 +127,8 @@ async function loadTours() {
         const response = await fetch('tours-data.json?t=' + Date.now());
         const _raw = await response.json();
         allTours = Array.isArray(_raw) ? _raw : _raw.tours;
-        
+        allTours = allTours.filter(t => t.status !== 'inactive');
+
         // Pure crypto shuffle - truly random every time
         allTours = cryptoShuffle([...allTours]);
         
