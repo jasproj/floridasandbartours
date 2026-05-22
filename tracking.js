@@ -10,9 +10,25 @@
 
    Reads optional data-tour-id / data-tour-name attributes; falls back
    to anchor text content and href when absent.
+
+   utm_source tagging:
+   - On every FareHarbor link click, we append utm_source=floridasandbartours
+     so GA4 can attribute the booking to FST.
+   - appendUtmSource is a vendored copy of _tools/generators/source-tag.js
+     (_tools PR #84, 4e73885). Inlined here instead of loaded as a
+     separate <script> to avoid editing every page <head>.
 */
 
 (function () {
+    function appendUtmSource(url, slug) {
+        if (typeof url !== 'string' || !url) return url;
+        if (typeof slug !== 'string' || !slug) return url;
+        if (url.indexOf('fareharbor.com') === -1) return url;
+        if (/[?&]utm_source=/.test(url)) return url;
+        var sep = url.indexOf('?') === -1 ? '?' : '&';
+        return url + sep + 'utm_source=' + encodeURIComponent(slug);
+    }
+
     function readContext(link) {
         var href = link.getAttribute('href') || '';
         var name = link.dataset.tourName
@@ -41,6 +57,9 @@
         var cls = link.classList;
         var isBookBtn = cls && (cls.contains('book-btn') || cls.contains('tour-cta'));
         if (!isFareHarbor && !isBookBtn) return;
+        if (isFareHarbor) {
+            link.href = appendUtmSource(link.href, 'floridasandbartours');
+        }
         var ctx = readContext(link);
         window.trackBookingClick(ctx.name, ctx.id, 'florida');
     });
