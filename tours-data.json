@@ -6022,7 +6022,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-05-28"
     },
     {
       "id": "446625",
@@ -12721,7 +12723,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 210
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-05-28"
     },
     {
       "id": "520847",
@@ -14649,7 +14653,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 480
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-05-28"
     },
     {
       "id": "325027",
@@ -16037,7 +16043,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 120
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-05-28"
     },
     {
       "id": "671701",
@@ -16365,7 +16373,9 @@
       "lastUpdated": "",
       "_unknownFields": {
         "durationMinutes": 240
-      }
+      },
+      "bookingDead": true,
+      "bookingDeadCheckedAt": "2026-05-28"
     },
     {
       "id": "411890",
