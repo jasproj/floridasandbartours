@@ -430,13 +430,13 @@ function generateFallbackDescription(tour) {
     // Tag-based description templates
     const tagDescriptions = {
         'Snorkel': `Dive into crystal-clear waters and discover vibrant coral reefs and tropical fish.`,
-        'Sandbar': `Wade through pristine shallow waters at a secluded sandbar paradise.`,
+        'Sandbar': `Wade through pristine shallow waters at a secluded sandbar getaway.`,
         'Sunset': `Watch the sky transform into brilliant oranges and pinks over the Gulf.`,
         'Dolphin': `Encounter playful dolphins in their natural habitat.`,
-        'Fishing': `Cast your line in world-class fishing waters with experienced captains.`,
+        'Fishing': `Cast your line in prime fishing grounds with experienced captains.`,
         'Kayak': `Paddle through calm mangrove trails and spot native wildlife.`,
         'Jet Ski': `Feel the thrill of riding across turquoise waters.`,
-        'Parasail': `Soar high above the Keys for breathtaking aerial views.`,
+        'Parasail': `Soar high above the Keys for sweeping aerial views.`,
         'Sailing': `Glide across the water on a classic sailing adventure.`,
         'Catamaran': `Cruise in comfort aboard a spacious catamaran.`,
         'Scuba': `Explore underwater worlds with professional dive guides.`,
@@ -855,7 +855,7 @@ const ALL_FAQS = [
     },
     {
         question: "What is a sandbar tour?",
-        answer: "Sandbar tours take you to shallow sandbars in the backcountry where you can wade in crystal-clear, waist-deep water, relax, swim, and enjoy the stunning Keys scenery. Popular spots include Snipes Point, Woman Key, and Boca Grande. Many tours include snorkeling stops, drinks, and snacks. It's one of the most popular Florida experiences!"
+        answer: "Sandbar tours take you to shallow sandbars in the backcountry where you can wade in crystal-clear, waist-deep water, relax, swim, and enjoy the open-water Keys scenery. Popular spots include Snipes Point, Woman Key, and Boca Grande. Many tours include snorkeling stops, drinks, and snacks. It's one of the most popular Florida experiences!"
     },
     {
         question: "How do I book tours through Sandbar Tours?",
@@ -947,7 +947,7 @@ const ALL_FAQS = [
     },
     {
         question: "What fish can I catch in Florida?",
-        answer: "The Keys offer world-class fishing! Inshore: bonefish, permit, tarpon, snook, redfish. Offshore: mahi-mahi, tuna, wahoo, sailfish, marlin. Reef: snapper, grouper, hogfish. Species vary by season. Tarpon fishing (April-July) is legendary. Charter captains know the best spots."
+        answer: "The Keys offer some of Florida's best fishing! Inshore: bonefish, permit, tarpon, snook, redfish. Offshore: mahi-mahi, tuna, wahoo, sailfish, marlin. Reef: snapper, grouper, hogfish. Species vary by season. Tarpon fishing (April-July) is legendary. Charter captains know the best spots."
     },
     {
         question: "How far in advance should I book?",
