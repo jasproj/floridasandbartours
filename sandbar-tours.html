@@ -364,7 +364,7 @@
                 `<span class="tour-tag">${tag}</span>`
             ).join('');
             
-            const priceBadge = tour.price ? `<span class="price-ribbon">$${tour.price}</span>` : '';
+            const priceBadge = tour.price ? `<span class="price-ribbon">$${tour.price}${tour.priceLabel ? ' ' + tour.priceLabel : ''}</span>` : '';
             const starRating = tour.qualityScore ? Math.min(5, Math.max(3, (tour.qualityScore / 20))).toFixed(1) : '4.0';
             const starsHTML = createStarsHTML(parseFloat(starRating));
             
