@@ -280,6 +280,8 @@
                 const response = await fetch('tours-data.json');
                 const _raw = await response.json();
                 allTours = Array.isArray(_raw) ? _raw : _raw.tours;
+                // Hide inactive tours and dead FareHarbor booking links (matches app.js).
+                allTours = allTours.filter(t => t.status !== 'inactive' && !t.bookingDead);
                 filterAndDisplayTours();
             } catch (error) {
                 console.error('Error loading tours:', error);
