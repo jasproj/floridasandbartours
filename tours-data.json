@@ -17649,8 +17649,8 @@
       "location": "United States/Florida/Panama City Beach",
       "island": "united states/florida/panama city beach",
       "price": 249.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 84,
       "currency": "USD",
       "duration": "90 minutes",
@@ -17685,12 +17685,13 @@
       "_unknownFields": {
         "durationMinutes": 90,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private charter"
         ],
         "primaryTypePage": "sunset-cruises",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Private charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -23836,8 +23837,8 @@
       "location": "United States/Florida/Bradenton Beach",
       "island": "united states/florida/bradenton beach",
       "price": 300.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 69,
       "currency": "USD",
       "duration": "120 minutes",
@@ -23868,13 +23869,14 @@
       "_unknownFields": {
         "durationMinutes": 120,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "1-6 People Private Charter",
           "7-12 People Private Charter"
         ],
         "primaryTypePage": "island-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['1-6 People Private Charter', '7-12 People Private Charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -25634,8 +25636,8 @@
       "location": "United States/Florida/Miami Beach",
       "island": "united states/florida/miami beach",
       "price": 250.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 65,
       "currency": "USD",
       "duration": "180 minutes",
@@ -25670,12 +25672,13 @@
       "_unknownFields": {
         "durationMinutes": 180,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "island-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Private Charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -26060,8 +26063,8 @@
       "location": "United States/Florida/Naples",
       "island": "united states/florida/naples",
       "price": 350.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 65,
       "currency": "USD",
       "duration": "180 minutes",
@@ -26096,12 +26099,13 @@
       "_unknownFields": {
         "durationMinutes": 180,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "sunset-cruises",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Private Charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -26598,8 +26602,8 @@
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
       "price": 300.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 65,
       "currency": "USD",
       "duration": "180 minutes",
@@ -26632,12 +26636,13 @@
       "_unknownFields": {
         "durationMinutes": 180,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "dolphin-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Private Charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -31325,8 +31330,8 @@
       "location": "United States/Florida/Holmes Beach",
       "island": "united states/florida/holmes beach",
       "price": 375.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 55,
       "currency": "USD",
       "duration": "120 minutes",
@@ -31361,12 +31366,13 @@
       "_unknownFields": {
         "durationMinutes": 120,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Two Hour Charter"
         ],
         "primaryTypePage": "sunset-cruises",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Two Hour Charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -31484,8 +31490,8 @@
       "location": "United States/Florida/Panama City Beach",
       "island": "united states/florida/panama city beach",
       "price": 369.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 55,
       "currency": "USD",
       "duration": "120 minutes",
@@ -31517,12 +31523,13 @@
       "_unknownFields": {
         "durationMinutes": 120,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Tour/Charter"
         ],
         "primaryTypePage": "dolphin-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Private Tour/Charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -31688,8 +31695,8 @@
       "location": "United States/Florida/St. Augustine",
       "island": "united states/florida/st. augustine",
       "price": 300.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 55,
       "currency": "USD",
       "duration": "120 minutes",
@@ -31720,12 +31727,13 @@
       "_unknownFields": {
         "durationMinutes": 120,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "dolphin-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Private Charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -32141,8 +32149,8 @@
       "location": "United States/Florida/Fort Walton Beach",
       "island": "united states/florida/fort walton beach",
       "price": 300.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 54,
       "currency": "USD",
       "duration": "120 minutes",
@@ -32173,12 +32181,13 @@
       "_unknownFields": {
         "durationMinutes": 120,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Two Hour Private trip"
         ],
         "primaryTypePage": "sunset-cruises",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Two Hour Private trip']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -32349,8 +32358,8 @@
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
       "price": 315.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 54,
       "currency": "USD",
       "duration": "120 minutes",
@@ -32381,12 +32390,13 @@
       "_unknownFields": {
         "durationMinutes": 120,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Tour"
         ],
         "primaryTypePage": "dolphin-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Private Tour']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -32956,8 +32966,8 @@
       "location": "United States/Florida/Crystal River",
       "island": "united states/florida/crystal river",
       "price": 300.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 53,
       "currency": "USD",
       "duration": "150 minutes",
@@ -32988,12 +32998,13 @@
       "_unknownFields": {
         "durationMinutes": 150,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "sunset-cruises",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "all customer types are whole-boat tiers ['Private Charter']; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
