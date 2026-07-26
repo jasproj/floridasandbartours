@@ -18977,8 +18977,8 @@
       "location": "United States/Florida/Tampa",
       "island": "united states/florida/tampa",
       "price": 299.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 75,
       "currency": "USD",
       "duration": "120 minutes",
@@ -19010,12 +19010,13 @@
       "_unknownFields": {
         "durationMinutes": 120,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "sunset-cruises",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "single customer type \"Private Charter\"; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -19081,8 +19082,8 @@
       "location": "United States/Florida/St. Pete Beach",
       "island": "united states/florida/st. pete beach",
       "price": 350.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 74,
       "currency": "USD",
       "duration": "240 minutes",
@@ -19117,12 +19118,13 @@
       "_unknownFields": {
         "durationMinutes": 240,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "dolphin-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "single customer type \"Private Charter\"; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -19655,8 +19657,8 @@
       "location": "United States/Florida/St. Pete Beach",
       "island": "united states/florida/st. pete beach",
       "price": 350.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 73,
       "currency": "USD",
       "duration": "90 minutes",
@@ -19691,12 +19693,13 @@
       "_unknownFields": {
         "durationMinutes": 90,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "sunset-cruises",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "single customer type \"Private Charter\"; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -21007,8 +21010,8 @@
       "location": "United States/Florida/Tampa",
       "island": "united states/florida/tampa",
       "price": 299.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 71,
       "currency": "USD",
       "duration": "120 minutes",
@@ -21039,12 +21042,13 @@
       "_unknownFields": {
         "durationMinutes": 120,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "island-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "single customer type \"Private Charter\"; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
@@ -21413,8 +21417,8 @@
       "location": "United States/Florida/St. Pete Beach",
       "island": "united states/florida/st. pete beach",
       "price": 350.0,
-      "priceLabel": "",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 70,
       "currency": "USD",
       "duration": "240 minutes",
@@ -21448,12 +21452,13 @@
       "_unknownFields": {
         "durationMinutes": 240,
         "priceBasis": "price-preview v2 price.low, pk-matched item, query_date=2026-07-25",
-        "priceKind": "per adult",
+        "priceKind": "whole boat / private charter",
         "customerTypes": [
           "Private Charter"
         ],
         "primaryTypePage": "dolphin-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceBasisNote": "single customer type \"Private Charter\"; price is the whole-boat rate, re-verified live 2026-07-26"
       }
     },
     {
