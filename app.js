@@ -1,3 +1,9 @@
+// Fallback for tour records with no image. Applied at render time, not just
+// via onerror: `src="undefined"` costs a real 404 before onerror can rescue it.
+// Local + Pexels-licensed; CREDITS.md records the source slug
+// "friendly-dolphin-swimming-in-panama-city-s-pristine-waters", which verifies
+// as Florida from the source URL rather than from our own caption.
+const FALLBACK_IMAGE = '/assets/heroes/dolphin-tours.jpg';
 /* ============================================
    KEY WEST SANDBAR TOURS - MAIN APPLICATION
    ============================================ */
@@ -404,7 +410,7 @@ function createTourCard(tour, index) {
         <div class="tour-card-img">
             ${popularBadge}
             ${priceBadge}
-            <img src="${tour.image}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=400'" style="width: 100%; height: auto; object-fit: cover;">
+            <img src="${tour.image || FALLBACK_IMAGE}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
             <span class="tour-location-badge">${tour.location.split('/').pop()}</span>
         </div>
         <div class="tour-card-content">
