@@ -383,7 +383,7 @@
                     ${starsHTML}
                     <p class="tour-description">${shortDesc}</p>
                     <div class="tour-tags">${tagsHTML}</div>
-                    <a href="${tour.bookingLink}" target="_blank" rel="noopener" class="tour-cta" data-tour-id="${tour.id}" data-tour-name="${(tour.name || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;')}">Check Availability →</a>
+                    <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-cta" data-tour-id="${tour.id}" data-tour-name="${(tour.name || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;')}">Check Availability →</a>
                 </div>
             `;
             return card;
