@@ -154,7 +154,7 @@ ul, ol { list-style: none; }
 }
 
 .header .logo-tagline {
-    color: #D7CCC8;
+    color: var(--gray-600);
 }
 
 /* Logo Image Styles */
