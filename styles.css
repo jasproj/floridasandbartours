@@ -148,9 +148,9 @@ ul, ol { list-style: none; }
     color: var(--ocean-light);
 }
 
-/* Header logo on tiki brown background */
+/* Header logo on the sand header background (.header background: #FDF5E6) */
 .header .logo-text {
-    color: var(--white);
+    color: var(--logo-text);
 }
 
 .header .logo-tagline {
