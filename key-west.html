@@ -65,7 +65,11 @@
   footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
   .footer-logo-img { height: 100px; width: auto; max-width: 100%; }
   @media (max-width: 767px) {
-    .hero { padding: 8px 16px; min-height: 90px; max-height: 120px; }
+    /* max-height:120px removed — retired ≤120px spec (superseded 2026-05-29),
+       matches the fix already shipped for .hero-section.hero-photo (styles.css)
+       in PR #82. min-height stays as the floor. No overflow:hidden — none
+       existed before, none needed. */
+    .hero { padding: 8px 16px; min-height: 90px; }
     .hero h1 { font-size: 1.1rem; }
     .hero p { display: none; }
     .hero a, .hero button { min-height: 44px; }
