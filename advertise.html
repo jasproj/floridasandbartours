@@ -237,6 +237,17 @@
             .advertise-options h2 {
                 font-size: 28px;
             }
+
+            /* .mobile-menu-btn (styles.css) measures 40x32px — under the
+               48px touch-target minimum. Page-scoped override; not changed
+               in styles.css since every other page using that class is
+               unaffected by this one page's fix. */
+            .mobile-menu-btn {
+                min-width: 48px;
+                min-height: 48px;
+                justify-content: center;
+                align-items: center;
+            }
         }
     </style>
 <!-- Google tag (gtag.js) -->
@@ -252,23 +263,43 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <a href="/" class="logo">
-                    <img src="/logo.png" alt="FloridaSandbarTours" class="logo-img">
-                </a>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="tours.html">Tours</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </nav>
-                <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo"><img src="/logo.png" alt="Florida Sandbar Tours" class="logo-img"></a>
             </div>
+            <nav class="nav-desktop">
+                <a href="/#tours-section">Tours</a>
+                <a href="/blog/">Blog</a>
+                <a href="/about.html">About</a>
+                <a href="/faq.html">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
         </div>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about.html">About</a>
+            <a href="/faq.html">FAQs</a>
+        </nav>
     </header>
+    <script>
+    (function () {
+        var btn = document.querySelector('.mobile-menu-btn');
+        var nav = document.querySelector('.nav-mobile');
+        if (btn && nav) {
+            btn.addEventListener('click', function () {
+                nav.classList.toggle('active');
+                btn.classList.toggle('active');
+            });
+            nav.querySelectorAll('a').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    nav.classList.remove('active');
+                    btn.classList.remove('active');
+                });
+            });
+        }
+    })();
+    </script>
 
     <section class="advertise-hero">
         <div class="container">
