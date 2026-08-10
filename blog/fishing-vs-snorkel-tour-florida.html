@@ -43,12 +43,16 @@
             color: white;
             padding: 120px 1.5rem 80px;
             text-align: center;
-            margin-top: 80px;
+            margin-top: 103px;
         }
         .blog-hero h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
         .blog-content { max-width: 800px; margin: 3rem auto; padding: 0 1.5rem; line-height: 1.8; }
         .blog-content h2 { margin-top: 2rem; margin-bottom: 1rem; color: #0A4D68; font-size: 1.5rem; }
         .blog-content p { margin-bottom: 1rem; color: #404040; }
+        .table-scroll {
+            overflow-x: auto;
+            max-width: 100%;
+        }
         .comparison-table {
             width: 100%;
             border-collapse: collapse;
@@ -81,6 +85,44 @@
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo"><img src="../logo.png" alt="Florida Sandbar Tours" class="logo-img"></a>
+            </div>
+            <nav class="nav-desktop">
+                <a href="/#tours-section">Tours</a>
+                <a href="/blog/">Blog</a>
+                <a href="/about.html">About</a>
+                <a href="/faq.html">FAQs</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu"><span></span><span></span><span></span></button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="/about.html">About</a>
+            <a href="/faq.html">FAQs</a>
+        </nav>
+    </header>
+    <script>
+    (function () {
+        var btn = document.querySelector('.mobile-menu-btn');
+        var nav = document.querySelector('.nav-mobile');
+        if (btn && nav) {
+            btn.addEventListener('click', function () {
+                nav.classList.toggle('active');
+                btn.classList.toggle('active');
+            });
+            nav.querySelectorAll('a').forEach(function (link) {
+                link.addEventListener('click', function () {
+                    nav.classList.remove('active');
+                    btn.classList.remove('active');
+                });
+            });
+        }
+    })();
+    </script>
     <div class="blog-hero">
         <h1>Fishing Charter vs Snorkel Tour: Comparing Water Adventures</h1>
         <img src="/florida-sandbar-hero-5.jpg" alt="Palm trees and turquoise water at Miami Beach, Florida" class="blog-featured-image" loading="lazy">
@@ -93,7 +135,7 @@
             <p>Choosing the right tour depends on your preferences, budget, and what you want to experience in the Florida Keys. This comprehensive comparison will help you make the best decision.</p>
 
             <h2>Quick Comparison Overview</h2>
-            <table class="comparison-table">
+            <div class="table-scroll"><table class="comparison-table">
                 <tr>
                     <th>Factor</th>
                     <th>Option A</th>
@@ -124,7 +166,7 @@
                     <td>Mixed</td>
                     <td>Mixed</td>
                 </tr>
-            </table>
+            </table></div>
 
             <h2>Detailed Comparison</h2>
             <p>Both options offer excellent value and unique experiences. Your choice depends on personal preferences, budget, and the type of adventure you're seeking in the Florida Keys.</p>
