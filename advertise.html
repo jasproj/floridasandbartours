@@ -23,6 +23,15 @@
     
     <style>
         .advertise-hero {
+            /* .header is position:fixed and renders at 103px on this page
+               (measured flat across 390/375/360/340/320px — the logo is a
+               fixed-size <img>, not reflowing text, so no width-dependent
+               growth to account for). Without this, the fixed header sits
+               on top of the hero's H1 regardless of the hero's own height.
+               Same mechanism as .hero-section.hero-photo/.blog-hero,
+               page-scoped here since .advertise-hero is used only on this
+               page and isn't in styles.css at all. */
+            margin-top: 103px;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             color: white;
             padding: 80px 20px;
