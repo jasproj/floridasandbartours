@@ -315,7 +315,13 @@ ul, ol { list-style: none; }
 @media (max-width: 768px) {
     .hero-section.hero-photo {
         min-height: 90px;
-        max-height: 120px;
+        /* max-height: 120px removed — retired ≤120px spec (superseded
+           2026-05-29). Every other hero template (.hero-blog, .hero-home,
+           .advertise-hero, faq.html's .hero) uses min-height only or no
+           height constraint at all; none caps. A capped box forced a
+           2-line title (private-charters.html) to overflow its own top
+           edge. min-height stays as the floor, matching the two
+           templates that use one. */
         padding: 8px 16px !important;
         /* .header is position:fixed and renders at 97px tall on this
            template (measured; it differs from the site's other header
