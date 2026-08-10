@@ -324,6 +324,42 @@ ul, ol { list-style: none; }
     .hero-section.hero-photo button { min-height: 44px; }
 }
 
+/* Blog-post hero (title + featured image only) — mobile-hero-spec ~290px,
+   overrides .hero's 100svh so the article body isn't buried below the fold. */
+@media (max-width: 768px) {
+    .hero-blog {
+        min-height: 290px;
+    }
+    .hero-blog .hero-content {
+        padding: 32px 20px 24px;
+    }
+}
+
+/* Homepage hero — mobile-hero-spec ~290-400px. Logo/subtitle/search stay
+   in the hero at a lightly-scaled-down size; quick-tags + trust-bar moved
+   out to .hero-quicklinks-strip (see index.html) so they're not fighting
+   the compact hero for space. */
+@media (max-width: 768px) {
+    .hero-home {
+        min-height: 360px;
+    }
+    .hero-home .hero-content {
+        padding: 32px 20px 24px;
+    }
+    .hero-home .hero-logo-img {
+        max-width: 130px;
+    }
+    .hero-home .hero-logo {
+        margin-bottom: 12px;
+    }
+    .hero-home .hero-subtitle {
+        margin-bottom: 16px;
+    }
+    .hero-home .hero-search {
+        margin-bottom: 0;
+    }
+}
+
 .hero-slide:nth-child(1) {
     background-image: url('florida-sandbar-hero-1.jpg');
     animation-delay: 0s;
@@ -509,12 +545,16 @@ ul, ol { list-style: none; }
     transform: scale(1.05);
 }
 
+/* Quick-links strip (category tags + trust bar) — sits below the compact
+   hero as its own band; both children keep their original hero-overlay
+   styling (white text/pills), so the strip itself carries the dark
+   background they were previously reading from the hero photo behind them. */
+.hero-quicklinks-strip {
+    background: linear-gradient(135deg, rgba(11, 85, 99, 0.95), rgba(8, 145, 178, 0.9));
+}
+
 /* Trust Bar */
 .trust-bar {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
