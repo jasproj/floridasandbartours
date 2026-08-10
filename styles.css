@@ -317,6 +317,14 @@ ul, ol { list-style: none; }
         min-height: 90px;
         max-height: 120px;
         padding: 8px 16px !important;
+        /* .header is position:fixed and renders at 97px tall on this
+           template (measured; it differs from the site's other header
+           markup variant). Without this, the fixed header sits on top of
+           the hero regardless of the hero's own height, hiding the H1
+           entirely. Matches the margin-top mechanism already used by
+           .blog-hero for the same reason, with the value this template's
+           own header actually measures at. */
+        margin-top: 97px;
     }
     .hero-section.hero-photo h1 { font-size: 1.1rem !important; margin-bottom: 4px !important; }
     .hero-section.hero-photo p  { display: none !important; }
