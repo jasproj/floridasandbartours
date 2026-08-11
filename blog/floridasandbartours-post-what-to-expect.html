@@ -16,7 +16,14 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0d1b2a;color:#cdd9e5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:17px;line-height:1.7}
-.wrap{max-width:780px;margin:0 auto;padding:24px 16px 60px}
+/* header is position:fixed and renders at 124.7px on this page, measured
+   flat across 390/375/360/340/320px (mobile view shows only the logo
+   group + hamburger button — nav-desktop is display:none, nav-mobile is
+   display:none until toggled, neither reflows across this width range).
+   140px clears it with ~15px of margin rather than matching the measured
+   height exactly, so a small future change to the header's content
+   doesn't silently reopen the H1-occlusion this compensates for. */
+.wrap{max-width:780px;margin:0 auto;padding:140px 16px 60px}
 h1{font-size:clamp(1.6rem,5vw,2.2rem);color:#F5B84C;line-height:1.25;margin-bottom:12px;font-weight:800}
 h2{font-size:1.35rem;color:#F5B84C;margin:36px 0 14px;font-weight:700}
 h3{font-size:1.1rem;color:#fff;margin:20px 0 8px;font-weight:600}
