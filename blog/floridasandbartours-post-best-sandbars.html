@@ -12,6 +12,7 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best sandbar in Florida?", "acceptedAnswer": {"@type": "Answer", "text": "Shell Key Sandbar in Gulfport/St. Pete area is the most consistently calm and clear Gulf coast sandbar near Tampa Bay - a protected preserve with shallow water and regular dolphin encounters on the transit. Crab Island in Destin is the most famous for its social scene. Anclote Key near Tarpon Springs is the least crowded premier Gulf coast sandbar."}}, {"@type": "Question", "name": "Is Crab Island in Destin worth visiting?", "acceptedAnswer": {"@type": "Answer", "text": "Yes - Crab Island is a unique Florida experience. The social scene (dozens of boats anchored, vendor boats selling food and drinks in the water) is unlike any other sandbar in the state. It's more party than nature experience, especially on weekend afternoons. If you want a quieter sandbar, go weekday mornings. Tiki boat tours run $79/person."}}, {"@type": "Question", "name": "What is the Jupiter sandbar in Florida?", "acceptedAnswer": {"@type": "Answer", "text": "The Jupiter sandbar on Florida's Atlantic coast (Palm Beach County) is accessible by boat from Jupiter Inlet. It's a popular local gathering spot with a different character from Gulf coast sandbars - Atlantic water instead of Gulf green, more exposed to ocean swell, and popular with the local boating community."}}]}
 </script>
+<link rel="stylesheet" href="../styles.css">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0d1b2a;color:#cdd9e5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:17px;line-height:1.7}
@@ -64,7 +65,34 @@ details div{padding:0 18px 16px;font-size:0.93rem;color:#aec6cf;line-height:1.7}
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
 </head>
-<body><article class="wrap">
+<body>
+<header class="header">
+    <div class="header-container">
+        <div class="logo-group">
+            <a href="/" class="logo">
+                <img src="/logo.png" alt="Florida Sandbar Tours" class="logo-img">
+                <span class="logo-text">Florida Sandbar Tours</span>
+            </a>
+            <span class="logo-tagline">Tours Discovery Platform</span>
+        </div>
+        <nav class="nav-desktop">
+            <a href="/">Home</a>
+            <a href="/">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="../about.html">About</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav class="nav-mobile">
+        <a href="/">Home</a>
+        <a href="/">Tours</a>
+        <a href="/blog/">Blog</a>
+        <a href="../about.html">About</a>
+    </nav>
+</header>
+<article class="wrap">
 <p class="meta">FloridaSandbarTours &nbsp;*&nbsp; Site Guide</p>
 <h1>Best Sandbars in Florida: Shell Key, Crab Island, Anclote Key, and More</h1>
 <p>Florida's Gulf coast has more accessible sandbars than any other US state. They range from protected nature preserves to full-on party destinations. Here are the five most visited, with what makes each different.</p>
@@ -176,5 +204,12 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     </footer>
+
+    <script>
+    document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+        document.querySelector('.nav-mobile')?.classList.toggle('active');
+        this.classList.toggle('active');
+    });
+    </script>
 </body>
 </html>
