@@ -12,6 +12,7 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is morning or afternoon better for sandbar tours in Florida?", "acceptedAnswer": {"@type": "Answer", "text": "Morning is better for water clarity and calmer conditions. Gulf coast sea breeze builds 12-18 knots by early afternoon in summer. Morning sandbar tours before noon have smoother water and better visibility. Sunset tours are their own experience - worth booking specifically for the Gulf light, not as a substitute for swimming time."}}, {"@type": "Question", "name": "What time does the sun set in Florida for sandbar sunset tours?", "acceptedAnswer": {"@type": "Answer", "text": "December-January: Gulf coast sunsets around 5:30-5:45 PM. June-July: around 8:15-8:30 PM. Operators adjust departure times seasonally. A typical 2-hour sunset cruise departs 90 minutes before sunset."}}, {"@type": "Question", "name": "Are there Florida sandbar tours that combine swimming and sunset?", "acceptedAnswer": {"@type": "Answer", "text": "Yes - the Shell Key Sandbar Sunset Cruise ($50/person, Gulfport) combines a sandbar swimming stop with the sunset return transit. Most Gulf coast private charter operators will build a sandbar stop into an evening charter on request."}}]}
 </script>
+<link rel="stylesheet" href="../styles.css">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0d1b2a;color:#cdd9e5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:17px;line-height:1.7}
@@ -65,7 +66,34 @@ details div{padding:0 18px 16px;font-size:0.93rem;color:#aec6cf;line-height:1.7}
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
 </head>
-<body><article class="wrap">
+<body>
+<header class="header">
+    <div class="header-container">
+        <div class="logo-group">
+            <a href="/" class="logo">
+                <img src="/logo.png" alt="Florida Sandbar Tours" class="logo-img">
+                <span class="logo-text">Florida Sandbar Tours</span>
+            </a>
+            <span class="logo-tagline">Tours Discovery Platform</span>
+        </div>
+        <nav class="nav-desktop">
+            <a href="/">Home</a>
+            <a href="/">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="../about.html">About</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav class="nav-mobile">
+        <a href="/">Home</a>
+        <a href="/">Tours</a>
+        <a href="/blog/">Blog</a>
+        <a href="../about.html">About</a>
+    </nav>
+</header>
+<article class="wrap">
 <p class="meta">FloridaSandbarTours &nbsp;*&nbsp; Booking Guide</p>
 <h1>Morning vs Sunset Sandbar Tours Florida: Which Is Better?</h1>
 <p>Florida's Gulf coast sandbar scene runs morning to evening. Morning trips and sunset trips are genuinely different experiences. Here's what each delivers with real prices from Gulf coast operators.</p>
@@ -162,5 +190,12 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     </footer>
+
+    <script>
+    document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+        document.querySelector('.nav-mobile')?.classList.toggle('active');
+        this.classList.toggle('active');
+    });
+    </script>
 </body>
 </html>

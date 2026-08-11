@@ -12,6 +12,7 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is a private sandbar charter worth it in Florida?", "acceptedAnswer": {"@type": "Answer", "text": "For groups of 4+, yes. A $525 Key West private tiki charter divided by 6 guests is $87.50/person - comparable to shared tours with full BYOB and schedule flexibility. Gulf coast private deck boat rentals at $325 for 4 hours divided by 6 is $54/person - well below shared tour prices."}}, {"@type": "Question", "name": "How much does a private sandbar charter cost in Florida?", "acceptedAnswer": {"@type": "Answer", "text": "Gulf coast private boat rentals with captain run $325-$600 for 4 hours. Key West private charters are $525-$799. Jupiter pontoon private charters start around $300. Destin private charters run $400-$650 for 4 hours."}}, {"@type": "Question", "name": "What is the cheapest sandbar tour in Florida?", "acceptedAnswer": {"@type": "Answer", "text": "The Family and Friends Sandbar Cruise in Jupiter is $40/person on a shared pontoon - the most affordable in the data. Shell Key Sandbar Sunset Cruise in Gulfport is $50/person. Crab Island Tiki Boat in Destin is $79/person."}}]}
 </script>
+<link rel="stylesheet" href="../styles.css">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0d1b2a;color:#cdd9e5;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:17px;line-height:1.7}
@@ -65,7 +66,34 @@ details div{padding:0 18px 16px;font-size:0.93rem;color:#aec6cf;line-height:1.7}
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
 </head>
-<body><article class="wrap">
+<body>
+<header class="header">
+    <div class="header-container">
+        <div class="logo-group">
+            <a href="/" class="logo">
+                <img src="/logo.png" alt="Florida Sandbar Tours" class="logo-img">
+                <span class="logo-text">Florida Sandbar Tours</span>
+            </a>
+            <span class="logo-tagline">Tours Discovery Platform</span>
+        </div>
+        <nav class="nav-desktop">
+            <a href="/">Home</a>
+            <a href="/">Tours</a>
+            <a href="/blog/">Blog</a>
+            <a href="../about.html">About</a>
+        </nav>
+        <button class="mobile-menu-btn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+    <nav class="nav-mobile">
+        <a href="/">Home</a>
+        <a href="/">Tours</a>
+        <a href="/blog/">Blog</a>
+        <a href="../about.html">About</a>
+    </nav>
+</header>
+<article class="wrap">
 <p class="meta">FloridaSandbarTours &nbsp;*&nbsp; Booking Guide</p>
 <h1>Private vs Group Sandbar Tours Florida: Which Should You Book?</h1>
 <p>Florida's Gulf coast has a broad range of both shared and private sandbar tours at prices that make the math interesting. Here's the actual breakdown with real prices from Gulf coast operators.</p>
@@ -157,5 +185,12 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     </footer>
+
+    <script>
+    document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+        document.querySelector('.nav-mobile')?.classList.toggle('active');
+        this.classList.toggle('active');
+    });
+    </script>
 </body>
 </html>
