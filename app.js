@@ -395,8 +395,11 @@ function createTourCard(tour, index) {
     const isPopular = tour.qualityScore >= 95;
     const popularBadge = isPopular ? '<span class="popular-badge">Popular</span>' : '';
     
-    // Price badge with dollar sign
-    const priceBadge = tour.price ? `<span class="price-ribbon">${tour.price}</span>` : '';
+    // Price badge with dollar sign — gated to per-adult pricing only; whole-boat/charter
+    // prices must not render as if they were a per-adult fare
+    const priceBadge = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price))
+        ? `<span class="price-ribbon">${tour.price}</span>`
+        : `<span class="price-ribbon-fallback">Check live price</span>`;
     
     // Star rating from qualityScore (0-100 → 0-5 stars)
     const starRating = tour.qualityScore ? Math.min(5, Math.max(3, (tour.qualityScore / 20))).toFixed(1) : null;
