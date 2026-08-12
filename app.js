@@ -112,6 +112,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 async function initApp() {
+    // Pages without #tours-grid already carry their own independent
+    // mobile-menu script. Letting initMobileMenu() below run there attaches
+    // a second click handler to the same button — two toggles of the same
+    // class on one click cancel out and the menu goes dead. Bail before any
+    // of this runs on a grid-less page (verified: this exact chain used to
+    // crash on the missing grid anyway, so nothing here currently executes).
+    if (!document.getElementById('tours-grid')) return;
     setupEventListeners();
     await loadTours();
     initMobileMenu();
@@ -130,7 +137,7 @@ async function initApp() {
 async function loadTours() {
     try {
         // Cache-bust to ensure fresh data
-        const response = await fetch('tours-data.json?t=' + Date.now());
+        const response = await fetch('/tours-data.json?t=' + Date.now());
         const _raw = await response.json();
         allTours = Array.isArray(_raw) ? _raw : _raw.tours;
         // Hide tours with a dead FareHarbor booking link (audit 2026-05-28).
