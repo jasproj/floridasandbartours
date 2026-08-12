@@ -420,7 +420,7 @@ function createTourCard(tour, index) {
         <div class="tour-card-img">
             ${popularBadge}
             ${priceBadge}
-            <img src="${tour.image || FALLBACK_IMAGE}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'" style="width: 100%; height: auto; object-fit: cover;">
+            <img src="${tour.image || FALLBACK_IMAGE}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'">
             <span class="tour-location-badge">${tour.location.split('/').pop()}</span>
         </div>
         <div class="tour-card-content">
