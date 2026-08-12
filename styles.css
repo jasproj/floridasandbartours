@@ -931,6 +931,22 @@ ul, ol { list-style: none; }
     content: '$';
 }
 
+/* Price fallback - shown when a tour has no per-adult price to gate on.
+   Deliberately not an extension of .price-ribbon so the '$' ::before never applies. */
+.price-ribbon-fallback {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: rgba(20, 40, 50, 0.85);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 6px 10px;
+    border-radius: 8px;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
 .tour-card-content {
     padding: var(--space-lg);
 }
@@ -1517,6 +1533,11 @@ ul, ol { list-style: none; }
     .price-ribbon {
         font-size: 0.8rem;
         padding: 5px 9px;
+    }
+
+    .price-ribbon-fallback {
+        font-size: 0.65rem;
+        padding: 4px 8px;
     }
 }
 
