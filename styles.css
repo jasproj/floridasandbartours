@@ -2407,4 +2407,17 @@ body:has(.promo-banner[style*="display: none"]) .hero {
     }
 }
 
-.blog-featured-image { width: 100%; max-width: 100%; border-radius: 8px; margin: 24px 0; object-fit: cover; }
+/* Featured/hero image on blog posts. Qualified with the img tag (not just the
+   bare class) so this wins by specificity over the ~21 blog posts that redeclare
+   .blog-featured-image locally with no height constraint at all -- an
+   unconstrained portrait source photo (e.g. a 1200x2136 Unsplash asset) was
+   rendering at its full natural ratio, up to 623px tall on a 350px-wide card,
+   because nothing anywhere set a height or aspect-ratio on this element. */
+img.blog-featured-image { width: 100%; max-width: 100%; aspect-ratio: 16 / 9; object-fit: cover; margin: 12px 0; border-radius: 8px; }
+
+/* Blog post header banner (breadcrumb + h1 + featured image + meta). Same
+   specificity trick as above -- wins over the page-local .blog-header
+   declarations across ~22 posts without editing any of them. Tightened from
+   the page-local default of 70px/50px top/bottom padding now that the
+   featured image above no longer needs the extra vertical room. */
+div.blog-header { padding: 40px 20px 30px; }
