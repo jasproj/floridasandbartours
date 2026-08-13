@@ -42,6 +42,7 @@
         .tour-card .book-btn { display: inline-block; background: #E8832A; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
         .tour-card .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
         .tour-card .tag { background: #e8f4f8; color: #1E6B8A; font-size: 0.78rem; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
+        .table-scroll { overflow-x: auto; max-width: 100%; }
         .comparison-table { width: 100%; border-collapse: collapse; margin: 28px 0; background: white; border: 1px solid #e5e5e5; border-radius: 8px; overflow: hidden; }
         .comparison-table th { background: #1B3A57; color: white; padding: 14px; text-align: left; font-weight: 600; }
         .comparison-table td { padding: 14px; border-bottom: 1px solid #e5e5e5; }
@@ -162,7 +163,7 @@
         <p>Morning typically features calmer seas with less wind and lower chop. The water temperature is cooler but the air is warming. Conditions remain relatively stable. Afternoon temperatures peak, with increasing afternoon winds common in many Florida locations. Sea conditions can worsen from calm morning to choppy afternoon as winds rise. Morning conditions suit families, non-swimmers, and those sensitive to boat motion. Afternoon conditions vary by location and season—some days remain perfect, others become uncomfortable. Check weather forecasts carefully for afternoon tours, especially during windy months.</p>
 
         <h2>Comparison Table</h2>
-        <table class="comparison-table">
+        <div class="table-scroll"><table class="comparison-table">
             <thead>
                 <tr>
                     <th>Factor</th>
@@ -217,7 +218,7 @@
                     <td>More available</td>
                 </tr>
             </tbody>
-        </table>
+        </table></div>
 
         <h2>Wildlife & Marine Activity</h2>
         <p>Morning tours coincide with wildlife feeding time. Dolphins are more active, birds are hunting, and fish populations are at peak activity levels. Sighting reliability is highest in mornings. Many experienced wildlife watchers specifically choose mornings for superior encounters. Afternoon activity decreases as animals rest during peak heat. Wildlife encounters still occur but are less frequent and intense. Dolphins may be resting rather than actively feeding. If wildlife viewing is your primary goal, morning tours significantly outperform afternoons.</p>
