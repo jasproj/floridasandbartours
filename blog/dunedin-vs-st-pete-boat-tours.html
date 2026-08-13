@@ -42,6 +42,7 @@
         .tour-card .book-btn { display: inline-block; background: #E8832A; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
         .tour-card .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
         .tour-card .tag { background: #e8f4f8; color: #1E6B8A; font-size: 0.78rem; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
+        .table-scroll { overflow-x: auto; max-width: 100%; }
         .comparison-table { width: 100%; border-collapse: collapse; margin: 28px 0; background: white; border: 1px solid #e5e5e5; border-radius: 8px; overflow: hidden; }
         .comparison-table th { background: #1B3A57; color: white; padding: 14px; text-align: left; font-weight: 600; }
         .comparison-table td { padding: 14px; border-bottom: 1px solid #e5e5e5; }
@@ -161,7 +162,7 @@
 <div class="sponsor-slot" data-slot-id="article-mrec" data-slot-format="mrec"></div>
 
         <h2>Comparison Table</h2>
-        <table class="comparison-table">
+        <div class="table-scroll"><table class="comparison-table">
             <thead>
                 <tr>
                     <th>Factor</th>
@@ -211,7 +212,7 @@
                     <td>$40-150 per person</td>
                 </tr>
             </tbody>
-        </table>
+        </table></div>
 
         <h2>Tour Operator Quality</h2>
         <p>Dunedin has several established ferry operators and tour companies, each with consistent quality and professional standards. Operations are straightforward and reliable, specializing in island transportation. Captains know the Caladesi Island runs intimately. St. Petersburg has numerous operators with diverse specializations—dolphin specialists, fishing experts, party boats, nature guides, and more. Wider selection means more customization but requires careful operator selection. Both locations feature quality operators; Dunedin offers consistency, St. Pete offers specialization.</p>

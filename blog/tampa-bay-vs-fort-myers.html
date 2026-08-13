@@ -42,6 +42,7 @@
         .tour-card .book-btn { display: inline-block; background: #E8832A; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
         .tour-card .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
         .tour-card .tag { background: #e8f4f8; color: #1E6B8A; font-size: 0.78rem; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
+        .table-scroll { overflow-x: auto; max-width: 100%; }
         .comparison-table { width: 100%; border-collapse: collapse; margin: 28px 0; background: white; border: 1px solid #e5e5e5; border-radius: 8px; overflow: hidden; }
         .comparison-table th { background: #1B3A57; color: white; padding: 14px; text-align: left; font-weight: 600; }
         .comparison-table td { padding: 14px; border-bottom: 1px solid #e5e5e5; }
@@ -164,7 +165,7 @@
         <p>Tampa Bay offers access to Honeymoon Island (developed, easy access), Caladesi Island (pristine shelling), Egmont Key (historical), and multiple sandbars. Mix of developed infrastructure and pristine nature. Varied experiences depending on destination. Fort Myers offers Sanibel Island (world-famous shelling), Captiva Island (luxury beach experience), and remote island mangroves. More tropical, less urban influence. Superior shelling opportunities. Natural, developed feel more consistent. Tampa Bay: urban mix; Fort Myers: natural island focus.</p>
 
         <h2>Comparison Table</h2>
-        <table class="comparison-table">
+        <div class="table-scroll"><table class="comparison-table">
             <thead>
                 <tr>
                     <th>Factor</th>
@@ -214,7 +215,7 @@
                     <td>Good (Fort Myers area)</td>
                 </tr>
             </tbody>
-        </table>
+        </table></div>
 
         <h2>Water Conditions & Accessibility</h2>
         <p>Tampa Bay features protected bay waters, calm conditions, accessible from multiple launch points (Clearwater, St. Pete, Tampa proper). Easy access accommodates all experience levels. Multiple parking and facility options. Fort Myers features mix of bay and open-water conditions, depending on destination. Slightly more exposure to Gulf conditions. Fewer launch points means less flexibility. Water conditions more variable. Tampa Bay suits beginners; Fort Myers suits experienced boaters seeking adventure.</p>
