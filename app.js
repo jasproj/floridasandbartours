@@ -429,7 +429,7 @@ function createTourCard(tour, index) {
             ${starsHTML}
             ${descHTML}
             <div class="tour-tags">${tagsHTML}</div>
-            <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-cta" onclick="trackBookClick('${tour.id}', '${tour.name.replace(/'/g, "\\'")}', '${tour.company.replace(/'/g, "\\'")}')">Check Availability →</a>
+            <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-cta" onclick="trackBookingClickEnhanced('${tour.id}', '${tour.name.replace(/'/g, "\\'")}', '${tour.company.replace(/'/g, "\\'")}')">Check Availability →</a>
         </div>
     `;
     
@@ -496,8 +496,12 @@ function createStarsHTML(rating) {
     return html;
 }
 
-// GA4 + Facebook Pixel tracking for affiliate clicks
-function trackBookClick(tourId, tourName, company) {
+// GA4 + Facebook Pixel tracking for affiliate clicks.
+// Named to contain "trackBookingClick" so tracking.js's delegated handler
+// recognises it and yields, leaving exactly one booking_click per click.
+// Parameters below are unchanged — this emitter carries `company`, which
+// tracking.js's generic fallback does not.
+function trackBookingClickEnhanced(tourId, tourName, company) {
     // GA4 event - enhanced booking tracking
     if (typeof gtag !== 'undefined') {
         gtag('event', 'booking_click', {

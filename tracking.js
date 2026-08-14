@@ -13,6 +13,17 @@
    Reads optional data-tour-id / data-tour-name attributes; falls back
    to anchor text content and href when absent.
 
+   Coexistence notes:
+   - Anchors with an existing onclick containing "trackBookingClick" are
+     skipped so they do not double-fire. One such anchor exists today:
+     app.js's rendered tour cards (trackBookingClickEnhanced), which fires
+     gtag('booking_click', ...) itself with richer context — it carries the
+     operator `company` — than this file's generic fallback provides.
+   - The 76 per-page inline a[href*="fareharbor.com"] binders that used to
+     hand-roll a second, parameter-poorer booking_click on the same click
+     were removed; this delegated handler already covers those anchors and
+     additionally catches runtime-rendered ones the binders never saw.
+
    utm_source tagging:
    - On every FareHarbor link click, we append utm_source=floridasandbartours
      so GA4 can attribute the booking to FST.
@@ -61,6 +72,11 @@
         if (isFareHarbor) {
             link.href = appendUtmSource(link.href, 'floridasandbartours');
         }
+        // The skip-guard sits AFTER the rewrite above, because app.js renders
+        // FH anchors with onclick="trackBookingClickEnhanced(...)" and the
+        // substring match would otherwise short-circuit the utm_source tagging.
+        var onclickAttr = link.getAttribute('onclick') || '';
+        if (onclickAttr.indexOf('trackBookingClick') !== -1) return;
         if (!isFareHarbor) return;
         var ctx = readContext(link);
         window.trackBookingClick(ctx.name, ctx.id, 'florida');
