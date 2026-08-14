@@ -4,9 +4,11 @@
    Single source of truth for the booking_click GA4 conversion event.
    Loaded site-wide via <script src="/tracking.js" defer> in <head>.
 
-   Wires every FareHarbor link, .book-btn, and .tour-cta anchor via
-   document-level click delegation — no per-anchor onclick required.
-   Survives runtime-rendered anchors.
+   Wires every FareHarbor booking anchor via document-level click
+   delegation — no per-anchor onclick required. Survives runtime-rendered
+   anchors. Firing requires a fareharbor.com href; CSS classes alone never
+   fire booking_click (a prior .book-btn / .tour-cta class heuristic could
+   record internal navigation as a conversion, and was removed).
 
    Reads optional data-tour-id / data-tour-name attributes; falls back
    to anchor text content and href when absent.
@@ -54,12 +56,12 @@
         if (!link) return;
         var href = link.getAttribute('href') || '';
         var isFareHarbor = href.indexOf('fareharbor.com') !== -1;
-        var cls = link.classList;
-        var isBookBtn = cls && (cls.contains('book-btn') || cls.contains('tour-cta'));
-        if (!isFareHarbor && !isBookBtn) return;
+        // The utm_source rewrite runs BEFORE the guard below: it is orthogonal
+        // to gtag firing, so tag the destination URL either way.
         if (isFareHarbor) {
             link.href = appendUtmSource(link.href, 'floridasandbartours');
         }
+        if (!isFareHarbor) return;
         var ctx = readContext(link);
         window.trackBookingClick(ctx.name, ctx.id, 'florida');
     });
