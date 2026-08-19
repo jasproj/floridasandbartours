@@ -2570,3 +2570,26 @@ nav.breadcrumb { padding-top: 145px; }
 @media (max-width: 768px) {
     nav.breadcrumb { padding-top: 121px; }
 }
+
+/* Fragment landing clearance. .header is position:fixed, so every in-page jump
+   -- 19 anchor elements across 8 pages plus 4 scrollIntoView call sites in
+   app.js -- put its target underneath the header. scroll-padding-top offsets
+   the scroll destination only; it changes no box at rest.
+
+   123px / 103px, not the site's tallest header. Every page that actually
+   contains a jump target id renders one of just TWO header heights: 123px on
+   index.html and advertise.html, 116.594px on the six hero-photo tour pages
+   (96.594px at 390). Nothing with a target sits on the 144.188px or 145.391px
+   variants, so sizing for those would over-clear every real target by 22-29px
+   to protect pages that have none. Taking the larger of the two that exist
+   over-clears the six tour pages by 6.4px, which is the right trade: an anchor
+   that lands slightly low is a much smaller fault than one that lands behind
+   the header.
+
+   Deliberately NOT a --header-h variable. This repo has four header heights;
+   one variable would be wrong on three of them. The two literals here are the
+   two heights that jump targets actually land on, measured per page. */
+html { scroll-padding-top: 123px; }
+@media (max-width: 768px) {
+    html { scroll-padding-top: 103px; }
+}
