@@ -918,7 +918,7 @@ ul, ol { list-style: none; }
     bottom: 12px;
     right: 12px;
     background: linear-gradient(135deg, #E8832A 0%, #D66A3D 100%);
-    color: white;
+    color: #0D1B2A;
     font-size: 1rem;
     font-weight: 700;
     padding: 7px 12px;
@@ -1597,7 +1597,7 @@ ul, ol { list-style: none; }
 
 .mobile-sticky-btn {
     background: var(--coral);
-    color: var(--white);
+    color: #0D1B2A;
     padding: var(--space-sm) var(--space-lg);
     border-radius: var(--radius-full);
     font-weight: 600;
@@ -1635,7 +1635,7 @@ ul, ol { list-style: none; }
     top: var(--space-sm);
     left: var(--space-sm);
     background: linear-gradient(135deg, #E8832A, #FF8E53);
-    color: var(--white);
+    color: #0D1B2A;
     padding: 4px 12px;
     border-radius: var(--radius-full);
     font-size: 0.7rem;
@@ -1902,7 +1902,7 @@ body:has(.promo-banner[style*="display: none"]) .hero {
 .area-count {
     display: inline-block;
     background: #E8832A;
-    color: white;
+    color: #0D1B2A;
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 0.85rem;
@@ -2438,3 +2438,35 @@ div.blog-header { padding: 40px 20px 30px; }
 .blog-body .cta-section h3,
 .cta-section p,
 .cta-section h3 { color: #fff; }
+
+/* Warm-button text. White on this site's orange family measures 2.27-2.85:1;
+   #0D1B2A measures 4.96-9.81:1 against every one of them, and against every
+   hover background those buttons reach (#d4731f 5.19, #d4751f 5.27, #e55a2b
+   4.83 -- all were 3.30-3.60 with white). Not a new colour: a.btn already
+   pairs #0D1B2A with #F5B84C at 9.81:1 on five pages, and that is the only
+   warm-background text on the site that was already passing.
+
+   --ocean-deep #1B3A57 is the intuitive brand pick and it FAILS -- 4.31 on
+   #E8832A, 4.11 on #E87B4A. Do not substitute it.
+
+   The five rules below live in page-local <style> blocks, so each is
+   qualified to win on specificity without !important. The book button's
+   effective rule is .tour-card .book-btn (0,2,0) on 46 pages -- NOT the bare
+   .book-btn a substring grep appears to show -- so it needs (0,2,1);
+   a.book-btn alone loses to it. .blog-body .cta-section a is (0,2,1) over
+   .cta-section a (0,1,1); the rest are (0,1,1) over (0,1,0). The other four members of
+   this population (.price-ribbon, .mobile-sticky-btn, .popular-badge,
+   .area-count) already live in this file and were edited in place above.
+
+   Out of scope, deliberately: 12 a.cta-button + 6 button.clear-filters + 2
+   unclassed on #E87B4A carry the colour in an inline style= attribute
+   (1,0,0,0) and cannot be reached from here -- they need page edits, not an
+   !important escalation. Also out of scope: warm orange used AS text
+   (#F59E0B star glyphs, .price, .footer-tagline), which needs a token
+   decision, not a text-colour flip. */
+.tour-card a.book-btn,
+a.book-btn,
+.blog-body .cta-section a,
+span.blog-card-tag,
+a.cta-btn,
+button.submit-btn { color: #0D1B2A; }
