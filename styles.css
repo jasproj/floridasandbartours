@@ -2286,11 +2286,11 @@ body:has(.promo-banner[style*="display: none"]) .hero {
 }
 
 .star-rating .star.full {
-    color: #F59E0B;
+    color: #A25C1D;
 }
 
 .star-rating .star.half {
-    color: #F59E0B;
+    color: #A25C1D;
     position: relative;
 }
 
