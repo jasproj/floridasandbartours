@@ -2421,3 +2421,20 @@ img.blog-featured-image { width: 100%; max-width: 100%; aspect-ratio: 16 / 9; ob
    the page-local default of 70px/50px top/bottom padding now that the
    featured image above no longer needs the extra vertical room. */
 div.blog-header { padding: 40px 20px 30px; }
+
+/* CTA panel text on blog posts. The page-local <style> block on 43 posts sets
+   .cta-section { color: white } but also .blog-body p { color: #404040 } and
+   .blog-body h3 { color: #1E6B8A }; inheritance always loses to a matching
+   selector, so the CTA's own children never saw the white. Measured on the
+   #1B3A57 -> #1E6B8A gradient: the paragraph rendered at 1.13:1 and the
+   heading at 1.00:1 -- the h3 was the literal color of its own background.
+   .blog-body .cta-section p is (0,2,1) and beats .blog-body p at (0,1,1) on
+   specificity alone, so this wins from here without touching 43 inline blocks
+   and without !important. The unscoped pair is a fallback for any future
+   .cta-section outside .blog-body; all 44 present today are inside one.
+   Deliberately excludes .cta-section a (white on #E8832A, 2.72:1) -- that is
+   the site-wide brand button color, a design decision, not this fix. */
+.blog-body .cta-section p,
+.blog-body .cta-section h3,
+.cta-section p,
+.cta-section h3 { color: #fff; }
