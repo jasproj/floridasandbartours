@@ -2416,11 +2416,40 @@ body:has(.promo-banner[style*="display: none"]) .hero {
 img.blog-featured-image { width: 100%; max-width: 100%; aspect-ratio: 16 / 9; object-fit: cover; margin: 12px 0; border-radius: 8px; }
 
 /* Blog post header banner (breadcrumb + h1 + featured image + meta). Same
-   specificity trick as above -- wins over the page-local .blog-header
-   declarations across ~22 posts without editing any of them. Tightened from
-   the page-local default of 70px/50px top/bottom padding now that the
-   featured image above no longer needs the extra vertical room. */
-div.blog-header { padding: 40px 20px 30px; }
+   specificity trick as above -- div.blog-header is (0,1,1) and wins over the
+   page-local .blog-header at (0,1,0) on 43 posts without editing any of them.
+
+   The top value is header clearance PLUS the banner's own spacing. .header is
+   position:fixed and measures exactly 123px at 1280 and 103px at 390 on all 43
+   pages that use this banner -- measured per page, not assumed. The 40px that
+   was here before is not a clearance value that failed; it is the banner's
+   authored internal spacing, and it still applies. So the value is 123+40=163
+   and 103+40=143, not 123 and 103. Replacing the 40 instead of adding to it
+   would clear the header and silently delete 40px of intended breathing room --
+   a regression that a `contentTop >= headerH` assertion passes. At the previous
+   40px the banner started at y=0 and the article h1 was completely hidden
+   behind the header at desktop.
+
+   padding, not margin: the banner paints its own navy gradient, so the box
+   still starts at y=0 and its top 163px sits behind the header. That is safe
+   only because .header is rgb(253,245,230) at alpha 1 on all 81 fixed-header
+   pages -- verified, not assumed. If the header ever becomes translucent this
+   must become margin-top, and the gradient would then need re-checking.
+   margin-top was rejected here because .blog-header is a direct child of
+   <body> with no padding or border above it, so the margin would collapse
+   through to body and only look correct while body's background happens to
+   match.
+
+   Literal px, deliberately not a --header-h variable: this repo has FOUR
+   header heights (123 / 144.19 / 116.59 / 145.39 at 1280) and one variable
+   would be wrong on three of them. Each clipped selector maps onto exactly
+   one height, so per-selector literals are the honest encoding. The
+   horizontal 20px and bottom 30px are unchanged and must stay -- this
+   shorthand carries real spacing, it is not clearance-only. */
+div.blog-header { padding: 163px 20px 30px; }
+@media (max-width: 768px) {
+    div.blog-header { padding: 143px 20px 30px; }
+}
 
 /* CTA panel text on blog posts. The page-local <style> block on 43 posts sets
    .cta-section { color: white } but also .blog-body p { color: #404040 } and
