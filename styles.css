@@ -2490,15 +2490,36 @@ div.blog-header { padding: 163px 20px 30px; }
    Out of scope, deliberately: 12 a.cta-button + 6 button.clear-filters + 2
    unclassed on #E87B4A carry the colour in an inline style= attribute
    (1,0,0,0) and cannot be reached from here -- they need page edits, not an
-   !important escalation. Also out of scope: warm orange used AS text
-   (#F59E0B star glyphs, .price, .footer-tagline), which needs a token
-   decision, not a text-colour flip. */
+   !important escalation. Warm orange used AS text has since been resolved
+   against the #A25C1D token: .footer-tagline in #117, the #F59E0B star
+   glyphs in #118, and .tour-card div.price in the rule below. Still open:
+   10 #FF6B35 on advertise.html (7 sheet-reachable, 3 inline-bound at
+   (1,0,0,0)), and span.star.empty at #D1D5DB / 1.474:1 -- grey rather than
+   warm, and an open scoping question rather than a decided exclusion. */
 .tour-card a.book-btn,
 a.book-btn,
 .blog-body .cta-section a,
 span.blog-card-tag,
 a.cta-btn,
 button.submit-btn { color: #0D1B2A; }
+
+/* Tour-card price. #E8832A on the white card measured 2.723:1, and 2.624:1 on
+   the #F8FBFF card tint used by four blog pages. At 19.2px/700 these are large
+   text, so the obligation is 3.0:1 and both values miss it. #A25C1D gives
+   5.141 on white and 4.953 on the tint -- clearing 4.5 as well, so the ratio
+   holds even if the large-text classification is ever disputed.
+
+   The effective rule is .tour-card .price (0,2,0) in a page-local <style>
+   block that loads AFTER this file on all 23 pages. Specificity is compared
+   before source order, so (0,2,1) wins from here despite loading first -- no
+   !important and no 23 page edits. Verified in-engine: an equal-specificity
+   (0,2,0) rule injected into this file LOSES to the page block, while this
+   (0,2,1) rule wins.
+
+   div-qualified deliberately. The bare class also matches 3 p.price on
+   advertise.html at #FF6B35, which belong to that page's own unit; div.price
+   reaches exactly the 132 tour-card prices and none of them. */
+.tour-card div.price { color: #A25C1D; }
 
 /* Article clearance on the two templates that already attempted it and came up
    short. Both authored values are clearance attempts, not internal spacing, and
