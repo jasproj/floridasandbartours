@@ -2499,3 +2499,42 @@ a.book-btn,
 span.blog-card-tag,
 a.cta-btn,
 button.submit-btn { color: #0D1B2A; }
+
+/* Article clearance on the two templates that already attempted it and came up
+   short. Both authored values are clearance attempts, not internal spacing, and
+   both were sized against the MOBILE header: the .blog-article comment in-page
+   records "measured a flat 120.34px" and "136px clears it with ~15px of margin".
+   That is right at 390 and wrong at 1280, where those same pages render a
+   144.188px header (.blog-article) and 145.391px (.wrap) because of the
+   .logo-text line and, for .wrap, a 17px root font-size.
+
+   So this is a desktop-only correction, scoped to min-width:769px. At 390 the
+   authored 136px and 140px already clear their headers with 15.66px and 15.30px
+   to spare and are deliberately left alone.
+
+   The values keep each template's own authored headroom rather than dropping to
+   the bare minimum -- the in-page comment says the ~15px exists so "a small
+   future header change doesn't silently reopen this", which is intent worth
+   preserving:
+       .blog-article  144.188 + 15.66 = 159.85 -> 160px
+       .wrap          145.391 + 15.30 = 160.69 -> 161px
+
+   padding-top, and it REPLACES rather than adds. Measured both ways via CSSOM
+   on the live pages: padding-top:160 gives contentTop 160; margin-top:160 gives
+   contentTop 296, because the authored 136px padding is still there underneath.
+   Where the authored value is itself the clearance attempt, replacement is the
+   fix; adding would double it.
+
+   header + X, not a bare class, because the blast radius is not the defect
+   population. article.blog-article matches 12 elements on 12 pages but only 5
+   are clipped; the other 7 sit below a full-viewport section.hero.hero-blog and
+   correctly carry padding-top:0. The adjacent-sibling combinator matches only
+   when nothing sits between the fixed header and the article, which IS the
+   defect condition -- self-limiting, with no page list to maintain. Measured:
+   5 of 5 clipped elements are the header's immediate next element sibling, and
+   0 of the 7 healthy ones are. article.wrap happens to be 5-of-5 either way;
+   it uses the same form for consistency and for the same guarantee. */
+@media (min-width: 769px) {
+    header + article.blog-article { padding-top: 160px; }
+    header + article.wrap         { padding-top: 161px; }
+}
