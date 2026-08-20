@@ -63,6 +63,15 @@
   .related a { color: #1a3a5c; text-decoration: none; margin-right: 14px; }
   .related a:hover { text-decoration: underline; }
   footer { background: #222; color: #ccc; padding: 30px 20px; text-align: center; font-size: 0.9rem; }
+  /* Footer links. footer{color:#ccc} styles the footer, and the tagline and h4s
+     inherit it at 9.907:1 -- but an <a> receives the UA default link colour, and a
+     matching declaration always beats inheritance, so these rendered #0000EE on
+     #222 at 1.693:1. styles.css is not loaded on this page, so the rule has to
+     live here. #F5B84C is an existing site colour, already used as a link colour
+     on dark in the tampa-vs-clearwater-vs-stpete post; it gives 8.973:1 on #222
+     and sits deltaE 62.5 from the #ccc text around it, so the links stay
+     obviously links. The underline is retained rather than replaced. */
+  footer .footer-links a { color: #F5B84C; }
   .footer-logo-img { height: 100px; width: auto; max-width: 100%; }
   @media (max-width: 767px) {
     /* max-height:120px removed — retired ≤120px spec (superseded 2026-05-29),
