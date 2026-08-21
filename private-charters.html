@@ -123,7 +123,7 @@
     <!-- TOUR GRID SECTION -->
     <section style="padding: 60px 0; background: #f8f8f8;">
         <div class="container">
-            <h2 style="font-size: 2rem; color: #1a3a4a; text-align: center; margin-bottom: 40px;">Popular Private Charter Options</h2>
+            <h2 style="font-size: 2rem; color: #1a3a4a; text-align: center; margin-bottom: 40px;">Browse Private Charters</h2>
             
             <div class="filters-bar" style="margin-bottom: 40px;">
                 <div class="filter-group">
@@ -366,8 +366,6 @@
             const priceBadge = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price))
                 ? `<span class="price-ribbon">${tour.price}</span>`
                 : `<span class="price-ribbon-fallback">Check live price</span>`;
-            const starRating = tour.qualityScore ? Math.min(5, Math.max(3, (tour.qualityScore / 20))).toFixed(1) : '4.0';
-            const starsHTML = createStarsHTML(parseFloat(starRating));
             
             let description = tour.description;
             if (!description || description.trim() === '') {
@@ -384,26 +382,12 @@
                 <div class="tour-card-content">
                     <p class="tour-company">${tour.company}</p>
                     <h3 class="tour-name">${tour.name}</h3>
-                    ${starsHTML}
                     <p class="tour-description">${shortDesc}</p>
                     <div class="tour-tags">${tagsHTML}</div>
                     <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-cta" data-tour-id="${tour.id}" data-tour-name="${(tour.name || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;')}">Check Availability →</a>
                 </div>
             `;
             return card;
-        }
-
-        function createStarsHTML(rating) {
-            const fullStars = Math.floor(rating);
-            const hasHalf = rating % 1 >= 0.3 && rating % 1 < 0.8;
-            const emptyStars = 5 - fullStars - (hasHalf ? 1 : 0);
-            
-            let html = '<div class="star-rating">';
-            for (let i = 0; i < fullStars; i++) html += '<span class="star full">★</span>';
-            if (hasHalf) html += '<span class="star half">★</span>';
-            for (let i = 0; i < emptyStars; i++) html += '<span class="star empty">☆</span>';
-            html += `<span class="rating-num">${rating.toFixed(1)}</span></div>`;
-            return html;
         }
 
         function trackBookClick(tourId, tourName) {

@@ -590,12 +590,6 @@ ul, ol { list-style: none; }
     gap: var(--space-sm);
 }
 
-.trust-stars {
-    font-size: 1.25rem;
-    color: #FFD700;
-    letter-spacing: 2px;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-}
 
 .trust-badge {
     flex-direction: row;
@@ -1426,9 +1420,6 @@ ul, ol { list-style: none; }
         gap: 2px;
     }
     
-    .trust-stars {
-        font-size: 1rem;
-    }
     
     .trust-badge {
         order: -1;
@@ -1630,25 +1621,7 @@ ul, ol { list-style: none; }
 /* ============================================
    POPULAR BADGE FOR TOUR CARDS
    ============================================ */
-.popular-badge {
-    position: absolute;
-    top: var(--space-sm);
-    left: var(--space-sm);
-    background: linear-gradient(135deg, #E8832A, #FF8E53);
-    color: #0D1B2A;
-    padding: 4px 12px;
-    border-radius: var(--radius-full);
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
-    z-index: 10;
-}
 
-.popular-badge::before {
-    content: '🔥 ';
-}
 
 /* ============================================
    EMAIL CAPTURE SECTION
@@ -2273,37 +2246,11 @@ body:has(.promo-banner[style*="display: none"]) .hero {
 }
 
 /* Star Ratings */
-.star-rating {
-    display: flex;
-    align-items: center;
-    gap: 2px;
-    margin: 6px 0 8px 0;
-}
 
-.star-rating .star {
-    font-size: 0.9rem;
-    line-height: 1;
-}
 
-.star-rating .star.full {
-    color: #A25C1D;
-}
 
-.star-rating .star.half {
-    color: #A25C1D;
-    position: relative;
-}
 
-.star-rating .star.empty {
-    color: #D1D5DB;
-}
 
-.star-rating .rating-num {
-    font-size: 0.8rem;
-    color: #6B7280;
-    margin-left: 4px;
-    font-weight: 500;
-}
 
 /* ============================================
    WEATHER RADAR SECTION
