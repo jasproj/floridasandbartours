@@ -43,6 +43,23 @@
     <script src="/tracking.js" defer></script>
     <link rel="stylesheet" href="/sponsor-slot.css">
     <script src="/sponsor-slot.js" defer></script>
+    <style>
+        /* Same .tour-card block already carried by blog/10-best-tampa-bay-boat-tours-2026.html,
+           the other Template B page with in-prose cards. styles.css defines .tour-card as the
+           GRID card (fixed-height .tour-card-img, no padding), which is the wrong shape for a
+           card sitting in article prose -- this supplies padding, type scale and spacing.
+           The price COLOUR is deliberately not set here: styles.css carries
+           `.tour-card div.price { color:#A25C1D }` at (0,2,1) and wins over this block's
+           (0,2,0) regardless of source order, which is how the contrast fix stays applied. */
+        .tour-card { background: white; border: 1px solid #e5e5e5; border-radius: 12px; padding: 24px; margin: 24px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+        .tour-card h3 { margin: 0 0 6px; font-size: 1.1rem; color: #1B3A57; }
+        .tour-card .company { font-size: 0.85rem; color: #737373; margin-bottom: 10px; }
+        .tour-card .price { font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; }
+        .tour-card p { font-size: 0.95rem; margin-bottom: 14px; }
+        .tour-card .book-btn { display: inline-block; background: #E8832A; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+        .tour-card .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+        .tour-card .tag { background: #e8f4f8; color: #1E6B8A; font-size: 0.78rem; padding: 3px 8px; border-radius: 4px; font-weight: 500; }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -68,37 +85,70 @@
     <article class="blog-article">
         <div class="container">
             <div class="article-body">
-                <p>Egmont Key, a pristine barrier island in the Gulf of Mexico, offers exceptional shelling opportunities for collectors of all experience levels. This remote Florida State Park preserves natural habitats while welcoming visitor exploration. With abundant shells, historic lighthouse, and pristine beaches, Egmont Key delivers memorable adventures combining treasure hunting, history, and nature appreciation.</p>
+                <p>Egmont Key sits at the mouth of Tampa Bay, a mile off the end of Fort De Soto and reachable only by boat. That last part is the whole reason the shelling holds up: there is no bridge, no parking lot and no walk-on access, so the beach does not get picked over by mid-morning the way Honeymoon Island or Pass-a-Grille does. It is a state park and a national wildlife refuge, and the same protection that keeps the island quiet keeps the shell beds intact.</p>
 
                 <h2>Why Egmont Key Has the Best Shelling</h2>
-                <p>Egmont Key's isolated location and natural beach conditions create ideal shelling environments. Strong currents churn shells ashore, particularly after storms. The island's protection as a state park preserves ecosystems that produce diverse shell varieties. Year-round access means consistent shelling opportunities, though seasonal variations affect selection. Professional shelling tours provide transportation, expert guidance, and safety oversight.</p>
+                <p>Two currents meet at the mouth of the bay and push material onto the island's Gulf-facing shore. Storms do the rest — a cold front or a summer blow will lay down a fresh line of shells overnight, and because nobody can walk on before the first boat arrives, that line is still there when you get off it. The southern end, below the fort ruins, collects the heaviest material. The bay side is quieter water and holds smaller, more intact specimens.</p>
+
+                <p>The catch is that everything on Egmont Key runs on boat schedules. There is no shade beyond the tree line, no fresh water, no concession, and no way to leave early. Whatever the boat's return time is, that is your day.</p>
 <div class="sponsor-slot" data-slot-id="article-mrec" data-slot-format="mrec"></div>
 
                 <h2>Shells Found at Egmont Key</h2>
-                <p>Common finds include conchs (lightning whelks, fighting conchs), sand dollars, clams, scallop shells, murex shells, and colorful varieties. Seasonal differences affect abundance—spring storms often deliver exceptional finds. Low tide exposes more beach and increases discovery potential. Patient collectors find rare species. Tours often feature specimen identification and collecting tips.</p>
+                <p>The regular finds are lightning whelks, fighting conchs, pen shells, coquina, ark shells and sand dollars. Less common but worth slowing down for: murex, olives, augers and the occasional intact scallop. Winter and early spring produce the heaviest deposits because that is when the fronts come through. Summer shelling is thinner but the water is calm enough to snorkel the shallows, which is where the unbroken shells tend to be.</p>
 
-                <h2>Types of Shelling Tours</h2>
+                <p>Two rules apply and both are enforced. Live shells stay — anything with an animal in it, and that includes hermit crabs, which are easy to miss until the shell moves in your hand. And the island is a wildlife refuge, so posted closures around nesting areas are not advisory.</p>
 
-                <h3>Half-Day Shelling Tours (4-5 hours, $60-100)</h3>
-                <p>Popular option combining Egmont Key exploration with shelling. Includes round-trip boat transportation, beach time, and lighthouse visits. Guides share shell identification information. Perfect for families and casual collectors.</p>
+                <h2>How to Reach Egmont Key</h2>
+                <p>Three boats go, from three different marinas, and they are genuinely different products rather than three prices for the same trip. They are listed cheapest first. Every price below is the live operator fare with the customer type named — there are no per-person figures here that are really a whole-boat rate.</p>
 
-                <h3>Full-Day Shelling Expeditions (8-10 hours, $100-180)</h3>
-                <p>Comprehensive adventures providing extended beach time, multiple collection areas, historical exploration, and often meals/beverages. Ideal for serious collectors maximizing finds. Experienced guides share advanced shelling techniques.</p>
+                <div class="tour-card">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800,fit:max/auto_image/compress/7gv6m35pTbSv4ruzVwIM" alt="Egmont Key Ferry — Hubbard&#39;s Marina, Madeira Beach, Florida" width="800" height="450" loading="lazy" style="width:100%;max-width:100%;aspect-ratio:16/9;object-fit:cover;height:auto;border-radius:8px;margin-bottom:14px;display:block;">
+                    <h3>Egmont Key Ferry</h3>
+                    <div class="company">Hubbard&#39;s Marina &mdash; Madeira Beach</div>
+                    <div class="tags"><span class="tag">Egmont Key</span><span class="tag">Ferry</span><span class="tag">Self-guided</span></div>
+                    <div class="price">$45 per adult</div>
+                    <p>Transport and beach time, and that is deliberately all it is. The ferry drops you on the island and comes back for you; there is no guide, no narration and no scheduled stops on the way. For a sheller who already knows what they are looking for, that is the point — you get the maximum unstructured hours on the sand for the lowest fare on this page. Adults are $45 and children 11 and under are $25, with under-2s free.</p>
+                    <a href="https://fareharbor.com/embeds/book/hubbardsmarina/items/64860/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener">Check Availability &rarr;</a>
+                </div>
 
-                <h3>Guided Shelling Workshops (3-4 hours, $50-80)</h3>
-                <p>Educational experiences focusing on shell identification, collection techniques, and marine biology. Expert instructors teach collectors how to find rare species and understand ecosystem relationships.</p>
+                <div class="tour-card">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800,fit:max/auto_image/compress/s4VnKW08Rjmc9WNLkVwa" alt="4 hour Egmont Key Island Tour with snorkelling and shelling — Island Boat Adventures, Gulfport, Florida" width="800" height="450" loading="lazy" style="width:100%;max-width:100%;aspect-ratio:16/9;object-fit:cover;height:auto;border-radius:8px;margin-bottom:14px;display:block;">
+                    <h3>4 hour Egmont Key Island Tour! Snorkeling! Shelling! See Dolphins!</h3>
+                    <div class="company">Island Boat Adventures &mdash; Gulfport</div>
+                    <div class="tags"><span class="tag">Egmont Key</span><span class="tag">Shelling</span><span class="tag">Snorkel</span><span class="tag">Guided</span></div>
+                    <div class="price">$69 per adult</div>
+                    <p>Four guided hours out of Gulfport, built around shelling rather than fitting it in around a transfer. The captain picks the sandbar stops on the way out and back, so you are working more than one shell bed instead of only the island beach, and there is guided snorkelling on the south shore rock formations. If shelling is the actual reason for the day, this is the one to book: $24 more than the ferry buys the stops, the guide and the snorkel gear. Adults $69, children 2&ndash;12 $59, under-2s free.</p>
+                    <a href="https://fareharbor.com/embeds/book/islandboatadventures/items/50756/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener">Check Availability &rarr;</a>
+                </div>
+
+                <div class="tour-card">
+                    <img src="https://cdn.filestackcontent.com/resize=w:800,fit:max/auto_image/compress/uYsxTPEyTpu6IdBYggB4" alt="Private Snorkeling Charter to Egmont, Outback and Shell Keys — Island Ferry of St. Pete, Florida" width="800" height="450" loading="lazy" style="width:100%;max-width:100%;aspect-ratio:16/9;object-fit:cover;height:auto;border-radius:8px;margin-bottom:14px;display:block;">
+                    <h3>Private Snorkeling Charter: Egmont, Outback &amp; Shell Keys</h3>
+                    <div class="company">Island Ferry of St. Pete &mdash; St. Petersburg</div>
+                    <div class="tags"><span class="tag">Egmont Key</span><span class="tag">Shell Key</span><span class="tag">Private Charter</span><span class="tag">Snorkel</span></div>
+                    <div class="price">$549 private charter</div>
+                    <p>Four and a half hours on your own boat, covering Egmont Key plus Outback Key and Shell Key rather than a single island. Because nobody else is aboard, the captain can sit on whichever beach is producing that day instead of leaving on a timetable, and can move if the first stop is thin. The rate is $549 for the charter, not per person, and it is the same $549 whether two people go or a full party does.</p>
+                    <a href="https://fareharbor.com/embeds/book/islandferry/items/34253/?asn=fhdn&amp;asn-ref=walktheplankadventures&amp;ref=walktheplankadventures&amp;bookable-only=yes&amp;full-items=yes&amp;marketplace=yes&amp;flow=no" class="book-btn" target="_blank" rel="noopener">Check Availability &rarr;</a>
+                </div>
+
+                <h2>Which Egmont Trip Fits</h2>
+                <ul>
+                    <li><strong>Take the ferry if</strong> you have shelled Egmont Key before, you know which end you want, and you would rather spend the difference on nothing at all. It is transport, and for an experienced sheller transport is enough.</li>
+                    <li><strong>Take the guided tour if</strong> this is a first visit or shelling is the actual point of the day. The sandbar stops are the reason &mdash; they put you on beds the ferry never passes, and $24 is a small premium for the difference between one beach and several.</li>
+                    <li><strong>Take the private charter if</strong> the schedule is the problem rather than the price &mdash; you want to stay where the shelling is good, move if it is not, and cover three keys in one run. It is priced as a charter, so it makes sense for a group and is an expensive way for two people to see one island.</li>
+                </ul>
 
                 <h2>Shelling Tips and Techniques</h2>
-                <p>Early morning low tide exposes maximum beach—best time for serious collectors. Walk waterline where shells concentrate. Look for shell beds along the high tide line. Gently sift sand to find buried specimens. Focus on post-storm periods when turbulent water churns up shells. Use collection bags or containers to carry finds. Never take living creatures—only empty shells for ethical collecting.</p>
+                <p>Go on a falling tide and start as early as the boat allows. Walk the waterline first, then the wrack line higher up the beach where the previous tide left its material. Sift gently rather than digging; most of the intact shells sit just under the surface layer. After a storm, work the fresh line before anything else. Bring a mesh bag so sand and water drain rather than collecting in the bottom, and wear water shoes &mdash; broken shell and the occasional ray in the shallows both argue against bare feet.</p>
 
                 <h2>Best Time for Egmont Key Shelling</h2>
-                <p>Spring and summer offer excellent shelling, especially after strong storms. Early morning low tides are most productive. Calm weather with good visibility ideal for tours. Year-round shelling is possible but varies by season and storm activity. Check tour schedules and weather forecasts before booking.</p>
+                <p>November through April is the productive stretch, when cold fronts stir the Gulf and lay down fresh material. Outside that window the day after any strong blow is worth a look regardless of the month. Within a given day, tide beats season: a falling tide an hour or two after high uncovers ground that was underwater overnight. Check the tide chart the night before, because the boat schedule will not move for you.</p>
 
                 <h2>Additional Egmont Key Attractions</h2>
-                <p>Beyond shelling, Egmont Key features historic lighthouse (built 1858) offering cultural significance. Nature trails showcase native vegetation and wildlife habitat. Pristine beaches provide relaxation and swimming. Pristine island conditions reward visitors seeking natural Florida experiences away from crowds.</p>
+                <p>The lighthouse dates from 1858 and still operates. The brick gun batteries at the south end are what remains of Fort Dade, built for the Spanish-American War, and the paths between them are open to walk. There are gopher tortoises across the interior and the island is a nesting site for several shorebird species, which is why sections get roped off in season. Most visitors combine an hour on the trails with the rest of the day on the beach.</p>
 
-                  <h3>Book Your Egmont Key Shelling Tour Today</h3>
-                <p>Find your perfect shells! <a href="/">Browse shelling tours at Egmont Key</a> and discover natural treasures now.</p>
+                <h3>Book Your Egmont Key Shelling Tour Today</h3>
+                <p>The three boats above all reach Egmont Key. If you are unsure, the four-hour guided tour is the one to start with &mdash; see <a href="/blog/egmont-key-tours.html">the full Egmont Key tours guide</a> for the ferry-versus-guided comparison, or <a href="/blog/best-shelling-beaches-tampa.html">the best shelling beaches near Tampa</a> for the mainland alternatives.</p>
             </div>
             <aside class="article-sidebar">
                 <div class="sidebar-cta">
