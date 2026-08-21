@@ -868,6 +868,13 @@ window.handleEmailSubmit = handleEmailSubmit;
    RANDOMIZING FAQ SYSTEM
    ============================================ */
 
+/* DEAD CODE as of 2026-08-21. ALL_FAQS has exactly one consumer, initializeFAQs()
+   below, which opens with `if (!document.getElementById('faq-container')) return;`.
+   NO page in this repo carries #faq-container (measured: 0 of 74 sitemap pages), and
+   only index.html still loads app.js at all after #125 and #126. So this array renders
+   nowhere. The four unsupported price figures were removed anyway -- wrong numbers in
+   unreachable code are a landmine the moment somebody adds the container. Whether to
+   delete the array outright is a separate call and is NOT made here. */
 const ALL_FAQS = [
     {
         question: "What are the best things to do in Florida?",
@@ -907,7 +914,7 @@ const ALL_FAQS = [
     },
     {
         question: "How much do Florida tours typically cost?",
-        answer: "Prices vary by activity. Snorkeling trips start around $50-80 per person. Sandbar tours range from $75-150. Private charters run $400-800 for 4 hours. Sunset cruises start at $50. Parasailing is around $80-100. Fishing charters range from $600-1200 depending on duration and boat size."
+        answer: "Prices vary widely by activity, operator and season. Private charters run $400-800 for a half day and fishing charters $600-1200 depending on duration and boat size. Per-person trip prices are shown on each listing rather than quoted as a range here, because they change with the operator's own pricing."
     },
     {
         question: "Are tours suitable for children?",
