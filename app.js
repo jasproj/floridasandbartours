@@ -167,6 +167,10 @@ async function loadTours() {
         if (tourCountEl) {
             tourCountEl.textContent = allTours.length;
         }
+        const stickyCountEl = document.getElementById('sticky-tour-count');
+        if (stickyCountEl) {
+            stickyCountEl.textContent = allTours.length;
+        }
         
         // Update operator count (unique companies)
         const operatorCountEl = document.getElementById('operator-count');
@@ -391,9 +395,6 @@ function createTourCard(tour, index) {
         `<span class="tour-tag">${tag}</span>`
     ).join('');
     
-    // Add Popular badge only for genuinely high-rated tours (not position-based)
-    const isPopular = tour.qualityScore >= 95;
-    const popularBadge = isPopular ? '<span class="popular-badge">Popular</span>' : '';
     
     // Price badge with dollar sign — gated to per-adult pricing only; whole-boat/charter
     // prices must not render as if they were a per-adult fare
@@ -401,9 +402,6 @@ function createTourCard(tour, index) {
         ? `<span class="price-ribbon">${tour.price}</span>`
         : `<span class="price-ribbon-fallback">Check live price</span>`;
     
-    // Star rating from qualityScore (0-100 → 0-5 stars)
-    const starRating = tour.qualityScore ? Math.min(5, Math.max(3, (tour.qualityScore / 20))).toFixed(1) : null;
-    const starsHTML = starRating ? createStarsHTML(parseFloat(starRating)) : '';
     
     // Description - use existing or generate fallback from tags/name
     let description = tour.description;
@@ -418,7 +416,6 @@ function createTourCard(tour, index) {
     
     card.innerHTML = `
         <div class="tour-card-img">
-            ${popularBadge}
             ${priceBadge}
             <img src="${tour.image || FALLBACK_IMAGE}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'">
             <span class="tour-location-badge">${tour.location.split('/').pop()}</span>
@@ -426,7 +423,6 @@ function createTourCard(tour, index) {
         <div class="tour-card-content">
             <p class="tour-company">${tour.company}</p>
             <h3 class="tour-name">${tour.name}</h3>
-            ${starsHTML}
             ${descHTML}
             <div class="tour-tags">${tagsHTML}</div>
             <a href="${tour.bookingUrl}" target="_blank" rel="noopener" class="tour-cta" onclick="trackBookingClickEnhanced('${tour.id}', '${tour.name.replace(/'/g, "\\'")}', '${tour.company.replace(/'/g, "\\'")}')">Check Availability →</a>
@@ -482,19 +478,6 @@ function generateFallbackDescription(tour) {
     return `${desc} Book with ${company} today.`;
 }
 
-// Generate star rating HTML
-function createStarsHTML(rating) {
-    const fullStars = Math.floor(rating);
-    const hasHalf = rating % 1 >= 0.3 && rating % 1 < 0.8;
-    const emptyStars = 5 - fullStars - (hasHalf ? 1 : 0);
-    
-    let html = '<div class="star-rating">';
-    for (let i = 0; i < fullStars; i++) html += '<span class="star full">★</span>';
-    if (hasHalf) html += '<span class="star half">★</span>';
-    for (let i = 0; i < emptyStars; i++) html += '<span class="star empty">☆</span>';
-    html += `<span class="rating-num">${rating.toFixed(1)}</span></div>`;
-    return html;
-}
 
 // GA4 + Facebook Pixel tracking for affiliate clicks.
 // Named to contain "trackBookingClick" so tracking.js's delegated handler
