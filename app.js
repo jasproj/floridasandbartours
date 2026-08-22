@@ -485,7 +485,8 @@ function trackBookingClickEnhanced(tourId, tourName, company) {
             tour_id: tourId,
             tour_name: tourName,
             company: company,
-            event_category: 'conversion'
+            event_category: 'conversion',
+            region: 'florida'
         });
     }
     // Facebook Pixel event
