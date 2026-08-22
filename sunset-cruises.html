@@ -389,16 +389,6 @@
             return card;
         }
 
-        function trackBookClick(tourId, tourName) {
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'booking_click', {
-                    tour_id: tourId,
-                    tour_name: tourName,
-                    event_category: 'conversion'
-                });
-            }
-        }
-
         function clearPageFilters() {
             document.getElementById('location-filter').value = '';
             document.getElementById('duration-filter').value = '';
