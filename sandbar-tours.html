@@ -261,6 +261,7 @@
         </div>
     </footer>
 
+    <script src="/card-format.js"></script>
     <script src="tours-data.json" type="application/json"></script>
     <script>
         let allTours = [];
@@ -362,18 +363,14 @@
             const card = document.createElement('div');
             card.className = 'tour-card';
             
-            const tagsHTML = tour.tags.slice(0, 2).map(tag => 
+            const tagsHTML = window.CardFormat.displayTags(tour, 2).map(tag =>
                 `<span class="tour-tag">${tag}</span>`
             ).join('');
             
-            const priceBadge = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price))
-                ? `<span class="price-ribbon">${tour.price}</span>`
-                : `<span class="price-ribbon-fallback">Check live price</span>`;
+            const priceBadge = window.CardFormat.priceRibbonHTML(tour);
             
-            let description = tour.description;
-            if (!description || description.trim() === '') {
-                description = `Join ${tour.company} for this popular ${tour.location} adventure.`;
-            }
+            let description = window.CardFormat.description(tour, t =>
+                `Join ${t.company} for this popular ${String(t.location).split('/').pop()} trip.`);
             const shortDesc = description.length > 120 ? description.substring(0, 117) + '...' : description;
             
             card.innerHTML = `

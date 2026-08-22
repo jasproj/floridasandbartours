@@ -391,23 +391,21 @@ function createTourCard(tour, index) {
     const card = document.createElement('div');
     card.className = 'tour-card';
     
-    const tagsHTML = tour.tags.slice(0, 3).map(tag => 
+    // Tags are stored as ONE hyphen-joined compound per row. splitTagValue is
+    // ported from wanderhawaii and preserves E-Bike / Self-Guided Tour.
+    const tagsHTML = window.CardFormat.displayTags(tour, 3).map(tag =>
         `<span class="tour-tag">${tag}</span>`
     ).join('');
     
     
-    // Price badge with dollar sign — gated to per-adult pricing only; whole-boat/charter
-    // prices must not render as if they were a per-adult fare
-    const priceBadge = (tour.priceLabel === 'per adult' && Number.isFinite(tour.price))
-        ? `<span class="price-ribbon">${tour.price}</span>`
-        : `<span class="price-ribbon-fallback">Check live price</span>`;
+    // Price badge. The figure carries its UNIT so a whole-boat charter can never
+    // read as a per-adult fare, and a verified range shows as a range. Shared with
+    // the six category-page renderers via card-format.js — one implementation.
+    const priceBadge = window.CardFormat.priceRibbonHTML(tour);
     
     
-    // Description - use existing or generate fallback from tags/name
-    let description = tour.description;
-    if (!description || description.trim() === '') {
-        description = generateFallbackDescription(tour);
-    }
+    // Description — the row's own copy wins; the generated line is a last resort.
+    let description = window.CardFormat.description(tour, generateFallbackDescription);
     
     const shortDesc = description.length > 120 
         ? description.substring(0, 117) + '...' 
