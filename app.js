@@ -136,8 +136,10 @@ async function loadTours() {
         const response = await fetch('/tours-data.json?t=' + Date.now());
         const _raw = await response.json();
         allTours = Array.isArray(_raw) ? _raw : _raw.tours;
-        // Hide tours with a dead FareHarbor booking link (audit 2026-05-28).
-        allTours = allTours.filter(t => t.status !== 'inactive' && !t.bookingDead);
+        // Hide tours with a dead FareHarbor booking link (audit 2026-05-28) and
+        // rows marked out of scope. CardFormat.drawable is the ONE definition of
+        // "may this row reach a grid"; the six category pages call the same one.
+        allTours = window.CardFormat.drawable(allTours);
 
         // Pure crypto shuffle - truly random every time
         allTours = cryptoShuffle([...allTours]);

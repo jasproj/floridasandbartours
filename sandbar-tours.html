@@ -284,8 +284,8 @@
                 const response = await fetch('tours-data.json');
                 const _raw = await response.json();
                 allTours = Array.isArray(_raw) ? _raw : _raw.tours;
-                // Hide inactive tours and dead FareHarbor booking links (matches app.js).
-                allTours = allTours.filter(t => t.status !== 'inactive' && !t.bookingDead);
+                // One shared predicate with app.js: live, bookable, and in scope.
+                allTours = window.CardFormat.drawable(allTours);
                 filterAndDisplayTours();
             } catch (error) {
                 console.error('Error loading tours:', error);

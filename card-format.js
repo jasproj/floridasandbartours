@@ -51,6 +51,33 @@
     return typeof limit === 'number' ? out.slice(0, limit) : out;
   }
 
+  /* ---- scope --------------------------------------------------------------
+   * Some catalogue rows are real, bookable products that are simply not what
+   * this site sells: firearms ranges, escape rooms, culinary walking tours,
+   * a railroad museum, exotic-car rentals, villa lets. They are kept in the
+   * catalogue -- nothing is deleted -- and marked with a `scope` value that
+   * holds them off every rendered surface.
+   *
+   * Any truthy `scope` excludes. Adding a new scope value therefore needs no
+   * change here, which is the point: one predicate, seven grids.
+   *
+   * NOT the same thing as `status: "inactive"`. That field is owned by the
+   * Auto-Rot-Cleanup Agent and means the product DIED; a run that finds the
+   * product alive again may clear it. Scope means we do not sell this, which
+   * is not a fact about the product's lifecycle and must not be undone by a
+   * liveness check.
+   */
+  function isInScope(tour) {
+    return !(tour && tour.scope);
+  }
+
+  /** The rows a grid may draw from: live per app.js, and in scope. */
+  function drawable(tours) {
+    return (tours || []).filter(function (t) {
+      return t && t.status !== 'inactive' && !t.bookingDead && isInScope(t);
+    });
+  }
+
   /* ---- region -------------------------------------------------------------
    * ONE region lookup for the whole property. app.js and the six category
    * pages all matched regions themselves before this; the category copies
@@ -258,6 +285,8 @@
     FLORIDA_REGIONS: FLORIDA_REGIONS,
     municipalityOf: municipalityOf,
     regionOf: regionOf,
-    matchesRegion: matchesRegion
+    matchesRegion: matchesRegion,
+    isInScope: isInScope,
+    drawable: drawable
   };
 })(typeof window !== 'undefined' ? window : this);
