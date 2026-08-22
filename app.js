@@ -96,12 +96,8 @@ const SYNONYMS = {
     'reef': ['reef', 'coral', 'barrier reef', 'snorkel', 'dive']
 };
 
-// Location keywords for smarter matching
-const LOCATION_KEYWORDS = {
-    'south florida': ['key west', 'marathon', 'islamorada', 'key largo', 'miami', 'miami beach', 'fort lauderdale', 'hollywood', 'biscayne', 'naples', 'marco island', 'fort myers', 'sanibel', 'captiva', 'goodland', 'stock island', 'tavernier', 'big pine'],
-    'central florida': ['tampa', 'st. petersburg', 'clearwater', 'st. pete', 'tierra verde', 'gulfport', 'orlando', 'crystal river', 'silver springs', 'homosassa', 'spring hill', 'cocoa beach', 'port canaveral', 'merritt island', 'titusville', 'cape canaveral', 'sarasota', 'bradenton'],
-    'north florida': ['destin', 'pensacola', 'panama city', 'fort walton', 'navarre', 'st. augustine', 'jacksonville', 'amelia island', 'daytona']
-};
+// Region lookup lives in card-format.js (CardFormat.regionOf / matchesRegion),
+// shared with the six category pages. Do not re-declare it here.
 
 // ============================================
 // INITIALIZATION
@@ -248,12 +244,9 @@ function applyFilters() {
     if (currentFilters.sort !== 'random') trackFilterChange('sort', currentFilters.sort);
     
     filteredTours = allTours.filter(tour => {
-        // Region filter - match if tour location contains any region keyword
-        if (currentFilters.island) {
-            const regionKeywords = LOCATION_KEYWORDS[currentFilters.island.toLowerCase()] || [];
-            const tourLocation = tour.island.toLowerCase();
-            const matchesRegion = regionKeywords.some(keyword => tourLocation.includes(keyword.toLowerCase()));
-            if (!matchesRegion) return false;
+        // Region filter
+        if (currentFilters.island && !window.CardFormat.matchesRegion(tour, currentFilters.island)) {
+            return false;
         }
         
         // Activity filter
@@ -304,12 +297,13 @@ function applyFilters() {
                     }
                 }
                 
-                // 3. Location keyword match
-                for (const [location, keywords] of Object.entries(LOCATION_KEYWORDS)) {
-                    if (keywords.some(k => k.includes(term))) {
-                        if (tour.island.toLowerCase() === location) return true;
-                    }
-                }
+                // A third branch here used to compare `tour.island` (shaped
+                // `united states/florida/<municipality>`) against a region NAME,
+                // so it could never be true and never ran. Removed rather than
+                // repaired: `searchableContent` above already contains
+                // `tour.location`, so "destin" matches Destin rows directly.
+                // Making the branch work instead would widen every municipality
+                // search to its whole region — measured: "key west" 75 -> 2,614.
                 
                 return false;
             });
