@@ -911,9 +911,12 @@ ul, ol { list-style: none; }
     position: absolute;
     bottom: 12px;
     right: 12px;
+    max-width: calc(100% - 24px);
+    text-align: right;
+    line-height: 1.25;
     background: linear-gradient(135deg, #E8832A 0%, #D66A3D 100%);
     color: #0D1B2A;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     padding: 7px 12px;
     border-radius: 8px;
@@ -921,9 +924,9 @@ ul, ol { list-style: none; }
     box-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
-.price-ribbon::before {
-    content: '$';
-}
+/* The '$' used to be injected here because the JS emitted a bare number. The
+   ribbon now carries a formatted figure AND its unit, so injecting one would
+   double it. */
 
 /* Price fallback - shown when a tour has no per-adult price to gate on.
    Deliberately not an extension of .price-ribbon so the '$' ::before never applies. */
