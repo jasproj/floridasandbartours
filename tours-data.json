@@ -11,9 +11,9 @@
       "category": "",
       "location": "United States/Florida/Goodland",
       "island": "united states/florida/goodland",
-      "price": 84,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 89.0,
+      "priceLabel": "$89 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -40,7 +40,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 11+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Toddler $19 excluded; Kid $65 excluded"
       }
     },
     {
@@ -708,9 +717,9 @@
       "category": "",
       "location": "United States/Florida/Crystal River",
       "island": "united states/florida/crystal river",
-      "price": 59,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 79.0,
+      "priceLabel": "$79 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -737,7 +746,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 12+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Child $69 excluded"
       }
     },
     {
@@ -831,9 +849,9 @@
       "category": "",
       "location": "United States/Florida/Fort Walton Beach",
       "island": "united states/florida/fort walton beach",
-      "price": 1000,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 1400.0,
+      "priceLabel": "$1,400–$1,600 private charter, Up to 12 People",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "240 minutes",
@@ -860,7 +878,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "customerTypeVerified": "Private Charter",
+        "customerTypeNote": "Up to 12 People",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          1400.0,
+          1600.0
+        ]
       }
     },
     {
@@ -913,9 +943,9 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 975,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 975.0,
+      "priceLabel": "$975–$1,125 private charter, Up to 12 People",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -942,7 +972,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "customerTypeVerified": "Private Charter",
+        "customerTypeNote": "Up to 12 People",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          975.0,
+          1125.0
+        ]
       }
     },
     {
@@ -954,9 +996,9 @@
       "category": "",
       "location": "United States/Florida/Fort Walton Beach",
       "island": "united states/florida/fort walton beach",
-      "price": 1500,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 2100.0,
+      "priceLabel": "$2,100–$2,400 private charter, Up to 12 People",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "360 minutes",
@@ -983,7 +1025,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "customerTypeVerified": "Private Charter",
+        "customerTypeNote": "Up to 12 People",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          2100.0,
+          2400.0
+        ]
       }
     },
     {
@@ -1487,9 +1541,9 @@
       "category": "",
       "location": "United States/Florida/Fort Lauderdale",
       "island": "united states/florida/fort lauderdale",
-      "price": 299,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 329.0,
+      "priceLabel": "$329 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "840 minutes",
@@ -1516,7 +1570,15 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 840
+        "durationMinutes": 840,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 18–100",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
       }
     },
     {
@@ -1569,9 +1631,9 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 2600,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 2600.0,
+      "priceLabel": "$2,600–$3,000 private charter, Up to 12 People",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "480 minutes",
@@ -1598,7 +1660,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "customerTypeVerified": "Private Charter",
+        "customerTypeNote": "Up to 12 People • Does not include crew",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          2600.0,
+          3000.0
+        ]
       }
     },
     {
@@ -1899,9 +1973,9 @@
       "category": "",
       "location": "United States/Florida/Crystal River",
       "island": "united states/florida/crystal river",
-      "price": 99,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 89.0,
+      "priceLabel": "$89 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -1928,7 +2002,17 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 12+",
+        "unit": "per-person",
+        "startAtMoved": false,
+        "verifiedDates": 1,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Child $79 excluded",
+        "singleObservation": "start_at did not move across the sample; undated and dated agree"
       }
     },
     {
@@ -1940,9 +2024,9 @@
       "category": "",
       "location": "United States/Florida/Goodland",
       "island": "united states/florida/goodland",
-      "price": 125,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 140.0,
+      "priceLabel": "$140 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "240 minutes",
@@ -1969,7 +2053,15 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "customerTypeVerified": "Person",
+        "customerTypeNote": "",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
       }
     },
     {
@@ -2186,9 +2278,9 @@
       "category": "",
       "location": "United States/Florida/Jupiter",
       "island": "united states/florida/jupiter",
-      "price": 40,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 70.0,
+      "priceLabel": "$70 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -2215,7 +2307,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "customerTypeVerified": "Adult (1-3 People)",
+        "customerTypeNote": "Ages 21+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Young Adult $55 excluded; Child $40 excluded"
       }
     },
     {
@@ -2268,9 +2369,9 @@
       "category": "",
       "location": "United States/Florida/Fort Walton Beach",
       "island": "united states/florida/fort walton beach",
-      "price": 1800,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 2400.0,
+      "priceLabel": "$2,400–$3,600 private charter, Up to 6 People",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "360 minutes",
@@ -2297,7 +2398,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "customerTypeVerified": "Private Charter",
+        "customerTypeNote": "Up to 6 People",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          2400.0,
+          3600.0
+        ]
       }
     },
     {
@@ -2432,9 +2545,9 @@
       "category": "",
       "location": "United States/Florida/Silver Springs",
       "island": "united states/florida/silver springs",
-      "price": 69,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 75.0,
+      "priceLabel": "$75 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -2461,7 +2574,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 150
+        "durationMinutes": 150,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 13+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Child $65 excluded"
       }
     },
     {
@@ -2801,9 +2923,9 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 650,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 650.0,
+      "priceLabel": "$650–$900 private charter, Up to 12 People",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -2830,7 +2952,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Private Charter",
+        "customerTypeNote": "Up to 12 People",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          650.0,
+          900.0
+        ]
       }
     },
     {
@@ -3663,9 +3797,9 @@
       "category": "",
       "location": "United States/Florida/Crystal River",
       "island": "united states/florida/crystal river",
-      "price": 79,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 79.99,
+      "priceLabel": "$79.99 per single kayak",
+      "priceConfidence": "verified-whole-unit",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -3692,7 +3826,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 150
+        "durationMinutes": 150,
+        "customerTypeVerified": "Single Kayak",
+        "customerTypeNote": "Single Rider up to 325 pounds (Ages 12 and up)",
+        "unit": "per-unit",
+        "startAtMoved": false,
+        "verifiedDates": 1,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "singleObservation": "start_at did not move across the sample; undated and dated agree"
       }
     },
     {
@@ -3704,9 +3847,9 @@
       "category": "",
       "location": "United States/Florida/Crystal River",
       "island": "united states/florida/crystal river",
-      "price": 69,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 69.99,
+      "priceLabel": "$69.99 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 85,
       "currency": "USD",
       "duration": null,
@@ -3731,7 +3874,17 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "_unknownFields": {
+        "customerTypeVerified": "Tour Ticket",
+        "customerTypeNote": "Ages 2 - 99",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
+      }
     },
     {
       "id": "309782",
@@ -4400,9 +4553,9 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 55,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 57.0,
+      "priceLabel": "$57 per kayak",
+      "priceConfidence": "verified-whole-unit",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -4429,7 +4582,15 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Kayak",
+        "customerTypeNote": "",
+        "unit": "per-unit",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
       }
     },
     {
@@ -4564,9 +4725,9 @@
       "category": "",
       "location": "United States/Florida/Crystal River",
       "island": "united states/florida/crystal river",
-      "price": 79,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 69.99,
+      "priceLabel": "$69.99 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -4593,7 +4754,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Tour Ticket",
+        "customerTypeNote": "Ages 13 +",
+        "unit": "per-person",
+        "startAtMoved": false,
+        "verifiedDates": 1,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "singleObservation": "start_at did not move across the sample; undated and dated agree"
       }
     },
     {
@@ -5429,9 +5599,9 @@
       "category": "",
       "location": "United States/Florida/Naples",
       "island": "united states/florida/naples",
-      "price": 50,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 895.0,
+      "priceLabel": "$895 private charter, Includes 12 Guests add up to 26",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -5458,7 +5628,15 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Private Tiki Boat - (Includes 12 Guests add up to 26)",
+        "customerTypeNote": "Includes 12 Guests, then additional $50 per person",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
       }
     },
     {
@@ -5635,8 +5813,8 @@
       "location": "United States/Florida/Key West",
       "island": "united states/florida/key west",
       "price": 79.95,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "priceLabel": "$79.95–$89.95 per person",
+      "priceConfidence": "verified-adult-range",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -5663,7 +5841,20 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 13+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          79.95,
+          89.95
+        ],
+        "exclusionTest": "Youth $59.95 excluded"
       }
     },
     {
@@ -5676,8 +5867,8 @@
       "location": "United States/Florida/Key West",
       "island": "united states/florida/key west",
       "price": 45.95,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "priceLabel": "$45.95 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "180 minutes",
@@ -5704,7 +5895,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 13+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Youth $29.95 excluded"
       }
     },
     {
@@ -5757,9 +5957,9 @@
       "category": "",
       "location": "United States/Florida/Silver Springs",
       "island": "united states/florida/silver springs",
-      "price": 99,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 89.0,
+      "priceLabel": "$89 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -5786,7 +5986,17 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 12+",
+        "unit": "per-person",
+        "startAtMoved": false,
+        "verifiedDates": 1,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Child $55 excluded",
+        "singleObservation": "start_at did not move across the sample; undated and dated agree"
       }
     },
     {
@@ -6046,9 +6256,9 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 900,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 900.0,
+      "priceLabel": "$900–$1,500 private charter",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "360 minutes",
@@ -6075,7 +6285,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "customerTypeVerified": "Private Charter",
+        "customerTypeNote": "",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          900.0,
+          1500.0
+        ]
       }
     },
     {
@@ -6748,8 +6970,8 @@
       "location": "United States/Florida/Key West",
       "island": "united states/florida/key west",
       "price": 129.95,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "priceLabel": "$129.95–$134.95 per person",
+      "priceConfidence": "verified-adult-range",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "300 minutes",
@@ -6776,7 +6998,20 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 300
+        "durationMinutes": 300,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 13+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          129.95,
+          134.95
+        ],
+        "exclusionTest": "Youth $89.95 excluded"
       }
     },
     {
@@ -6873,8 +7108,8 @@
       "location": "United States/Florida/Key West",
       "island": "united states/florida/key west",
       "price": 64.95,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "priceLabel": "$64.95–$69.95 per person",
+      "priceConfidence": "verified-adult-range",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "180 minutes",
@@ -6901,7 +7136,20 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 13+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          64.95,
+          69.95
+        ],
+        "exclusionTest": "Youth $46.95 excluded"
       }
     },
     {
@@ -7321,9 +7569,9 @@
       "category": "",
       "location": "United States/Florida/Gulfport",
       "island": "united states/florida/gulfport",
-      "price": 50,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 55.0,
+      "priceLabel": "$55 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -7350,7 +7598,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 13+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Child $45 excluded"
       }
     },
     {
@@ -7772,9 +8029,9 @@
       "category": "",
       "location": "United States/Florida/Bradenton Beach",
       "island": "united states/florida/bradenton beach",
-      "price": 69.99,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 84.99,
+      "priceLabel": "$84.99–$89.99 per person",
+      "priceConfidence": "verified-adult-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -7801,7 +8058,20 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 90
+        "durationMinutes": 90,
+        "customerTypeVerified": "Flyer",
+        "customerTypeNote": "Ages 5+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          84.99,
+          89.99
+        ],
+        "exclusionTest": "Observer $74.99 excluded"
       }
     },
     {
@@ -8180,9 +8450,9 @@
       "category": "",
       "location": "United States/Florida/Tierra Verde",
       "island": "united states/florida/tierra verde",
-      "price": 49,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 54.0,
+      "priceLabel": "$54 per single kayak",
+      "priceConfidence": "verified-whole-unit",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "180 minutes",
@@ -8209,7 +8479,15 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "customerTypeVerified": "Single Kayak",
+        "customerTypeNote": "Ages 13+ | Ages 3-12 require a double kayak with an adult | Weight limit 250lbs",
+        "unit": "per-unit",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
       }
     },
     {
@@ -8427,9 +8705,9 @@
       "category": "",
       "location": "United States/Florida/Key West",
       "island": "united states/florida/key west",
-      "price": 89,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 79.99,
+      "priceLabel": "$79.99 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 100,
       "currency": "USD",
       "duration": "120 minutes",
@@ -8456,7 +8734,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 13 and up",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Child $59.99 excluded"
       }
     },
     {
@@ -10526,9 +10813,9 @@
       "category": "",
       "location": "United States/Florida/Vero Beach",
       "island": "united states/florida/vero beach",
-      "price": 189,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 199.0,
+      "priceLabel": "$199 private charter, Up to 6 Passengers",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "90 minutes",
@@ -10555,7 +10842,15 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 90
+        "durationMinutes": 90,
+        "customerTypeVerified": "Private charter",
+        "customerTypeNote": "Up to 6 Passengers",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
       }
     },
     {
@@ -11098,9 +11393,9 @@
       "category": "",
       "location": "United States/Florida/Bradenton",
       "island": "united states/florida/bradenton",
-      "price": 350,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 700.0,
+      "priceLabel": "$700–$725 private charter",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "120 minutes",
@@ -11127,7 +11422,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 120
+        "durationMinutes": 120,
+        "customerTypeVerified": "Pontoon | 4 Hour Tour",
+        "customerTypeNote": "",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          700.0,
+          725.0
+        ]
       }
     },
     {
@@ -13808,9 +14115,9 @@
       "category": "",
       "location": "United States/Florida/Tierra Verde",
       "island": "united states/florida/tierra verde",
-      "price": 292,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 291.67,
+      "priceLabel": "$291.67 private charter",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -13837,7 +14144,15 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "customerTypeVerified": "Private Tour for 1-2 People",
+        "customerTypeNote": "",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
       }
     },
     {
@@ -15547,9 +15862,9 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 30,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 45.0,
+      "priceLabel": "$45 per single kayak",
+      "priceConfidence": "verified-whole-unit",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -15576,7 +15891,15 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 150
+        "durationMinutes": 150,
+        "customerTypeVerified": "2.5 Hour Single Kayak Rental",
+        "customerTypeNote": "",
+        "unit": "per-unit",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low"
       }
     },
     {
@@ -16665,9 +16988,9 @@
       "category": "",
       "location": "United States/Florida/Osprey",
       "island": "united states/florida/osprey",
-      "price": 60,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 69.0,
+      "priceLabel": "$69 per person",
+      "priceConfidence": "verified-adult",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "150 minutes",
@@ -16694,7 +17017,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 150
+        "durationMinutes": 150,
+        "customerTypeVerified": "Adult",
+        "customerTypeNote": "Ages 18+",
+        "unit": "per-person",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "exclusionTest": "Young Adult $59 excluded; Child $59 excluded"
       }
     },
     {
@@ -16788,9 +17120,9 @@
       "category": "",
       "location": "United States/Florida/Holmes Beach",
       "island": "united states/florida/holmes beach",
-      "price": 800,
-      "priceLabel": "",
-      "priceConfidence": "",
+      "price": 945.0,
+      "priceLabel": "$945–$1,000 private charter",
+      "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
       "currency": "USD",
       "duration": "180 minutes",
@@ -16817,7 +17149,19 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 180
+        "durationMinutes": 180,
+        "customerTypeVerified": "Four Hour Tour",
+        "customerTypeNote": "Starting at $945",
+        "unit": "whole-boat",
+        "startAtMoved": true,
+        "verifiedDates": 6,
+        "verifiedOn": "2026-08-22",
+        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
+        "observedPriceRange": [
+          945.0,
+          1000.0
+        ]
       }
     },
     {
@@ -37105,7 +37449,10 @@
         "verifiedDates": 5,
         "exportSource": "marketplace-top-items-2026-08-21.csv",
         "priceVolatility": "DYNAMIC: $135.00 on all 8 sampled dates spanning 80 days; the undated next-available quote returned $172.90. Published the stable dated fare.",
-        "observedPriceRange": "135.00-172.90"
+        "observedPriceRange": [
+          135.0,
+          172.9
+        ]
       }
     },
     {
