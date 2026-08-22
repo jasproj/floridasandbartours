@@ -45,8 +45,8 @@
        Pages change cannot silently zero conversions.
 
        Installed as a gtag wrapper rather than a return at each call site
-       because this repo emits booking_click from 9 call site(s) across
-       9 file(s). Guarding only this file would leave the other emitters
+       because this repo emits booking_click from 2 call site(s) across
+       2 file(s). Guarding only this file would leave the other emitters
        live and the localhost traffic would simply move to them. Every page
        carrying an inline emitter loads this file, and the inline
        `function gtag()` is defined in <head> before this deferred script
