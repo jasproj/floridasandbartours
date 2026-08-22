@@ -306,7 +306,9 @@
             const priceFilter = document.getElementById('price-filter')?.value || '';
             
             if (locationFilter) {
-                displayedTours = displayedTours.filter(tour => tour.island.toLowerCase().includes(locationFilter));
+                // `island` is shaped `united states/florida/<municipality>`, so the
+                // old `.includes('south florida')` matched nothing. Shared lookup.
+                displayedTours = displayedTours.filter(tour => window.CardFormat.matchesRegion(tour, locationFilter));
             }
             
             if (durationFilter) {
@@ -412,7 +414,14 @@
             answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
         }
 
-        // Initialize
+        // The three selects were never wired to anything: filterAndDisplayTours()
+        // ran only at load and from Clear Filters, so changing a dropdown did
+        // nothing. Wiring them is what makes the region filter reachable at all.
+        ['location-filter', 'duration-filter', 'price-filter'].forEach(function (id) {
+            var el = document.getElementById(id);
+            if (el) el.addEventListener('change', filterAndDisplayTours);
+        });
+
         loadToursData();
     </script>
 </body>
