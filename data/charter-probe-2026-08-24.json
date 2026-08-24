@@ -1,0 +1,8103 @@
+{
+ "dates": [
+  "2026-08-25",
+  "2026-08-26",
+  "2026-08-27",
+  "2026-08-28",
+  "2026-08-29",
+  "2026-08-30",
+  "2026-08-31",
+  "2026-09-01",
+  "2026-09-02",
+  "2026-09-03",
+  "2026-09-04",
+  "2026-09-05",
+  "2026-09-06",
+  "2026-09-07",
+  "2026-09-24",
+  "2026-10-24",
+  "2026-11-23"
+ ],
+ "anchor": "2026-08-25",
+ "min_valid": 3,
+ "control": {
+  "shortname": "definitely-not-a-real-fh-shortname-zzz",
+  "code": 400,
+  "falsifiable": true
+ },
+ "obs": {
+  "460041": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T10:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T10:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T10:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T10:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 50000,
+    "high": 50000
+   },
+   "2026-08-29": {
+    "status": "FALLBACK",
+    "start_at": "2026-08-30T14:30:00",
+    "requested": "2026-08-29",
+    "date_valid": false,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T14:30:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T10:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T10:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T10:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T10:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T14:30:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 50000,
+    "high": 50000
+   },
+   "2026-09-05": {
+    "status": "FALLBACK",
+    "start_at": "2026-09-07T10:00:00",
+    "requested": "2026-09-05",
+    "date_valid": false,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-09-06": {
+    "status": "FALLBACK",
+    "start_at": "2026-09-07T10:00:00",
+    "requested": "2026-09-06",
+    "date_valid": false,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T10:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T10:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 350.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 35000,
+    "high": 35000
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T10:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       673401,
+       "Private Charter",
+       "",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 673401,
+      "dollars": 500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 50000,
+    "high": 50000
+   },
+   "2026-11-23": {
+    "status": "UNSAMPLED"
+   }
+  },
+  "653431": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T07:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T07:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T07:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T07:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T07:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-30": {
+    "status": "FALLBACK",
+    "start_at": "2026-08-31T07:00:00",
+    "requested": "2026-08-30",
+    "date_valid": false,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T07:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T07:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T07:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T07:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-04": {
+    "status": "FALLBACK",
+    "start_at": "2026-09-05T07:00:00",
+    "requested": "2026-09-04",
+    "date_valid": false,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T07:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T07:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T07:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T07:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T07:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T07:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   }
+  },
+  "653433": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T07:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T07:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T07:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T07:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T07:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-30": {
+    "status": "FALLBACK",
+    "start_at": "2026-08-31T07:00:00",
+    "requested": "2026-08-30",
+    "date_valid": false,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T07:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T07:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T07:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T07:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-04": {
+    "status": "FALLBACK",
+    "start_at": "2026-09-05T07:00:00",
+    "requested": "2026-09-04",
+    "date_valid": false,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T07:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T07:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T07:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T07:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T07:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T07:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       577666,
+       "Private Charter",
+       "18+ to Book \u2022 All Ages Welcome Aboard",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "18+ to Book \u2022 All Ages Welcome Aboard",
+      "min_party_size": 1,
+      "tier_id": 577666,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   }
+  },
+  "104492": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T07:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T07:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T07:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T13:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T07:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T07:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T07:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T07:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T07:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T13:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T07:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T07:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T07:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T07:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T07:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T13:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T07:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       221008,
+       "Half Day Private Charter",
+       "4 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Half Day Private Charter",
+      "note": "4 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221008,
+      "dollars": 1050.0
+     },
+     {
+      "key": [
+       221009,
+       "3/4 Day Private Charter",
+       "6 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "3/4 Day Private Charter",
+      "note": "6 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221009,
+      "dollars": 1350.0
+     },
+     {
+      "key": [
+       221010,
+       "Full Day Private Charter",
+       "8 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "Full Day Private Charter",
+      "note": "8 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 221010,
+      "dollars": 1550.0
+     },
+     {
+      "key": [
+       259730,
+       "10 Hour Charter",
+       "10 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "10 Hour Charter",
+      "note": "10 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259730,
+      "dollars": 1750.0
+     },
+     {
+      "key": [
+       259731,
+       "12 Hour Charter",
+       "12 Hours | Price Includes up to 6 People | All Ages",
+       1
+      ],
+      "singular": "12 Hour Charter",
+      "note": "12 Hours | Price Includes up to 6 People | All Ages",
+      "min_party_size": 1,
+      "tier_id": 259731,
+      "dollars": 1950.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 105000,
+    "high": 195000
+   }
+  },
+  "613369": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T14:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T06:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T06:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T06:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T06:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T06:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T06:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T06:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T06:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T06:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T06:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T06:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T06:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T06:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T06:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T06:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 1500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 150000,
+    "high": 150000
+   },
+   "2026-11-23": {
+    "status": "UNSAMPLED"
+   }
+  },
+  "613373": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T14:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T06:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T06:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T06:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T06:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T06:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T06:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T06:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T06:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T06:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T06:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T06:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T06:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T06:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T06:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T06:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 200000,
+    "high": 200000
+   },
+   "2026-11-23": {
+    "status": "UNSAMPLED"
+   }
+  },
+  "613379": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T14:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T06:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T06:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T06:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T06:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T06:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T06:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T06:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T06:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T06:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T06:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T06:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T06:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T06:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T06:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 2500.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 250000,
+    "high": 250000
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T06:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [],
+    "zero_tiers": [
+     [
+      1080293,
+      "Private Charter",
+      "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      1
+     ]
+    ],
+    "low": 0,
+    "high": 0
+   },
+   "2026-11-23": {
+    "status": "UNSAMPLED"
+   }
+  },
+  "613382": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T14:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T06:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T06:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T06:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T06:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T06:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T06:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T06:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T06:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T06:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T06:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T06:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T06:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T06:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T06:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       1080293,
+       "Private Charter",
+       "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      "min_party_size": 1,
+      "tier_id": 1080293,
+      "dollars": 3000.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 300000,
+    "high": 300000
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T06:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [],
+    "zero_tiers": [
+     [
+      1080293,
+      "Private Charter",
+      "Base price includes 6 people \u2022\u00a0Up to 18 people total",
+      1
+     ]
+    ],
+    "low": 0,
+    "high": 0
+   },
+   "2026-11-23": {
+    "status": "UNSAMPLED"
+   }
+  },
+  "532164": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T08:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T08:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T08:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T08:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T08:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T08:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T08:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T08:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T08:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T14:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T08:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T08:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T08:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T08:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T08:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T08:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T08:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1295.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   }
+  },
+  "532224": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T08:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T08:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T08:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T08:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T08:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T08:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T08:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T08:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T08:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T14:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T08:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T08:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T08:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T08:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T08:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T08:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T08:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   }
+  },
+  "532226": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T08:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T08:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T08:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T08:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T08:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T08:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T08:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T08:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T08:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T14:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T08:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T08:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T08:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T08:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T08:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T08:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T08:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       946200,
+       "Private Charter",
+       "Up to 8 People.",
+       1
+      ],
+      "singular": "Private Charter",
+      "note": "Up to 8 People.",
+      "min_party_size": 1,
+      "tier_id": 946200,
+      "dollars": 1195.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 119500,
+    "high": null
+   }
+  },
+  "541394": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T06:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T06:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T06:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T06:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T06:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T06:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T06:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T06:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T06:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T14:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T06:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T06:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T06:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T06:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T06:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T06:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T06:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       961265,
+       "Half-Day Charter",
+       "4 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Half-Day Charter",
+      "note": "4 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961265,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       961266,
+       "3/4 - Day Charter",
+       "6 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "3/4 - Day Charter",
+      "note": "6 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961266,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       961267,
+       "Full-Day Charter",
+       "8 hours | Max of 6 Passenger",
+       1
+      ],
+      "singular": "Full-Day Charter",
+      "note": "8 hours | Max of 6 Passenger",
+      "min_party_size": 1,
+      "tier_id": 961267,
+      "dollars": 1795.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   }
+  },
+  "554262": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T08:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T08:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T08:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T08:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T08:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T08:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T08:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T08:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T08:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T08:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T08:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T08:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T08:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T08:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T08:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T08:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T08:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1395.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1595.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1895.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 139500,
+    "high": null
+   }
+  },
+  "563185": {
+   "2026-08-25": {
+    "status": "OK",
+    "start_at": "2026-08-25T08:00:00",
+    "requested": "2026-08-25",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-26": {
+    "status": "OK",
+    "start_at": "2026-08-26T08:00:00",
+    "requested": "2026-08-26",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-27": {
+    "status": "OK",
+    "start_at": "2026-08-27T08:00:00",
+    "requested": "2026-08-27",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-28": {
+    "status": "OK",
+    "start_at": "2026-08-28T08:00:00",
+    "requested": "2026-08-28",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-29": {
+    "status": "OK",
+    "start_at": "2026-08-29T08:00:00",
+    "requested": "2026-08-29",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-30": {
+    "status": "OK",
+    "start_at": "2026-08-30T08:00:00",
+    "requested": "2026-08-30",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-08-31": {
+    "status": "OK",
+    "start_at": "2026-08-31T08:00:00",
+    "requested": "2026-08-31",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-01": {
+    "status": "OK",
+    "start_at": "2026-09-01T08:00:00",
+    "requested": "2026-09-01",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-02": {
+    "status": "OK",
+    "start_at": "2026-09-02T08:00:00",
+    "requested": "2026-09-02",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-03": {
+    "status": "OK",
+    "start_at": "2026-09-03T08:00:00",
+    "requested": "2026-09-03",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-04": {
+    "status": "OK",
+    "start_at": "2026-09-04T08:00:00",
+    "requested": "2026-09-04",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-05": {
+    "status": "OK",
+    "start_at": "2026-09-05T08:00:00",
+    "requested": "2026-09-05",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-06": {
+    "status": "OK",
+    "start_at": "2026-09-06T08:00:00",
+    "requested": "2026-09-06",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-07": {
+    "status": "OK",
+    "start_at": "2026-09-07T08:00:00",
+    "requested": "2026-09-07",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-09-24": {
+    "status": "OK",
+    "start_at": "2026-09-24T08:00:00",
+    "requested": "2026-09-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-10-24": {
+    "status": "OK",
+    "start_at": "2026-10-24T08:00:00",
+    "requested": "2026-10-24",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   },
+   "2026-11-23": {
+    "status": "OK",
+    "start_at": "2026-11-23T08:00:00",
+    "requested": "2026-11-23",
+    "date_valid": true,
+    "tiers": [
+     {
+      "key": [
+       973441,
+       "6 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "6 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973441,
+      "dollars": 1295.0
+     },
+     {
+      "key": [
+       973442,
+       "8 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "8 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973442,
+      "dollars": 1445.0
+     },
+     {
+      "key": [
+       973443,
+       "10 Hour Private Charter",
+       "",
+       1
+      ],
+      "singular": "10 Hour Private Charter",
+      "note": "",
+      "min_party_size": 1,
+      "tier_id": 973443,
+      "dollars": 1670.0
+     }
+    ],
+    "zero_tiers": [],
+    "low": 129500,
+    "high": null
+   }
+  }
+ },
+ "http": {
+  "460041": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "653431": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "653433": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "104492": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "613369": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "613373": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "613379": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "613382": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "532164": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "532224": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "532226": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "541394": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "554262": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  },
+  "563185": {
+   "2026-08-25": 200,
+   "2026-08-26": 200,
+   "2026-08-27": 200,
+   "2026-08-28": 200,
+   "2026-08-29": 200,
+   "2026-08-30": 200,
+   "2026-08-31": 200,
+   "2026-09-01": 200,
+   "2026-09-02": 200,
+   "2026-09-03": 200,
+   "2026-09-04": 200,
+   "2026-09-05": 200,
+   "2026-09-06": 200,
+   "2026-09-07": 200,
+   "2026-09-24": 200,
+   "2026-10-24": 200,
+   "2026-11-23": 200
+  }
+ }
+}
