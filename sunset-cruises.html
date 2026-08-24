@@ -71,22 +71,33 @@
 </head>
 <body>
     <!-- HEADER & NAV -->
-    <header class="header">
-        <div class="container">
-            <a href="/" class="logo">
-                <img src="logo.png" alt="Florida Sandbar Tours" class="logo-img">
-            </a>
-            <nav class="nav">
-                <a href="/">Home</a>
+        <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="logo.png" alt="Florida Sandbar Tours" class="logo-img">
+                </a>
+            </div>
+            <nav class="nav-desktop">
                 <a href="/#tours-section">Tours</a>
-                <a href="about.html">About</a>
-                <a href="faq.html">FAQ</a>
+                <a href="/about.html">About</a>
+                <a href="/faq.html">FAQs</a>
+                <a href="/blog/">Blog</a>
             </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
+            <a href="/about.html">About</a>
+            <a href="/faq.html">FAQs</a>
+            <a href="/blog/">Blog</a>
+        </nav>
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero-section hero-photo" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)), url('/assets/heroes/sunset-cruises.jpg'); padding: 80px 0;" role="img" aria-label="Sailboat at sunset on the ocean horizon in Key West, Florida">
+    <section class="hero-section hero-photo" style="background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.25)), url('/assets/heroes/sunset-cruises.jpg');" role="img" aria-label="Sailboat at sunset on the ocean horizon in Key West, Florida">
         <div class="container">
             <div style="max-width: 800px; margin: 0 auto; text-align: center;">
                 <h1 style="font-size: 3rem; color: white; font-weight: 700; margin-bottom: 20px;">Tampa Bay Sunset Cruises</h1>
@@ -216,7 +227,7 @@
                     <a href="/" class="logo">
                         <img src="/images/footer-badge.png" alt="Florida Sandbar Tours" class="footer-logo-img">
                     </a>
-                    <p>Your guide to 721 Florida adventures. Verified local operators, direct booking.</p>
+                    <p>Your guide to Florida adventures. Verified local operators, direct booking.</p>
                     <p class="footer-tagline">See you on the water 🌴</p>
                 </div>
 

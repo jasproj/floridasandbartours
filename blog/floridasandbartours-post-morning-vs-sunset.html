@@ -23,7 +23,7 @@ body{background:#0d1b2a;color:#cdd9e5;font-family:-apple-system,BlinkMacSystemFo
    140px clears it with ~15px of margin rather than matching the measured
    height exactly, so a small future change to the header's content
    doesn't silently reopen the H1-occlusion this compensates for. */
-.wrap{max-width:780px;margin:0 auto;padding:140px 16px 60px}
+.wrap{max-width:780px;margin:0 auto;padding:40px 16px 60px}
 h1{font-size:clamp(1.6rem,5vw,2.2rem);color:#F5B84C;line-height:1.25;margin-bottom:12px;font-weight:800}
 h2{font-size:1.35rem;color:#F5B84C;margin:36px 0 14px;font-weight:700}
 h3{font-size:1.1rem;color:#fff;margin:20px 0 8px;font-weight:600}
@@ -74,32 +74,30 @@ details div{padding:0 18px 16px;font-size:0.93rem;color:#aec6cf;line-height:1.7}
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
-<header class="header">
-    <div class="header-container">
-        <div class="logo-group">
-            <a href="/" class="logo">
-                <img src="/logo.png" alt="Florida Sandbar Tours" class="logo-img">
-                <span class="logo-text">Florida Sandbar Tours</span>
-            </a>
-            <span class="logo-tagline">Tours Discovery Platform</span>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <img src="../logo.png" alt="Florida Sandbar Tours" class="logo-img">
+                </a>
+            </div>
+            <nav class="nav-desktop">
+                <a href="/#tours-section">Tours</a>
+                <a href="../about.html">About</a>
+                <a href="../faq.html">FAQs</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
         </div>
-        <nav class="nav-desktop">
-            <a href="/">Home</a>
-            <a href="/">Tours</a>
-            <a href="/blog/">Blog</a>
+        <nav class="nav-mobile">
+            <a href="/#tours-section">Tours</a>
             <a href="../about.html">About</a>
+            <a href="../faq.html">FAQs</a>
+            <a href="/blog/">Blog</a>
         </nav>
-        <button class="mobile-menu-btn" aria-label="Menu">
-            <span></span><span></span><span></span>
-        </button>
-    </div>
-    <nav class="nav-mobile">
-        <a href="/">Home</a>
-        <a href="/">Tours</a>
-        <a href="/blog/">Blog</a>
-        <a href="../about.html">About</a>
-    </nav>
-</header>
+    </header>
 <article class="wrap">
 <p class="meta">FloridaSandbarTours &nbsp;*&nbsp; Booking Guide</p>
 <h1>Morning vs Sunset Sandbar Tours Florida: Which Is Better?</h1>
@@ -141,7 +139,7 @@ d.addEventListener('toggle',function(){if(i)i.textContent=d.open?'minus':'plus';
                     <a href="/" class="logo">
                         <img src="/images/footer-badge.png" alt="Florida Sandbar Tours" class="footer-logo-img">
                     </a>
-                    <p>Your guide to 721 Florida adventures. Verified local operators, direct booking.</p>
+                    <p>Your guide to Florida adventures. Verified local operators, direct booking.</p>
                     <p class="footer-tagline">See you on the water 🌴</p>
                 </div>
 
