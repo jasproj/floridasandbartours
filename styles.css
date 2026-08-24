@@ -34,6 +34,12 @@
     --font-brand: 'Fredoka', 'Outfit', -apple-system, sans-serif;
     --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     
+    /* Layout: rendered height of the sticky header. Used ONLY for the hero
+       height calc and anchor-scroll landing -- never to clear the header.
+       Clearance comes from the header being in flow (position: sticky), so a
+       stale value here is cosmetic and can never occlude page text. */
+    --header-h: 123px;
+    
     /* Spacing */
     --space-xs: 0.25rem;
     --space-sm: 0.5rem;
@@ -61,7 +67,7 @@
 
 /* RESET */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; scroll-padding-top: var(--header-h); }
 body { font-family: var(--font-body); font-size: 16px; line-height: 1.6; color: var(--gray-800); background: #E0F7FA; overflow-x: hidden; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: none; transition: color var(--transition-fast); }
@@ -73,10 +79,8 @@ ul, ol { list-style: none; }
    HEADER - CONSISTENT LOGO
    ============================================ */
 .header {
-    position: fixed;
+    position: sticky;
     top: 0;
-    left: 0;
-    right: 0;
     z-index: 1000;
     background: #FDF5E6;
     border-bottom: 1px solid #E8DFD0;
@@ -270,7 +274,7 @@ ul, ol { list-style: none; }
    ============================================ */
 .hero {
     position: relative;
-    min-height: 100svh;
+    min-height: calc(100svh - var(--header-h));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -313,6 +317,9 @@ ul, ol { list-style: none; }
     align-items: center;
 }
 @media (max-width: 768px) {
+    :root { --header-h: 103px; }
+}
+@media (max-width: 768px) {
     .hero-section.hero-photo {
         min-height: 90px;
         /* max-height: 120px removed — retired ≤120px spec (superseded
@@ -322,16 +329,7 @@ ul, ol { list-style: none; }
            2-line title (private-charters.html) to overflow its own top
            edge. min-height stays as the floor, matching the two
            templates that use one. */
-        padding: 8px 16px !important;
-        /* .header is position:fixed and renders at 97px tall on this
-           template (measured; it differs from the site's other header
-           markup variant). Without this, the fixed header sits on top of
-           the hero regardless of the hero's own height, hiding the H1
-           entirely. Matches the margin-top mechanism already used by
-           .blog-hero for the same reason, with the value this template's
-           own header actually measures at. */
-        margin-top: 97px;
-    }
+        padding: 8px 16px !important;    }
     .hero-section.hero-photo h1 { font-size: 1.1rem !important; margin-bottom: 4px !important; }
     .hero-section.hero-photo p  { display: none !important; }
     .hero-section.hero-photo a,
@@ -427,6 +425,16 @@ ul, ol { list-style: none; }
     color: var(--ocean-light);
     margin-bottom: var(--space-md);
     font-weight: 600;
+}
+
+/* The homepage had no <h1> at all -- its first heading was an <h2>. The hero
+   logo IS the page title, so it carries the h1 and the alt text is the heading
+   text. Zeroed here so wrapping the <picture> changes no pixel. */
+.hero-h1 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: 0;
 }
 
 .hero-logo {
@@ -1786,26 +1794,6 @@ ul, ol { list-style: none; }
     opacity: 1;
 }
 
-/* Adjust header position when banner is visible */
-body:has(.promo-banner:not([style*="display: none"])) .header {
-    top: 44px;
-}
-
-body:has(.promo-banner:not([style*="display: none"])) .hero {
-    padding-top: calc(80px + 44px);
-}
-
-/* When banner is closed, reset positions */
-body.banner-closed .header,
-body:has(.promo-banner[style*="display: none"]) .header {
-    top: 0;
-}
-
-body.banner-closed .hero,
-body:has(.promo-banner[style*="display: none"]) .hero {
-    padding-top: 80px;
-}
-
 /* ===================
    2. EXPLORE BY AREA CARDS
    =================== */
@@ -2032,25 +2020,7 @@ body:has(.promo-banner[style*="display: none"]) .hero {
         display: block;
         margin: 8px auto 0;
     }
-    
-    body:has(.promo-banner:not([style*="display: none"])) .header {
-        top: 60px;
-    }
-    
-    body:has(.promo-banner:not([style*="display: none"])) .hero {
-        padding-top: calc(80px + 60px);
-    }
-    
-    body.banner-closed .header,
-    body:has(.promo-banner[style*="display: none"]) .header {
-        top: 0;
-    }
-    
-    body.banner-closed .hero,
-    body:has(.promo-banner[style*="display: none"]) .hero {
-        padding-top: 80px;
-    }
-    
+        
     .area-cards {
         grid-template-columns: 1fr;
         padding: 0 20px;
@@ -2365,41 +2335,9 @@ body:has(.promo-banner[style*="display: none"]) .hero {
    because nothing anywhere set a height or aspect-ratio on this element. */
 img.blog-featured-image { width: 100%; max-width: 100%; aspect-ratio: 16 / 9; object-fit: cover; margin: 12px 0; border-radius: 8px; }
 
-/* Blog post header banner (breadcrumb + h1 + featured image + meta). Same
-   specificity trick as above -- div.blog-header is (0,1,1) and wins over the
-   page-local .blog-header at (0,1,0) on 43 posts without editing any of them.
-
-   The top value is header clearance PLUS the banner's own spacing. .header is
-   position:fixed and measures exactly 123px at 1280 and 103px at 390 on all 43
-   pages that use this banner -- measured per page, not assumed. The 40px that
-   was here before is not a clearance value that failed; it is the banner's
-   authored internal spacing, and it still applies. So the value is 123+40=163
-   and 103+40=143, not 123 and 103. Replacing the 40 instead of adding to it
-   would clear the header and silently delete 40px of intended breathing room --
-   a regression that a `contentTop >= headerH` assertion passes. At the previous
-   40px the banner started at y=0 and the article h1 was completely hidden
-   behind the header at desktop.
-
-   padding, not margin: the banner paints its own navy gradient, so the box
-   still starts at y=0 and its top 163px sits behind the header. That is safe
-   only because .header is rgb(253,245,230) at alpha 1 on all 81 fixed-header
-   pages -- verified, not assumed. If the header ever becomes translucent this
-   must become margin-top, and the gradient would then need re-checking.
-   margin-top was rejected here because .blog-header is a direct child of
-   <body> with no padding or border above it, so the margin would collapse
-   through to body and only look correct while body's background happens to
-   match.
-
-   Literal px, deliberately not a --header-h variable: this repo has FOUR
-   header heights (123 / 144.19 / 116.59 / 145.39 at 1280) and one variable
-   would be wrong on three of them. Each clipped selector maps onto exactly
-   one height, so per-selector literals are the honest encoding. The
-   horizontal 20px and bottom 30px are unchanged and must stay -- this
-   shorthand carries real spacing, it is not clearance-only. */
-div.blog-header { padding: 163px 20px 30px; }
-@media (max-width: 768px) {
-    div.blog-header { padding: 143px 20px 30px; }
-}
+/* Blog post header banner. 40px is the banner's own authored spacing; the
+   header clears itself now that it is in flow, so no clearance is added. */
+div.blog-header { padding: 40px 20px 30px; }
 
 /* CTA panel text on blog posts. The page-local <style> block on 43 posts sets
    .cta-section { color: white } but also .blog-body p { color: #404040 } and
@@ -2471,96 +2409,7 @@ button.submit-btn { color: #0D1B2A; }
    reaches exactly the 132 tour-card prices and none of them. */
 .tour-card div.price { color: #A25C1D; }
 
-/* Article clearance on the two templates that already attempted it and came up
-   short. Both authored values are clearance attempts, not internal spacing, and
-   both were sized against the MOBILE header: the .blog-article comment in-page
-   records "measured a flat 120.34px" and "136px clears it with ~15px of margin".
-   That is right at 390 and wrong at 1280, where those same pages render a
-   144.188px header (.blog-article) and 145.391px (.wrap) because of the
-   .logo-text line and, for .wrap, a 17px root font-size.
 
-   So this is a desktop-only correction, scoped to min-width:769px. At 390 the
-   authored 136px and 140px already clear their headers with 15.66px and 15.30px
-   to spare and are deliberately left alone.
-
-   The values keep each template's own authored headroom rather than dropping to
-   the bare minimum -- the in-page comment says the ~15px exists so "a small
-   future header change doesn't silently reopen this", which is intent worth
-   preserving:
-       .blog-article  144.188 + 15.66 = 159.85 -> 160px
-       .wrap          145.391 + 15.30 = 160.69 -> 161px
-
-   padding-top, and it REPLACES rather than adds. Measured both ways via CSSOM
-   on the live pages: padding-top:160 gives contentTop 160; margin-top:160 gives
-   contentTop 296, because the authored 136px padding is still there underneath.
-   Where the authored value is itself the clearance attempt, replacement is the
-   fix; adding would double it.
-
-   header + X, not a bare class, because the blast radius is not the defect
-   population. article.blog-article matches 12 elements on 12 pages but only 5
-   are clipped; the other 7 sit below a full-viewport section.hero.hero-blog and
-   correctly carry padding-top:0. The adjacent-sibling combinator matches only
-   when nothing sits between the fixed header and the article, which IS the
-   defect condition -- self-limiting, with no page list to maintain. Measured:
-   5 of 5 clipped elements are the header's immediate next element sibling, and
-   0 of the 7 healthy ones are. article.wrap happens to be 5-of-5 either way;
-   it uses the same form for consistency and for the same guarantee. */
-@media (min-width: 769px) {
-    header + article.blog-article { padding-top: 160px; }
-    header + article.wrap         { padding-top: 161px; }
-}
-
-/* Standalone breadcrumb clearance. nav.breadcrumb is the first flow element on
-   7 blog posts and carries no top spacing at all -- padding-top 0, margin-top 0,
-   every side 0, no background. It rendered entirely behind the fixed header.
-
-   0 here is an OMISSION, not intent: this selector was never styled. 6 of the 7
-   pages have no .breadcrumb rule whatsoever and the 7th sets only font-size,
-   colour and margin-bottom. So there is no authored value to preserve and the
-   clearance simply replaces nothing -- the opposite of div.blog-header above,
-   where 40px was deliberate internal spacing and clearance had to be added to it.
-
-   Flush against the measured header, not header+headroom. These pages measure
-   144.188px at 1280 and 120.344px at 390, so 145/121 rounded up. Normalising the
-   breadcrumb to sit a deliberate gap below the header is a design pass, separate
-   from making it visible at all.
-
-   padding-top, though for once it makes no difference: with an authored 0 both
-   mechanisms land contentTop at exactly the same place (measured: padding-top
-   145 -> 145, margin-top 145 -> 145). padding-top is chosen because the element
-   is transparent, which is this file's rule elsewhere, and because it avoids
-   depending on margin-collapse behaviour through <body>.
-
-   nav.breadcrumb, element-qualified, needs no structural combinator: the blast
-   radius IS the defect population. 51 .breadcrumb elements exist site-wide --
-   44 are div.breadcrumb nested inside .blog-header and already cleared by the
-   div.blog-header rule above; all 7 nav.breadcrumb are top-level children of
-   <body> and all 7 are clipped. The element qualifier alone separates them
-   exactly, 7 of 7 and 0 of 44. */
-nav.breadcrumb { padding-top: 145px; }
-@media (max-width: 768px) {
-    nav.breadcrumb { padding-top: 121px; }
-}
-
-/* Fragment landing clearance. .header is position:fixed, so every in-page jump
-   -- 19 anchor elements across 8 pages plus 4 scrollIntoView call sites in
-   app.js -- put its target underneath the header. scroll-padding-top offsets
-   the scroll destination only; it changes no box at rest.
-
-   123px / 103px, not the site's tallest header. Every page that actually
-   contains a jump target id renders one of just TWO header heights: 123px on
-   index.html and advertise.html, 116.594px on the six hero-photo tour pages
-   (96.594px at 390). Nothing with a target sits on the 144.188px or 145.391px
-   variants, so sizing for those would over-clear every real target by 22-29px
-   to protect pages that have none. Taking the larger of the two that exist
-   over-clears the six tour pages by 6.4px, which is the right trade: an anchor
-   that lands slightly low is a much smaller fault than one that lands behind
-   the header.
-
-   Deliberately NOT a --header-h variable. This repo has four header heights;
-   one variable would be wrong on three of them. The two literals here are the
-   two heights that jump targets actually land on, measured per page. */
-html { scroll-padding-top: 123px; }
-@media (max-width: 768px) {
-    html { scroll-padding-top: 103px; }
-}
+/* Was unstyled (0) before clearance was stacked on it; normalised to the 40px
+   the sibling blog templates use rather than sitting flush under the header. */
+nav.breadcrumb { padding-top: 40px; }

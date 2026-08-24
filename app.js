@@ -852,7 +852,9 @@ window.handleEmailSubmit = handleEmailSubmit;
    only index.html still loads app.js at all after #125 and #126. So this array renders
    nowhere. The four unsupported price figures were removed anyway -- wrong numbers in
    unreachable code are a landmine the moment somebody adds the container. Whether to
-   delete the array outright is a separate call and is NOT made here. */
+   delete the array outright is a separate call and is NOT made here.
+   The tour figure is no longer a literal: it renders from allTours.length via
+   the {TOUR_COUNT} token, so it cannot go stale if the container ever lands. */
 const ALL_FAQS = [
     {
         question: "What are the best things to do in Florida?",
@@ -864,7 +866,7 @@ const ALL_FAQS = [
     },
     {
         question: "How do I book tours through Sandbar Tours?",
-        answer: "Browse tours, filter by area or activity, and click \"Book Now.\" You'll be connected directly with the tour operator's booking system. Most offer free cancellation 24-48 hours before your activity. We feature over 476 tours from verified local operators."
+        answer: "Browse tours, filter by area or activity, and click \"Book Now.\" You'll be connected directly with the tour operator's booking system. Most offer free cancellation 24-48 hours before your activity. We feature over {TOUR_COUNT} tours from verified local operators."
     },
     {
         question: "What's the best time to visit Florida?",
@@ -976,11 +978,16 @@ function initializeFAQs() {
     // Display 6 random FAQs
     const selectedFAQs = shuffled.slice(0, 6);
     
+    // {TOUR_COUNT} is substituted from the live pool at render, never stored as a
+    // literal: allTours is already CardFormat.drawable(...) and initApp() awaits
+    // loadTours() before calling this, so the figure is the same one the trust bar
+    // and the grid report. A hardcoded number here is what went stale last time.
+    const tourCount = allTours.length.toLocaleString('en-US');
     container.innerHTML = selectedFAQs.map(faq => `
         <details class="faq-item">
             <summary>${faq.question}</summary>
             <div class="faq-answer">
-                <p>${faq.answer}</p>
+                <p>${faq.answer.split('{TOUR_COUNT}').join(tourCount)}</p>
             </div>
         </details>
     `).join('');
