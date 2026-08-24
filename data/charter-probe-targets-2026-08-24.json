@@ -1,0 +1,100 @@
+[
+ {
+  "pk": 532164,
+  "sn": "sixfinscharter",
+  "name": "Tiki Bar Crawl by Water",
+  "storedPrice": 1295,
+  "durationText": "Duration\n4 Hour"
+ },
+ {
+  "pk": 532224,
+  "sn": "sixfinscharter",
+  "name": "Private Snorkel Adventure",
+  "storedPrice": 1195,
+  "durationText": "Duration\n4 Hour"
+ },
+ {
+  "pk": 532226,
+  "sn": "sixfinscharter",
+  "name": "Private Secret Local Sandbars Escape",
+  "storedPrice": 1195,
+  "durationText": "Duration\n4 Hour"
+ },
+ {
+  "pk": 541394,
+  "sn": "sixfinscharter",
+  "name": "Private Patch Reef Fishing",
+  "storedPrice": 1795,
+  "durationText": "4 hours"
+ },
+ {
+  "pk": 104492,
+  "sn": "keywestfishing-charters",
+  "name": "Cowgirl 45 Foot Hatteras",
+  "storedPrice": 1950,
+  "durationText": "10 Hour Charter"
+ },
+ {
+  "pk": 563185,
+  "sn": "sixfinscharter",
+  "name": "Private Clothing optional Charter",
+  "storedPrice": 1670,
+  "durationText": "Duration\n6 Hour"
+ },
+ {
+  "pk": 554262,
+  "sn": "sixfinscharter",
+  "name": "Private Bachelor and Bachelorette Parties",
+  "storedPrice": 1895,
+  "durationText": "Duration\n6 Hour"
+ },
+ {
+  "pk": 460041,
+  "sn": "destinprivateyachts",
+  "name": "Tiki Adventure to Crab Island \u2022 6 people \u2022 Lil' Kahuna",
+  "storedPrice": 350,
+  "durationText": ""
+ },
+ {
+  "pk": 653431,
+  "sn": "goodhitsportfishing",
+  "name": "Six Hour Private Charter on The Good Hit Flagship",
+  "storedPrice": 2000,
+  "durationText": "Duration\n6 hour"
+ },
+ {
+  "pk": 653433,
+  "sn": "goodhitsportfishing",
+  "name": "Eight Hour Private Charter on The Good Hit Flagship",
+  "storedPrice": 3000,
+  "durationText": "Duration\n8 hour"
+ },
+ {
+  "pk": 613379,
+  "sn": "killentimecharters",
+  "name": "10 Hour Trip",
+  "storedPrice": 2300,
+  "durationText": "Duration\n10 Hour"
+ },
+ {
+  "pk": 613369,
+  "sn": "killentimecharters",
+  "name": "6 Hour Trip",
+  "storedPrice": 1200,
+  "durationText": "Duration\n6 Hour"
+ },
+ {
+  "pk": 613373,
+  "sn": "killentimecharters",
+  "name": "8 Hour Trip",
+  "storedPrice": 1800,
+  "durationText": "Duration\n8 Hour"
+ },
+ {
+  "pk": 613382,
+  "sn": "killentimecharters",
+  "name": "12 Hour Trip",
+  "storedPrice": 2700,
+  "durationText": "Duration\n12 Hour"
+ }
+]
