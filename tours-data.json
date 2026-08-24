@@ -1768,7 +1768,7 @@
       "island": "united states/florida/stock island",
       "price": 1395,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "240 minutes",
@@ -1795,7 +1795,14 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 240
+        "durationMinutes": 240,
+        "priceSource": "scripts/apply-charter-residue.py <- data/charter-probe-2026-08-24.json (FareHarbor price-preview per-item v2, include_breakdown=yes, 17 dates, date-validity gated)",
+        "priceBasis": "D-600 class (b): durationText '4 hours' names the floor tier; #149 corrected the $1,795 Full-Day ceiling to this floor. Tier 'Half-Day Charter' (4 hours | Max of 6 Passenger) $1,395, identical on all 17 date-valid quoting readings.",
+        "boatTiers": [
+          "Half-Day Charter $1,395 (4 hours | Max of 6 Passenger)",
+          "3/4 - Day Charter $1,595 (6 hours | Max of 6 Passenger)",
+          "Full-Day Charter $1,795 (8 hours | Max of 6 Passenger)"
+        ]
       }
     },
     {
@@ -1893,7 +1900,7 @@
       "island": "united states/florida/key west",
       "price": 1750,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 85,
       "currency": "USD",
       "duration": "600 minutes",
@@ -1920,7 +1927,16 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 600
+        "durationMinutes": 600,
+        "priceSource": "scripts/apply-charter-residue.py <- data/charter-probe-2026-08-24.json (FareHarbor price-preview per-item v2, include_breakdown=yes, 17 dates, date-validity gated)",
+        "priceBasis": "D-600 class (d)/D-601: durationText '10 Hour Charter' names this middle tier; #149 corrected the $1,950 12 Hour ceiling to it, not to the $1,050 floor. Tier '10 Hour Charter' (10 Hours | Price Includes up to 6 People | All Ages) $1,750, identical on all 17 date-valid quoting readings.",
+        "boatTiers": [
+          "Half Day Private Charter $1,050 (4 Hours | Price Includes up to 6 People | All Ages)",
+          "3/4 Day Private Charter $1,350 (6 Hours | Price Includes up to 6 People | All Ages)",
+          "Full Day Private Charter $1,550 (8 Hours | Price Includes up to 6 People | All Ages)",
+          "10 Hour Charter $1,750 (10 Hours | Price Includes up to 6 People | All Ages)",
+          "12 Hour Charter $1,950 (12 Hours | Price Includes up to 6 People | All Ages)"
+        ]
       }
     },
     {
@@ -2884,7 +2900,7 @@
       "island": "united states/florida/stock island",
       "price": 1295,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "360 minutes",
@@ -2911,7 +2927,14 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "priceSource": "scripts/apply-charter-residue.py <- data/charter-probe-2026-08-24.json (FareHarbor price-preview per-item v2, include_breakdown=yes, 17 dates, date-validity gated)",
+        "priceBasis": "D-600 class (b): durationText '6 Hour' names the floor tier; #149 corrected the $1,670 10 Hour ceiling to this floor. Tier '6 Hour Private Charter' $1,295, identical on all 17 date-valid quoting readings.",
+        "boatTiers": [
+          "6 Hour Private Charter $1,295",
+          "8 Hour Private Charter $1,445",
+          "10 Hour Private Charter $1,670"
+        ]
       }
     },
     {
@@ -3637,7 +3660,7 @@
       "island": "united states/florida/stock island",
       "price": 1395,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "360 minutes",
@@ -3664,7 +3687,14 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "priceSource": "scripts/apply-charter-residue.py <- data/charter-probe-2026-08-24.json (FareHarbor price-preview per-item v2, include_breakdown=yes, 17 dates, date-validity gated)",
+        "priceBasis": "D-600 class (b): durationText '6 Hour' names the floor tier; #149 corrected the $1,895 10 Hour ceiling to this floor. Tier '6 Hour Private Charter' $1,395, identical on all 17 date-valid quoting readings.",
+        "boatTiers": [
+          "6 Hour Private Charter $1,395",
+          "8 Hour Private Charter $1,595",
+          "10 Hour Private Charter $1,895"
+        ]
       }
     },
     {
@@ -15420,9 +15450,9 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 2300,
+      "price": 2500,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "600 minutes",
@@ -15449,7 +15479,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 600
+        "durationMinutes": 600,
+        "priceSource": "scripts/apply-charter-residue.py <- data/charter-probe-2026-08-24.json (FareHarbor price-preview per-item v2, include_breakdown=yes, 17 dates, date-validity gated)",
+        "priceBasis": "stale-single-tier: one live tier, stored $2,300 equals neither endpoint; repriced to the live tier; a $0 'Private Charter' echo was discarded (D-575). Tier 'Private Charter' (Base price includes 6 people • Up to 18 people total) $2,500, identical on all 15 date-valid quoting readings; 1 date-valid reading(s) carried only a $0 echo, discarded (D-575).",
+        "boatTiers": [
+          "Private Charter $2,500 (Base price includes 6 people • Up to 18 people total)"
+        ]
       }
     },
     {
@@ -16256,9 +16291,9 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 1200,
+      "price": 1500,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "360 minutes",
@@ -16285,7 +16320,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 360
+        "durationMinutes": 360,
+        "priceSource": "scripts/apply-charter-residue.py <- data/charter-probe-2026-08-24.json (FareHarbor price-preview per-item v2, include_breakdown=yes, 17 dates, date-validity gated)",
+        "priceBasis": "stale-single-tier: one live tier, stored $1,200 equals neither endpoint; repriced to the live tier. Tier 'Private Charter' (Base price includes 6 people • Up to 18 people total) $1,500, identical on all 16 date-valid quoting readings.",
+        "boatTiers": [
+          "Private Charter $1,500 (Base price includes 6 people • Up to 18 people total)"
+        ]
       }
     },
     {
@@ -16297,9 +16337,9 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 1800,
+      "price": 2000,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "480 minutes",
@@ -16326,7 +16366,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 480
+        "durationMinutes": 480,
+        "priceSource": "scripts/apply-charter-residue.py <- data/charter-probe-2026-08-24.json (FareHarbor price-preview per-item v2, include_breakdown=yes, 17 dates, date-validity gated)",
+        "priceBasis": "stale-single-tier: one live tier, stored $1,800 equals neither endpoint; repriced to the live tier. Tier 'Private Charter' (Base price includes 6 people • Up to 18 people total) $2,000, identical on all 16 date-valid quoting readings.",
+        "boatTiers": [
+          "Private Charter $2,000 (Base price includes 6 people • Up to 18 people total)"
+        ]
       }
     },
     {
@@ -16338,9 +16383,9 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 2700,
+      "price": 3000,
       "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceConfidence": "high",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "720 minutes",
@@ -16367,7 +16412,12 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 720
+        "durationMinutes": 720,
+        "priceSource": "scripts/apply-charter-residue.py <- data/charter-probe-2026-08-24.json (FareHarbor price-preview per-item v2, include_breakdown=yes, 17 dates, date-validity gated)",
+        "priceBasis": "stale-single-tier: one live tier, stored $2,700 equals neither endpoint; repriced to the live tier; a $0 'Private Charter' echo was discarded (D-575). Tier 'Private Charter' (Base price includes 6 people • Up to 18 people total) $3,000, identical on all 15 date-valid quoting readings; 1 date-valid reading(s) carried only a $0 echo, discarded (D-575).",
+        "boatTiers": [
+          "Private Charter $3,000 (Base price includes 6 people • Up to 18 people total)"
+        ]
       }
     },
     {
