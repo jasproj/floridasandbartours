@@ -1,0 +1,235 @@
+{
+ "startedAt": "2026-08-26T14:01:10.295442+00:00",
+ "shortname": "sixfinscharter",
+ "pks": [
+  532164,
+  532224,
+  532226
+ ],
+ "dates": [
+  "2026-08-31",
+  "2026-09-14",
+  "2026-09-28",
+  "2026-10-19"
+ ],
+ "perPk": {
+  "532164": {
+   "probes": [
+    {
+     "date": "2026-08-31",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-08-31T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 129500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-09-14",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-09-14T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 129500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-09-28T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 129500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-10-19",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-10-19T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 129500,
+       "min": 1
+      }
+     ]
+    }
+   ]
+  },
+  "532224": {
+   "probes": [
+    {
+     "date": "2026-08-31",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-08-31T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 119500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-09-14",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-09-14T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 119500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-09-28T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 119500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-10-19",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-10-19T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 119500,
+       "min": 1
+      }
+     ]
+    }
+   ]
+  },
+  "532226": {
+   "probes": [
+    {
+     "date": "2026-08-31",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-08-31T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 119500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-09-14",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-09-14T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 119500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-09-28",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-09-28T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 119500,
+       "min": 1
+      }
+     ]
+    },
+    {
+     "date": "2026-10-19",
+     "error": null,
+     "absent": false,
+     "liveCurrency": "USD",
+     "start_at": "2026-10-19T08:00:00",
+     "dateValid": true,
+     "tiers": [
+      {
+       "id": 946200,
+       "singular": "Private Charter",
+       "note": "Up to 8 People.",
+       "priceCents": 119500,
+       "min": 1
+      }
+     ]
+    }
+   ]
+  }
+ },
+ "requests": 4,
+ "finishedAt": "2026-08-26T14:01:28.166169+00:00"
+}
