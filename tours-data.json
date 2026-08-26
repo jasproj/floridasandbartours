@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.8",
-  "lastNormalized": "2026-08-22",
+  "lastNormalized": "2026-08-26",
   "tours": [
     {
       "id": "44195",
@@ -204494,6 +204494,4527 @@
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "locationDiffersFromExport": "Holmes Beach",
         "imageAbsent": "no image_url"
+      }
+    },
+    {
+      "id": "31348",
+      "pk": 31348,
+      "name": "Classic Manatee Swim Tour",
+      "company": "Fun2Dive Charters",
+      "bookingUrl": "https://fareharbor.com/embeds/book/fun2dive/items/31348/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Crystal River",
+      "island": "united states/florida/crystal river",
+      "price": 75.95,
+      "priceLabel": "$75.95 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 84,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Snorkel"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Participant",
+            "note": "All snorkeling gear and wetsuit is provided at no additional charge! Must be at least 3 years old.",
+            "price": 75.95,
+            "minPartySize": 2
+          },
+          {
+            "name": "Ride Only Passenger",
+            "note": "Ride Along Only - No Swimming with the Manatees. Must be at least 3 years old.",
+            "price": 50.95,
+            "minPartySize": 2
+          },
+          {
+            "name": "Private Tour",
+            "note": "For 12 People or less of any age to include infants.",
+            "price": 760,
+            "minPartySize": 2
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 2,
+        "minimumSpend": 151.9,
+        "priceBasis": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Ride Only Passenger\" $50.95 (a non-swimming ride-along variant) because it matched BASE_HEAD, not the rider/ride-along exclusion (which only fullmatches \"rider\"/\"ride-along\"/\"passenger only\"/\"non-diver\"); the true participant tier is \"Participant\" $75.95: \"Participant\" $75.95 (note \"All snorkeling gear and wetsuit is provided at no additional charge! Must be at least 3 years old.\"), unit per-person; not anchoring: Ride Only Passenger $50.95 [base], Private Tour $760 [group] [manual override: engine anchor was Ride Only Passenger $50.95]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "32629",
+      "pk": 32629,
+      "name": "1 Hour Adventure",
+      "company": "Cypress Outdoor Adventures",
+      "bookingUrl": "https://fareharbor.com/embeds/book/privateairboattour/items/32629/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Tamarac",
+      "island": "united states/florida/tamarac",
+      "price": 325,
+      "priceLabel": "$325 per unit",
+      "priceConfidence": "verified-whole-unit",
+      "qualityScore": 80,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Airboat"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Two People (Base Price)",
+            "note": "Base price includes 2 people",
+            "price": 325,
+            "minPartySize": 1
+          },
+          {
+            "name": "Extra Adult",
+            "note": "12+",
+            "price": 50,
+            "minPartySize": 1
+          },
+          {
+            "name": "Extra Child",
+            "note": "Under 12",
+            "price": 25,
+            "minPartySize": 1
+          },
+          {
+            "name": "1.0 hour of Additional Fish Gigging",
+            "note": "",
+            "price": 200,
+            "minPartySize": 1
+          },
+          {
+            "name": "2.0 hours of Additional Fish Gigging",
+            "note": "",
+            "price": 400,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-unit",
+        "priceKind": "per unit",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat floor: \"Two People (Base Price)\" $325 (note \"Base price includes 2 people\"), unit per-unit; not anchoring: Extra Adult $50 [never], Extra Child $25 [never], 1.0 hour of Additional Fish Gigging $200 [never], 2.0 hours of Additional Fish Gigging $400 [never]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "109966",
+      "pk": 109966,
+      "name": "Eco Tour - Optional Lunch",
+      "company": "Latitudes Tours",
+      "bookingUrl": "https://fareharbor.com/embeds/book/latitudestours/items/109966/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Ruskin",
+      "island": "united states/florida/ruskin",
+      "price": 42,
+      "priceLabel": "$42 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 65,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour-Dolphin-Eco Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult BBQ Lunch",
+            "note": "Ages 12+",
+            "price": 50,
+            "minPartySize": 1
+          },
+          {
+            "name": "Adult No Meal (Daytime)",
+            "note": "13+ No Meal",
+            "price": 42,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child BBQ Lunch",
+            "note": "11 and under",
+            "price": 42,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child No Meal (Daytime)",
+            "note": "3 - 12 No Meal",
+            "price": 32,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child 2 and Under (no meal option)",
+            "note": "2 and under No Meal",
+            "price": 5,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier of 2 base tiers (D-625): \"Adult No Meal (Daytime)\" $42 (note \"13+ No Meal\"), unit per-person; not anchoring: Adult BBQ Lunch $50 [base], Child BBQ Lunch $42 [never], Child No Meal (Daytime) $32 [never], Child 2 and Under (no meal option) $5 [never]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "109970",
+      "pk": 109970,
+      "name": "Eco-Explorer Sunset Cruise",
+      "company": "Latitudes Tours",
+      "bookingUrl": "https://fareharbor.com/embeds/book/latitudestours/items/109970/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Ruskin",
+      "island": "united states/florida/ruskin",
+      "price": 42,
+      "priceLabel": "$42 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 65,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour-Dinner Boat-Dolphin"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult w/ Dinner",
+            "note": "Ages 12+",
+            "price": 54,
+            "minPartySize": 1
+          },
+          {
+            "name": "Adult No Meal (evening)",
+            "note": "13+",
+            "price": 42,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child w/ Dinner",
+            "note": "Ages 3 - 11",
+            "price": 42,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child No Meal (evening)",
+            "note": "3-12",
+            "price": 35,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child 2 and Under (no meal option)",
+            "note": "must be accompanied by adult",
+            "price": 5,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier of 2 base tiers (D-625): \"Adult No Meal (evening)\" $42 (note \"13+\"), unit per-person; not anchoring: Adult w/ Dinner $54 [base], Child w/ Dinner $42 [never], Child No Meal (evening) $35 [never], Child 2 and Under (no meal option) $5 [never]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "128628",
+      "pk": 128628,
+      "name": "Snorkel Trip",
+      "company": "Sea Experience",
+      "bookingUrl": "https://fareharbor.com/embeds/book/seaexperience/items/128628/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Fort Lauderdale",
+      "island": "united states/florida/fort lauderdale",
+      "price": 60,
+      "priceLabel": "$60 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 78,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour-Snorkel-Water Activities"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult Snorkeler",
+            "note": "Ages 13+ | Includes Snorkeling Equipment",
+            "price": 60,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child Snorkeler",
+            "note": "Ages 12 and under | Includes Snorkeling Equipment",
+            "price": 45,
+            "minPartySize": 1
+          },
+          {
+            "name": "Adult Rider",
+            "note": "Ages 13+ * Boat Ride Only",
+            "price": 50,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child Rider",
+            "note": "Ages 12 and Under * Boat Ride Only",
+            "price": 35,
+            "minPartySize": 1
+          },
+          {
+            "name": "Infant",
+            "note": "Children under 2 years",
+            "price": 0,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Adult Rider\" $50 (boat-ride-only, no snorkeling) for the same reason as 31348; the true tier is \"Adult Snorkeler\" $60: \"Adult Snorkeler\" $60 (note \"Ages 13+ | Includes Snorkeling Equipment\"), unit per-person; not anchoring: Child Snorkeler $45 [never], Adult Rider $50 [base], Child Rider $35 [never] [manual override: engine anchor was Adult Rider $50]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "147664",
+      "pk": 147664,
+      "name": "Destiny 4-Hour Kids Fishing Trip",
+      "company": "Destin Party Boat Fishing",
+      "bookingUrl": "https://fareharbor.com/embeds/book/destinpartyboatfishing/items/147664/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 85,
+      "priceLabel": "$85 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 56,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Fishing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 13 - 64",
+            "price": 85,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+            "price": 80,
+            "minPartySize": 1
+          },
+          {
+            "name": "Senior",
+            "note": "Ages 65+",
+            "price": 80,
+            "minPartySize": 1
+          },
+          {
+            "name": "Active Military",
+            "note": "Must have valid identification",
+            "price": 80,
+            "minPartySize": 1
+          },
+          {
+            "name": "Rider",
+            "note": "Passenger that will not be fishing",
+            "price": 75,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $85 (note \"Ages 13 - 64\"), unit per-person; not anchoring: Child $80 [never], Senior $80 [never], Active Military $80 [never], Rider $75 [never]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "147695",
+      "pk": 147695,
+      "name": "Destiny 6-Hour Fishing Trip",
+      "company": "Destin Party Boat Fishing",
+      "bookingUrl": "https://fareharbor.com/embeds/book/destinpartyboatfishing/items/147695/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 105,
+      "priceLabel": "$105 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 78,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Fishing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 1,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 13 - 64",
+            "price": 105,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+            "price": 100,
+            "minPartySize": 1
+          },
+          {
+            "name": "Senior",
+            "note": "Ages 65+",
+            "price": 100,
+            "minPartySize": 1
+          },
+          {
+            "name": "Active Military",
+            "note": "Must have valid identification",
+            "price": 100,
+            "minPartySize": 1
+          },
+          {
+            "name": "Rider",
+            "note": "Passenger that will not be fishing",
+            "price": 95,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $105 (note \"Ages 13 - 64\"), unit per-person; not anchoring: Child $100 [never], Senior $100 [never], Active Military $100 [never], Rider $95 [never]; 4/4 dated readings 2026-08-26 (1 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "147699",
+      "pk": 147699,
+      "name": "Destin Princess 6-Hour Fishing Trip",
+      "company": "Destin Party Boat Fishing",
+      "bookingUrl": "https://fareharbor.com/embeds/book/destinpartyboatfishing/items/147699/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 105,
+      "priceLabel": "$105 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 78,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Fishing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 13 - 64",
+            "price": 105,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+            "price": 100,
+            "minPartySize": 1
+          },
+          {
+            "name": "Senior",
+            "note": "Ages 65+",
+            "price": 100,
+            "minPartySize": 1
+          },
+          {
+            "name": "Active Military",
+            "note": "Must have valid identification",
+            "price": 100,
+            "minPartySize": 1
+          },
+          {
+            "name": "Rider",
+            "note": "Passenger that will not be fishing",
+            "price": 95,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $105 (note \"Ages 13 - 64\"), unit per-person; not anchoring: Child $100 [never], Senior $100 [never], Active Military $100 [never], Rider $95 [never]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "147701",
+      "pk": 147701,
+      "name": "Destiny 8-Hour Fishing Trip",
+      "company": "Destin Party Boat Fishing",
+      "bookingUrl": "https://fareharbor.com/embeds/book/destinpartyboatfishing/items/147701/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 140,
+      "priceLabel": "$140 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 78,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Fishing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 13 - 64",
+            "price": 140,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+            "price": 135,
+            "minPartySize": 1
+          },
+          {
+            "name": "Senior",
+            "note": "Ages 65+",
+            "price": 135,
+            "minPartySize": 1
+          },
+          {
+            "name": "Active Military",
+            "note": "Must have valid identification",
+            "price": 135,
+            "minPartySize": 1
+          },
+          {
+            "name": "Rider",
+            "note": "Passenger that will not be fishing",
+            "price": 120,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $140 (note \"Ages 13 - 64\"), unit per-person; not anchoring: Child $135 [never], Senior $135 [never], Active Military $135 [never], Rider $120 [never]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "147704",
+      "pk": 147704,
+      "name": "Destin Princess 8-Hour Fishing Trip",
+      "company": "Destin Party Boat Fishing",
+      "bookingUrl": "https://fareharbor.com/embeds/book/destinpartyboatfishing/items/147704/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 140,
+      "priceLabel": "$140 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 78,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Fishing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 13 - 64",
+            "price": 140,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+            "price": 135,
+            "minPartySize": 1
+          },
+          {
+            "name": "Senior",
+            "note": "Ages 65+",
+            "price": 135,
+            "minPartySize": 1
+          },
+          {
+            "name": "Active Military",
+            "note": "Must have valid identification",
+            "price": 135,
+            "minPartySize": 1
+          },
+          {
+            "name": "Rider",
+            "note": "Passenger that will not be fishing",
+            "price": 120,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $140 (note \"Ages 13 - 64\"), unit per-person; not anchoring: Child $135 [never], Senior $135 [never], Active Military $135 [never], Rider $120 [never]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "147707",
+      "pk": 147707,
+      "name": "Destin Princess 10-Hour Fishing Trip",
+      "company": "Destin Party Boat Fishing",
+      "bookingUrl": "https://fareharbor.com/embeds/book/destinpartyboatfishing/items/147707/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 180,
+      "priceLabel": "$180 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 55,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Fishing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 3,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 3,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 13 - 64",
+            "price": 180,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+            "price": 175,
+            "minPartySize": 1
+          },
+          {
+            "name": "Senior",
+            "note": "Ages 65+",
+            "price": 175,
+            "minPartySize": 1
+          },
+          {
+            "name": "Active Military",
+            "note": "Must have valid identification",
+            "price": 175,
+            "minPartySize": 1
+          },
+          {
+            "name": "Rider",
+            "note": "Passenger that will not be fishing",
+            "price": 160,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $180 (note \"Ages 13 - 64\"), unit per-person; not anchoring: Child $175 [never], Senior $175 [never], Active Military $175 [never], Rider $160 [never]; 3/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "167669",
+      "pk": 167669,
+      "name": "Tom Fred Fishing Charter",
+      "company": "Vero Tackle & Watersports",
+      "bookingUrl": "https://fareharbor.com/embeds/book/verotackle/items/167669/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Vero Beach",
+      "island": "united states/florida/vero beach",
+      "price": 450,
+      "priceLabel": "$450 whole boat",
+      "priceConfidence": "verified-whole-boat",
+      "qualityScore": 65,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Fishing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Half Day Charter",
+            "note": "Price Includes Two humans • 4 Hours",
+            "price": 450,
+            "minPartySize": 1
+          },
+          {
+            "name": "Additional Human - Half Day",
+            "note": "",
+            "price": 100,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "whole-boat",
+        "priceKind": "whole boat / private charter",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat floor: \"Half Day Charter\" $450 (note \"Price Includes Two humans • 4 Hours\"), unit whole-boat; not anchoring: Additional Human - Half Day $100 [never]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "204492",
+      "pk": 204492,
+      "name": "New Years Eve Fireworks Tour from Grantham Pointe",
+      "company": "Rusty Anchor Mount Dora",
+      "bookingUrl": "https://fareharbor.com/embeds/book/rustyanchormountdora/items/204492/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Mount Dora",
+      "island": "united states/florida/mount dora",
+      "price": 25,
+      "priceLabel": "$25 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 59,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 13+",
+            "price": 25,
+            "minPartySize": 2
+          },
+          {
+            "name": "Child",
+            "note": "Ages 6-12",
+            "price": 15,
+            "minPartySize": 2
+          },
+          {
+            "name": "Toddler",
+            "note": "Ages 5 & Under $0 • Select 1 Adult in order to book toddlers. Please indicate how many Toddlers are in your party",
+            "price": 0,
+            "minPartySize": 2
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": true,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 2,
+        "minimumSpend": 50,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $25 (note \"Ages 13+\"), unit per-person; not anchoring: Child $15 [never]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "213288",
+      "pk": 213288,
+      "name": "Everglades National Park Guided Kayak Eco Tour",
+      "company": "LiveNow, Inc.",
+      "bookingUrl": "https://fareharbor.com/embeds/book/everglades-boattours/items/213288/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Chokoloskee",
+      "island": "united states/florida/chokoloskee",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 68,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Kayak"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 0,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 0,
+        "priceTiers": [],
+        "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-27, 2026-09-16, 2026-10-06, 2026-10-26) -- 60-day/4-date sweep exhausted; low never released",
+        "priceHold": "UNSAMPLED"
+      }
+    },
+    {
+      "id": "225352",
+      "pk": 225352,
+      "name": "Day Trip",
+      "company": "GeoTrippin",
+      "bookingUrl": "https://fareharbor.com/embeds/book/geotrippin/items/225352/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Ponte Vedra Beach",
+      "island": "united states/florida/ponte vedra beach",
+      "price": 44.5,
+      "priceLabel": "$44.50 per craft",
+      "priceConfidence": "verified-whole-unit",
+      "qualityScore": 65,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Kayak"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 2,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Single Kayak",
+            "note": "Kayak for 1, Capacity: 280 lbs",
+            "price": 74,
+            "minPartySize": 1
+          },
+          {
+            "name": "Tandem Kayak",
+            "note": "Kayak for 2, Capacity: 500 lbs",
+            "price": 148,
+            "minPartySize": 1
+          },
+          {
+            "name": "Sea Kayak",
+            "note": "Length 16.5' Cockpit Width: 25\" - 28\"",
+            "price": 89,
+            "minPartySize": 1
+          },
+          {
+            "name": "I'll Bring my Own Kayak",
+            "note": "Must be 14' or longer.",
+            "price": 44.5,
+            "minPartySize": 1
+          },
+          {
+            "name": "Group Organizer",
+            "note": "*Organizers go for free when 5 or more sign up!* Pay nothing now to save a date 2 or more weeks in advance.",
+            "price": 0,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-vehicle",
+        "priceKind": "per unit",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount): \"I'll Bring my Own Kayak\" $44.50 (note \"Must be 14' or longer.\"), unit per-vehicle; not anchoring: Single Kayak $74 [group], Tandem Kayak $148 [group], Sea Kayak $89 [group]; 4/4 dated readings 2026-08-26 (2 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "280575",
+      "pk": 280575,
+      "name": "Mangroves & Mansions 2-Hour Kayak Tour",
+      "company": "Visit Palm Beach",
+      "bookingUrl": "https://fareharbor.com/embeds/book/visitpalmbeach/items/280575/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/West Palm Beach",
+      "island": "united states/florida/west palm beach",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 56,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Kayak"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 0,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 0,
+        "priceTiers": [],
+        "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-27, 2026-09-16, 2026-10-06, 2026-10-26) -- 60-day/4-date sweep exhausted; low never released",
+        "priceHold": "UNSAMPLED"
+      }
+    },
+    {
+      "id": "305947",
+      "pk": 305947,
+      "name": "Night Time Glow Paddle - Pensacola Beach Resort **OPEN NOW**",
+      "company": "Glow Paddle",
+      "bookingUrl": "https://fareharbor.com/embeds/book/glowpaddle/items/305947/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Pensacola Beach",
+      "island": "united states/florida/pensacola beach",
+      "price": 39,
+      "priceLabel": "$39 per craft",
+      "priceConfidence": "verified-whole-unit",
+      "qualityScore": 72,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Kayak-Water Activities"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Kayak",
+            "note": "All ages • Seats 2 people • Up to 450 lbs",
+            "price": 59,
+            "minPartySize": 1
+          },
+          {
+            "name": "Paddleboard",
+            "note": "18 & Older • 1 Person per Paddleboard",
+            "price": 39,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-vehicle",
+        "priceKind": "per unit",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount): \"Paddleboard\" $39 (note \"18 & Older • 1 Person per Paddleboard\"), unit per-vehicle; not anchoring: Kayak $59 [group]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "324069",
+      "pk": 324069,
+      "name": "Night Time Glow Paddle - Navarre Family Watersports **REOPENS MAY 2026**",
+      "company": "Glow Paddle",
+      "bookingUrl": "https://fareharbor.com/embeds/book/glowpaddle/items/324069/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Navarre",
+      "island": "united states/florida/navarre",
+      "price": 39,
+      "priceLabel": "$39 per craft",
+      "priceConfidence": "verified-whole-unit",
+      "qualityScore": 68,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Kayak-Transportation-Trolley"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 1,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 1,
+        "priceTiers": [
+          {
+            "name": "Kayak",
+            "note": "All ages • Seats 2 people • Up to 450 lbs",
+            "price": 59,
+            "minPartySize": 1
+          },
+          {
+            "name": "Paddleboard",
+            "note": "18 & Older • 1 Person per Paddleboard",
+            "price": 39,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-vehicle",
+        "priceKind": "per unit",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount): \"Paddleboard\" $39 (note \"18 & Older • 1 Person per Paddleboard\"), unit per-vehicle; not anchoring: Kayak $59 [group]; 1/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "377105",
+      "pk": 377105,
+      "name": "St. Pete Pier to Egmont Key Tour",
+      "company": "The Pelican",
+      "bookingUrl": "https://fareharbor.com/embeds/book/thepelicanllc/items/377105/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/St. Petersburg",
+      "island": "united states/florida/st. petersburg",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 80,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Dolphin-Ferry-Sailing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 0,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 0,
+        "priceTiers": [],
+        "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-27, 2026-09-16, 2026-10-06, 2026-10-26) -- 60-day/4-date sweep exhausted; low never released",
+        "priceHold": "UNSAMPLED"
+      }
+    },
+    {
+      "id": "412862",
+      "pk": 412862,
+      "name": "Rainbow River Drift Dive",
+      "company": "Crystal River Watersports",
+      "bookingUrl": "https://fareharbor.com/embeds/book/crystalriverwatersports/items/412862/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Crystal River",
+      "island": "united states/florida/crystal river",
+      "price": 105,
+      "priceLabel": "$105 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 70,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Scuba"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "1-2 Participants - Gear not included",
+            "note": "Price includes 2 people",
+            "price": 230,
+            "minPartySize": 1
+          },
+          {
+            "name": "3-8 Participants - Gear not included",
+            "note": "Priced per person",
+            "price": 105,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"3-8 Participants - Gear not included\" $105 (note \"Priced per person\"), unit per-person; not anchoring: 1-2 Participants - Gear not included $230 [group]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "417628",
+      "pk": 417628,
+      "name": "1.5 Hour Adventure",
+      "company": "Cypress Outdoor Adventures",
+      "bookingUrl": "https://fareharbor.com/embeds/book/privateairboattour/items/417628/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Tamarac",
+      "island": "united states/florida/tamarac",
+      "price": 350,
+      "priceLabel": "$350 per unit",
+      "priceConfidence": "verified-whole-unit",
+      "qualityScore": 78,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Two People (Base Price)",
+            "note": "Base price includes 2 people",
+            "price": 350,
+            "minPartySize": 1
+          },
+          {
+            "name": "Extra Adult",
+            "note": "12+",
+            "price": 50,
+            "minPartySize": 1
+          },
+          {
+            "name": "Extra Child",
+            "note": "Under 12",
+            "price": 25,
+            "minPartySize": 1
+          },
+          {
+            "name": "1.0 hour of Additional Fish Gigging",
+            "note": "",
+            "price": 200,
+            "minPartySize": 1
+          },
+          {
+            "name": "2.0 hours of Additional Fish Gigging",
+            "note": "",
+            "price": 400,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-unit",
+        "priceKind": "per unit",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat floor: \"Two People (Base Price)\" $350 (note \"Base price includes 2 people\"), unit per-unit; not anchoring: Extra Adult $50 [never], Extra Child $25 [never], 1.0 hour of Additional Fish Gigging $200 [never], 2.0 hours of Additional Fish Gigging $400 [never]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "422217",
+      "pk": 422217,
+      "name": "Sunset / Nights of Lights Cruise - Osprey",
+      "company": "Florida Water Tours",
+      "bookingUrl": "https://fareharbor.com/embeds/book/floridawatertour/items/422217/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/St. Augustine",
+      "island": "united states/florida/st. augustine",
+      "price": 49,
+      "priceLabel": "$49 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 60,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour-Guided Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "21+",
+            "price": 49,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 0-12",
+            "price": 26,
+            "minPartySize": 1
+          },
+          {
+            "name": "Military",
+            "note": "Must provide ID at check-in",
+            "price": 45,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $49 (note \"21+\"), unit per-person; not anchoring: Child $26 [never], Military $45 [never]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "435932",
+      "pk": 435932,
+      "name": "Fireworks Cruise aboard the SOUTHERN STAR",
+      "company": "Southern Star and Buccaneer Cruises",
+      "bookingUrl": "https://fareharbor.com/embeds/book/southernstarandbuccaneercruises/items/435932/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 23,
+      "priceLabel": "$23 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 75,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 15+",
+            "price": 23,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 3-14",
+            "price": 23,
+            "minPartySize": 1
+          },
+          {
+            "name": "Infant",
+            "note": "RESERVATION REQUIRED (Ages 2 & under)",
+            "price": 5,
+            "minPartySize": 1
+          },
+          {
+            "name": "Group Rate",
+            "note": "Minimum of 20 Tickets",
+            "price": 20,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $23 (note \"Ages 15+\"), unit per-person; not anchoring: Child $23 [never], Infant $5 [never], Group Rate $20 [group]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "435947",
+      "pk": 435947,
+      "name": "Fireworks Cruise aboard the Buccaneer",
+      "company": "Southern Star and Buccaneer Cruises",
+      "bookingUrl": "https://fareharbor.com/embeds/book/southernstarandbuccaneercruises/items/435947/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 27,
+      "priceLabel": "$27 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 76,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 15+",
+            "price": 27,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 3-14",
+            "price": 27,
+            "minPartySize": 1
+          },
+          {
+            "name": "Infant",
+            "note": "RESERVATION REQUIRED (Ages 2 & under)",
+            "price": 5,
+            "minPartySize": 1
+          },
+          {
+            "name": "Group Rate",
+            "note": "Minimum of 20 Tickets",
+            "price": 25,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $27 (note \"Ages 15+\"), unit per-person; not anchoring: Child $27 [never], Infant $5 [never], Group Rate $25 [group]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "440228",
+      "pk": 440228,
+      "name": "Naples Bay Water Shuttle : 12-8pm",
+      "company": "Sand Dollar Boat Tours",
+      "bookingUrl": "https://fareharbor.com/embeds/book/marcoislandboatcharters/items/440228/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Naples",
+      "island": "united states/florida/naples",
+      "price": 20,
+      "priceLabel": "$20 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 65,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour-Transportation"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Naples Bay Water Shuttle 1 - Day",
+            "note": "",
+            "price": 20,
+            "minPartySize": 1
+          },
+          {
+            "name": "T-Shirt • Medium",
+            "note": "",
+            "price": 28.3,
+            "minPartySize": 1
+          },
+          {
+            "name": "T-Shirt • Large",
+            "note": "",
+            "price": 28.3,
+            "minPartySize": 1
+          },
+          {
+            "name": "T-Shirt • XL",
+            "note": "",
+            "price": 28.3,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier of 4 base tiers (D-625): \"Naples Bay Water Shuttle 1 - Day\" $20, unit per-person; not anchoring: T-Shirt • Medium $28.30 [base], T-Shirt • Large $28.30 [base], T-Shirt • XL $28.30 [base]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "486107",
+      "pk": 486107,
+      "name": "Destin FWB Sunset  Clear Kayak Tour",
+      "company": "Get Up and Go Kayaking - Destin",
+      "bookingUrl": "https://fareharbor.com/embeds/book/getupandgokayaking_destin/items/486107/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Mary Esther",
+      "island": "united states/florida/mary esther",
+      "price": 59,
+      "priceLabel": "$59-$80 per person",
+      "priceConfidence": "verified-adult-range",
+      "qualityScore": 67,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Guided Tour-Kayak-Water Activities"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 2,
+        "probeDateValid": 1,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 2,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 18+",
+            "price": 80,
+            "minPartySize": 2
+          },
+          {
+            "name": "Young Adult",
+            "note": "Ages 15-17",
+            "price": 60,
+            "minPartySize": 2
+          },
+          {
+            "name": "Child",
+            "note": "Ages 3-14",
+            "price": 60,
+            "minPartySize": 2
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "observedPriceRange": [
+          59,
+          80
+        ],
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 2,
+        "minimumSpend": 118,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $80 (note \"Ages 18+\"), unit per-person; not anchoring: Young Adult $60 [never], Child $60 [never]; anchor varied $59-$80 across readings; 2/4 dated readings 2026-08-26 (1 date-valid), 2 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "497485",
+      "pk": 497485,
+      "name": "Destin FWB Glow Tour",
+      "company": "Get Up and Go Kayaking - Destin",
+      "bookingUrl": "https://fareharbor.com/embeds/book/getupandgokayaking_destin/items/497485/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Mary Esther",
+      "island": "united states/florida/mary esther",
+      "price": 59,
+      "priceLabel": "$59-$80 per person",
+      "priceConfidence": "verified-adult-range",
+      "qualityScore": 67,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Guided Tour-Kayak-Water Activities"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 2,
+        "probeDateValid": 1,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 2,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 18+",
+            "price": 80,
+            "minPartySize": 2
+          },
+          {
+            "name": "Young Adult",
+            "note": "Ages 15-17",
+            "price": 60,
+            "minPartySize": 2
+          },
+          {
+            "name": "Child",
+            "note": "Ages 3-14",
+            "price": 60,
+            "minPartySize": 2
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "observedPriceRange": [
+          59,
+          80
+        ],
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 2,
+        "minimumSpend": 118,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $80 (note \"Ages 18+\"), unit per-person; not anchoring: Young Adult $60 [never], Child $60 [never]; anchor varied $59-$80 across readings; 2/4 dated readings 2026-08-26 (1 date-valid), 2 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "503818",
+      "pk": 503818,
+      "name": "VIP Private Scalloping Tour",
+      "company": "Seacow Safaris",
+      "bookingUrl": "https://fareharbor.com/embeds/book/conchycharters/items/503818/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Crystal River",
+      "island": "united states/florida/crystal river",
+      "price": 875,
+      "priceLabel": "$875 whole boat",
+      "priceConfidence": "verified-whole-boat",
+      "qualityScore": 66,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Eco Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Full Day Charter",
+            "note": "This is a 9 Hour Scalloping trip for Groups Up to 6",
+            "price": 875,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "whole-boat",
+        "priceKind": "whole boat / private charter",
+        "minPartySize": 1,
+        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Full Day Charter\" $875 (note \"This is a 9 Hour Scalloping trip for Groups Up to 6\"), unit whole-boat; 4/4 dated readings 2026-08-26 (4 date-valid), 3 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "520669",
+      "pk": 520669,
+      "name": "Naples Private Boat Charter Cruise",
+      "company": "Gulf Breeze Charters",
+      "bookingUrl": "https://fareharbor.com/embeds/book/gulfbreezecharters/items/520669/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Naples",
+      "island": "united states/florida/naples",
+      "price": 750,
+      "priceLabel": "$750 whole boat",
+      "priceConfidence": "verified-whole-boat",
+      "qualityScore": 76,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Private Charter",
+            "note": "Up to 6 people • 4 Hours",
+            "price": 750,
+            "minPartySize": 2
+          },
+          {
+            "name": "Fun Family Fishing",
+            "note": "",
+            "price": 150,
+            "minPartySize": 2
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "whole-boat",
+        "priceKind": "whole boat / private charter",
+        "minPartySize": 2,
+        "priceBasis": "D-614 whole-boat floor: \"Private Charter\" $750 (note \"Up to 6 people • 4 Hours\"), unit whole-boat; not anchoring: Fun Family Fishing $150 [never]; 4/4 dated readings 2026-08-26 (4 date-valid), 2 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "550737",
+      "pk": 550737,
+      "name": "Destin Fireworks Cruise",
+      "company": "Beach Please Charters LLC",
+      "bookingUrl": "https://fareharbor.com/embeds/book/bikkinibottomboat/items/550737/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 30,
+      "priceLabel": "$30 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 71,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 1,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 1,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 18+",
+            "price": 30,
+            "minPartySize": 1
+          },
+          {
+            "name": "Youth",
+            "note": "Ages 13-17",
+            "price": 20,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 3-12",
+            "price": 20,
+            "minPartySize": 1
+          },
+          {
+            "name": "Infant",
+            "note": "Ages 0-2",
+            "price": 10,
+            "minPartySize": 1
+          },
+          {
+            "name": "Senior",
+            "note": "",
+            "price": 25,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $30 (note \"Ages 18+\"), unit per-person; not anchoring: Youth $20 [never], Child $20 [never], Infant $10 [never], Senior $25 [never]; 1/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "575643",
+      "pk": 575643,
+      "name": "Dinner Cruises",
+      "company": "Marina Rose Cruises",
+      "bookingUrl": "https://fareharbor.com/embeds/book/marinarosecruises/items/575643/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Hernando Beach",
+      "island": "united states/florida/hernando beach",
+      "price": 55,
+      "priceLabel": "$55 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 77,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Dinner Boat"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Cruise Guest + Meal",
+            "note": "",
+            "price": 74,
+            "minPartySize": 1
+          },
+          {
+            "name": "Cruise Guest Only",
+            "note": "Does not include meal",
+            "price": 55,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier of 2 base tiers (D-625): \"Cruise Guest Only\" $55 (note \"Does not include meal\"), unit per-person; not anchoring: Cruise Guest + Meal $74 [base]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "604552",
+      "pk": 604552,
+      "name": "Shell Island Easter Egg Hunt & Snorkeling Sail Aboard the Privateer Catamaran",
+      "company": "Paradise Adventures",
+      "bookingUrl": "https://fareharbor.com/embeds/book/paradiseadventures2/items/604552/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Panama City Beach",
+      "island": "united states/florida/panama city beach",
+      "price": 50,
+      "priceLabel": "$50 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 64,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Adults 13 and up",
+            "price": 50,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Children 3-12",
+            "price": 35,
+            "minPartySize": 1
+          },
+          {
+            "name": "Infant $20",
+            "note": "Infants 0-2 $20",
+            "price": 20,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $50 (note \"Adults 13 and up\"), unit per-person; not anchoring: Child $35 [never], Infant $20 $20 [never]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "604555",
+      "pk": 604555,
+      "name": "Fireworks Sail Aboard the Footloose Catamaran",
+      "company": "Paradise Adventures",
+      "bookingUrl": "https://fareharbor.com/embeds/book/paradiseadventures2/items/604555/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Panama City Beach",
+      "island": "united states/florida/panama city beach",
+      "price": 70,
+      "priceLabel": "$70 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 54,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult Fireworks Sail $70",
+            "note": "Adult Fireworks Sail $70",
+            "price": 70,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child Fireworks Sail $60",
+            "note": "Children 0-12",
+            "price": 60,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult Fireworks Sail $70\" $70 (note \"Adult Fireworks Sail $70\"), unit per-person; not anchoring: Child Fireworks Sail $60 $60 [never]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "607592",
+      "pk": 607592,
+      "name": "Kayak Tour",
+      "company": "Rainbow Springs Adventures",
+      "bookingUrl": "https://fareharbor.com/embeds/book/visitrainbowsprings/items/607592/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Dunnellon",
+      "island": "united states/florida/dunnellon",
+      "price": 70,
+      "priceLabel": "$70 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 55,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Guided Tour-Kayak-Water Activities"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "12+ years old",
+            "price": 70,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "3-11 years old • At least 1 adult ticket is required to book children",
+            "price": 65,
+            "minPartySize": 1
+          },
+          {
+            "name": "Senior",
+            "note": "65+ years old",
+            "price": 65,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $70 (note \"12+ years old\"), unit per-person; not anchoring: Child $65 [never], Senior $65 [never]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "610625",
+      "pk": 610625,
+      "name": "Day Paddle • Bring Your Own",
+      "company": "King's Landing",
+      "bookingUrl": "https://fareharbor.com/embeds/book/kingslandingfl/items/610625/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Apopka",
+      "island": "united states/florida/apopka",
+      "price": 10,
+      "priceLabel": "$10 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 79,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Kayak"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 13+",
+            "price": 10,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 2-12 (children under the age of 2 are not permitted)",
+            "price": 5,
+            "minPartySize": 1
+          },
+          {
+            "name": "Life Jacket Rental",
+            "note": "One PFD per person is required. If you do not have one, you can rent one from us here. *Life jackets are not refundable*",
+            "price": 5,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $10 (note \"Ages 13+\"), unit per-person; not anchoring: Child $5 [never], Life Jacket Rental $5 [never]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "614494",
+      "pk": 614494,
+      "name": "Scuba Diving Two-Tank Charter",
+      "company": "Bottom Dwellers Scuba and Charters LLC",
+      "bookingUrl": "https://fareharbor.com/embeds/book/bottomdwellersscubaandcharter/items/614494/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Hernando Beach",
+      "island": "united states/florida/hernando beach",
+      "price": 125,
+      "priceLabel": "$125 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 70,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Scuba"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Diver",
+            "note": "",
+            "price": 125,
+            "minPartySize": 1
+          },
+          {
+            "name": "Non-Diver",
+            "note": "",
+            "price": 100,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Diver\" $125, unit per-person; not anchoring: Non-Diver $100 [never]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "626321",
+      "pk": 626321,
+      "name": "Guided Snorkel Tour - Blue Heron Bridge",
+      "company": "Palm Beach Snorkeling",
+      "bookingUrl": "https://fareharbor.com/embeds/book/palmbeachsnorkeling/items/626321/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Riviera Beach",
+      "island": "united states/florida/riviera beach",
+      "price": 75,
+      "priceLabel": "$75 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 67,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Snorkel"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Person (with snorkel gear)",
+            "note": "Includes mask, snorkel & fins",
+            "price": 90,
+            "minPartySize": 2
+          },
+          {
+            "name": "Person (without snorkel gear)",
+            "note": "Customer will bring their own snorkeling gear",
+            "price": 75,
+            "minPartySize": 2
+          },
+          {
+            "name": "Private Tour Snorkeler",
+            "note": "",
+            "price": 125,
+            "minPartySize": 2
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 2,
+        "minimumSpend": 150,
+        "priceBasis": "MANUAL OVERRIDE (audited 2026-08-26): engine excluded both \"Person (with/without snorkel gear)\" tiers via the ACCESSORY regex matching the phrase \"snorkel gear\" in the tier label itself (a false positive -- these ARE the base per-person tour tiers, gear-inclusive vs BYO, not accessory upsells), leaving only the $125 private-tour upsell to float to the top; the true base tier is \"Person (without snorkel gear)\" $75: \"Person (without snorkel gear)\" $75 (note \"Customer will bring their own snorkeling gear\"), unit per-person; not anchoring: Person (with snorkel gear) $90 [never], Private Tour Snorkeler $125 [group] [manual override: engine anchor was Private Tour Snorkeler $125]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "634729",
+      "pk": 634729,
+      "name": "Firework Boat Tour",
+      "company": "Sandy Bottom Boat Tours",
+      "bookingUrl": "https://fareharbor.com/embeds/book/sandybottomtours/items/634729/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Fort Walton Beach",
+      "island": "united states/florida/fort walton beach",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 72,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 0,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 0,
+        "priceTiers": [],
+        "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-27, 2026-09-16, 2026-10-06, 2026-10-26) -- 60-day/4-date sweep exhausted; low never released",
+        "priceHold": "UNSAMPLED"
+      }
+    },
+    {
+      "id": "645013",
+      "pk": 645013,
+      "name": "Manatee and Dolphin Encounter Tour",
+      "company": "Calypso Kayaking",
+      "bookingUrl": "https://fareharbor.com/embeds/book/calypsokayaking/items/645013/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Merritt Island",
+      "island": "united states/florida/merritt island",
+      "price": 55,
+      "priceLabel": "$55 per craft",
+      "priceConfidence": "verified-whole-unit",
+      "qualityScore": 59,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Wildlife"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 1,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Single Clear Kayak",
+            "note": "Ages 4 and up",
+            "price": 75,
+            "minPartySize": 1
+          },
+          {
+            "name": "Clear Tandem Kayak",
+            "note": "For up to 2 people. Ages 4 and up",
+            "price": 150,
+            "minPartySize": 1
+          },
+          {
+            "name": "Tandem Kayak",
+            "note": "For up to 2 people. Ages 4 and up. Max weight 600 lbs combined.",
+            "price": 110,
+            "minPartySize": 1
+          },
+          {
+            "name": "Single Kayak",
+            "note": "Ages 4 and up",
+            "price": 55,
+            "minPartySize": 1
+          },
+          {
+            "name": "Paddleboard",
+            "note": "Ages 4 and up",
+            "price": 55,
+            "minPartySize": 1
+          },
+          {
+            "name": "Toddler",
+            "note": "Ages 3 and under. Must sit with accompanying adult.",
+            "price": 0,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-vehicle",
+        "priceKind": "per unit",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount): \"Single Kayak\" $55 (note \"Ages 4 and up\"), unit per-vehicle; not anchoring: Single Clear Kayak $75 [group], Clear Tandem Kayak $150 [group], Tandem Kayak $110 [group], Paddleboard $55 [group]; 4/4 dated readings 2026-08-26 (1 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "647364",
+      "pk": 647364,
+      "name": "Dolphin Watch, Landmark Sunset Cruise & Nights of Lights Viewing",
+      "company": "Fury Water Adventures - St. Augustine",
+      "bookingUrl": "https://fareharbor.com/embeds/book/furystaug/items/647364/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/St. Augustine",
+      "island": "united states/florida/st. augustine",
+      "price": 42,
+      "priceLabel": "$42 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 65,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Attraction-Boat Tour-Sightseeing Tour-Water Activities-Winter Activities"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Guest",
+            "note": "11 Years and Older",
+            "price": 42,
+            "minPartySize": 1
+          },
+          {
+            "name": "Guest (Ages 0-10)",
+            "note": "Children 0-10 years",
+            "price": 28,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Guest (Ages 0-10)\" $28 -- a child fare that reads as a base tier because NEVER/AGE_RANGE never fire on \"(Ages 0-10)\" without a \"years\"-suffixed range; the adult tier is \"Guest\" $42: \"Guest\" $42 (note \"11 Years and Older\"), unit per-person; not anchoring: Guest (Ages 0-10) $28 [base] [manual override: engine anchor was Guest (Ages 0-10) $28]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "650111",
+      "pk": 650111,
+      "name": "Guided Eco Tour Paddle",
+      "company": "Oleta River Adventures",
+      "bookingUrl": "https://fareharbor.com/embeds/book/oletariveradventures/items/650111/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/North Miami Beach",
+      "island": "united states/florida/north miami beach",
+      "price": 60,
+      "priceLabel": "$60 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 76,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Eco Tour-Kayak-Water Activities"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 1,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "18+",
+            "price": 60,
+            "minPartySize": 1
+          },
+          {
+            "name": "Teen",
+            "note": "13-17",
+            "price": 50,
+            "minPartySize": 1
+          },
+          {
+            "name": "Youth",
+            "note": "12 and under",
+            "price": 40,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adult\" $60 (note \"18+\"), unit per-person; not anchoring: Teen $50 [never], Youth $40 [never]; 4/4 dated readings 2026-08-26 (1 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "651796",
+      "pk": 651796,
+      "name": "Shark Snorkel Adventure",
+      "company": "Apex Adventure Diving LLC",
+      "bookingUrl": "https://fareharbor.com/embeds/book/apexadventurediving/items/651796/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Riviera Beach",
+      "island": "united states/florida/riviera beach",
+      "price": 225,
+      "priceLabel": "$225 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 54,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Snorkel"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "18 years old and above",
+            "price": 225,
+            "minPartySize": 1
+          },
+          {
+            "name": "Kid",
+            "note": "Under 18 years old",
+            "price": 225,
+            "minPartySize": 1
+          },
+          {
+            "name": "Viewer",
+            "note": "Take a ride without taking a dip",
+            "price": 100,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Viewer\" $100 (\"take a ride without taking a dip\") -- a non-diver observer tier not in the NEVER vocabulary; the true participant tier is \"Adult\" $225: \"Adult\" $225 (note \"18 years old and above\"), unit per-person; not anchoring: Kid $225 [never], Viewer $100 [base] [manual override: engine anchor was Viewer $100]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "655197",
+      "pk": 655197,
+      "name": "Daily Deep Sea Fishing",
+      "company": "Fishing on Island Time",
+      "bookingUrl": "https://fareharbor.com/embeds/book/fishingonislandtime/items/655197/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Lantana",
+      "island": "united states/florida/lantana",
+      "price": 65,
+      "priceLabel": "$65 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 72,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Fishing"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult Ticket",
+            "note": "Ages 13+",
+            "price": 65,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child Ticket",
+            "note": "Ages 6-12",
+            "price": 45,
+            "minPartySize": 1
+          },
+          {
+            "name": "Student or Senior Ticket",
+            "note": "Students and seniors 65+. Must present ID.",
+            "price": 60,
+            "minPartySize": 1
+          },
+          {
+            "name": "First Responder Ticket",
+            "note": "Military, Law Enforcement, First Responders & Teachers with ID",
+            "price": 60,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"First Responder Ticket\" $60 -- a concession class absent from the NEVER vocabulary; the adult tier is \"Adult Ticket\" $65: \"Adult Ticket\" $65 (note \"Ages 13+\"), unit per-person; not anchoring: Child Ticket $45 [never], Student or Senior Ticket $60 [never], First Responder Ticket $60 [base] [manual override: engine anchor was First Responder Ticket $60]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "668721",
+      "pk": 668721,
+      "name": "Chassahowitzka River Adventure",
+      "company": "Chadillac Adventures",
+      "bookingUrl": "https://fareharbor.com/embeds/book/chadillacadventures/items/668721/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Homosassa",
+      "island": "united states/florida/homosassa",
+      "price": 99,
+      "priceLabel": "$99 per unit",
+      "priceConfidence": "verified-whole-unit",
+      "qualityScore": 60,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Kayak-SUP"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Party of 2",
+            "note": "Minimum 2 per booking",
+            "price": 300,
+            "minPartySize": 1
+          },
+          {
+            "name": "Party of 3+",
+            "note": "",
+            "price": 99,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-unit",
+        "priceKind": "per unit",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount): \"Party of 3+\" $99, unit per-unit; not anchoring: Party of 2 $300 [group]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "668725",
+      "pk": 668725,
+      "name": "The Weeki Wachee Adventure",
+      "company": "Chadillac Adventures",
+      "bookingUrl": "https://fareharbor.com/embeds/book/chadillacadventures/items/668725/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Spring Hill",
+      "island": "united states/florida/spring hill",
+      "price": 99,
+      "priceLabel": "$99 per unit",
+      "priceConfidence": "verified-whole-unit",
+      "qualityScore": 60,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Kayak-SUP"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Party of 2",
+            "note": "Minimum 2 per booking",
+            "price": 300,
+            "minPartySize": 1
+          },
+          {
+            "name": "Party of 3+",
+            "note": "",
+            "price": 99,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-unit",
+        "priceKind": "per unit",
+        "minPartySize": 1,
+        "priceBasis": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount): \"Party of 3+\" $99, unit per-unit; not anchoring: Party of 2 $300 [group]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "668818",
+      "pk": 668818,
+      "name": "90 Minute Adventure Tour",
+      "company": "A Ultimate Airboat Tours",
+      "bookingUrl": "https://fareharbor.com/embeds/book/aultimateairboattours/items/668818/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Kissimmee",
+      "island": "united states/florida/kissimmee",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 61,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 0,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 0,
+        "priceTiers": [],
+        "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-27, 2026-09-16, 2026-10-06, 2026-10-26) -- 60-day/4-date sweep exhausted; low never released",
+        "priceHold": "UNSAMPLED"
+      }
+    },
+    {
+      "id": "669055",
+      "pk": 669055,
+      "name": "Airboat - Walk In Rates",
+      "company": "Everglades Holiday Park",
+      "bookingUrl": "https://fareharbor.com/embeds/book/evergladesholidaypark/items/669055/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Fort Lauderdale",
+      "island": "united states/florida/fort lauderdale",
+      "price": 41.99,
+      "priceLabel": "$41.99 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 78,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Airboat"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult",
+            "note": "Ages 12+",
+            "price": 41.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 3 - 11 • Children 2 and under are free and do not require a ticket.",
+            "price": 29.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB & AE Combo - Adult",
+            "note": "",
+            "price": 86.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB & AE Combo - Child",
+            "note": "",
+            "price": 74.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Alligator Presentation - Adult",
+            "note": "",
+            "price": 29.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Alligator Presentation - Child",
+            "note": "",
+            "price": 21.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Adult ($4 Off)",
+            "note": "",
+            "price": 37.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Child ($2 Off)",
+            "note": "",
+            "price": 27.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Senior ($1 Off)",
+            "note": "",
+            "price": 40.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Child ($1 Off)",
+            "note": "",
+            "price": 28.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Adult ($6 Off)",
+            "note": "",
+            "price": 35.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Adult (20% Off)",
+            "note": "",
+            "price": 33.59,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Child (20% Off)",
+            "note": "",
+            "price": 23.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Adult (50% Off)",
+            "note": "",
+            "price": 21,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Child (50% Off)",
+            "note": "",
+            "price": 15,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Adult (Comp)",
+            "note": "Please notify a manager that a comp ticket is required and must be completed on their iPad.",
+            "price": 41.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Child (Comp)",
+            "note": "Please notify a manager that a comp ticket is required and must be completed on their iPad.",
+            "price": 29.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "AB Child - Under Age 3",
+            "note": "",
+            "price": 0,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"AB Adult (50% Off)\" $21 -- a promo-discount variant of Adult, not caught by NEVER (which matches the word \"discount\", not \"(50% Off)\"); the list-price adult tier is \"Adult\" $41.99: \"Adult\" $41.99 (note \"Ages 12+\"), unit per-person; not anchoring: Child $29.99 [never], AB & AE Combo - Adult $86.99 [base], AB & AE Combo - Child $74.99 [never], Alligator Presentation - Adult $29.99 [base], Alligator Presentation - Child $21.99 [never], AB Adult ($4 Off) $37.99 [base], AB Child ($2 Off) $27.99 [never], AB Senior ($1 Off) $40.99 [never], AB Child ($1 Off) $28.99 [never], AB Adult ($6 Off) $35.99 [base], AB Adult (20% Off) $33.59 [base], AB Child (20% Off) $23.99 [never], AB Adult (50% Off) $21 [base], AB Child (50% Off) $15 [never], AB Adult (Comp) $41.99 [base], AB Child (Comp) $29.99 [never] [manual override: engine anchor was AB Adult (50% Off) $21]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "670442",
+      "pk": 670442,
+      "name": "Airboat - Tour Group Rates",
+      "company": "Everglades Holiday Park",
+      "bookingUrl": "https://fareharbor.com/embeds/book/evergladesholidaypark/items/670442/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Fort Lauderdale",
+      "island": "united states/florida/fort lauderdale",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 76,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Airboat"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [],
+        "priceBasis": "HELD (manual audit, not an engine rule): genuinely_blocked, same shape as sibling 670424: 14 base-classed tiers are parallel lettered/coded Adult variants (Cruise Rate B/C/D/G/FTC, Tour Guide A-G) ranging $9-$87 with no canonical rate; the engine floors on \"AB Tour Guide (D) Adult\" $9, an internal guide rate, not a public price -- moved to genuinely_blocked, not ingested with a price",
+        "priceHold": "ambiguous_rate_codes"
+      }
+    },
+    {
+      "id": "670641",
+      "pk": 670641,
+      "name": "Airboat - Private Tour Rates",
+      "company": "Everglades Holiday Park",
+      "bookingUrl": "https://fareharbor.com/embeds/book/evergladesholidaypark/items/670641/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Fort Lauderdale",
+      "island": "united states/florida/fort lauderdale",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 64,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Airboat"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [],
+        "priceBasis": "HELD (manual audit, not an engine rule): genuinely_blocked: party-size private-tour tiers (\"AB Private Tour Party 1-4\" $449) are mixed with unrelated \"Animal Encounter\" add-on tiers and GRPN/VPAK/Groupon voucher-redemption codes in the same ladder; the engine floors on \"Animal Encounter $45\", an unrelated add-on, not the private tour itself -- moved to genuinely_blocked, not ingested with a price",
+        "priceHold": "ambiguous_rate_codes"
+      }
+    },
+    {
+      "id": "671216",
+      "pk": 671216,
+      "name": "Sunrise Venice - Donuts and Dolphins Wildlife",
+      "company": "FinnSeeker Coastal Cruises",
+      "bookingUrl": "https://fareharbor.com/embeds/book/finnseekercoastalcruises/items/671216/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Osprey",
+      "island": "united states/florida/osprey",
+      "price": 44.99,
+      "priceLabel": "$44.99 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 54,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 2,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adults",
+            "note": "13 years of age and up",
+            "price": 44.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Seniors or Military",
+            "note": "65 years of age and up",
+            "price": 39.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 3-12 | Book adult(s) first to activate this option",
+            "price": 29.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Toddler",
+            "note": "Under 3 | Must be included in booking | Book adult(s) first to activate this option",
+            "price": 0,
+            "minPartySize": 1
+          },
+          {
+            "name": "Group Rate (6+ Guests)",
+            "note": "Purchase 6 tickets or more at a discounted price!",
+            "price": 34.99,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adults\" $44.99 (note \"13 years of age and up\"), unit per-person; not anchoring: Seniors or Military $39.99 [never], Child $29.99 [never], Group Rate (6+ Guests) $34.99 [group]; 4/4 dated readings 2026-08-26 (2 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "671228",
+      "pk": 671228,
+      "name": "Sunset - Venice Jetty",
+      "company": "FinnSeeker Coastal Cruises",
+      "bookingUrl": "https://fareharbor.com/embeds/book/finnseekercoastalcruises/items/671228/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Osprey",
+      "island": "united states/florida/osprey",
+      "price": 44.99,
+      "priceLabel": "$44.99 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 53,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adults",
+            "note": "13 years of age and up",
+            "price": 44.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Seniors or Military",
+            "note": "65 years of age and up",
+            "price": 39.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Child",
+            "note": "Ages 3-12 | Book adult(s) first to activate this option.",
+            "price": 29.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Toddler",
+            "note": "Under 3 | Must be included in booking | Book adult(s) first to activate this option.",
+            "price": 0,
+            "minPartySize": 1
+          },
+          {
+            "name": "Group Rate (6+ Guests)",
+            "note": "Purchase 6 tickets or more at a discounted price!",
+            "price": 34.99,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Adults\" $44.99 (note \"13 years of age and up\"), unit per-person; not anchoring: Seniors or Military $39.99 [never], Child $29.99 [never], Group Rate (6+ Guests) $34.99 [group]; 4/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "675661",
+      "pk": 675661,
+      "name": "Dolphin & Wildlife Eco Cruise",
+      "company": "Wildside Eco Tours",
+      "bookingUrl": "https://fareharbor.com/embeds/book/wildsideecotours/items/675661/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Cocoa Beach",
+      "island": "united states/florida/cocoa beach",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 73,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult/Senior",
+            "note": "Ages 18+",
+            "price": 39.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Kid",
+            "note": "Ages 3 to 17. Kids tickets are not accessible unless an adult ticket has been selected.",
+            "price": 29.99,
+            "minPartySize": 1
+          },
+          {
+            "name": "Kid Sail Half Off",
+            "note": "Note Adult/Senior ticket must be added first. Limit one per adult.",
+            "price": 14.99,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "priceBasis": "HELD (no adult/base tier): live ladder Adult/Senior $39.99 / Kid $29.99 / Kid Sail Half Off $14.99 has only never-anchor tiers; 4/4 dated readings 2026-08-26 (4 date-valid), 2 ladder shape(s), live USD",
+        "priceHold": "never_only"
+      }
+    },
+    {
+      "id": "688490",
+      "pk": 688490,
+      "name": "Everglades Tour: Airboat ride-Alligator show-transportation",
+      "company": "Calypso Sea Life",
+      "bookingUrl": "https://fareharbor.com/embeds/book/calypsosealife/items/688490/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Miami",
+      "island": "united states/florida/miami",
+      "price": 77,
+      "priceLabel": "$77 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 55,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 3,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Adult French tour",
+            "note": "9 years and above",
+            "price": 89,
+            "minPartySize": 1
+          },
+          {
+            "name": "Adults English tour",
+            "note": "9 yrs and above",
+            "price": 77,
+            "minPartySize": 1
+          },
+          {
+            "name": "Adults Spanish tour",
+            "note": "9 yra and above",
+            "price": 77,
+            "minPartySize": 1
+          },
+          {
+            "name": "Children French tour",
+            "note": "from 3 to 8 yrs",
+            "price": 84,
+            "minPartySize": 1
+          },
+          {
+            "name": "Children English tour",
+            "note": "from 3 to 8 yrs",
+            "price": 72,
+            "minPartySize": 1
+          },
+          {
+            "name": "Children Spanish tour",
+            "note": "from 3 to 8 yrs",
+            "price": 72,
+            "minPartySize": 1
+          },
+          {
+            "name": "Infant French tour",
+            "note": "0- 2 yrs",
+            "price": 43,
+            "minPartySize": 1
+          },
+          {
+            "name": "Infant English tour",
+            "note": "0- 2 yrs",
+            "price": 43,
+            "minPartySize": 1
+          },
+          {
+            "name": "Infant Spanish tour",
+            "note": "0- 2 yrs",
+            "price": 43,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": true,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier of 3 base tiers (D-625): \"Adults English tour\" $77 (note \"9 yrs and above\"), unit per-person; not anchoring: Adult French tour $89 [base], Adults Spanish tour $77 [base], Children French tour $84 [never], Children English tour $72 [never], Children Spanish tour $72 [never], Infant French tour $43 [never], Infant English tour $43 [never], Infant Spanish tour $43 [never]; 4/4 dated readings 2026-08-26 (3 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "702978",
+      "pk": 702978,
+      "name": "Dolphin Shelling Sunset Combo",
+      "company": "Charter Finders",
+      "bookingUrl": "https://fareharbor.com/embeds/book/charterfinders/items/702978/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Madeira Beach",
+      "island": "united states/florida/madeira beach",
+      "price": 68,
+      "priceLabel": "$68 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 70,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour-Sightseeing Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceTiers": [
+          {
+            "name": "Passenger",
+            "note": "All Ages",
+            "price": 68,
+            "minPartySize": 1
+          },
+          {
+            "name": "Service Member",
+            "note": "Discounted Price For Military, Firemen & Policemen l Must Present Valid ID",
+            "price": 60,
+            "minPartySize": 1
+          },
+          {
+            "name": "Private Tour",
+            "note": "",
+            "price": 275,
+            "minPartySize": 1
+          },
+          {
+            "name": "Private Tour",
+            "note": "3 Hour",
+            "price": 750,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "D-624 cheapest adult/base per-person tier: \"Passenger\" $68 (note \"All Ages\"), unit per-person; not anchoring: Service Member $60 [group], Private Tour $275 [group], Private Tour $750 [group]; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "706306",
+      "pk": 706306,
+      "name": "Fireworks Cruise",
+      "company": "Boogies Watersports",
+      "bookingUrl": "https://fareharbor.com/embeds/book/boogieswatersports/items/706306/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Destin",
+      "island": "united states/florida/destin",
+      "price": 25,
+      "priceLabel": "$25 per person",
+      "priceConfidence": "verified-adult",
+      "qualityScore": 70,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Boat Tour"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 3,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 3,
+        "priceTiers": [
+          {
+            "name": "Person",
+            "note": "Ages 4+",
+            "price": 25,
+            "minPartySize": 1
+          },
+          {
+            "name": "Little One",
+            "note": "Ages 0 - 3",
+            "price": 5,
+            "minPartySize": 1
+          }
+        ],
+        "priceIncludesBookingFees": false,
+        "priceIncludesTaxes": false,
+        "unit": "per-person",
+        "priceKind": "per adult",
+        "minPartySize": 1,
+        "priceBasis": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Little One\" (Ages 0-3) $5 -- an infant ticket under a euphemistic label absent from the NEVER vocabulary (infant/toddler/baby); the adult tier is \"Person\" $25: \"Person\" $25 (note \"Ages 4+\"), unit per-person; not anchoring: Little One $5 [base] [manual override: engine anchor was Little One $5]; 3/4 dated readings 2026-08-26 (evidence from next-departure echo, 0 date-valid on probe dates (D-638)), 1 ladder shape(s), live USD"
+      }
+    },
+    {
+      "id": "733504",
+      "pk": 733504,
+      "name": "Bioluminescent Kayaking Tour",
+      "company": "Savvy Paddles",
+      "bookingUrl": "https://fareharbor.com/embeds/book/suppaddleinflorida/items/733504/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
+      "category": "",
+      "location": "United States/Florida/Titusville",
+      "island": "united states/florida/titusville",
+      "price": null,
+      "priceLabel": "",
+      "priceConfidence": "held",
+      "qualityScore": 72,
+      "currency": "USD",
+      "duration": "",
+      "durationText": "",
+      "description": "",
+      "descriptionRaw": "",
+      "descriptionQuality": "",
+      "highlights": [],
+      "tags": [
+        "Attraction-Boat Tour-Canoe-Eco Tour-Environmental Attraction-Guided Tour-Kayak-Lesson-Marina-SUP-Surf"
+      ],
+      "image": "",
+      "galleryImages": [],
+      "rating": null,
+      "reviewCount": null,
+      "ratingSource": "",
+      "freeCancellation": true,
+      "timeOfDay": "morning",
+      "capacity": null,
+      "enrichmentSource": "s51-fst-held-ingest",
+      "status": "active",
+      "statusReason": null,
+      "statusFirstSeen": "2026-08-26",
+      "statusConsecutiveRuns": 1,
+      "lastUpdated": "2026-08-26",
+      "verifiedOn": "2026-08-26",
+      "_unknownFields": {
+        "priceSource": "s51-fst-held-ingest",
+        "origin": "held-tours-needs-operator-key.json (retired #154)",
+        "probeDates": [
+          "2026-08-27",
+          "2026-09-16",
+          "2026-10-06",
+          "2026-10-26"
+        ],
+        "probeSampled": 0,
+        "probeDateValid": 0,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 0,
+        "priceTiers": [],
+        "priceBasis": "UNSAMPLED: absent from price-preview items[] on 4/4 dated probes (2026-08-27, 2026-09-16, 2026-10-06, 2026-10-26) -- 60-day/4-date sweep exhausted; low never released",
+        "priceHold": "UNSAMPLED"
       }
     }
   ]

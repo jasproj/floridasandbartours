@@ -9,9 +9,9 @@
  },
  "method": "Read-only GET probe of price-preview/per-item/v2 (include_breakdown=yes) for each pk, 4 dates spanning ~90 days (2026-08-27/09-03/09-26/10-26). No booking-flow POSTs, no repo data touched.",
  "counts": {
-  "ingest_as_normal_row": 56,
+  "ingest_as_normal_row": 54,
   "out_of_scope": 4,
-  "genuinely_blocked": 2,
+  "genuinely_blocked": 4,
   "total": 62
  },
  "piles": {
@@ -348,20 +348,6 @@
      "reason": "in scope; a base/adult-type tier is present in operator order via current price-preview v2 method (first tier: \"Adult\")"
     },
     {
-     "pk": 670442,
-     "operator": "Everglades Holiday Park",
-     "shortname": "evergladesholidaypark",
-     "name": "Airboat - Tour Group Rates",
-     "reason": "in scope; a base/adult-type tier is present in operator order via current price-preview v2 method (first tier: \"Private Tour - 2 to 11 People\")"
-    },
-    {
-     "pk": 670641,
-     "operator": "Everglades Holiday Park",
-     "shortname": "evergladesholidaypark",
-     "name": "Airboat - Private Tour Rates",
-     "reason": "in scope; a base/adult-type tier is present in operator order via current price-preview v2 method (first tier: \"AB Private Tour Party 1-4\")"
-    },
-    {
      "pk": 671216,
      "operator": "FinnSeeker Coastal Cruises",
      "shortname": "finnseekercoastalcruises",
@@ -461,8 +447,27 @@
      "shortname": "evergladesholidaypark",
      "name": "Airboat - Cruise Rates",
      "reason": "customer types are 8 parallel lettered rate-code variants (A/B/C/D/F/G/YBR/FTC) of \"Adult\"/\"Child\" at different prices ($16-$22) with no unqualified base tier \u2014 no way to pick the operative fare without operator rate-plan knowledge"
+    },
+    {
+     "pk": 670442,
+     "operator": "Everglades Holiday Park",
+     "shortname": "evergladesholidaypark",
+     "name": "Airboat - Tour Group Rates",
+     "reason": "RECLASSIFIED 2026-08-26 during s51-fst-held-ingest (#155): full tier-anchor engine run revealed the same structurally-ambiguous lettered/coded rate-variant shape as sibling pk 670424 (already genuinely_blocked) -- no canonical adult rate exists among the parallel coded tiers. See scripts/evidence/s51-fst-held-ingest/apply-summary.json for the full tier dump."
+    },
+    {
+     "pk": 670641,
+     "operator": "Everglades Holiday Park",
+     "shortname": "evergladesholidaypark",
+     "name": "Airboat - Private Tour Rates",
+     "reason": "RECLASSIFIED 2026-08-26 during s51-fst-held-ingest (#155): full tier-anchor engine run revealed the same structurally-ambiguous lettered/coded rate-variant shape as sibling pk 670424 (already genuinely_blocked) -- no canonical adult rate exists among the parallel coded tiers. See scripts/evidence/s51-fst-held-ingest/apply-summary.json for the full tier dump."
     }
    ]
   }
+ },
+ "ingestionUpdate": {
+  "date": "2026-08-26",
+  "pr": "#155 (s51-fst-held-ingest)",
+  "note": "47 of the 56 ingest_as_normal_row pks were ingested into tours-data.json with a live-verified price. 2 (670442, 670641) were reclassified to genuinely_blocked after the full tier-anchor engine surfaced the same lettered/coded-rate ambiguity as sibling 670424. 6 remained UNSAMPLED after a fresh 4-date/60-day sweep and 1 (675661) came back never_only -- all 9 were still added as held rows (price null, priceConfidence held) since they passed scope triage; see scripts/evidence/s51-fst-held-ingest/apply-summary.json for the full per-pk accounting."
  }
 }

@@ -1,0 +1,2025 @@
+{
+ "stampedOn": "2026-08-26",
+ "appliedAt": "2026-08-26T15:22:57.130065+00:00",
+ "population": 56,
+ "attempted": 56,
+ "succeeded": 56,
+ "ingested": 47,
+ "disposition": {
+  "ingested": 47,
+  "UNSAMPLED": 6,
+  "ambiguous_rate_codes": 2,
+  "never_only": 1
+ },
+ "addonSweep": [],
+ "summary": [
+  {
+   "pk": 31348,
+   "name": "Classic Manatee Swim Tour",
+   "company": "Fun2Dive Charters",
+   "sn": "fun2dive",
+   "tiers": [
+    {
+     "singular": "Participant",
+     "note": "All snorkeling gear and wetsuit is provided at no additional charge! Must be at least 3 years old.",
+     "price": 75.95,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Ride Only Passenger",
+     "note": "Ride Along Only - No Swimming with the Manatees. Must be at least 3 years old.",
+     "price": 50.95,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Private Tour",
+     "note": "For 12 People or less of any age to include infants.",
+     "price": 760,
+     "min": 2,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 75.95,
+   "label": "Participant",
+   "unit": "per-person",
+   "rule": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Ride Only Passenger\" $50.95 (a non-swimming ride-along variant) because it matched BASE_HEAD, not the rider/ride-along exclusion (which only fullmatches \"rider\"/\"ride-along\"/\"passenger only\"/\"non-diver\"); the true participant tier is \"Participant\" $75.95"
+  },
+  {
+   "pk": 32629,
+   "name": "1 Hour Adventure",
+   "company": "Cypress Outdoor Adventures",
+   "sn": "privateairboattour",
+   "tiers": [
+    {
+     "singular": "Two People (Base Price)",
+     "note": "Base price includes 2 people",
+     "price": 325,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Extra Adult",
+     "note": "12+",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Extra Child",
+     "note": "Under 12",
+     "price": 25,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "1.0 hour of Additional Fish Gigging",
+     "note": "",
+     "price": 200,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "2.0 hours of Additional Fish Gigging",
+     "note": "",
+     "price": 400,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 325,
+   "label": "Two People (Base Price)",
+   "unit": "per-unit",
+   "rule": "D-614 whole-boat floor"
+  },
+  {
+   "pk": 109966,
+   "name": "Eco Tour - Optional Lunch",
+   "company": "Latitudes Tours",
+   "sn": "latitudestours",
+   "tiers": [
+    {
+     "singular": "Adult BBQ Lunch",
+     "note": "Ages 12+",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult No Meal (Daytime)",
+     "note": "13+ No Meal",
+     "price": 42,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child BBQ Lunch",
+     "note": "11 and under",
+     "price": 42,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child No Meal (Daytime)",
+     "note": "3 - 12 No Meal",
+     "price": 32,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child 2 and Under (no meal option)",
+     "note": "2 and under No Meal",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 42,
+   "label": "Adult No Meal (Daytime)",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier of 2 base tiers (D-625)"
+  },
+  {
+   "pk": 109970,
+   "name": "Eco-Explorer Sunset Cruise",
+   "company": "Latitudes Tours",
+   "sn": "latitudestours",
+   "tiers": [
+    {
+     "singular": "Adult w/ Dinner",
+     "note": "Ages 12+",
+     "price": 54,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adult No Meal (evening)",
+     "note": "13+",
+     "price": 42,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child w/ Dinner",
+     "note": "Ages 3 - 11",
+     "price": 42,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child No Meal (evening)",
+     "note": "3-12",
+     "price": 35,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child 2 and Under (no meal option)",
+     "note": "must be accompanied by adult",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 42,
+   "label": "Adult No Meal (evening)",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier of 2 base tiers (D-625)"
+  },
+  {
+   "pk": 128628,
+   "name": "Snorkel Trip",
+   "company": "Sea Experience",
+   "sn": "seaexperience",
+   "tiers": [
+    {
+     "singular": "Adult Snorkeler",
+     "note": "Ages 13+ | Includes Snorkeling Equipment",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Snorkeler",
+     "note": "Ages 12 and under | Includes Snorkeling Equipment",
+     "price": 45,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Adult Rider",
+     "note": "Ages 13+ * Boat Ride Only",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Rider",
+     "note": "Ages 12 and Under * Boat Ride Only",
+     "price": 35,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Children under 2 years",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 60,
+   "label": "Adult Snorkeler",
+   "unit": "per-person",
+   "rule": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Adult Rider\" $50 (boat-ride-only, no snorkeling) for the same reason as 31348; the true tier is \"Adult Snorkeler\" $60"
+  },
+  {
+   "pk": 147664,
+   "name": "Destiny 4-Hour Kids Fishing Trip",
+   "company": "Destin Party Boat Fishing",
+   "sn": "destinpartyboatfishing",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 - 64",
+     "price": 85,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+     "price": 80,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 80,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Active Military",
+     "note": "Must have valid identification",
+     "price": 80,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Rider",
+     "note": "Passenger that will not be fishing",
+     "price": 75,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 85,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 147695,
+   "name": "Destiny 6-Hour Fishing Trip",
+   "company": "Destin Party Boat Fishing",
+   "sn": "destinpartyboatfishing",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 - 64",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Active Military",
+     "note": "Must have valid identification",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Rider",
+     "note": "Passenger that will not be fishing",
+     "price": 95,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 105,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 147699,
+   "name": "Destin Princess 6-Hour Fishing Trip",
+   "company": "Destin Party Boat Fishing",
+   "sn": "destinpartyboatfishing",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 - 64",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Active Military",
+     "note": "Must have valid identification",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Rider",
+     "note": "Passenger that will not be fishing",
+     "price": 95,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 105,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 147701,
+   "name": "Destiny 8-Hour Fishing Trip",
+   "company": "Destin Party Boat Fishing",
+   "sn": "destinpartyboatfishing",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 - 64",
+     "price": 140,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+     "price": 135,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 135,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Active Military",
+     "note": "Must have valid identification",
+     "price": 135,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Rider",
+     "note": "Passenger that will not be fishing",
+     "price": 120,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 140,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 147704,
+   "name": "Destin Princess 8-Hour Fishing Trip",
+   "company": "Destin Party Boat Fishing",
+   "sn": "destinpartyboatfishing",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 - 64",
+     "price": 140,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+     "price": 135,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 135,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Active Military",
+     "note": "Must have valid identification",
+     "price": 135,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Rider",
+     "note": "Passenger that will not be fishing",
+     "price": 120,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 140,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 147707,
+   "name": "Destin Princess 10-Hour Fishing Trip",
+   "company": "Destin Party Boat Fishing",
+   "sn": "destinpartyboatfishing",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13 - 64",
+     "price": 180,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 5-12 • Children under the age of 5 will not be allowed on board.",
+     "price": 175,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "Ages 65+",
+     "price": 175,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Active Military",
+     "note": "Must have valid identification",
+     "price": 175,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Rider",
+     "note": "Passenger that will not be fishing",
+     "price": 160,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 180,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 167669,
+   "name": "Tom Fred Fishing Charter",
+   "company": "Vero Tackle & Watersports",
+   "sn": "verotackle",
+   "tiers": [
+    {
+     "singular": "Half Day Charter",
+     "note": "Price Includes Two humans • 4 Hours",
+     "price": 450,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Additional Human - Half Day",
+     "note": "",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 450,
+   "label": "Half Day Charter",
+   "unit": "whole-boat",
+   "rule": "D-614 whole-boat floor"
+  },
+  {
+   "pk": 204492,
+   "name": "New Years Eve Fireworks Tour from Grantham Pointe",
+   "company": "Rusty Anchor Mount Dora",
+   "sn": "rustyanchormountdora",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 25,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 6-12",
+     "price": 15,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Toddler",
+     "note": "Ages 5 & Under $0 • Select 1 Adult in order to book toddlers. Please indicate how many Toddlers are in your party",
+     "price": 0,
+     "min": 2,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 25,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 213288,
+   "name": "Everglades National Park Guided Kayak Eco Tour",
+   "company": "LiveNow, Inc.",
+   "sn": "everglades-boattours",
+   "disposition": "UNSAMPLED",
+   "new": null
+  },
+  {
+   "pk": 225352,
+   "name": "Day Trip",
+   "company": "GeoTrippin",
+   "sn": "geotrippin",
+   "tiers": [
+    {
+     "singular": "Single Kayak",
+     "note": "Kayak for 1, Capacity: 280 lbs",
+     "price": 74,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Tandem Kayak",
+     "note": "Kayak for 2, Capacity: 500 lbs",
+     "price": 148,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Sea Kayak",
+     "note": "Length 16.5' Cockpit Width: 25\" - 28\"",
+     "price": 89,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "I'll Bring my Own Kayak",
+     "note": "Must be 14' or longer.",
+     "price": 44.5,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Group Organizer",
+     "note": "*Organizers go for free when 5 or more sign up!* Pay nothing now to save a date 2 or more weeks in advance.",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 44.5,
+   "label": "I'll Bring my Own Kayak",
+   "unit": "per-vehicle",
+   "rule": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount)"
+  },
+  {
+   "pk": 280575,
+   "name": "Mangroves & Mansions 2-Hour Kayak Tour",
+   "company": "Visit Palm Beach",
+   "sn": "visitpalmbeach",
+   "disposition": "UNSAMPLED",
+   "new": null
+  },
+  {
+   "pk": 305947,
+   "name": "Night Time Glow Paddle - Pensacola Beach Resort **OPEN NOW**",
+   "company": "Glow Paddle",
+   "sn": "glowpaddle",
+   "tiers": [
+    {
+     "singular": "Kayak",
+     "note": "All ages • Seats 2 people • Up to 450 lbs",
+     "price": 59,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Paddleboard",
+     "note": "18 & Older • 1 Person per Paddleboard",
+     "price": 39,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 39,
+   "label": "Paddleboard",
+   "unit": "per-vehicle",
+   "rule": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount)"
+  },
+  {
+   "pk": 324069,
+   "name": "Night Time Glow Paddle - Navarre Family Watersports **REOPENS MAY 2026**",
+   "company": "Glow Paddle",
+   "sn": "glowpaddle",
+   "tiers": [
+    {
+     "singular": "Kayak",
+     "note": "All ages • Seats 2 people • Up to 450 lbs",
+     "price": 59,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Paddleboard",
+     "note": "18 & Older • 1 Person per Paddleboard",
+     "price": 39,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 39,
+   "label": "Paddleboard",
+   "unit": "per-vehicle",
+   "rule": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount)"
+  },
+  {
+   "pk": 377105,
+   "name": "St. Pete Pier to Egmont Key Tour",
+   "company": "The Pelican",
+   "sn": "thepelicanllc",
+   "disposition": "UNSAMPLED",
+   "new": null
+  },
+  {
+   "pk": 412862,
+   "name": "Rainbow River Drift Dive",
+   "company": "Crystal River Watersports",
+   "sn": "crystalriverwatersports",
+   "tiers": [
+    {
+     "singular": "1-2 Participants - Gear not included",
+     "note": "Price includes 2 people",
+     "price": 230,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "3-8 Participants - Gear not included",
+     "note": "Priced per person",
+     "price": 105,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 105,
+   "label": "3-8 Participants - Gear not included",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 417628,
+   "name": "1.5 Hour Adventure",
+   "company": "Cypress Outdoor Adventures",
+   "sn": "privateairboattour",
+   "tiers": [
+    {
+     "singular": "Two People (Base Price)",
+     "note": "Base price includes 2 people",
+     "price": 350,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Extra Adult",
+     "note": "12+",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Extra Child",
+     "note": "Under 12",
+     "price": 25,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "1.0 hour of Additional Fish Gigging",
+     "note": "",
+     "price": 200,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "2.0 hours of Additional Fish Gigging",
+     "note": "",
+     "price": 400,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 350,
+   "label": "Two People (Base Price)",
+   "unit": "per-unit",
+   "rule": "D-614 whole-boat floor"
+  },
+  {
+   "pk": 422217,
+   "name": "Sunset / Nights of Lights Cruise - Osprey",
+   "company": "Florida Water Tours",
+   "sn": "floridawatertour",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "21+",
+     "price": 49,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 0-12",
+     "price": 26,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Military",
+     "note": "Must provide ID at check-in",
+     "price": 45,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 49,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 435932,
+   "name": "Fireworks Cruise aboard the SOUTHERN STAR",
+   "company": "Southern Star and Buccaneer Cruises",
+   "sn": "southernstarandbuccaneercruises",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 15+",
+     "price": 23,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-14",
+     "price": 23,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "RESERVATION REQUIRED (Ages 2 & under)",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Rate",
+     "note": "Minimum of 20 Tickets",
+     "price": 20,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 23,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 435947,
+   "name": "Fireworks Cruise aboard the Buccaneer",
+   "company": "Southern Star and Buccaneer Cruises",
+   "sn": "southernstarandbuccaneercruises",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 15+",
+     "price": 27,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-14",
+     "price": 27,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "RESERVATION REQUIRED (Ages 2 & under)",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Group Rate",
+     "note": "Minimum of 20 Tickets",
+     "price": 25,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 27,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 440228,
+   "name": "Naples Bay Water Shuttle : 12-8pm",
+   "company": "Sand Dollar Boat Tours",
+   "sn": "marcoislandboatcharters",
+   "tiers": [
+    {
+     "singular": "Naples Bay Water Shuttle 1 - Day",
+     "note": "",
+     "price": 20,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "T-Shirt • Medium",
+     "note": "",
+     "price": 28.3,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "T-Shirt • Large",
+     "note": "",
+     "price": 28.3,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "T-Shirt • XL",
+     "note": "",
+     "price": 28.3,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 20,
+   "label": "Naples Bay Water Shuttle 1 - Day",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier of 4 base tiers (D-625)"
+  },
+  {
+   "pk": 486107,
+   "name": "Destin FWB Sunset  Clear Kayak Tour",
+   "company": "Get Up and Go Kayaking - Destin",
+   "sn": "getupandgokayaking_destin",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 80,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Young Adult",
+     "note": "Ages 15-17",
+     "price": 60,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-14",
+     "price": 60,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 59,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 497485,
+   "name": "Destin FWB Glow Tour",
+   "company": "Get Up and Go Kayaking - Destin",
+   "sn": "getupandgokayaking_destin",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 80,
+     "min": 2,
+     "cls": "base"
+    },
+    {
+     "singular": "Young Adult",
+     "note": "Ages 15-17",
+     "price": 60,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-14",
+     "price": 60,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 59,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 503818,
+   "name": "VIP Private Scalloping Tour",
+   "company": "Seacow Safaris",
+   "sn": "conchycharters",
+   "tiers": [
+    {
+     "singular": "Full Day Charter",
+     "note": "This is a 9 Hour Scalloping trip for Groups Up to 6",
+     "price": 875,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 875,
+   "label": "Full Day Charter",
+   "unit": "whole-boat",
+   "rule": "D-640 single-tier product anchors on its sole tier"
+  },
+  {
+   "pk": 520669,
+   "name": "Naples Private Boat Charter Cruise",
+   "company": "Gulf Breeze Charters",
+   "sn": "gulfbreezecharters",
+   "tiers": [
+    {
+     "singular": "Private Charter",
+     "note": "Up to 6 people • 4 Hours",
+     "price": 750,
+     "min": 2,
+     "cls": "group"
+    },
+    {
+     "singular": "Fun Family Fishing",
+     "note": "",
+     "price": 150,
+     "min": 2,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 750,
+   "label": "Private Charter",
+   "unit": "whole-boat",
+   "rule": "D-614 whole-boat floor"
+  },
+  {
+   "pk": 550737,
+   "name": "Destin Fireworks Cruise",
+   "company": "Beach Please Charters LLC",
+   "sn": "bikkinibottomboat",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 18+",
+     "price": 30,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Youth",
+     "note": "Ages 13-17",
+     "price": 20,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12",
+     "price": 20,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant",
+     "note": "Ages 0-2",
+     "price": 10,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "",
+     "price": 25,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 30,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 575643,
+   "name": "Dinner Cruises",
+   "company": "Marina Rose Cruises",
+   "sn": "marinarosecruises",
+   "tiers": [
+    {
+     "singular": "Cruise Guest + Meal",
+     "note": "",
+     "price": 74,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Cruise Guest Only",
+     "note": "Does not include meal",
+     "price": 55,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 55,
+   "label": "Cruise Guest Only",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier of 2 base tiers (D-625)"
+  },
+  {
+   "pk": 604552,
+   "name": "Shell Island Easter Egg Hunt & Snorkeling Sail Aboard the Privateer Catamaran",
+   "company": "Paradise Adventures",
+   "sn": "paradiseadventures2",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Adults 13 and up",
+     "price": 50,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Children 3-12",
+     "price": 35,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant $20",
+     "note": "Infants 0-2 $20",
+     "price": 20,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 50,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 604555,
+   "name": "Fireworks Sail Aboard the Footloose Catamaran",
+   "company": "Paradise Adventures",
+   "sn": "paradiseadventures2",
+   "tiers": [
+    {
+     "singular": "Adult Fireworks Sail $70",
+     "note": "Adult Fireworks Sail $70",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Fireworks Sail $60",
+     "note": "Children 0-12",
+     "price": 60,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 70,
+   "label": "Adult Fireworks Sail $70",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 607592,
+   "name": "Kayak Tour",
+   "company": "Rainbow Springs Adventures",
+   "sn": "visitrainbowsprings",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "12+ years old",
+     "price": 70,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "3-11 years old • At least 1 adult ticket is required to book children",
+     "price": 65,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Senior",
+     "note": "65+ years old",
+     "price": 65,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 70,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 610625,
+   "name": "Day Paddle • Bring Your Own",
+   "company": "King's Landing",
+   "sn": "kingslandingfl",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 13+",
+     "price": 10,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 2-12 (children under the age of 2 are not permitted)",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Life Jacket Rental",
+     "note": "One PFD per person is required. If you do not have one, you can rent one from us here. *Life jackets are not refundable*",
+     "price": 5,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 10,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 614494,
+   "name": "Scuba Diving Two-Tank Charter",
+   "company": "Bottom Dwellers Scuba and Charters LLC",
+   "sn": "bottomdwellersscubaandcharter",
+   "tiers": [
+    {
+     "singular": "Diver",
+     "note": "",
+     "price": 125,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Non-Diver",
+     "note": "",
+     "price": 100,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 125,
+   "label": "Diver",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 626321,
+   "name": "Guided Snorkel Tour - Blue Heron Bridge",
+   "company": "Palm Beach Snorkeling",
+   "sn": "palmbeachsnorkeling",
+   "tiers": [
+    {
+     "singular": "Person (with snorkel gear)",
+     "note": "Includes mask, snorkel & fins",
+     "price": 90,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Person (without snorkel gear)",
+     "note": "Customer will bring their own snorkeling gear",
+     "price": 75,
+     "min": 2,
+     "cls": "never"
+    },
+    {
+     "singular": "Private Tour Snorkeler",
+     "note": "",
+     "price": 125,
+     "min": 2,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 75,
+   "label": "Person (without snorkel gear)",
+   "unit": "per-person",
+   "rule": "MANUAL OVERRIDE (audited 2026-08-26): engine excluded both \"Person (with/without snorkel gear)\" tiers via the ACCESSORY regex matching the phrase \"snorkel gear\" in the tier label itself (a false positive -- these ARE the base per-person tour tiers, gear-inclusive vs BYO, not accessory upsells), leaving only the $125 private-tour upsell to float to the top; the true base tier is \"Person (without snorkel gear)\" $75"
+  },
+  {
+   "pk": 634729,
+   "name": "Firework Boat Tour",
+   "company": "Sandy Bottom Boat Tours",
+   "sn": "sandybottomtours",
+   "disposition": "UNSAMPLED",
+   "new": null
+  },
+  {
+   "pk": 645013,
+   "name": "Manatee and Dolphin Encounter Tour",
+   "company": "Calypso Kayaking",
+   "sn": "calypsokayaking",
+   "tiers": [
+    {
+     "singular": "Single Clear Kayak",
+     "note": "Ages 4 and up",
+     "price": 75,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Clear Tandem Kayak",
+     "note": "For up to 2 people. Ages 4 and up",
+     "price": 150,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Tandem Kayak",
+     "note": "For up to 2 people. Ages 4 and up. Max weight 600 lbs combined.",
+     "price": 110,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Single Kayak",
+     "note": "Ages 4 and up",
+     "price": 55,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Paddleboard",
+     "note": "Ages 4 and up",
+     "price": 55,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Toddler",
+     "note": "Ages 3 and under. Must sit with accompanying adult.",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 55,
+   "label": "Single Kayak",
+   "unit": "per-vehicle",
+   "rule": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount)"
+  },
+  {
+   "pk": 647364,
+   "name": "Dolphin Watch, Landmark Sunset Cruise & Nights of Lights Viewing",
+   "company": "Fury Water Adventures - St. Augustine",
+   "sn": "furystaug",
+   "tiers": [
+    {
+     "singular": "Guest",
+     "note": "11 Years and Older",
+     "price": 42,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Guest (Ages 0-10)",
+     "note": "Children 0-10 years",
+     "price": 28,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 42,
+   "label": "Guest",
+   "unit": "per-person",
+   "rule": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Guest (Ages 0-10)\" $28 -- a child fare that reads as a base tier because NEVER/AGE_RANGE never fire on \"(Ages 0-10)\" without a \"years\"-suffixed range; the adult tier is \"Guest\" $42"
+  },
+  {
+   "pk": 650111,
+   "name": "Guided Eco Tour Paddle",
+   "company": "Oleta River Adventures",
+   "sn": "oletariveradventures",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18+",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Teen",
+     "note": "13-17",
+     "price": 50,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Youth",
+     "note": "12 and under",
+     "price": 40,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 60,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 651796,
+   "name": "Shark Snorkel Adventure",
+   "company": "Apex Adventure Diving LLC",
+   "sn": "apexadventurediving",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "18 years old and above",
+     "price": 225,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Kid",
+     "note": "Under 18 years old",
+     "price": 225,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Viewer",
+     "note": "Take a ride without taking a dip",
+     "price": 100,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 225,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Viewer\" $100 (\"take a ride without taking a dip\") -- a non-diver observer tier not in the NEVER vocabulary; the true participant tier is \"Adult\" $225"
+  },
+  {
+   "pk": 655197,
+   "name": "Daily Deep Sea Fishing",
+   "company": "Fishing on Island Time",
+   "sn": "fishingonislandtime",
+   "tiers": [
+    {
+     "singular": "Adult Ticket",
+     "note": "Ages 13+",
+     "price": 65,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child Ticket",
+     "note": "Ages 6-12",
+     "price": 45,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Student or Senior Ticket",
+     "note": "Students and seniors 65+. Must present ID.",
+     "price": 60,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "First Responder Ticket",
+     "note": "Military, Law Enforcement, First Responders & Teachers with ID",
+     "price": 60,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 65,
+   "label": "Adult Ticket",
+   "unit": "per-person",
+   "rule": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"First Responder Ticket\" $60 -- a concession class absent from the NEVER vocabulary; the adult tier is \"Adult Ticket\" $65"
+  },
+  {
+   "pk": 668721,
+   "name": "Chassahowitzka River Adventure",
+   "company": "Chadillac Adventures",
+   "sn": "chadillacadventures",
+   "tiers": [
+    {
+     "singular": "Party of 2",
+     "note": "Minimum 2 per booking",
+     "price": 300,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Party of 3+",
+     "note": "",
+     "price": 99,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 99,
+   "label": "Party of 3+",
+   "unit": "per-unit",
+   "rule": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount)"
+  },
+  {
+   "pk": 668725,
+   "name": "The Weeki Wachee Adventure",
+   "company": "Chadillac Adventures",
+   "sn": "chadillacadventures",
+   "tiers": [
+    {
+     "singular": "Party of 2",
+     "note": "Minimum 2 per booking",
+     "price": 300,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Party of 3+",
+     "note": "",
+     "price": 99,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 99,
+   "label": "Party of 3+",
+   "unit": "per-unit",
+   "rule": "D-614 whole-boat / party-size ladder: floor total anchors (never divided by headcount)"
+  },
+  {
+   "pk": 668818,
+   "name": "90 Minute Adventure Tour",
+   "company": "A Ultimate Airboat Tours",
+   "sn": "aultimateairboattours",
+   "disposition": "UNSAMPLED",
+   "new": null
+  },
+  {
+   "pk": 669055,
+   "name": "Airboat - Walk In Rates",
+   "company": "Everglades Holiday Park",
+   "sn": "evergladesholidaypark",
+   "tiers": [
+    {
+     "singular": "Adult",
+     "note": "Ages 12+",
+     "price": 41.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3 - 11 • Children 2 and under are free and do not require a ticket.",
+     "price": 29.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "AB & AE Combo - Adult",
+     "note": "",
+     "price": 86.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "AB & AE Combo - Child",
+     "note": "",
+     "price": 74.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Alligator Presentation - Adult",
+     "note": "",
+     "price": 29.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Alligator Presentation - Child",
+     "note": "",
+     "price": 21.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "AB Adult ($4 Off)",
+     "note": "",
+     "price": 37.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "AB Child ($2 Off)",
+     "note": "",
+     "price": 27.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "AB Senior ($1 Off)",
+     "note": "",
+     "price": 40.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "AB Child ($1 Off)",
+     "note": "",
+     "price": 28.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "AB Adult ($6 Off)",
+     "note": "",
+     "price": 35.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "AB Adult (20% Off)",
+     "note": "",
+     "price": 33.59,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "AB Child (20% Off)",
+     "note": "",
+     "price": 23.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "AB Adult (50% Off)",
+     "note": "",
+     "price": 21,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "AB Child (50% Off)",
+     "note": "",
+     "price": 15,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "AB Adult (Comp)",
+     "note": "Please notify a manager that a comp ticket is required and must be completed on their iPad.",
+     "price": 41.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "AB Child (Comp)",
+     "note": "Please notify a manager that a comp ticket is required and must be completed on their iPad.",
+     "price": 29.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "AB Child - Under Age 3",
+     "note": "",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 41.99,
+   "label": "Adult",
+   "unit": "per-person",
+   "rule": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"AB Adult (50% Off)\" $21 -- a promo-discount variant of Adult, not caught by NEVER (which matches the word \"discount\", not \"(50% Off)\"); the list-price adult tier is \"Adult\" $41.99"
+  },
+  {
+   "pk": 670442,
+   "name": "Airboat - Tour Group Rates",
+   "company": "Everglades Holiday Park",
+   "sn": "evergladesholidaypark",
+   "disposition": "ambiguous_rate_codes",
+   "new": null
+  },
+  {
+   "pk": 670641,
+   "name": "Airboat - Private Tour Rates",
+   "company": "Everglades Holiday Park",
+   "sn": "evergladesholidaypark",
+   "disposition": "ambiguous_rate_codes",
+   "new": null
+  },
+  {
+   "pk": 671216,
+   "name": "Sunrise Venice - Donuts and Dolphins Wildlife",
+   "company": "FinnSeeker Coastal Cruises",
+   "sn": "finnseekercoastalcruises",
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "13 years of age and up",
+     "price": 44.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Seniors or Military",
+     "note": "65 years of age and up",
+     "price": 39.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12 | Book adult(s) first to activate this option",
+     "price": 29.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Toddler",
+     "note": "Under 3 | Must be included in booking | Book adult(s) first to activate this option",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Group Rate (6+ Guests)",
+     "note": "Purchase 6 tickets or more at a discounted price!",
+     "price": 34.99,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 44.99,
+   "label": "Adults",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 671228,
+   "name": "Sunset - Venice Jetty",
+   "company": "FinnSeeker Coastal Cruises",
+   "sn": "finnseekercoastalcruises",
+   "tiers": [
+    {
+     "singular": "Adults",
+     "note": "13 years of age and up",
+     "price": 44.99,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Seniors or Military",
+     "note": "65 years of age and up",
+     "price": 39.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Child",
+     "note": "Ages 3-12 | Book adult(s) first to activate this option.",
+     "price": 29.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Toddler",
+     "note": "Under 3 | Must be included in booking | Book adult(s) first to activate this option.",
+     "price": 0,
+     "min": 1,
+     "cls": "zero"
+    },
+    {
+     "singular": "Group Rate (6+ Guests)",
+     "note": "Purchase 6 tickets or more at a discounted price!",
+     "price": 34.99,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 44.99,
+   "label": "Adults",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 675661,
+   "name": "Dolphin & Wildlife Eco Cruise",
+   "company": "Wildside Eco Tours",
+   "sn": "wildsideecotours",
+   "tiers": [
+    {
+     "singular": "Adult/Senior",
+     "note": "Ages 18+",
+     "price": 39.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Kid",
+     "note": "Ages 3 to 17. Kids tickets are not accessible unless an adult ticket has been selected.",
+     "price": 29.99,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Kid Sail Half Off",
+     "note": "Note Adult/Senior ticket must be added first. Limit one per adult.",
+     "price": 14.99,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "never_only",
+   "new": null
+  },
+  {
+   "pk": 688490,
+   "name": "Everglades Tour: Airboat ride-Alligator show-transportation",
+   "company": "Calypso Sea Life",
+   "sn": "calypsosealife",
+   "tiers": [
+    {
+     "singular": "Adult French tour",
+     "note": "9 years and above",
+     "price": 89,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults English tour",
+     "note": "9 yrs and above",
+     "price": 77,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Adults Spanish tour",
+     "note": "9 yra and above",
+     "price": 77,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Children French tour",
+     "note": "from 3 to 8 yrs",
+     "price": 84,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Children English tour",
+     "note": "from 3 to 8 yrs",
+     "price": 72,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Children Spanish tour",
+     "note": "from 3 to 8 yrs",
+     "price": 72,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant French tour",
+     "note": "0- 2 yrs",
+     "price": 43,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant English tour",
+     "note": "0- 2 yrs",
+     "price": 43,
+     "min": 1,
+     "cls": "never"
+    },
+    {
+     "singular": "Infant Spanish tour",
+     "note": "0- 2 yrs",
+     "price": 43,
+     "min": 1,
+     "cls": "never"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 77,
+   "label": "Adults English tour",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier of 3 base tiers (D-625)"
+  },
+  {
+   "pk": 702978,
+   "name": "Dolphin Shelling Sunset Combo",
+   "company": "Charter Finders",
+   "sn": "charterfinders",
+   "tiers": [
+    {
+     "singular": "Passenger",
+     "note": "All Ages",
+     "price": 68,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Service Member",
+     "note": "Discounted Price For Military, Firemen & Policemen l Must Present Valid ID",
+     "price": 60,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour",
+     "note": "",
+     "price": 275,
+     "min": 1,
+     "cls": "group"
+    },
+    {
+     "singular": "Private Tour",
+     "note": "3 Hour",
+     "price": 750,
+     "min": 1,
+     "cls": "group"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 68,
+   "label": "Passenger",
+   "unit": "per-person",
+   "rule": "D-624 cheapest adult/base per-person tier"
+  },
+  {
+   "pk": 706306,
+   "name": "Fireworks Cruise",
+   "company": "Boogies Watersports",
+   "sn": "boogieswatersports",
+   "tiers": [
+    {
+     "singular": "Person",
+     "note": "Ages 4+",
+     "price": 25,
+     "min": 1,
+     "cls": "base"
+    },
+    {
+     "singular": "Little One",
+     "note": "Ages 0 - 3",
+     "price": 5,
+     "min": 1,
+     "cls": "base"
+    }
+   ],
+   "disposition": "ingested",
+   "new": 25,
+   "label": "Person",
+   "unit": "per-person",
+   "rule": "MANUAL OVERRIDE (audited 2026-08-26): engine picked \"Little One\" (Ages 0-3) $5 -- an infant ticket under a euphemistic label absent from the NEVER vocabulary (infant/toddler/baby); the adult tier is \"Person\" $25"
+  },
+  {
+   "pk": 733504,
+   "name": "Bioluminescent Kayaking Tour",
+   "company": "Savvy Paddles",
+   "sn": "suppaddleinflorida",
+   "disposition": "UNSAMPLED",
+   "new": null
+  }
+ ]
+}
