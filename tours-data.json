@@ -2256,8 +2256,8 @@
       "location": "United States/Florida/Stock Island",
       "island": "united states/florida/stock island",
       "price": 1295,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceLabel": "$1,295 whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "240 minutes",
@@ -2282,10 +2282,35 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-08-26",
       "_unknownFields": {
-        "durationMinutes": 240
-      }
+        "durationMinutes": 240,
+        "priceSource": "s50-fst-cards-reprobe",
+        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $1,295 (note \"Up to 8 People.\"), unit whole-boat; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape, live USD; stored $1,295 confirmed",
+        "priceTiers": [
+          {
+            "name": "Private Charter",
+            "note": "Up to 8 People.",
+            "price": 1295,
+            "minPartySize": 1
+          }
+        ],
+        "unit": "whole-boat",
+        "minPartySize": 1,
+        "liveCurrency": "USD",
+        "probeDates": [
+          "2026-08-31",
+          "2026-09-14",
+          "2026-09-28",
+          "2026-10-19"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceKind": "whole boat / private charter"
+      },
+      "verifiedOn": "2026-08-26"
     },
     {
       "id": "532224",
@@ -2297,8 +2322,8 @@
       "location": "United States/Florida/Stock Island",
       "island": "united states/florida/stock island",
       "price": 1195,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceLabel": "$1,195 whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "240 minutes",
@@ -2323,10 +2348,35 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-08-26",
       "_unknownFields": {
-        "durationMinutes": 240
-      }
+        "durationMinutes": 240,
+        "priceSource": "s50-fst-cards-reprobe",
+        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $1,195 (note \"Up to 8 People.\"), unit whole-boat; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape, live USD; stored $1,195 confirmed",
+        "priceTiers": [
+          {
+            "name": "Private Charter",
+            "note": "Up to 8 People.",
+            "price": 1195,
+            "minPartySize": 1
+          }
+        ],
+        "unit": "whole-boat",
+        "minPartySize": 1,
+        "liveCurrency": "USD",
+        "probeDates": [
+          "2026-08-31",
+          "2026-09-14",
+          "2026-09-28",
+          "2026-10-19"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceKind": "whole boat / private charter"
+      },
+      "verifiedOn": "2026-08-26"
     },
     {
       "id": "532226",
@@ -2338,8 +2388,8 @@
       "location": "United States/Florida/Stock Island",
       "island": "united states/florida/stock island",
       "price": 1195,
-      "priceLabel": "charter",
-      "priceConfidence": "medium",
+      "priceLabel": "$1,195 whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "240 minutes",
@@ -2364,10 +2414,35 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": "",
+      "lastUpdated": "2026-08-26",
       "_unknownFields": {
-        "durationMinutes": 240
-      }
+        "durationMinutes": 240,
+        "priceSource": "s50-fst-cards-reprobe",
+        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $1,195 (note \"Up to 8 People.\"), unit whole-boat; 4/4 dated readings 2026-08-26 (4 date-valid), 1 ladder shape, live USD; stored $1,195 confirmed",
+        "priceTiers": [
+          {
+            "name": "Private Charter",
+            "note": "Up to 8 People.",
+            "price": 1195,
+            "minPartySize": 1
+          }
+        ],
+        "unit": "whole-boat",
+        "minPartySize": 1,
+        "liveCurrency": "USD",
+        "probeDates": [
+          "2026-08-31",
+          "2026-09-14",
+          "2026-09-28",
+          "2026-10-19"
+        ],
+        "probeSampled": 4,
+        "probeDateValid": 4,
+        "verifiedOn": "2026-08-26",
+        "verifiedDates": 4,
+        "priceKind": "whole boat / private charter"
+      },
+      "verifiedOn": "2026-08-26"
     },
     {
       "id": "532228",

@@ -1,0 +1,58 @@
+[
+ {
+  "file": "key-west.html",
+  "line": 132,
+  "pk": 263753,
+  "old": "From $160",
+  "new": "From $139.95 per jet ski"
+ },
+ {
+  "file": "key-west.html",
+  "line": 204,
+  "pk": 263803,
+  "old": "From $675",
+  "new": "From $425 per boat"
+ },
+ {
+  "file": "stock-island.html",
+  "line": 276,
+  "pk": 541394,
+  "old": "Check availability",
+  "new": "From $1,395 per boat &middot; half-day (4 hours)"
+ },
+ {
+  "file": "stock-island.html",
+  "line": 288,
+  "pk": 563185,
+  "old": "Check availability",
+  "new": "From $1,295 per boat &middot; 6 hours"
+ },
+ {
+  "file": "stock-island.html",
+  "line": 300,
+  "pk": 554262,
+  "old": "Check availability",
+  "new": "From $1,395 per boat &middot; 6 hours"
+ },
+ {
+  "file": "stock-island.html",
+  "line": 240,
+  "pk": 532164,
+  "old": "Check availability",
+  "new": "From $1,295 per boat &middot; up to 8 people"
+ },
+ {
+  "file": "stock-island.html",
+  "line": 252,
+  "pk": 532224,
+  "old": "Check availability",
+  "new": "From $1,195 per boat &middot; up to 8 people"
+ },
+ {
+  "file": "stock-island.html",
+  "line": 264,
+  "pk": 532226,
+  "old": "Check availability",
+  "new": "From $1,195 per boat &middot; up to 8 people"
+ }
+]
