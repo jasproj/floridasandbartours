@@ -1,0 +1,25 @@
+population 623 rows / 237 shortnames (excluded ruled 21)
+[control] {'shortname': 'definitely-not-a-real-fh-shortname-zzz', 'result': 'HTTP 400', 'falsifiable': True}
+10/237 operators, 46 req
+20/237 operators, 86 req
+30/237 operators, 126 req
+40/237 operators, 166 req
+50/237 operators, 206 req
+60/237 operators, 246 req
+70/237 operators, 286 req
+80/237 operators, 326 req
+90/237 operators, 366 req
+100/237 operators, 406 req
+110/237 operators, 446 req
+120/237 operators, 486 req
+130/237 operators, 526 req
+140/237 operators, 566 req
+150/237 operators, 606 req
+160/237 operators, 646 req
+170/237 operators, 686 req
+180/237 operators, 726 req
+190/237 operators, 766 req
+200/237 operators, 806 req
+210/237 operators, 846 req
+220/237 operators, 886 req
+230/237 operators, 926 req
