@@ -300,7 +300,7 @@ ul, ol { list-style: none; }
     transform: scale(1.05);
 }
 
-/* TODO: redesign hero to ≤120px mobile per network CTO standard — follow-up PR */
+/* Mobile hero compact: ≤150px tablet, ≤120px phone — tours visible in 1 scroll */
 
 /* Sub-page photo hero (dolphin-tours, family-tours, island-tours,
    private-charters, sandbar-tours, sunset-cruises). Each page sets its own
@@ -353,22 +353,37 @@ ul, ol { list-style: none; }
    the compact hero for space. */
 @media (max-width: 768px) {
     .hero-home {
-        min-height: 360px;
+        min-height: 150px;
     }
     .hero-home .hero-content {
-        padding: 32px 20px 24px;
+        padding: 16px 16px 12px;
     }
     .hero-home .hero-logo-img {
-        max-width: 130px;
+        max-width: 90px;
     }
     .hero-home .hero-logo {
-        margin-bottom: 12px;
+        margin-bottom: 6px;
     }
     .hero-home .hero-subtitle {
-        margin-bottom: 16px;
+        font-size: 0.8rem;
+        margin-bottom: 8px;
     }
     .hero-home .hero-search {
         margin-bottom: 0;
+    }
+}
+@media (max-width: 499px) {
+    .hero-home {
+        min-height: 120px;
+    }
+    .hero-home .hero-content {
+        padding: 10px 16px 8px;
+    }
+    .hero-home .hero-logo-img {
+        max-width: 70px;
+    }
+    .hero-home .hero-subtitle {
+        display: none;
     }
 }
 
