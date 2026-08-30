@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,follow">
+    <title>Find Your Perfect Boat Day | Florida Sandbar Tours</title>
+    <meta name="description" content="Answer 5 quick questions to find the perfect Florida boat tour for your group — sandbars, dolphins, sunset cruises, kayaking and more.">
+    <link rel="canonical" href="https://floridasandbartours.com/boat-day-quiz.html">
+
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2FCXCNE07X"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2FCXCNE07X');
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --ocean-deep: #1B3A57;
+            --ocean-mid: #1E6B8A;
+            --coral: #E8832A;
+            --sand: #FDF5E6;
+            --palm: #2D8B4E;
+            --white: #FFFFFF;
+            --text: #1A1A2E;
+            --muted: #6B7280;
+            --sunset-gold: #F7941D;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--sand);
+            color: var(--text);
+            min-height: 100vh;
+        }
+
+        .header {
+            background: var(--ocean-deep);
+            padding: 12px 16px;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .quiz-wrap {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px 16px 40px;
+        }
+
+        .progress {
+            height: 4px;
+            background: #ddd;
+            border-radius: 2px;
+            margin-bottom: 8px;
+        }
+        .progress-fill {
+            height: 100%;
+            background: var(--coral);
+            border-radius: 2px;
+            transition: width 0.3s;
+        }
+        .progress-text {
+            font-size: 12px;
+            color: var(--muted);
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .question {
+            display: none;
+            animation: fadeIn 0.25s ease;
+        }
+        .question.active { display: block; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+        .q-emoji { font-size: 36px; text-align: center; margin-bottom: 8px; }
+        .q-title { font-size: 20px; font-weight: 700; text-align: center; margin-bottom: 4px; color: var(--ocean-deep); }
+        .q-sub { font-size: 13px; color: var(--muted); text-align: center; margin-bottom: 20px; }
+
+        .options { display: flex; flex-direction: column; gap: 10px; }
+        .opt {
+            display: flex; align-items: center; gap: 12px;
+            background: white; border: 2px solid #e8e8e8; border-radius: 10px;
+            padding: 14px; cursor: pointer; transition: all 0.15s;
+        }
+        .opt:hover { border-color: var(--ocean-mid); }
+        .opt.selected { border-color: var(--coral); background: #FFF7ED; }
+        .opt-emoji { font-size: 24px; flex-shrink: 0; width: 36px; text-align: center; }
+        .opt-text { font-size: 14px; font-weight: 600; }
+        .opt-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+        .nav { display: flex; gap: 10px; margin-top: 20px; }
+        .btn-back {
+            flex: 0 0 auto;
+            background: #f0f0f0; border: none; border-radius: 8px;
+            padding: 12px 16px; font-size: 14px; cursor: pointer; color: var(--muted);
+        }
+        .btn-next {
+            flex: 1;
+            background: #ccc; border: none; border-radius: 8px;
+            padding: 12px 16px; font-size: 14px; font-weight: 600;
+            cursor: not-allowed; color: white; transition: background 0.15s;
+        }
+        .btn-next.enabled {
+            background: var(--coral); cursor: pointer;
+        }
+
+        /* Loading */
+        .loading { display: none; text-align: center; padding: 60px 20px; }
+        .loading.active { display: block; }
+        .loading h2 { color: var(--ocean-deep); margin-bottom: 8px; }
+        .spinner { display: inline-block; width: 32px; height: 32px; border: 3px solid #e0e0e0; border-top-color: var(--coral); border-radius: 50%; animation: spin 0.8s linear infinite; margin-bottom: 16px; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Results */
+        .results { display: none; }
+        .results.active { display: block; }
+        .results-header { text-align: center; margin-bottom: 20px; }
+        .results-header h1 { font-size: 22px; margin-bottom: 4px; color: var(--ocean-deep); }
+        .results-header p { font-size: 13px; color: var(--muted); }
+        .result-type {
+            background: white; border-radius: 12px; padding: 16px;
+            margin-bottom: 16px; border-left: 4px solid var(--coral);
+        }
+        .result-type h2 { font-size: 18px; color: var(--ocean-deep); margin-bottom: 4px; }
+        .result-type p { font-size: 13px; color: var(--muted); }
+        .result-pct { font-size: 12px; color: var(--coral); font-weight: 600; margin-top: 4px; }
+        .result-link { display: inline-block; margin-top: 8px; color: var(--ocean-mid); font-size: 13px; font-weight: 600; text-decoration: none; }
+        .result-link:hover { text-decoration: underline; }
+
+        .tour-card {
+            background: white; border-radius: 10px; overflow: hidden;
+            margin-bottom: 12px; border: 1px solid #e8e8e8;
+        }
+        .tour-card img {
+            width: 100%; height: 140px; object-fit: cover;
+        }
+        .tour-info { padding: 12px; }
+        .tour-name { font-size: 14px; font-weight: 600; color: var(--ocean-deep); margin-bottom: 2px; }
+        .tour-company { font-size: 12px; color: var(--muted); }
+        .tour-meta { display: flex; justify-content: space-between; align-items: center; margin-top: 8px; }
+        .tour-price { font-size: 16px; font-weight: 700; color: var(--palm); }
+        .tour-location { font-size: 11px; color: var(--muted); }
+        .tour-cta {
+            display: block; text-align: center; background: var(--coral); color: white;
+            text-decoration: none; padding: 10px; font-weight: 600; font-size: 14px;
+            border-radius: 0 0 10px 10px; transition: background 0.15s;
+        }
+        .tour-cta:hover { background: #D0741F; }
+
+        .more-results { text-align: center; margin: 16px 0; }
+        .more-btn {
+            background: white; border: 2px solid var(--ocean-deep); color: var(--ocean-deep);
+            padding: 10px 24px; border-radius: 8px; font-weight: 600; cursor: pointer;
+        }
+
+        .email-box {
+            background: white; border: 2px dashed var(--coral); border-radius: 12px;
+            padding: 18px; text-align: center; margin-top: 12px;
+        }
+        .email-box h3 { font-size: 15px; margin-bottom: 6px; color: var(--ocean-deep); }
+        .email-box p { font-size: 12px; color: var(--muted); margin-bottom: 12px; }
+        .email-form { display: flex; gap: 8px; flex-direction: column; }
+        .email-input {
+            flex: 1; padding: 12px; border: 2px solid #e0e0e0; border-radius: 6px; font-size: 16px;
+        }
+        .email-btn {
+            background: var(--ocean-deep); color: white; border: none;
+            padding: 12px 16px; border-radius: 6px; font-weight: 600; cursor: pointer;
+        }
+        .email-success { display: none; color: var(--palm); font-weight: 600; }
+
+        .other-types { margin-top: 20px; }
+        .other-types h3 { font-size: 14px; color: var(--ocean-deep); margin-bottom: 8px; }
+        .type-pill {
+            display: inline-block; background: white; border: 1px solid #ddd;
+            border-radius: 20px; padding: 6px 14px; margin: 0 6px 8px 0;
+            font-size: 12px; color: var(--ocean-mid); text-decoration: none;
+        }
+        .type-pill:hover { border-color: var(--coral); }
+
+        .restart { text-align: center; margin-top: 20px; }
+        .restart a { color: var(--muted); font-size: 12px; }
+
+        @media (min-width: 500px) {
+            .email-form { flex-direction: row; }
+        }
+    </style>
+    <script src="/tracking.js" defer></script>
+    <link rel="stylesheet" href="/sponsor-slot.css">
+    <script src="/sponsor-slot.js" defer></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "headline": "Find Your Perfect Florida Boat Day | Florida Sandbar Tours",
+        "description": "Answer 5 quick questions to find the perfect Florida boat tour for your group — sandbars, dolphins, sunset cruises, kayaking and more.",
+        "image": "https://floridasandbartours.com/images/og-image.jpg",
+        "datePublished": "2026-08-30T12:00:00Z",
+        "author": { "@type": "Organization", "name": "FloridaSandbarTours" },
+        "publisher": { "@type": "Organization", "name": "FloridaSandbarTours", "url": "https://floridasandbartours.com" },
+        "mainEntityOfPage": { "@type": "WebPage", "@id": "https://floridasandbartours.com/boat-day-quiz.html" }
+    }
+    </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a href="/" class="site-logo">
+        <img src="/logo.png" alt="Florida Sandbar Tours" width="40" height="40">
+        <span class="site-logo-text">Florida Sandbar Tours</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/#tours-section">Tours</a>
+        <a href="/about.html">About</a>
+        <a href="/faq.html">FAQs</a>
+        <a href="/blog/">Blog</a>
+      </nav>
+      <button class="site-nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav-mobile">&#9776;</button>
+    </div>
+    <nav class="site-nav-mobile" id="site-nav-mobile" aria-label="Mobile navigation">
+      <a href="/#tours-section">Tours</a>
+      <a href="/about.html">About</a>
+      <a href="/faq.html">FAQs</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+  </header>
+
+    <div class="header">
+        <a href="/">← Back to Florida Sandbar Tours</a>
+    </div>
+
+    <div class="quiz-wrap">
+        <div class="progress">
+            <div class="progress-fill" id="prog" style="width:20%"></div>
+        </div>
+        <div class="progress-text"><span id="step">1</span> of 5</div>
+
+        <!-- Q1: What sounds like the perfect day? -->
+        <div class="question active" id="q1">
+            <div class="q-emoji">☀️</div>
+            <h2 class="q-title">What sounds like the perfect day?</h2>
+            <p class="q-sub">Pick the one that makes you say "yes"</p>
+            <div class="options">
+                <div class="opt" data-v="sandbar" onclick="pick(this,'vibe')">
+                    <span class="opt-emoji">🏖️</span>
+                    <div><div class="opt-text">Floating on a sandbar with a cold drink</div><div class="opt-sub">Crystal water, sandy bottom, zero agenda</div></div>
+                </div>
+                <div class="opt" data-v="dolphin" onclick="pick(this,'vibe')">
+                    <span class="opt-emoji">🐬</span>
+                    <div><div class="opt-text">Spotting dolphins and manatees</div><div class="opt-sub">Wildlife encounters up close</div></div>
+                </div>
+                <div class="opt" data-v="sunset" onclick="pick(this,'vibe')">
+                    <span class="opt-emoji">🌅</span>
+                    <div><div class="opt-text">Golden hour on the water</div><div class="opt-sub">Sunset cruise, tiki boat, champagne vibes</div></div>
+                </div>
+                <div class="opt" data-v="kayak" onclick="pick(this,'vibe')">
+                    <span class="opt-emoji">🛶</span>
+                    <div><div class="opt-text">Paddling through mangroves</div><div class="opt-sub">Kayak, eco tour, nature up close</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-next" id="n1" onclick="next(2)">Continue →</button>
+            </div>
+        </div>
+
+        <!-- Q2: Who's joining you? -->
+        <div class="question" id="q2">
+            <div class="q-emoji">👥</div>
+            <h2 class="q-title">Who's joining you?</h2>
+            <p class="q-sub">We'll match the right experience</p>
+            <div class="options">
+                <div class="opt" data-v="family" onclick="pick(this,'who')">
+                    <span class="opt-emoji">👨‍👩‍👧‍👦</span>
+                    <div><div class="opt-text">Family with kids</div><div class="opt-sub">Safe, fun for all ages</div></div>
+                </div>
+                <div class="opt" data-v="couple" onclick="pick(this,'who')">
+                    <span class="opt-emoji">💑</span>
+                    <div><div class="opt-text">Just us two</div><div class="opt-sub">Romantic day on the water</div></div>
+                </div>
+                <div class="opt" data-v="friends" onclick="pick(this,'who')">
+                    <span class="opt-emoji">🎉</span>
+                    <div><div class="opt-text">Friend group</div><div class="opt-sub">BYOB, good vibes, great stories</div></div>
+                </div>
+                <div class="opt" data-v="solo" onclick="pick(this,'who')">
+                    <span class="opt-emoji">🧭</span>
+                    <div><div class="opt-text">Solo explorer</div><div class="opt-sub">Just me and the water</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-back" onclick="back(1)">←</button>
+                <button class="btn-next" id="n2" onclick="next(3)">Continue →</button>
+            </div>
+        </div>
+
+        <!-- Q3: Energy level -->
+        <div class="question" id="q3">
+            <div class="q-emoji">⚡</div>
+            <h2 class="q-title">What's your energy level?</h2>
+            <p class="q-sub">No wrong answer here</p>
+            <div class="options">
+                <div class="opt" data-v="chill" onclick="pick(this,'energy')">
+                    <span class="opt-emoji">😎</span>
+                    <div><div class="opt-text">Maximum chill</div><div class="opt-sub">Float, sip, repeat</div></div>
+                </div>
+                <div class="opt" data-v="curious" onclick="pick(this,'energy')">
+                    <span class="opt-emoji">🔭</span>
+                    <div><div class="opt-text">Curious explorer</div><div class="opt-sub">I want to learn and see things</div></div>
+                </div>
+                <div class="opt" data-v="active" onclick="pick(this,'energy')">
+                    <span class="opt-emoji">💪</span>
+                    <div><div class="opt-text">Get me moving</div><div class="opt-sub">Paddling, snorkeling, adventure</div></div>
+                </div>
+                <div class="opt" data-v="party" onclick="pick(this,'energy')">
+                    <span class="opt-emoji">🥳</span>
+                    <div><div class="opt-text">Here for a good time</div><div class="opt-sub">Music, drinks, memories</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-back" onclick="back(2)">←</button>
+                <button class="btn-next" id="n3" onclick="next(4)">Continue →</button>
+            </div>
+        </div>
+
+        <!-- Q4: Region -->
+        <div class="question" id="q4">
+            <div class="q-emoji">📍</div>
+            <h2 class="q-title">Where in Florida?</h2>
+            <p class="q-sub">Or wherever you're most interested in</p>
+            <div class="options">
+                <div class="opt" data-v="tampa" onclick="pick(this,'region')">
+                    <span class="opt-emoji">🏙️</span>
+                    <div><div class="opt-text">Tampa Bay / Clearwater / St. Pete</div><div class="opt-sub">Gulf beaches, islands, sandbars</div></div>
+                </div>
+                <div class="opt" data-v="swfl" onclick="pick(this,'region')">
+                    <span class="opt-emoji">🌴</span>
+                    <div><div class="opt-text">Naples / Marco Island / Fort Myers</div><div class="opt-sub">Ten Thousand Islands, wildlife, shelling</div></div>
+                </div>
+                <div class="opt" data-v="panhandle" onclick="pick(this,'region')">
+                    <span class="opt-emoji">🐚</span>
+                    <div><div class="opt-text">Destin / Panama City / Pensacola</div><div class="opt-sub">Emerald waters, Crab Island, white sand</div></div>
+                </div>
+                <div class="opt" data-v="anywhere" onclick="pick(this,'region')">
+                    <span class="opt-emoji">🗺️</span>
+                    <div><div class="opt-text">Surprise me — anywhere in Florida</div><div class="opt-sub">Show me the best, wherever it is</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-back" onclick="back(3)">←</button>
+                <button class="btn-next" id="n4" onclick="next(5)">Continue →</button>
+            </div>
+        </div>
+
+        <!-- Q5: Budget -->
+        <div class="question" id="q5">
+            <div class="q-emoji">💰</div>
+            <h2 class="q-title">Budget per person?</h2>
+            <p class="q-sub">Helps us find the right fit</p>
+            <div class="options">
+                <div class="opt" data-v="low" onclick="pick(this,'budget')">
+                    <span class="opt-emoji">🎯</span>
+                    <div><div class="opt-text">Under $50</div><div class="opt-sub">Great tours don't have to break the bank</div></div>
+                </div>
+                <div class="opt" data-v="mid" onclick="pick(this,'budget')">
+                    <span class="opt-emoji">⭐</span>
+                    <div><div class="opt-text">$50 – $100</div><div class="opt-sub">The sweet spot for most tours</div></div>
+                </div>
+                <div class="opt" data-v="high" onclick="pick(this,'budget')">
+                    <span class="opt-emoji">✨</span>
+                    <div><div class="opt-text">$100 – $200</div><div class="opt-sub">Premium experiences, smaller groups</div></div>
+                </div>
+                <div class="opt" data-v="vip" onclick="pick(this,'budget')">
+                    <span class="opt-emoji">👑</span>
+                    <div><div class="opt-text">$200+ — go all out</div><div class="opt-sub">Private charters, VIP treatment</div></div>
+                </div>
+            </div>
+            <div class="nav">
+                <button class="btn-back" onclick="back(4)">←</button>
+                <button class="btn-next" id="n5" onclick="showResults()">See My Matches →</button>
+            </div>
+        </div>
+
+        <!-- Loading -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <h2>Finding your perfect boat day...</h2>
+            <p style="color:var(--muted);font-size:13px;">Matching from 3,600+ Florida tours</p>
+        </div>
+
+        <!-- Results -->
+        <div class="results" id="results">
+            <div class="results-header">
+                <h1 id="resultTitle">Your Perfect Boat Day</h1>
+                <p id="resultSub"></p>
+            </div>
+
+            <div class="result-type" id="topType">
+                <h2 id="typeName"></h2>
+                <p id="typeDesc"></p>
+                <div class="result-pct" id="typePct"></div>
+                <a class="result-link" id="typeLink" href="#">Browse all →</a>
+            </div>
+
+            <div id="tourCards"></div>
+
+            <div class="more-results" id="moreSection" style="display:none;">
+                <button class="more-btn" onclick="showMore()">Show more matches</button>
+            </div>
+
+            <div class="email-box">
+                <h3>Get a custom trip plan</h3>
+                <p>We'll send personalized recommendations based on your answers</p>
+                <form class="email-form" id="emailForm">
+                    <input type="email" class="email-input" id="emailInput" placeholder="your@email.com" required>
+                    <button type="submit" class="email-btn">Send My Plan</button>
+                </form>
+                <div class="email-success" id="emailSuccess">Sent! Check your inbox.</div>
+            </div>
+
+            <div class="other-types" id="otherTypes">
+                <h3>Also explore:</h3>
+                <div id="otherPills"></div>
+            </div>
+
+            <div class="restart">
+                <a href="#" onclick="location.reload();return false;">↺ Take the quiz again</a>
+            </div>
+        </div>
+    </div>
+
+<script>
+const TYPES = {
+    sandbar: {
+        name: "Sandbar & Island Day",
+        emoji: "🏖️",
+        desc: "You're made for the sandbar life — crystal-clear shallows, a cooler full of drinks, and nowhere to be. Florida's best sandbars are calling.",
+        link: "/sandbar-tours.html",
+        linkText: "Browse all sandbar tours →"
+    },
+    dolphin: {
+        name: "Dolphin & Wildlife Tour",
+        emoji: "🐬",
+        desc: "You light up around wildlife. Florida's dolphins, manatees, and sea birds are waiting — and guided tours get you closer than you'd believe.",
+        link: "/dolphin-tours.html",
+        linkText: "Browse all dolphin tours →"
+    },
+    sunset: {
+        name: "Sunset & Tiki Cruise",
+        emoji: "🌅",
+        desc: "Golden hour on the Gulf is your move. Whether it's a tiki boat with friends or a quiet sail for two, Florida sunsets hit different from the water.",
+        link: "/sunset-cruises.html",
+        linkText: "Browse all sunset cruises →"
+    },
+    kayak: {
+        name: "Kayak & Eco Adventure",
+        emoji: "🛶",
+        desc: "You want to feel the water, not just ride on it. Mangrove tunnels, clear kayaks over springs, bioluminescent bays — this is your Florida.",
+        link: "/family-tours.html",
+        linkText: "Browse all eco tours →"
+    }
+};
+
+const TOURS = [
+    // SANDBAR & ISLAND
+    {name:"Three Hour Shelling Tour", price:120, company:"Reel Kind Fishing and Tours", loc:"Goodland", region:"swfl", type:"sandbar", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/a7VDgVWLT2Ss2ueq63rL", link:"https://fareharbor.com/embeds/book/reelkindfishingandtours/items/695218/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"3-hour shelling trip through the Ten Thousand Islands — local captain, small group"},
+    {name:"Shell Island Ferry", price:28, company:"St. Andrews Adventures", loc:"Panama City", region:"panhandle", type:"sandbar", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/6xAKvoZ9Tza86EjmvAtS", link:"https://fareharbor.com/embeds/book/standrewsadventures/items/301164/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Budget-friendly ferry to Shell Island — stunning white sand, great snorkeling"},
+    {name:"Barrier Island Shelling Tour", price:129, company:"Florida Island Tours", loc:"Marco Island", region:"swfl", type:"sandbar", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/BwbJMCURqanzYzL5swi7", link:"https://fareharbor.com/embeds/book/floridaislandtours/items/239475/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Barrier island exploration with shelling, birding, and dolphin sightings"},
+    {name:"4 Hour Egmont Key Island Tour", price:69, company:"Tampa Bay Boating Adventures", loc:"St. Petersburg", region:"tampa", type:"sandbar", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/lZ1iMDFeQi4GodXv1xVg", link:"https://fareharbor.com/embeds/book/tampabayadventures/items/236853/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Egmont Key island trip — historic fort, snorkeling, pristine sandbar"},
+    {name:"Crab Island Express Tiki Trips", price:69, company:"Destin Private Yachts", loc:"Destin", region:"panhandle", type:"sandbar", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/UzPDoh3RkGVUaqp6J7A4", link:"https://fareharbor.com/embeds/book/destinprivateyachts/items/677300/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Tiki boat straight to Crab Island — the Panhandle's legendary floating party"},
+
+    // DOLPHIN & WILDLIFE
+    {name:"Dolphin Tours", price:89, company:"Florida Adventures and Rentals", loc:"Marco Island", region:"swfl", type:"dolphin", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/vF5Rh2GuTPqsqrDFoWIV", link:"https://fareharbor.com/embeds/book/floridaadventuresandrentals/items/44212/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"2-hour dolphin tour in the Ten Thousand Islands — 100% sighting rate"},
+    {name:"Sunset Dolphin Cruise", price:39, company:"Southern Star Cruises", loc:"Destin", region:"panhandle", type:"dolphin", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/bMDADHT6T6uxGKGPzn7l", link:"https://fareharbor.com/embeds/book/southernstarandbuccaneercruises/items/492430/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Dolphins at sunset in Destin Harbor — family-friendly, incredible value"},
+    {name:"Dolphin Excursion", price:40, company:"ParrotDise Express Boat Tours", loc:"Dunedin", region:"tampa", type:"dolphin", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/iCZ1mPhaTkeGMxCeM7B7", link:"https://fareharbor.com/embeds/book/parrotdiseexpress/items/366514/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Dolphin encounters off Dunedin and Honeymoon Island — small group, local crew"},
+    {name:"Dolphin Watching Cruise", price:30, company:"Hubbard's Marina", loc:"Madeira Beach", region:"tampa", type:"dolphin", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/YbH5dfeSAeXjovcXrqRt", link:"https://fareharbor.com/embeds/book/hubbardsmarina/items/64851/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"$30 dolphin cruise from John's Pass — one of Tampa Bay's best deals"},
+    {name:"Dolphin and Wildlife Adventure", price:39, company:"Florida Water Tours", loc:"St. Augustine", region:"anywhere", type:"dolphin", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/3RCf1hqaR8ix58APF07N", link:"https://fareharbor.com/embeds/book/floridawatertour/items/19075/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Dolphins in the Matanzas River — a hidden gem in historic St. Augustine"},
+
+    // SUNSET & TIKI
+    {name:"Tiki Tour — Sunsets and Megalodon Tales", price:99, company:"Keys Huka Dive", loc:"Nokomis", region:"tampa", type:"sunset", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/cGCKxq9wQ3i7yHjCqOau", link:"https://fareharbor.com/embeds/book/keyshukadive/items/306831/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Tiki boat sunset cruise with shark tooth stories — BYOB, unforgettable"},
+    {name:"90 Minute Tiki Sunset Boat Tour", price:40, company:"Ohana Water Adventures", loc:"Panama City", region:"panhandle", type:"sunset", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/GUsG0vxSK2ZObgWmiKzp", link:"https://fareharbor.com/embeds/book/ohanawateradventures/items/608709/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Budget tiki sunset in Panama City — $40 for 90 minutes of golden hour"},
+    {name:"Sunset Cruise", price:35, company:"Hubbard's Marina", loc:"Madeira Beach", region:"tampa", type:"sunset", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/kZ2TGRldRj6IeGa4uG6L", link:"https://fareharbor.com/embeds/book/hubbardsmarina/items/694506/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Classic Gulf sunset from John's Pass — gorgeous views, great price"},
+    {name:"Sunset Tiki Cruise — Golden Hour Magic", price:69, company:"Naples Tiki Fun Tours", loc:"Naples", region:"swfl", type:"sunset", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/hpsinGK4TiSPS0K9FR0Y", link:"https://fareharbor.com/embeds/book/cruisintikisnaples/items/445724/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Naples Bay sunset on a tiki boat — dolphins often join the ride"},
+    {name:"Fort Lauderdale Sunset Cruise", price:99, company:"Tropical Sailing", loc:"Fort Lauderdale", region:"anywhere", type:"sunset", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/3KI8P1yASOJJ1hbqDYiM", link:"https://fareharbor.com/embeds/book/tropicalsailing/items/32194/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Sailboat sunset along the Intracoastal — Fort Lauderdale at its finest"},
+
+    // KAYAK & ECO
+    {name:"3 Hour Eco Tour", price:99, company:"Florida Adventures and Rentals", loc:"Marco Island", region:"swfl", type:"kayak", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/lZ1iMDFeQi4GodXv1xVg", link:"https://fareharbor.com/embeds/book/floridaadventuresandrentals/items/44214/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"3-hour eco boat tour through the mangroves — dolphins, birds, and pristine waters"},
+    {name:"Crystal River Clear Kayak — Manatee Season", price:89, company:"Get Up and Go Kayaking", loc:"Crystal River", region:"anywhere", type:"kayak", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/zdHy971RnWOH7pIEH5gd", link:"https://fareharbor.com/embeds/book/getupandgokayaking/items/188131/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Clear kayak over crystal springs with manatees swimming below — bucket list"},
+    {name:"LED Night Kayaking on Clearwater Beach", price:65, company:"Chadillac Adventures", loc:"Clearwater", region:"tampa", type:"kayak", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/cBCAqKHQSCiwot36p0FW", link:"https://fareharbor.com/embeds/book/chadillacadventures/items/668695/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"LED-lit kayaks after dark on Clearwater Beach — glow-in-the-dark magic"},
+    {name:"Sunset Kayak Tour", price:75, company:"Happy Paddler Kayak Tours", loc:"Bradenton Beach", region:"tampa", type:"kayak", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/M5D6DMIT5WeZsaOeQcpg", link:"https://fareharbor.com/embeds/book/happypaddler/items/208749/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Paddle through mangrove tunnels at sunset — peaceful, guided, gorgeous"},
+    {name:"Tarpon Springs Sponge Docks Clear Kayak", price:49, company:"Get Up and Go Kayaking", loc:"Tarpon Springs", region:"tampa", type:"kayak", image:"https://cdn.filestackcontent.com/resize=w:600,fit:max/auto_image/compress/mCwhqPnMQoiDBVBprwjc", link:"https://fareharbor.com/embeds/book/getupandgokayaking-tarponsprings/items/607819/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&full-items=yes&flow=no", match:"Clear kayak through the historic Sponge Docks — see straight to the bottom"}
+];
+
+// Scoring weights
+const SCORE_MAP = {
+    vibe:   { sandbar: {sandbar:100,dolphin:10,sunset:20,kayak:10}, dolphin: {sandbar:10,dolphin:100,sunset:10,kayak:20}, sunset: {sandbar:10,dolphin:10,sunset:100,kayak:5}, kayak: {sandbar:5,dolphin:20,sunset:5,kayak:100} },
+    who:    { family: {sandbar:30,dolphin:40,sunset:10,kayak:20}, couple: {sandbar:20,dolphin:15,sunset:40,kayak:25}, friends: {sandbar:40,dolphin:10,sunset:30,kayak:10}, solo: {sandbar:5,dolphin:15,sunset:10,kayak:40} },
+    energy: { chill: {sandbar:40,dolphin:20,sunset:30,kayak:5}, curious: {sandbar:10,dolphin:30,sunset:15,kayak:30}, active: {sandbar:15,dolphin:10,sunset:5,kayak:40}, party: {sandbar:30,dolphin:5,sunset:35,kayak:5} }
+};
+
+const BUDGET_RANGE = { low: [0,50], mid: [30,110], high: [60,210], vip: [150,9999] };
+
+const A = {};
+let S = 1;
+let matchedTours = [];
+let showing = 3;
+
+function pick(el, key) {
+    el.parentElement.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
+    el.classList.add('selected');
+    A[key] = el.dataset.v;
+    document.getElementById('n'+S).classList.add('enabled');
+    gtag('event', 'quiz_answer', {question: key, answer: A[key], quiz: 'boat-day'});
+}
+
+function next(n) {
+    if (!A[Object.keys(SCORE_MAP)[S-1] || (S===4?'region':'budget')]) return;
+    document.getElementById('q'+S).classList.remove('active');
+    document.getElementById('q'+n).classList.add('active');
+    S = n;
+    document.getElementById('prog').style.width = (S*20)+'%';
+    document.getElementById('step').textContent = S;
+}
+
+function back(n) {
+    document.getElementById('q'+S).classList.remove('active');
+    document.getElementById('q'+n).classList.add('active');
+    S = n;
+    document.getElementById('prog').style.width = (S*20)+'%';
+    document.getElementById('step').textContent = S;
+}
+
+function showResults() {
+    if (!A.budget) return;
+    document.getElementById('q5').classList.remove('active');
+    document.getElementById('loading').classList.add('active');
+
+    // Calculate type scores
+    const scores = {sandbar:0, dolphin:0, sunset:0, kayak:0};
+    for (const [key, map] of Object.entries(SCORE_MAP)) {
+        const val = A[key];
+        if (val && map[val]) {
+            for (const [type, pts] of Object.entries(map[val])) {
+                scores[type] += pts;
+            }
+        }
+    }
+
+    // Sort types by score
+    const sorted = Object.entries(scores).sort((a,b) => b[1] - a[1]);
+    const topType = sorted[0][0];
+    const totalPts = Object.values(scores).reduce((a,b) => a+b, 0);
+
+    // Budget filter
+    const [bMin, bMax] = BUDGET_RANGE[A.budget];
+
+    // Score and filter tours
+    matchedTours = TOURS.map(t => {
+        let score = 0;
+        // Type match (primary)
+        if (t.type === topType) score += 100;
+        else if (t.type === sorted[1][0]) score += 40;
+        else score += 10;
+
+        // Region match
+        if (A.region === 'anywhere' || t.region === A.region || t.region === 'anywhere') score += 30;
+        else score -= 20;
+
+        // Budget fit
+        if (t.price >= bMin && t.price <= bMax) score += 50;
+        else if (t.price < bMin * 0.5 || t.price > bMax * 1.5) score -= 30;
+
+        return {...t, score};
+    }).sort((a,b) => b.score - a.score);
+
+    gtag('event', 'quiz_complete', {quiz: 'boat-day', result: topType, region: A.region, budget: A.budget});
+
+    setTimeout(() => {
+        document.getElementById('loading').classList.remove('active');
+        document.getElementById('results').classList.add('active');
+
+        const info = TYPES[topType];
+        document.getElementById('resultTitle').textContent = info.emoji + ' ' + info.name;
+        document.getElementById('resultSub').textContent = 'Your top match based on your answers';
+        document.getElementById('typeName').textContent = info.name;
+        document.getElementById('typeDesc').textContent = info.desc;
+        document.getElementById('typePct').textContent = Math.round(sorted[0][1] / totalPts * 100) + '% match';
+        document.getElementById('typeLink').href = info.link;
+        document.getElementById('typeLink').textContent = info.linkText;
+
+        renderTours();
+
+        // Other types
+        const pills = sorted.slice(1).map(([t]) => {
+            const inf = TYPES[t];
+            return `<a class="type-pill" href="${inf.link}">${inf.emoji} ${inf.name}</a>`;
+        }).join('');
+        document.getElementById('otherPills').innerHTML = pills;
+    }, 1500);
+}
+
+function renderTours() {
+    const container = document.getElementById('tourCards');
+    const visible = matchedTours.slice(0, showing);
+    container.innerHTML = visible.map(t => `
+        <div class="tour-card">
+            <img src="${t.image}" alt="${t.name}" loading="lazy" onerror="this.style.display='none'">
+            <div class="tour-info">
+                <div class="tour-name">${t.name}</div>
+                <div class="tour-company">${t.company}</div>
+                <div style="font-size:12px;color:var(--muted);margin-top:4px;">${t.match}</div>
+                <div class="tour-meta">
+                    <span class="tour-price">$${t.price}</span>
+                    <span class="tour-location">📍 ${t.loc}</span>
+                </div>
+            </div>
+            <a class="tour-cta" href="${t.link}" target="_blank" rel="noopener" onclick="gtag('event','quiz_tour_click',{tour:'${t.name.replace(/'/g,"\\'")}',quiz:'boat-day'})">Check Availability</a>
+        </div>
+    `).join('');
+
+    const moreBtn = document.getElementById('moreSection');
+    moreBtn.style.display = showing < matchedTours.length ? 'block' : 'none';
+}
+
+function showMore() {
+    showing += 3;
+    renderTours();
+    gtag('event', 'quiz_show_more', {quiz: 'boat-day', count: showing});
+}
+
+// Email capture
+document.getElementById('emailForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = document.getElementById('emailInput').value;
+    const data = new FormData();
+    data.append('email', email);
+    data.append('quiz', 'boat-day');
+    data.append('result', document.getElementById('typeName').textContent);
+    data.append('region', A.region);
+    data.append('budget', A.budget);
+    data.append('_subject', 'FST Quiz: ' + document.getElementById('typeName').textContent);
+
+    fetch('https://formspree.io/f/xpwzgkla', {
+        method: 'POST', body: data, headers: {'Accept': 'application/json'}
+    }).then(r => {
+        if (r.ok) {
+            document.getElementById('emailForm').style.display = 'none';
+            document.getElementById('emailSuccess').style.display = 'block';
+            gtag('event', 'quiz_email_capture', {quiz: 'boat-day'});
+        }
+    }).catch(() => {});
+});
+</script>
+</body>
+</html>
