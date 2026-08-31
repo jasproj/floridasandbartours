@@ -905,6 +905,7 @@ ul, ol { list-style: none; }
 }
 
 .tour-card-img {
+    background: url("/assets/heroes/dolphin-tours.jpg") center/cover no-repeat;
     position: relative;
     height: 200px;
 }
