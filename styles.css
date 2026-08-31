@@ -1257,6 +1257,10 @@ ul, ol { list-style: none; }
     text-align: center;
     margin-bottom: var(--space-lg);
 }
+.footer-brand .logo {
+    display: inline-flex;
+    justify-content: center;
+}
 .footer-brand p {
     color: #555;
     margin-top: var(--space-md);
