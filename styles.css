@@ -176,8 +176,10 @@ ul, ol { list-style: none; }
 }
 
 .footer-logo-img {
-    height: 120px;
+    height: 160px;
     width: auto;
+    max-width: 600px;
+    object-fit: contain;
 }
 
 /* Header Weather Widget */
@@ -1243,14 +1245,15 @@ ul, ol { list-style: none; }
 }
 
 .footer-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-2xl);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
     margin-bottom: var(--space-2xl);
 }
 
 .footer-brand {
-    grid-column: 1 / -1;
+    width: 100%;
     text-align: center;
     margin-bottom: var(--space-lg);
 }
@@ -1267,11 +1270,11 @@ ul, ol { list-style: none; }
 }
 
 .footer-links h4 {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin-bottom: var(--space-md);
-    color: #1B3A57;
+    letter-spacing: 0.09em;
+    margin-bottom: 14px;
+    color: #3BB8C3;
 }
 
 .footer-links ul {
@@ -1305,7 +1308,7 @@ ul, ol { list-style: none; }
 }
 
 .footer-links:last-child {
-    grid-column: 1 / -1;
+    width: 100%;
     text-align: center;
     border-top: 1px solid #E8DFD0;
     padding-top: var(--space-lg);
@@ -1407,9 +1410,6 @@ ul, ol { list-style: none; }
         grid-template-columns: repeat(2, 1fr);
     }
     
-    .footer-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (max-width: 768px) {
@@ -1527,7 +1527,7 @@ ul, ol { list-style: none; }
     }
     
     .footer-grid {
-        grid-template-columns: 1fr;
+        gap: 30px;
         text-align: center;
     }
     
@@ -1911,134 +1911,130 @@ ul, ol { list-style: none; }
    3. ENHANCED GUIDE SECTION
    =================== */
 .guide-section {
-    padding: 80px 0;
-    background: 
-        linear-gradient(135deg, rgba(27, 58, 87, 0.6) 0%, rgba(59, 184, 195, 0.4) 100%),
+    position: relative;
+    overflow: hidden;
+    padding: 40px 15px;
+    background:
+        linear-gradient(135deg, rgba(27, 58, 87, 0.85) 0%, rgba(59, 184, 195, 0.75) 100%),
         url('guide-bg.jpg');
     background-size: cover;
     background-position: center;
 }
-
-.guide-wrapper {
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    gap: 50px;
-    align-items: center;
-    max-width: 900px;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.97);
-    border-radius: 24px;
-    padding: 50px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+@media (min-width: 768px) {
+    .guide-section { padding: 60px 20px; }
 }
 
-.guide-preview {
-    background: linear-gradient(135deg, #3BB8C3 0%, #62BED4 100%);
-    border-radius: 16px;
-    padding: 30px;
+.guide-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, rgba(27, 58, 87, 0.85) 0%, rgba(59, 184, 195, 0.75) 100%);
+    z-index: 1;
+}
+
+.guide-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+    margin: 0 auto;
     text-align: center;
     color: white;
-    position: relative;
 }
 
 .guide-badge {
-    position: absolute;
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #E8832A;
-    color: white;
-    padding: 4px 12px;
-    border-radius: 12px;
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    padding: 5px 12px;
+    border-radius: 15px;
     font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+    font-weight: 600;
+    margin-bottom: 12px;
 }
-
-.guide-icon {
-    font-size: 4rem;
-    margin: 20px 0 15px;
-}
-
-.guide-title-preview strong {
-    display: block;
-    font-size: 1.3rem;
-    line-height: 1.3;
-}
-
-.guide-title-preview span {
-    display: block;
-    font-size: 0.9rem;
-    opacity: 0.9;
-    margin-top: 8px;
+@media (min-width: 768px) {
+    .guide-badge { padding: 6px 15px; font-size: 0.8rem; margin-bottom: 15px; }
 }
 
 .guide-content h2 {
-    font-size: 1.8rem;
-    margin: 0 0 10px 0;
-    color: #1a1a1a;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    color: white;
+}
+@media (min-width: 768px) {
+    .guide-content h2 { font-size: 2rem; margin-bottom: 15px; }
 }
 
 .guide-content > p {
-    color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+    font-size: 0.95rem;
+    color: white;
 }
 
-.guide-checklist {
+.guide-content ul {
     list-style: none;
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
-    margin: 0 0 25px 0;
+}
+@media (min-width: 768px) {
+    .guide-content ul { max-width: 350px; }
 }
 
-.guide-checklist li {
-    padding: 8px 0;
-    color: #444;
-    font-size: 1rem;
+.guide-content li {
+    padding: 6px 0;
+    opacity: 0.9;
+    font-size: 0.9rem;
 }
-
-.guide-checklist li::before {
-    content: none;
+@media (min-width: 768px) {
+    .guide-content li { padding: 8px 0; }
 }
 
 .guide-form {
     display: flex;
-    gap: 12px;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+@media (min-width: 500px) {
+    .guide-form { flex-direction: row; }
 }
 
-.guide-form input[type="email"] {
+.guide-form input {
     flex: 1;
     padding: 14px 18px;
-    border: 2px solid #e0e0e0;
-    border-radius: 10px;
-    font-size: 1rem;
-    transition: border-color 0.3s;
-}
-
-.guide-form input[type="email"]:focus {
-    outline: none;
-    border-color: #1B3A57;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    min-height: 48px;
 }
 
 .guide-form button {
-    background: #E8832A;
+    background: #E87B4A;
     color: white;
     border: none;
-    padding: 14px 24px;
-    border-radius: 10px;
+    padding: 14px 20px;
+    border-radius: 30px;
     font-weight: 600;
     cursor: pointer;
     white-space: nowrap;
     transition: background 0.3s;
+    min-height: 48px;
+    font-size: 0.9rem;
 }
-
+@media (min-width: 500px) {
+    .guide-form button { padding: 14px 25px; }
+}
 .guide-form button:hover {
-    background: #D66A3D;
+    background: #d66a3d;
 }
 
 .guide-privacy {
-    font-size: 0.85rem;
-    color: #888;
-    margin-top: 15px;
+    font-size: 0.75rem;
+    opacity: 0.7;
+    margin-top: 12px;
 }
 
 /* ===================
