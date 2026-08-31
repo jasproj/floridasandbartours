@@ -176,7 +176,7 @@ ul, ol { list-style: none; }
 }
 
 .footer-logo-img {
-    height: 100px;
+    height: 120px;
     width: auto;
 }
 
@@ -1244,11 +1244,16 @@ ul, ol { list-style: none; }
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: var(--space-2xl);
     margin-bottom: var(--space-2xl);
 }
 
+.footer-brand {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: var(--space-lg);
+}
 .footer-brand p {
     color: #555;
     margin-top: var(--space-md);
@@ -1297,6 +1302,19 @@ ul, ol { list-style: none; }
     margin-top: var(--space-sm);
     font-size: 0.8rem;
     color: var(--gray-600);
+}
+
+.footer-links:last-child {
+    grid-column: 1 / -1;
+    text-align: center;
+    border-top: 1px solid #E8DFD0;
+    padding-top: var(--space-lg);
+}
+.footer-links:last-child ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-md) var(--space-xl);
 }
 
 /* ============================================
