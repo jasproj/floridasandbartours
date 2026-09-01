@@ -5,18 +5,7 @@
 // as Florida from the source URL rather than from our own caption.
 const FALLBACK_IMAGE = '/assets/heroes/dolphin-tours.jpg';
 
-// Swap in fallback when an image hangs longer than 5 s without loading.
-// onerror alone misses images that stay pending (no error, no load).
-function watchImageLoad(img) {
-    if (img.complete && img.naturalWidth > 0) return;
-    const timer = setTimeout(function () {
-        if (!img.complete || img.naturalWidth === 0) {
-            img.src = FALLBACK_IMAGE;
-        }
-    }, 5000);
-    img.addEventListener('load', function () { clearTimeout(timer); }, { once: true });
-    img.addEventListener('error', function () { clearTimeout(timer); }, { once: true });
-}
+
 /* ============================================
    KEY WEST SANDBAR TOURS - MAIN APPLICATION
    ============================================ */
@@ -436,10 +425,6 @@ function createTourCard(tour, index) {
         </div>
     `;
     
-    // Timeout fallback for images that hang without erroring
-    const cardImg = card.querySelector('.tour-card-img img');
-    if (cardImg) watchImageLoad(cardImg);
-
     return card;
 }
 
