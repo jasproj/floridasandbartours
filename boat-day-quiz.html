@@ -648,7 +648,7 @@ document.getElementById('emailForm').addEventListener('submit', function(e) {
     data.append('budget', A.budget);
     data.append('_subject', 'FST Quiz: ' + document.getElementById('typeName').textContent);
 
-    fetch('https://formspree.io/f/xpwzgkla', {
+    fetch('https://formspree.io/f/xgovnbwy', {
         method: 'POST', body: data, headers: {'Accept': 'application/json'}
     }).then(r => {
         if (r.ok) {
