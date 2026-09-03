@@ -391,27 +391,32 @@ ul, ol { list-style: none; }
 }
 
 .hero-slide:nth-child(1) {
-    background-image: url('florida-sandbar-hero-1.jpg');
+    background-image: url('florida-sandbar-hero-1-1600.webp');
+    background-image: image-set(url('florida-sandbar-hero-1-1600.webp') type('image/webp'), url('florida-sandbar-hero-1.jpg') type('image/jpeg'));
     animation-delay: 0s;
 }
 
 .hero-slide:nth-child(2) {
-    background-image: url('florida-sandbar-hero-2.jpg');
+    background-image: url('florida-sandbar-hero-2-1600.webp');
+    background-image: image-set(url('florida-sandbar-hero-2-1600.webp') type('image/webp'), url('florida-sandbar-hero-2.jpg') type('image/jpeg'));
     animation-delay: 6s;
 }
 
 .hero-slide:nth-child(3) {
-    background-image: url('florida-sandbar-hero-3.jpg');
+    background-image: url('florida-sandbar-hero-3-1600.webp');
+    background-image: image-set(url('florida-sandbar-hero-3-1600.webp') type('image/webp'), url('florida-sandbar-hero-3.jpg') type('image/jpeg'));
     animation-delay: 12s;
 }
 
 .hero-slide:nth-child(4) {
-    background-image: url('florida-sandbar-hero-4.jpg');
+    background-image: url('florida-sandbar-hero-4-1600.webp');
+    background-image: image-set(url('florida-sandbar-hero-4-1600.webp') type('image/webp'), url('florida-sandbar-hero-4.jpg') type('image/jpeg'));
     animation-delay: 18s;
 }
 
 .hero-slide:nth-child(5) {
-    background-image: url('florida-sandbar-hero-5.jpg');
+    background-image: url('florida-sandbar-hero-5-1600.webp');
+    background-image: image-set(url('florida-sandbar-hero-5-1600.webp') type('image/webp'), url('florida-sandbar-hero-5.jpg') type('image/jpeg'));
     animation-delay: 24s;
 }
 
