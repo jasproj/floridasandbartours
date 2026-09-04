@@ -1820,7 +1820,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 975.0,
+      "price": 1125,
       "priceLabel": "$975\u2013$1,125 private charter, Up to 12 People",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
@@ -1856,12 +1856,13 @@
         "startAtMoved": true,
         "verifiedDates": 6,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "priceSource": "s57-fh-price-preview",
         "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
         "observedPriceRange": [
           975.0,
           1125.0
-        ]
+        ],
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -2920,7 +2921,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 2600.0,
+      "price": 3000,
       "priceLabel": "$2,600\u2013$3,000 private charter, Up to 12 People",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
@@ -2956,12 +2957,13 @@
         "startAtMoved": true,
         "verifiedDates": 6,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "priceSource": "s57-fh-price-preview",
         "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
         "observedPriceRange": [
           2600.0,
           3000.0
-        ]
+        ],
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -4839,7 +4841,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 650.0,
+      "price": 750,
       "priceLabel": "$650\u2013$900 private charter, Up to 12 People",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
@@ -4875,12 +4877,13 @@
         "startAtMoved": true,
         "verifiedDates": 6,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2, include_breakdown=yes; undated + 6-date sample",
+        "priceSource": "s57-fh-price-preview",
         "baseFareRule": "structural: operator order AND non-upgrade agree; never price.low",
         "observedPriceRange": [
           650.0,
           900.0
-        ]
+        ],
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -9934,7 +9937,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 350,
+      "price": 800,
       "priceLabel": "$350 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 95,
@@ -9964,7 +9967,7 @@
       "lastUpdated": "2026-08-25",
       "_unknownFields": {
         "durationMinutes": 240,
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -9989,7 +9992,8 @@
         "unit": "whole-boat",
         "priceKind": "whole boat / private charter",
         "minPartySize": 1,
-        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $350, unit whole-boat; 4/4 dated readings 2026-08-25 (4 date-valid), 1 ladder shape(s), live USD"
+        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $350, unit whole-boat; 4/4 dated readings 2026-08-25 (4 date-valid), 1 ladder shape(s), live USD",
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -10184,7 +10188,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 600,
+      "price": 800,
       "priceLabel": "$600\u2013$800 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 95,
@@ -10214,7 +10218,7 @@
       "lastUpdated": "2026-08-25",
       "_unknownFields": {
         "durationMinutes": 240,
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -10243,7 +10247,8 @@
         "unit": "whole-boat",
         "priceKind": "whole boat / private charter",
         "minPartySize": 1,
-        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $600, unit whole-boat; anchor varied $600\u2013$800 across readings; 4/4 dated readings 2026-08-25 (4 date-valid), 2 ladder shape(s), live USD"
+        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $600, unit whole-boat; anchor varied $600\u2013$800 across readings; 4/4 dated readings 2026-08-25 (4 date-valid), 2 ladder shape(s), live USD",
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -12869,7 +12874,7 @@
       "category": "",
       "location": "United States/Florida/Safety Harbor",
       "island": "united states/florida/safety harbor",
-      "price": 36,
+      "price": 35,
       "priceLabel": "",
       "priceConfidence": "",
       "qualityScore": 95,
@@ -12898,7 +12903,9 @@
       "statusConsecutiveRuns": null,
       "lastUpdated": "",
       "_unknownFields": {
-        "durationMinutes": 90
+        "durationMinutes": 90,
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "scope": "out-of-scope-land"
     },
@@ -21526,7 +21533,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 350,
+      "price": 500,
       "priceLabel": "charter",
       "priceConfidence": "medium",
       "qualityScore": 60,
@@ -21553,7 +21560,11 @@
       "statusReason": null,
       "statusFirstSeen": null,
       "statusConsecutiveRuns": null,
-      "lastUpdated": ""
+      "lastUpdated": "",
+      "_unknownFields": {
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
+      }
     },
     {
       "id": "493012",
@@ -22146,7 +22157,7 @@
       "category": "",
       "location": "United States/Florida/St. Augustine",
       "island": "united states/florida/st. augustine",
-      "price": 200,
+      "price": 220,
       "priceLabel": "$200 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 95,
@@ -22176,7 +22187,7 @@
       "lastUpdated": "2026-08-25",
       "_unknownFields": {
         "durationMinutes": 90,
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -22201,7 +22212,8 @@
         "unit": "whole-boat",
         "priceKind": "whole boat / private charter",
         "minPartySize": 1,
-        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $200, unit whole-boat; 4/4 dated readings 2026-08-25 (4 date-valid), 1 ladder shape(s), live USD"
+        "priceBasis": "D-640 single-tier product anchors on its sole tier: \"Private Charter\" $200, unit whole-boat; 4/4 dated readings 2026-08-25 (4 date-valid), 1 ladder shape(s), live USD",
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -30968,7 +30980,7 @@
       "category": "",
       "location": "United States/Florida/Tampa",
       "island": "united states/florida/tampa",
-      "price": 299,
+      "price": 399,
       "priceLabel": "$299 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 75,
@@ -31008,7 +31020,7 @@
         ],
         "primaryTypePage": "sunset-cruises",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -31031,7 +31043,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -31122,7 +31135,7 @@
       "category": "",
       "location": "United States/Florida/St. Pete Beach",
       "island": "united states/florida/st. pete beach",
-      "price": 350,
+      "price": 700,
       "priceLabel": "$350 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 74,
@@ -31165,7 +31178,7 @@
         ],
         "primaryTypePage": "dolphin-tours",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -31188,7 +31201,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -31277,7 +31291,7 @@
       "category": "",
       "location": "United States/Florida/St. Pete Beach",
       "island": "united states/florida/st. pete beach",
-      "price": 700,
+      "price": 800,
       "priceLabel": "$700\u2013$800 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 74,
@@ -31320,7 +31334,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -31347,7 +31361,8 @@
           800
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -31905,7 +31920,7 @@
       "category": "",
       "location": "United States/Florida/Fort Lauderdale",
       "island": "united states/florida/fort lauderdale",
-      "price": 105.0,
+      "price": 89,
       "priceLabel": "",
       "priceConfidence": "verified-adult",
       "qualityScore": 74,
@@ -31947,7 +31962,9 @@
           "Person"
         ],
         "primaryTypePage": "island-tours",
-        "bookableSampleDate": "2026-07-25"
+        "bookableSampleDate": "2026-07-25",
+        "priceSource": "s57-fh-price-preview",
+        "priceVerifiedAt": "2026-09-04"
       },
       "scope": "out-of-scope-land"
     },
@@ -31960,7 +31977,7 @@
       "category": "",
       "location": "United States/Florida/St. Pete Beach",
       "island": "united states/florida/st. pete beach",
-      "price": 300,
+      "price": 500,
       "priceLabel": "$300\u2013$350 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 73,
@@ -32003,7 +32020,7 @@
         ],
         "primaryTypePage": "sunset-cruises",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -32030,7 +32047,8 @@
           350
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -32298,7 +32316,7 @@
       "category": "",
       "location": "United States/Florida/Fort Myers Beach",
       "island": "united states/florida/fort myers beach",
-      "price": 1750,
+      "price": 850,
       "priceLabel": "$1,750 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 73,
@@ -32341,7 +32359,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -32364,7 +32382,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -32792,7 +32811,7 @@
       "category": "",
       "location": "United States/Florida/Fort Lauderdale",
       "island": "united states/florida/fort lauderdale",
-      "price": 1050,
+      "price": 1150,
       "priceLabel": "$1,050 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 72,
@@ -32832,7 +32851,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -32855,7 +32874,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -32868,7 +32888,7 @@
       "category": "",
       "location": "United States/Florida/Fort Lauderdale",
       "island": "united states/florida/fort lauderdale",
-      "price": 750,
+      "price": 850,
       "priceLabel": "$750 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 72,
@@ -32908,7 +32928,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -32931,7 +32951,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -32944,7 +32965,7 @@
       "category": "",
       "location": "United States/Florida/Miami Beach",
       "island": "united states/florida/miami beach",
-      "price": 499,
+      "price": 599,
       "priceLabel": "$499 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 72,
@@ -32984,7 +33005,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -33007,7 +33028,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -33409,7 +33431,7 @@
       "category": "",
       "location": "United States/Florida/Fort Lauderdale",
       "island": "united states/florida/fort lauderdale",
-      "price": 550,
+      "price": 650,
       "priceLabel": "$550 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 72,
@@ -33449,7 +33471,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -33472,7 +33494,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -34026,7 +34049,7 @@
       "category": "",
       "location": "United States/Florida/Tampa",
       "island": "united states/florida/tampa",
-      "price": 299,
+      "price": 399,
       "priceLabel": "$299 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 71,
@@ -34065,7 +34088,7 @@
         ],
         "primaryTypePage": "island-tours",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -34088,7 +34111,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -34632,7 +34656,7 @@
       "category": "",
       "location": "United States/Florida/St. Pete Beach",
       "island": "united states/florida/st. pete beach",
-      "price": 350,
+      "price": 800,
       "priceLabel": "$350 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 70,
@@ -34674,7 +34698,7 @@
         ],
         "primaryTypePage": "dolphin-tours",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -34697,7 +34721,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -35032,7 +35057,7 @@
       "category": "",
       "location": "United States/Florida/St. Pete Beach",
       "island": "united states/florida/st. pete beach",
-      "price": 600,
+      "price": 700,
       "priceLabel": "$600 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 70,
@@ -35074,7 +35099,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -35097,7 +35122,8 @@
         "priceIncludesBookingFees": false,
         "priceIncludesTaxes": false,
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -37123,7 +37149,7 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 2250,
+      "price": 2500,
       "priceLabel": "$2,250\u2013$2,500 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 69,
@@ -37162,7 +37188,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -37189,7 +37215,8 @@
           2500
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -37277,7 +37304,7 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 1800,
+      "price": 2000,
       "priceLabel": "$1,800\u2013$2,000 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 69,
@@ -37316,7 +37343,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -37343,7 +37370,8 @@
           2000
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -37356,7 +37384,7 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 2700,
+      "price": 3000,
       "priceLabel": "$2,700\u2013$3,000 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 69,
@@ -37395,7 +37423,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -37422,7 +37450,8 @@
           3000
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -37585,7 +37614,7 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 1350,
+      "price": 1500,
       "priceLabel": "$1,350\u2013$1,500 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 69,
@@ -37624,7 +37653,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -37651,7 +37680,8 @@
           1500
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -37664,7 +37694,7 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 1800,
+      "price": 2000,
       "priceLabel": "$1,800\u2013$2,000 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 69,
@@ -37703,7 +37733,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -37730,7 +37760,8 @@
           2000
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -37743,7 +37774,7 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 2700,
+      "price": 3000,
       "priceLabel": "$2,700\u2013$3,000 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 69,
@@ -37782,7 +37813,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -37809,7 +37840,8 @@
           3000
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -37822,7 +37854,7 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 1350,
+      "price": 1500,
       "priceLabel": "$1,350\u2013$1,500 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 69,
@@ -37861,7 +37893,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -37888,7 +37920,8 @@
           1500
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -38052,7 +38085,7 @@
       "category": "",
       "location": "United States/Florida/Panama City",
       "island": "united states/florida/panama city",
-      "price": 2250,
+      "price": 2500,
       "priceLabel": "$2,250\u2013$2,500 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 69,
@@ -38091,7 +38124,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -38118,7 +38151,8 @@
           2500
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -42192,7 +42226,7 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 350,
+      "price": 800,
       "priceLabel": "$350\u2013$800 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 65,
@@ -42234,7 +42268,7 @@
         ],
         "primaryTypePage": "dolphin-tours",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -42261,7 +42295,8 @@
           800
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -42506,7 +42541,7 @@
       "category": "",
       "location": "United States/Florida/Bradenton Beach",
       "island": "united states/florida/bradenton beach",
-      "price": 375,
+      "price": 405,
       "priceLabel": "$375\u2013$405 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 65,
@@ -42549,7 +42584,7 @@
         ],
         "primaryTypePage": "private-charters",
         "bookableSampleDate": "2026-07-25",
-        "priceSource": "s50-fst-refresh",
+        "priceSource": "s57-fh-price-preview",
         "liveCurrency": "USD",
         "probeDates": [
           "2026-08-31",
@@ -42576,7 +42611,8 @@
           405
         ],
         "unit": "whole-boat",
-        "minPartySize": 1
+        "minPartySize": 1,
+        "priceVerifiedAt": "2026-09-04"
       },
       "verifiedOn": "2026-08-25"
     },
@@ -60723,7 +60759,7 @@
       "category": "",
       "location": "United States/Florida/Miami Beach",
       "island": "united states/florida/miami beach",
-      "price": 795.0,
+      "price": 895,
       "priceLabel": "$795\u2013$895 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 85,
@@ -60759,7 +60795,7 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
@@ -60767,7 +60803,8 @@
           795.0,
           895.0
         ],
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -60830,7 +60867,7 @@
       "category": "",
       "location": "United States/Florida/Naples",
       "island": "united states/florida/naples",
-      "price": 69.0,
+      "price": 575,
       "priceLabel": "$69 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 85,
@@ -60866,10 +60903,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-items-2026-07-23 (1).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -63559,7 +63597,7 @@
       "category": "",
       "location": "United States/Florida/St. Augustine",
       "island": "united states/florida/st. augustine",
-      "price": 199.0,
+      "price": 229,
       "priceLabel": "$199 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 68,
@@ -63595,10 +63633,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-items-2026-07-23 (10).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -69139,7 +69178,7 @@
       "category": "",
       "location": "United States/Florida/Key Biscayne",
       "island": "united states/florida/key biscayne",
-      "price": 100.0,
+      "price": 95,
       "priceLabel": "$100 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 59,
@@ -69175,11 +69214,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -78061,7 +78101,7 @@
       "category": "",
       "location": "United States/Florida/DeLand",
       "island": "united states/florida/deland",
-      "price": 100.0,
+      "price": 350,
       "priceLabel": "$100 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 75,
@@ -78097,10 +78137,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-items-2026-07-23 (4).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -81065,7 +81106,7 @@
       "category": "",
       "location": "United States/Florida/Indian Rocks Beach",
       "island": "united states/florida/indian rocks beach",
-      "price": 120.0,
+      "price": 230,
       "priceLabel": "$120 per craft",
       "priceConfidence": "verified-whole-unit",
       "qualityScore": 71,
@@ -81101,12 +81142,13 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-21 (1).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "locationDiffersFromExport": "Clearwater",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -83528,7 +83570,7 @@
       "category": "",
       "location": "United States/Florida/Indian Rocks Beach",
       "island": "united states/florida/indian rocks beach",
-      "price": 450.0,
+      "price": 600,
       "priceLabel": "$450 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 69,
@@ -83564,10 +83606,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-21 (1).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -84929,7 +84972,7 @@
       "category": "",
       "location": "United States/Florida/Tampa",
       "island": "united states/florida/tampa",
-      "price": 249.0,
+      "price": 349,
       "priceLabel": "$249\u2013$349 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 83,
@@ -84965,14 +85008,15 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-items-2026-07-23.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
           249.0,
           349.0
-        ]
+        ],
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -86230,7 +86274,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 74.95,
+      "price": 62,
       "priceLabel": "$74.95 whole boat (minimum 2, from $149.90)",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 81,
@@ -86266,12 +86310,13 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "minimumSpend": 149.9,
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -89384,7 +89429,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 59.0,
+      "price": 60,
       "priceLabel": "$59\u2013$60 per person (minimum 6, from $354)",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 89,
@@ -89420,7 +89465,7 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
@@ -89428,7 +89473,8 @@
           59.0,
           60.0
         ],
-        "minimumSpend": 354.0
+        "minimumSpend": 354.0,
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -89713,7 +89759,7 @@
       "category": "",
       "location": "United States/Florida/Panama City Beach",
       "island": "united states/florida/panama city beach",
-      "price": 295.0,
+      "price": 249,
       "priceLabel": "$295\u2013$395 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 89,
@@ -89749,14 +89795,15 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-07-23.csv",
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
           295.0,
           395.0
-        ]
+        ],
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -90842,7 +90889,7 @@
       "category": "",
       "location": "United States/Florida/DeLand",
       "island": "united states/florida/deland",
-      "price": 1870.0,
+      "price": 1320,
       "priceLabel": "$1,870 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 87,
@@ -90878,10 +90925,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 1,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-07-23.csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -90945,7 +90993,7 @@
       "category": "",
       "location": "United States/Florida/DeLand",
       "island": "united states/florida/deland",
-      "price": 2688.0,
+      "price": 3584,
       "priceLabel": "$2,688 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 87,
@@ -90981,10 +91029,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 3,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-07-23.csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -91098,7 +91147,7 @@
       "category": "",
       "location": "United States/Florida/DeLand",
       "island": "united states/florida/deland",
-      "price": 2200.0,
+      "price": 2750,
       "priceLabel": "$2,200 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 87,
@@ -91134,10 +91183,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 2,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-07-23.csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -91149,7 +91199,7 @@
       "category": "",
       "location": "United States/Florida/DeLand",
       "island": "united states/florida/deland",
-      "price": 3080.0,
+      "price": 2750,
       "priceLabel": "$3,080 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 87,
@@ -91185,10 +91235,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-07-23.csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -91786,7 +91837,7 @@
       "category": "",
       "location": "United States/Florida/DeLand",
       "island": "united states/florida/deland",
-      "price": 1792.0,
+      "price": 1456,
       "priceLabel": "$1,792 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 86,
@@ -91822,10 +91873,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 2,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-07-23.csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -92248,7 +92300,7 @@
       "category": "",
       "location": "United States/Florida/DeLand",
       "island": "united states/florida/deland",
-      "price": 3024.0,
+      "price": 3360,
       "priceLabel": "$3,024 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 87,
@@ -92284,10 +92336,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 3,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-07-23.csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -95149,7 +95202,7 @@
       "category": "",
       "location": "United States/Florida/Indian Rocks Beach",
       "island": "united states/florida/indian rocks beach",
-      "price": 500.0,
+      "price": 650,
       "priceLabel": "$500 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 68,
@@ -95185,10 +95238,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-21 (1).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -95200,7 +95254,7 @@
       "category": "",
       "location": "United States/Florida/Indian Rocks Beach",
       "island": "united states/florida/indian rocks beach",
-      "price": 450.0,
+      "price": 600,
       "priceLabel": "$450 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 68,
@@ -95236,10 +95290,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-21 (1).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -95670,7 +95725,7 @@
       "category": "",
       "location": "United States/Florida/St. Petersburg",
       "island": "united states/florida/st. petersburg",
-      "price": 149.0,
+      "price": 199,
       "priceLabel": "$149 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 65,
@@ -95706,11 +95761,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 1,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-21 (1).csv",
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       },
       "scope": "out-of-scope-land"
     },
@@ -98442,7 +98498,7 @@
       "category": "",
       "location": "United States/Florida/Tierra Verde",
       "island": "united states/florida/tierra verde",
-      "price": 399.0,
+      "price": 299,
       "priceLabel": "$399 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 59,
@@ -98478,11 +98534,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-21 (1).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "locationDiffersFromExport": "St. Petersburg"
+        "locationDiffersFromExport": "St. Petersburg",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -100680,7 +100737,7 @@
       "category": "",
       "location": "United States/Florida/Clearwater",
       "island": "united states/florida/clearwater",
-      "price": 2600.0,
+      "price": 3500,
       "priceLabel": "$2,600\u2013$3,500 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 54,
@@ -100716,7 +100773,7 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-21 (1).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
@@ -100724,7 +100781,8 @@
           2600.0,
           3500.0
         ],
-        "locationDiffersFromExport": "Belleair Bluffs"
+        "locationDiffersFromExport": "Belleair Bluffs",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -103587,7 +103645,7 @@
       "category": "",
       "location": "United States/Florida/North Redington Beach",
       "island": "united states/florida/north redington beach",
-      "price": 92.0,
+      "price": 34,
       "priceLabel": "$92 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 49,
@@ -103623,10 +103681,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-21 (1).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -105277,7 +105336,7 @@
       "category": "",
       "location": "United States/Florida/Coconut Grove",
       "island": "united states/florida/coconut grove",
-      "price": 875.0,
+      "price": 625,
       "priceLabel": "$875 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 74,
@@ -105313,11 +105372,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "locationDiffersFromExport": "Miami"
+        "locationDiffersFromExport": "Miami",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -106167,7 +106227,7 @@
       "category": "",
       "location": "United States/Florida/Coconut Grove",
       "island": "united states/florida/coconut grove",
-      "price": 875.0,
+      "price": 695,
       "priceLabel": "$875 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 70,
@@ -106203,11 +106263,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "locationDiffersFromExport": "Miami"
+        "locationDiffersFromExport": "Miami",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -107228,7 +107289,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 675.0,
+      "price": 350,
       "priceLabel": "$675 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 84,
@@ -107264,10 +107325,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -107546,7 +107608,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 1300.0,
+      "price": 1700,
       "priceLabel": "$1,300 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 82,
@@ -107582,10 +107644,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -107758,7 +107821,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 850.0,
+      "price": 1100,
       "priceLabel": "$850 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 82,
@@ -107794,10 +107857,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -107809,7 +107873,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 350.0,
+      "price": 800,
       "priceLabel": "$350 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 85,
@@ -107845,10 +107909,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -108345,7 +108410,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 450.0,
+      "price": 550,
       "priceLabel": "$450 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 80,
@@ -108381,10 +108446,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -111900,7 +111966,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 360.0,
+      "price": 700,
       "priceLabel": "$360 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 63,
@@ -111936,10 +112002,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -115351,7 +115418,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 499.0,
+      "price": 399,
       "priceLabel": "$499 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 54,
@@ -115387,10 +115454,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -116027,7 +116095,7 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 399.0,
+      "price": 699,
       "priceLabel": "$399 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 52,
@@ -116063,10 +116131,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -131139,7 +131208,7 @@
       "category": "",
       "location": "United States/Florida/Cape Canaveral",
       "island": "united states/florida/cape canaveral",
-      "price": 20.0,
+      "price": 30,
       "priceLabel": "$20 per unit",
       "priceConfidence": "verified-whole-unit",
       "qualityScore": 64,
@@ -131175,12 +131244,13 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (4).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "locationDiffersFromExport": "Merritt Island",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -153578,7 +153648,7 @@
       "category": "",
       "location": "United States/Florida/Palm Beach Shores",
       "island": "united states/florida/palm beach shores",
-      "price": 1000.0,
+      "price": 1200,
       "priceLabel": "$1,000 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 39,
@@ -153614,11 +153684,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (8).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "locationDiffersFromExport": "West Palm Beach"
+        "locationDiffersFromExport": "West Palm Beach",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -154042,7 +154113,7 @@
       "category": "",
       "location": "United States/Florida/Palm Beach Shores",
       "island": "united states/florida/palm beach shores",
-      "price": 600.0,
+      "price": 800,
       "priceLabel": "$600 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 38,
@@ -154078,11 +154149,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (8).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "locationDiffersFromExport": "West Palm Beach"
+        "locationDiffersFromExport": "West Palm Beach",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -158146,7 +158218,7 @@
       "category": "",
       "location": "United States/Florida/Key Biscayne",
       "island": "united states/florida/key biscayne",
-      "price": 120.0,
+      "price": 145,
       "priceLabel": "$120 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 66,
@@ -158182,11 +158254,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -158198,7 +158271,7 @@
       "category": "",
       "location": "United States/Florida/Miami Beach",
       "island": "united states/florida/miami beach",
-      "price": 49.0,
+      "price": 89,
       "priceLabel": "$49 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 65,
@@ -158234,11 +158307,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -181339,7 +181413,7 @@
       "category": "",
       "location": "United States/Florida/Marco Island",
       "island": "united states/florida/marco island",
-      "price": 125.0,
+      "price": 195,
       "priceLabel": "$125 per craft",
       "priceConfidence": "verified-whole-unit",
       "qualityScore": 70,
@@ -181375,10 +181449,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (3).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -181755,7 +181830,7 @@
       "category": "",
       "location": "United States/Florida/Naples",
       "island": "united states/florida/naples",
-      "price": 150.0,
+      "price": 450,
       "priceLabel": "$150 per person",
       "priceConfidence": "verified-adult",
       "qualityScore": 66,
@@ -181791,10 +181866,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (3).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -183872,7 +183948,7 @@
       "category": "",
       "location": "United States/Florida/Goodland",
       "island": "united states/florida/goodland",
-      "price": 495.0,
+      "price": 475,
       "priceLabel": "$495 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 58,
@@ -183908,11 +183984,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (3).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "locationDiffersFromExport": "Marco Island"
+        "locationDiffersFromExport": "Marco Island",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -184242,7 +184319,7 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 99.0,
+      "price": 129,
       "priceLabel": "$99\u2013$129 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 77,
@@ -184278,7 +184355,7 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (6).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
@@ -184286,7 +184363,8 @@
           99.0,
           129.0
         ],
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -190962,7 +191040,7 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 680.0,
+      "price": 689,
       "priceLabel": "$680 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 49,
@@ -190998,10 +191076,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (6).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -191013,7 +191092,7 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 580.0,
+      "price": 589,
       "priceLabel": "$580 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 49,
@@ -191049,10 +191128,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (6).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -191064,7 +191144,7 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 380.0,
+      "price": 389,
       "priceLabel": "$380 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 49,
@@ -191100,10 +191180,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (6).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -191166,7 +191247,7 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 580.0,
+      "price": 589,
       "priceLabel": "$580 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 49,
@@ -191202,10 +191283,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (6).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -192714,7 +192796,7 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 660.0,
+      "price": 650,
       "priceLabel": "$660 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 39,
@@ -192750,10 +192832,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (5).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -196018,7 +196101,7 @@
       "category": "",
       "location": "United States/Florida/Lakewood Ranch",
       "island": "united states/florida/lakewood ranch",
-      "price": 3700.0,
+      "price": 4395,
       "priceLabel": "$3,700 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 75,
@@ -196054,11 +196137,12 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 3,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (6).csv",
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -197057,7 +197141,7 @@
       "category": "",
       "location": "United States/Florida/Holmes Beach",
       "island": "united states/florida/holmes beach",
-      "price": 475.0,
+      "price": 575,
       "priceLabel": "$475 whole boat",
       "priceConfidence": "verified-whole-boat",
       "qualityScore": 67,
@@ -197093,10 +197177,11 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (6).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
@@ -202710,7 +202795,7 @@
       "category": "",
       "location": "United States/Florida/Tampa",
       "island": "united states/florida/tampa",
-      "price": 249.0,
+      "price": 349,
       "priceLabel": "$249\u2013$349 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 74,
@@ -202746,14 +202831,15 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "s57-fh-price-preview",
         "exportSource": "marketplace-top-items-2026-08-22 (7).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
           249.0,
           349.0
-        ]
+        ],
+        "priceVerifiedAt": "2026-09-04"
       }
     },
     {
