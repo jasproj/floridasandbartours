@@ -66,6 +66,11 @@
         .cta-section p { opacity: 0.9; margin-bottom: 20px; }
         .cta-section a { display: inline-block; background: #E8832A; color: white; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 700; }
         .blog-featured-image { max-width: 100%; height: auto; margin: 20px 0; border-radius: 8px; }
+    
+        /* This table is wider than a phone, and a table cannot reflow: it was
+           dragging the whole page sideways. display:block plus overflow-x lets
+           the table scroll inside its own box while the page does not. */
+        .comparison-table { display: block; overflow-x: auto; max-width: 100%; }
     </style>
     <script type="application/ld+json">
 {
