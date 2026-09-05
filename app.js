@@ -182,7 +182,8 @@ async function loadTours() {
         applyFilters();
     } catch (error) {
         console.error('Error loading tours:', error);
-        document.getElementById('tours-grid').innerHTML = `
+        const grid = document.getElementById('tours-grid');
+        if (grid) grid.innerHTML = `
             <div class="loading-state">
                 <p>Unable to load tours. Please refresh the page.</p>
             </div>
