@@ -1938,11 +1938,11 @@ ul, ol { list-style: none; }
     position: relative;
     overflow: hidden;
     padding: 40px 15px;
-    background:
-        linear-gradient(135deg, rgba(27, 58, 87, 0.85) 0%, rgba(59, 184, 195, 0.75) 100%),
-        url('guide-bg.jpg');
-    background-size: cover;
-    background-position: center;
+    /* guide-bg.jpg is not in this repo and never has been, so the layer under
+       the gradient always 404'd and the section has always rendered as the
+       gradient alone. Dropping the dead url() keeps exactly that appearance
+       and stops the request. */
+    background: linear-gradient(135deg, rgba(27, 58, 87, 0.85) 0%, rgba(59, 184, 195, 0.75) 100%);
 }
 @media (min-width: 768px) {
     .guide-section { padding: 60px 20px; }
