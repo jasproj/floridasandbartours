@@ -28070,6 +28070,7 @@
     {
       "id": "43458",
       "pk": 43458,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 103 - Basic Coastal Cruising",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/43458/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -33188,6 +33189,7 @@
     {
       "id": "31805",
       "pk": 31805,
+      "scope": "out-of-scope-instruction",
       "name": "PADI Divemaster Course",
       "company": "Squalo Divers",
       "bookingUrl": "https://fareharbor.com/embeds/book/northmiamidivers/items/31805/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -42147,6 +42149,7 @@
     {
       "id": "59968",
       "pk": 59968,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 105 - Coastal Navigation",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/59968/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -50514,6 +50517,7 @@
     {
       "id": "59787",
       "pk": 59787,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 118 - Docking Endorsement",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/59787/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -51956,6 +51960,7 @@
     {
       "id": "325277",
       "pk": 325277,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 105 COASTAL NAVIGATION -  IN CLASS ROOM",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/325277/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -62284,6 +62289,7 @@
     {
       "id": "43460",
       "pk": 43460,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 104 - Bareboat Cruising",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/43460/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -66004,6 +66010,7 @@
     {
       "id": "43468",
       "pk": 43468,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 101/103/104",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/43468/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -66055,6 +66062,7 @@
     {
       "id": "43467",
       "pk": 43467,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 104/114",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/43467/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -80481,6 +80489,7 @@
     {
       "id": "43462",
       "pk": 43462,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 114 - Catamaran Cruising",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/43462/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -84550,6 +84559,7 @@
     {
       "id": "43466",
       "pk": 43466,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 103/104",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/43466/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -92191,6 +92201,7 @@
     {
       "id": "43454",
       "pk": 43454,
+      "scope": "out-of-scope-instruction",
       "name": "ASA 101 - Basic Keelboat Sailing",
       "company": "St Augustine Sailing",
       "bookingUrl": "https://fareharbor.com/embeds/book/sta-sail/items/43454/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -100417,6 +100428,7 @@
     {
       "id": "491566",
       "pk": 491566,
+      "scope": "out-of-scope-accommodation",
       "name": "2023 Winnebago Solis \u2022 Monthly",
       "company": "Revival Assets",
       "bookingUrl": "https://fareharbor.com/embeds/book/revivalvanrentals/items/491566/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -100629,6 +100641,7 @@
     {
       "id": "491576",
       "pk": 491576,
+      "scope": "out-of-scope-accommodation",
       "name": "2024 Thor Sequence \u2022 Monthly",
       "company": "Revival Assets",
       "bookingUrl": "https://fareharbor.com/embeds/book/revivalvanrentals/items/491576/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -101356,6 +101369,7 @@
     {
       "id": "516532",
       "pk": 516532,
+      "scope": "out-of-scope-instruction",
       "name": "Perfect Buoyancy Specialty Course",
       "company": "Mac's Sports",
       "bookingUrl": "https://fareharbor.com/embeds/book/macssports/items/516532/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -105857,6 +105871,7 @@
     {
       "id": "400007",
       "pk": 400007,
+      "scope": "out-of-scope-instruction",
       "name": "Diver Propulsion Vehicle (DPV) Course",
       "company": "ACE DIVING",
       "bookingUrl": "https://fareharbor.com/embeds/book/ace-diving/items/400007/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -106800,6 +106815,7 @@
     {
       "id": "237235",
       "pk": 237235,
+      "scope": "out-of-scope-instruction",
       "name": "Enriched Air Nitrox Course",
       "company": "ACE DIVING",
       "bookingUrl": "https://fareharbor.com/embeds/book/ace-diving/items/237235/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -122795,6 +122811,7 @@
     {
       "id": "693040",
       "pk": 693040,
+      "scope": "out-of-scope-instruction",
       "name": "PADI Basic Mermaid Certification",
       "company": "Mertailor's Mermaid Aquarium Encounter",
       "bookingUrl": "https://fareharbor.com/embeds/book/mermaidaquariumencounter/items/693040/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -123628,6 +123645,7 @@
     {
       "id": "693043",
       "pk": 693043,
+      "scope": "out-of-scope-instruction",
       "name": "PADI Mermaid Certification",
       "company": "Mertailor's Mermaid Aquarium Encounter",
       "bookingUrl": "https://fareharbor.com/embeds/book/mermaidaquariumencounter/items/693043/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -163099,6 +163117,7 @@
     {
       "id": "452056",
       "pk": 452056,
+      "scope": "out-of-scope-instruction",
       "name": "Advanced Scuba Certification Course",
       "company": "Epic Diving FL",
       "bookingUrl": "https://fareharbor.com/embeds/book/epicdivingfl/items/452056/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -163256,6 +163275,7 @@
     {
       "id": "502465",
       "pk": 502465,
+      "scope": "out-of-scope-instruction",
       "name": "Advanced Scuba Certification Course (copy)",
       "company": "Epic Diving FL",
       "bookingUrl": "https://fareharbor.com/embeds/book/epicdivingfl/items/502465/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -180430,6 +180450,7 @@
     {
       "id": "256631",
       "pk": 256631,
+      "scope": "out-of-scope-accommodation",
       "name": "Swamp Cottage Rental",
       "company": "Clyde Butcher's Big Cypress Gallery",
       "bookingUrl": "https://fareharbor.com/embeds/book/clydebutcher/items/256631/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -194275,6 +194296,7 @@
     {
       "id": "283441",
       "pk": 283441,
+      "scope": "out-of-scope-instruction",
       "name": "Open Water Scuba Diver Course",
       "company": "Scuba Quest - Sarasota",
       "bookingUrl": "https://fareharbor.com/embeds/book/scubaquest-sarasota/items/283441/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -194326,6 +194348,7 @@
     {
       "id": "283510",
       "pk": 283510,
+      "scope": "out-of-scope-instruction",
       "name": "Nitrox Diver Course",
       "company": "Scuba Quest - Sarasota",
       "bookingUrl": "https://fareharbor.com/embeds/book/scubaquest-sarasota/items/283510/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
@@ -194377,6 +194400,7 @@
     {
       "id": "283518",
       "pk": 283518,
+      "scope": "out-of-scope-instruction",
       "name": "Advanced Scuba Diver Course",
       "company": "Scuba Quest - Sarasota",
       "bookingUrl": "https://fareharbor.com/embeds/book/scubaquest-sarasota/items/283518/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
