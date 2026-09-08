@@ -176,7 +176,7 @@ ul, ol { list-style: none; }
 }
 
 .footer-logo-img {
-    height: 160px;
+    height: 72px;
     width: auto;
     max-width: 600px;
     object-fit: contain;
@@ -2124,7 +2124,7 @@ ul, ol { list-style: none; }
     }
     
     .footer-logo-img {
-        height: 80px;
+        height: 54px;
     }
     
     .hero-logo-img {
@@ -2160,7 +2160,7 @@ ul, ol { list-style: none; }
     }
     
     .footer-logo-img {
-        height: 90px;
+        height: 54px;
     }
     
     .hero-logo-img {
