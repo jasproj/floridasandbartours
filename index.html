@@ -474,6 +474,8 @@
                 <input type="hidden" name="_subject" value="New Florida Trip Planner Request">
                 <input type="hidden" name="_next" value="https://floridasandbartours.com/Ultimate-7-Day-Florida-Guide.pdf">
                 <input type="email" name="email" placeholder="Enter your email" required>
+                <!-- Honeypot spam protection - bots fill this, humans don't see it -->
+                <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
                 <button type="submit">Send Me the Free Guide</button>
             </form>
             <p class="guide-privacy">&#128274; No spam, ever. Unsubscribe anytime.</p>
