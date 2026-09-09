@@ -175,6 +175,7 @@ ul, ol { list-style: none; }
     filter: drop-shadow(0 4px 12px rgba(0,0,0,0.3));
 }
 
+.footer .footer-logo-img,
 .footer-logo-img {
     height: 160px;
     width: auto;
@@ -2123,6 +2124,7 @@ ul, ol { list-style: none; }
         height: 60px;
     }
     
+    .footer .footer-logo-img,
     .footer-logo-img {
         height: 160px;
     }
@@ -2159,6 +2161,7 @@ ul, ol { list-style: none; }
         height: 70px;
     }
     
+    .footer .footer-logo-img,
     .footer-logo-img {
         height: 160px;
     }
