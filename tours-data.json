@@ -117104,8 +117104,8 @@
       "category": "",
       "location": "United States/Florida/Fort Walton Beach",
       "island": "united states/florida/fort walton beach",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$7,565.35 whole boat",
+      "price": 7565.35,
+      "priceLabel": "$7,565.35 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 50,
       "currency": "USD",
@@ -117131,7 +117131,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter",
         "customerTypeNote": "",
@@ -117145,9 +117145,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          7565.35,
           7565.35
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Charter' at $7565.35, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -117889,8 +117890,8 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$2,125.22 whole boat",
+      "price": 2125.22,
+      "priceLabel": "$2,125.22 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 49,
       "currency": "USD",
@@ -117916,7 +117917,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Two Hour",
         "customerTypeNote": "",
@@ -117930,10 +117931,11 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          2125.22,
           2125.22
         ],
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Two Hour' at $2125.22, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -118517,8 +118519,8 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$1,400 whole boat",
+      "price": 1400.0,
+      "priceLabel": "$1,400 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 48,
       "currency": "USD",
@@ -118544,7 +118546,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "4-Hour Private Charter",
         "customerTypeNote": "This price is for one deluxe boat and includes up to 6 passengers. Additional passengers cost extra.",
@@ -118558,9 +118560,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          1400.0,
           1400.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier '4-Hour Private Charter' at $1400, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -118680,8 +118683,8 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$675 whole boat",
+      "price": 675.0,
+      "priceLabel": "$675 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 48,
       "currency": "USD",
@@ -118707,7 +118710,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "3-Hour Private Charter",
         "customerTypeNote": "",
@@ -118721,9 +118724,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          675.0,
           675.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier '3-Hour Private Charter' at $675, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -119513,8 +119517,8 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$35.78 per person",
+      "price": 35.78,
+      "priceLabel": "$35.78 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 44,
       "currency": "USD",
@@ -119540,7 +119544,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Adult",
         "customerTypeNote": "Ages 12+",
@@ -119554,11 +119558,12 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          35.78,
           35.78
         ],
         "exclusionTest": "Child $23.87 excluded",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Adult' at $35.78, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -119728,8 +119733,8 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$2,500 whole boat",
+      "price": 2500.0,
+      "priceLabel": "$2,500 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 43,
       "currency": "USD",
@@ -119755,7 +119760,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Princess S62 - 4 Hours",
         "customerTypeNote": "",
@@ -119769,9 +119774,10 @@
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          2500.0,
           2500.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Princess S62 - 4 Hours' at $2500, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -119991,8 +119997,8 @@
       "category": "",
       "location": "United States/Florida/Fort Walton Beach",
       "island": "united states/florida/fort walton beach",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$14,548.75 whole boat",
+      "price": 14548.75,
+      "priceLabel": "$14,548.75 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 41,
       "currency": "USD",
@@ -120018,7 +120024,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "One Night Charter",
         "customerTypeNote": "",
@@ -120032,9 +120038,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          14548.75,
           14548.75
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'One Night Charter' at $14548.75, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -120101,8 +120108,8 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$33.90 per person",
+      "price": 33.9,
+      "priceLabel": "$33.90 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 41,
       "currency": "USD",
@@ -120128,7 +120135,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Adult",
         "customerTypeNote": "Ages 12+",
@@ -120142,11 +120149,12 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          33.9,
           33.9
         ],
         "exclusionTest": "Child $22.6 excluded",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Adult' at $33.9, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -120270,8 +120278,8 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$70.39 per person",
+      "price": 70.39,
+      "priceLabel": "$70.39 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 40,
       "currency": "USD",
@@ -120297,7 +120305,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Adult",
         "customerTypeNote": "Adults Only",
@@ -120311,10 +120319,11 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          70.39,
           70.39
         ],
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Adult' at $70.39, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -125517,8 +125526,8 @@
       "category": "",
       "location": "United States/Florida/Homosassa",
       "island": "united states/florida/homosassa",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$60 per person",
+      "price": 60.0,
+      "priceLabel": "$60 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 49,
       "currency": "USD",
@@ -125544,7 +125553,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Person",
         "customerTypeNote": "Ages 10+",
@@ -125558,9 +125567,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          60.0,
           60.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Person' at $60, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -128945,8 +128955,8 @@
       "category": "",
       "location": "United States/Florida/Homosassa",
       "island": "united states/florida/homosassa",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$45 per person",
+      "price": 45.0,
+      "priceLabel": "$45 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 38,
       "currency": "USD",
@@ -128972,7 +128982,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Person",
         "customerTypeNote": "Ages 10+",
@@ -128986,9 +128996,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          45.0,
           45.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Person' at $45, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -132175,8 +132186,8 @@
       "category": "",
       "location": "United States/Florida/Cocoa Beach",
       "island": "united states/florida/cocoa beach",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$40 per unit",
+      "price": 40.0,
+      "priceLabel": "$40 per unit",
       "priceConfidence": "verified-whole-unit-range",
       "qualityScore": 53,
       "currency": "USD",
@@ -132202,7 +132213,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Stand-up Paddleboard",
         "customerTypeNote": "",
@@ -132216,9 +132227,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          40.0,
           40.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Stand-up Paddleboard' at $40, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -132335,8 +132347,8 @@
       "category": "",
       "location": "United States/Florida/Cocoa Beach",
       "island": "united states/florida/cocoa beach",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$40 per unit",
+      "price": 40.0,
+      "priceLabel": "$40 per unit",
       "priceConfidence": "verified-whole-unit-range",
       "qualityScore": 55,
       "currency": "USD",
@@ -132362,7 +132374,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Single Kayak",
         "customerTypeNote": "",
@@ -132376,9 +132388,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          40.0,
           40.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Single Kayak' at $40, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -132496,8 +132509,8 @@
       "category": "",
       "location": "United States/Florida/Cocoa Beach",
       "island": "united states/florida/cocoa beach",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$60 per unit",
+      "price": 60.0,
+      "priceLabel": "$60 per unit",
       "priceConfidence": "verified-whole-unit-range",
       "qualityScore": 51,
       "currency": "USD",
@@ -132523,7 +132536,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Tandem Kayak",
         "customerTypeNote": "",
@@ -132537,9 +132550,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          60.0,
           60.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Tandem Kayak' at $60, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -135961,8 +135975,8 @@
       "category": "",
       "location": "United States/Florida/Gulf Breeze",
       "island": "united states/florida/gulf breeze",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$295 whole boat",
+      "price": 295.0,
+      "priceLabel": "$295 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 83,
       "currency": "USD",
@@ -135988,7 +136002,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Two Hour Daytime Private Tour",
         "customerTypeNote": "",
@@ -136002,11 +136016,12 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          295.0,
           295.0
         ],
         "locationDiffersFromExport": "Pensacola Beach",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Two Hour Daytime Private Tour' at $295, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -137309,8 +137324,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$2,700 whole boat",
+      "price": 2700.0,
+      "priceLabel": "$2,700 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 74,
       "currency": "USD",
@@ -137336,7 +137351,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter",
         "customerTypeNote": "Sits up to 6 Passengers",
@@ -137350,9 +137365,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          2700.0,
           2700.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Charter' at $2700, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -137782,8 +137798,8 @@
       "category": "",
       "location": "United States/Florida/Gulf Breeze",
       "island": "united states/florida/gulf breeze",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$1,299 whole boat",
+      "price": 1299.0,
+      "priceLabel": "$1,299 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 72,
       "currency": "USD",
@@ -137809,7 +137825,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter . Up to 49",
         "customerTypeNote": "All ages \u2022 Up to 49 passengers",
@@ -137823,11 +137839,12 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          1299.0,
           1299.0
         ],
         "locationDiffersFromExport": "Pensacola Beach",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Charter . Up to 49' at $1299, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -138380,8 +138397,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$2,300 whole boat",
+      "price": 2300.0,
+      "priceLabel": "$2,300 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 71,
       "currency": "USD",
@@ -138407,7 +138424,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter",
         "customerTypeNote": "Sits Up To 22 People",
@@ -138421,9 +138438,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          2300.0,
           2300.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Charter' at $2300, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -140436,8 +140454,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$1,750 whole boat",
+      "price": 1750.0,
+      "priceLabel": "$1,750 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 63,
       "currency": "USD",
@@ -140463,7 +140481,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter",
         "customerTypeNote": "Sits Up To 22 People",
@@ -140477,9 +140495,10 @@
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          1750.0,
           1750.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Charter' at $1750, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -140491,8 +140510,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$25 per person",
+      "price": 25.0,
+      "priceLabel": "$25 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 63,
       "currency": "USD",
@@ -140518,7 +140537,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Person",
         "customerTypeNote": "Ages 3+",
@@ -140532,10 +140551,11 @@
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          25.0,
           25.0
         ],
-        "exclusionTest": "Infant $5 excluded"
+        "exclusionTest": "Infant $5 excluded",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Person' at $25, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -141441,8 +141461,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$3,400 whole boat",
+      "price": 3400.0,
+      "priceLabel": "$3,400 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 59,
       "currency": "USD",
@@ -141468,7 +141488,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter",
         "customerTypeNote": "Sits Up To 22 People",
@@ -141482,9 +141502,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          3400.0,
           3400.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Charter' at $3400, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -141496,8 +141517,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$2,850 whole boat",
+      "price": 2850.0,
+      "priceLabel": "$2,850 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 59,
       "currency": "USD",
@@ -141523,7 +141544,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter",
         "customerTypeNote": "Sits Up To 22 People",
@@ -141537,9 +141558,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          2850.0,
           2850.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Charter' at $2850, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -141551,8 +141573,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$160 per person",
+      "price": 160.0,
+      "priceLabel": "$160 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 59,
       "currency": "USD",
@@ -141578,7 +141600,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Person",
         "customerTypeNote": "",
@@ -141592,10 +141614,11 @@
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          160.0,
           160.0
         ],
-        "exclusionTest": "Children 12 & under $100 excluded"
+        "exclusionTest": "Children 12 & under $100 excluded",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Person' at $160, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -141607,8 +141630,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$200 per person",
+      "price": 200.0,
+      "priceLabel": "$200 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 59,
       "currency": "USD",
@@ -141634,7 +141657,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Person",
         "customerTypeNote": "",
@@ -141648,10 +141671,11 @@
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          200.0,
           200.0
         ],
-        "exclusionTest": "Children 12 & under $140 excluded"
+        "exclusionTest": "Children 12 & under $140 excluded",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Person' at $200, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -147384,8 +147408,8 @@
       "category": "",
       "location": "United States/Florida/Pensacola Beach",
       "island": "united states/florida/pensacola beach",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$250 whole boat",
+      "price": 250.0,
+      "priceLabel": "$250 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 39,
       "currency": "USD",
@@ -147411,7 +147435,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Sunset Cruise",
         "customerTypeNote": "Up to 6 People",
@@ -147425,10 +147449,11 @@
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          250.0,
           250.0
         ],
-        "locationDiffersFromExport": "Gulf Breeze"
+        "locationDiffersFromExport": "Gulf Breeze",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Sunset Cruise' at $250, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -149826,8 +149851,8 @@
       "category": "",
       "location": "United States/Florida/Vero Beach",
       "island": "united states/florida/vero beach",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$65 per unit",
+      "price": 65.0,
+      "priceLabel": "$65 per unit",
       "priceConfidence": "verified-whole-unit-range",
       "qualityScore": 38,
       "currency": "USD",
@@ -149853,7 +149878,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Single Kayak",
         "customerTypeNote": "",
@@ -149867,10 +149892,11 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          65.0,
           65.0
         ],
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Single Kayak' at $65, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -163538,8 +163564,8 @@
       "category": "",
       "location": "United States/Florida/Port Richey",
       "island": "united states/florida/port richey",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$2,800 whole boat",
+      "price": 2800.0,
+      "priceLabel": "$2,800 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 42,
       "currency": "USD",
@@ -163565,7 +163591,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Extreme (14 hrs)",
         "customerTypeNote": "Price is per 14 hrs offshore trip up to 6 passengers",
@@ -163579,9 +163605,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          2800.0,
           2800.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Extreme (14 hrs)' at $2800, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -163851,8 +163878,8 @@
       "category": "",
       "location": "United States/Florida/Hudson",
       "island": "united states/florida/hudson",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$300 per person",
+      "price": 300.0,
+      "priceLabel": "$300 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 28,
       "currency": "USD",
@@ -163878,7 +163905,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Diver",
         "customerTypeNote": "Ages 15+",
@@ -163892,9 +163919,10 @@
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          300.0,
           300.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Diver' at $300, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -163957,8 +163985,8 @@
       "category": "",
       "location": "United States/Florida/Port Richey",
       "island": "united states/florida/port richey",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$325 whole boat",
+      "price": 325.0,
+      "priceLabel": "$325 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 38,
       "currency": "USD",
@@ -163984,7 +164012,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Two Hours",
         "customerTypeNote": "Price is per a 2 hrs quick trip per 2 passengers",
@@ -163998,9 +164026,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          325.0,
           325.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Two Hours' at $325, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -185483,8 +185512,8 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$115 per person",
+      "price": 115.0,
+      "priceLabel": "$115 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 70,
       "currency": "USD",
@@ -185510,7 +185539,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Lesson",
         "customerTypeNote": "Price Includes 1 Person",
@@ -185524,9 +185553,10 @@
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          115.0,
           115.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Lesson' at $115, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -190334,8 +190364,8 @@
       "category": "",
       "location": "United States/Florida/Englewood",
       "island": "united states/florida/englewood",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$1,700 whole boat",
+      "price": 1700.0,
+      "priceLabel": "$1,700 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 50,
       "currency": "USD",
@@ -190361,7 +190391,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter",
         "customerTypeNote": "1-4 PPL \u2022 Offshore - Gulf of Mexico \u2022 Up to 40 miles out",
@@ -190375,10 +190405,11 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          1700.0,
           1700.0
         ],
-        "locationDiffersFromExport": "Nokomis"
+        "locationDiffersFromExport": "Nokomis",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Private Charter' at $1700, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -190698,8 +190729,8 @@
       "category": "",
       "location": "United States/Florida/Englewood",
       "island": "united states/florida/englewood",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$800 whole boat",
+      "price": 800.0,
+      "priceLabel": "$800 whole boat",
       "priceConfidence": "verified-whole-boat-range",
       "qualityScore": 51,
       "currency": "USD",
@@ -190725,7 +190756,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Four Hour Private Charter",
         "customerTypeNote": "Offshore \u2022 Gulf of Mexico",
@@ -190739,10 +190770,11 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          800.0,
           800.0
         ],
-        "locationDiffersFromExport": "Nokomis"
+        "locationDiffersFromExport": "Nokomis",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Four Hour Private Charter' at $800, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -200696,8 +200728,8 @@
       "category": "",
       "location": "United States/Florida/Bradenton",
       "island": "united states/florida/bradenton",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$800 per craft",
+      "price": 800.0,
+      "priceLabel": "$800 per craft",
       "priceConfidence": "verified-whole-unit-range",
       "qualityScore": 51,
       "currency": "USD",
@@ -200723,7 +200755,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Jet Ski Rentals- 2025 Sea-Doo GTI SE 130",
         "customerTypeNote": "",
@@ -200737,9 +200769,10 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          800.0,
           800.0
-        ]
+        ],
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Jet Ski Rentals- 2025 Sea-Doo GTI SE 130' at $800, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
@@ -201319,8 +201352,8 @@
       "category": "",
       "location": "United States/Florida/Sarasota",
       "island": "united states/florida/sarasota",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$55 per person",
+      "price": 55.0,
+      "priceLabel": "$55 per person",
       "priceConfidence": "verified-adult-range",
       "qualityScore": 49,
       "currency": "USD",
@@ -201346,7 +201379,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-11",
       "_unknownFields": {
         "customerTypeVerified": "Adult",
         "customerTypeNote": "Ages 13+",
@@ -201360,11 +201393,12 @@
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
+          55.0,
           55.0
         ],
         "exclusionTest": "Child $50 excluded",
-        "locationDiffersFromExport": "Bradenton"
+        "locationDiffersFromExport": "Bradenton",
+        "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'Adult' at $55, equal to the prior dated high; the $0 low was an empty-date reading"
       }
     },
     {
