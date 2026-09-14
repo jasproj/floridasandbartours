@@ -209,6 +209,7 @@
       else if (lbl.indexOf('per unit') !== -1) unit = 'per-unit';
       else if (lbl.indexOf('per craft') !== -1) unit = 'per-vehicle';
       else if (/\bfor \d+ nights?\b/.test(lbl) || lbl.indexOf('per stay') !== -1) unit = 'per-stay';
+      else if (/\bfor \d+ (?:hours?|minutes?)\b/.test(lbl)) unit = 'per-session';
       else if (lbl.indexOf('per person') !== -1 || lbl.indexOf('per adult') !== -1) unit = 'per-person';
     }
     if (unit === 'whole-boat') {
@@ -223,6 +224,13 @@
        these rows are Two through Seven Nights at minimum party 1. "$705.64 per
        person" on a whole cabin is the same class of error as a seat price on a
        charter, in the other direction. */
+    /* Rentals and timed sessions are sold by the block: the customer types are
+       One Hour / Three Hour / 30 Minute, not heads. An hourly bike hire labelled
+       "whole boat" is the same defect as a cabin labelled "per person". */
+    if (unit === 'per-session') {
+      var sess = String(uf.sessionLabel || '').trim();
+      return sess ? 'for ' + sess : 'per session';
+    }
     if (unit === 'per-stay') {
       var nights = Number(uf.stayNights);
       return isFinite(nights) && nights > 0
