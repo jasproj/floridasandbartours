@@ -118628,9 +118628,9 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$235 whole boat",
-      "priceConfidence": "verified-whole-boat-range",
+      "price": 235.0,
+      "priceLabel": "per person",
+      "priceConfidence": "verified-customer-type",
       "qualityScore": 48,
       "currency": "USD",
       "duration": "",
@@ -118655,23 +118655,19 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-14",
       "_unknownFields": {
         "customerTypeVerified": "4-Hour Shared Charter",
-        "customerTypeNote": "",
-        "unit": "whole-boat",
+        "customerTypeNote": "Shared seat: the same operator's 4-hour private charters are $800-$1,300",
+        "unit": "per-person",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "FareHarbor price-preview per-item v2, 2026-09-14",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "observedPriceRange": [
-          0.0,
-          235.0
-        ]
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
       }
     },
     {
@@ -137633,15 +137629,15 @@
     {
       "id": "636994",
       "pk": 636994,
-      "name": "Private Dolphin Tour: Up to 25",
+      "name": "Private Dolphin Tour: Up to 20",
       "company": "Frisky Mermaid Dolphin Tours & Boat Rentals",
       "bookingUrl": "https://fareharbor.com/embeds/book/ho2pensacola/items/636994/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
       "category": "",
       "location": "United States/Florida/Gulf Breeze",
       "island": "united states/florida/gulf breeze",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$895 whole boat",
-      "priceConfidence": "verified-whole-boat-range",
+      "price": 895.0,
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-customer-type",
       "qualityScore": 73,
       "currency": "USD",
       "duration": "",
@@ -137666,25 +137662,22 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-14",
       "_unknownFields": {
-        "customerTypeVerified": "Private Charter . Up to 25",
-        "customerTypeNote": "All ages \u2022 Up to 25 passengers.",
+        "customerTypeVerified": "Private Charter . Up to 20",
+        "customerTypeNote": "Private events, 2 hours, up to 20 people",
         "unit": "whole-boat",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "FareHarbor price-preview per-item v2, 2026-09-14",
         "exportSource": "marketplace-top-items-2026-08-22 (5).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "observedPriceRange": [
-          0.0,
-          895.0
-        ],
         "locationDiffersFromExport": "Pensacola Beach",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "nameSource": "FareHarbor v1 item API, 2026-09-14 (was \"Up to 25\")"
       }
     },
     {
@@ -140567,9 +140560,9 @@
       "category": "",
       "location": "United States/Florida/Pensacola",
       "island": "united states/florida/pensacola",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$1,200 whole boat",
-      "priceConfidence": "verified-whole-boat-range",
+      "price": 1200.0,
+      "priceLabel": "whole boat",
+      "priceConfidence": "operator-headline",
       "qualityScore": 63,
       "currency": "USD",
       "duration": "",
@@ -140594,23 +140587,19 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-14",
       "_unknownFields": {
         "customerTypeVerified": "Private Charter",
-        "customerTypeNote": "Sits Up To 25 People",
+        "customerTypeNote": "Figure from the operator headline; price-preview returns no item",
         "unit": "whole-boat",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 3,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "FareHarbor v1 item API headline, 2026-09-14 (no price-preview item)",
         "exportSource": "marketplace-top-items-2026-08-22 (5).csv",
         "locationSource": "item",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "observedPriceRange": [
-          0.0,
-          1200.0
-        ]
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
       }
     },
     {
@@ -147477,9 +147466,9 @@
       "category": "",
       "location": "United States/Florida/Gulf Breeze",
       "island": "united states/florida/gulf breeze",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$495 whole boat",
-      "priceConfidence": "verified-whole-boat-range",
+      "price": 495.0,
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-customer-type",
       "qualityScore": 39,
       "currency": "USD",
       "duration": "",
@@ -147504,7 +147493,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-14",
       "_unknownFields": {
         "customerTypeVerified": "Full Day Rental",
         "customerTypeNote": "",
@@ -147513,14 +147502,10 @@
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "FareHarbor price-preview per-item v2, 2026-09-14",
         "exportSource": "marketplace-top-items-2026-08-22 (5).csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "observedPriceRange": [
-          0.0,
-          495.0
-        ]
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
       }
     },
     {
