@@ -208,6 +208,7 @@
       if (lbl.indexOf('whole boat') !== -1 || lbl.indexOf('charter') !== -1) unit = 'whole-boat';
       else if (lbl.indexOf('per unit') !== -1) unit = 'per-unit';
       else if (lbl.indexOf('per craft') !== -1) unit = 'per-vehicle';
+      else if (/\bfor \d+ nights?\b/.test(lbl) || lbl.indexOf('per stay') !== -1) unit = 'per-stay';
       else if (lbl.indexOf('per person') !== -1 || lbl.indexOf('per adult') !== -1) unit = 'per-person';
     }
     if (unit === 'whole-boat') {
@@ -218,6 +219,16 @@
     if (unit === 'per-unit') return 'per unit';
     if (unit === 'per-vehicle') return 'per craft';
     if (unit === 'per-person') return 'per person';
+    /* Lodging is sold by the stay, not the head: FareHarbor's customer types on
+       these rows are Two through Seven Nights at minimum party 1. "$705.64 per
+       person" on a whole cabin is the same class of error as a seat price on a
+       charter, in the other direction. */
+    if (unit === 'per-stay') {
+      var nights = Number(uf.stayNights);
+      return isFinite(nights) && nights > 0
+        ? 'for ' + nights + (nights === 1 ? ' night' : ' nights')
+        : 'per stay';
+    }
     return '';
   }
 
