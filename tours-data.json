@@ -120354,11 +120354,11 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "fh-dn-florida-pool-2026-08-22",
-      "status": "active",
-      "statusReason": null,
+      "status": "inactive",
+      "statusReason": "Live item is private (is_private) and renamed \"Labor Day Celebration Sunset DJ Cruise\" with 0 availabilities 2026-09 to 2027-01, checked 2026-09-14",
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-14",
       "_unknownFields": {
         "customerTypeVerified": "Adult",
         "customerTypeNote": "Ages 12+",
@@ -120376,7 +120376,9 @@
           35.78
         ],
         "exclusionTest": "Child $23.87 excluded",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "livenessCheckedOn": "2026-09-14",
+        "livenessSignals": "v1 item API is_private=true; calendar 0 slots over 5 months"
       }
     },
     {
@@ -152551,9 +152553,9 @@
       "category": "",
       "location": "United States/Florida/West Palm Beach",
       "island": "united states/florida/west palm beach",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$250 per person",
-      "priceConfidence": "verified-adult-range",
+      "price": 250.0,
+      "priceLabel": "per person",
+      "priceConfidence": "verified-customer-type",
       "qualityScore": 50,
       "currency": "USD",
       "duration": "",
@@ -152578,23 +152580,19 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-14",
       "_unknownFields": {
         "customerTypeVerified": "E-Foil Lesson",
-        "customerTypeNote": "For one person",
+        "customerTypeNote": "One-on-one, 1.5 hours; additional students $125 each",
         "unit": "per-person",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "FareHarbor price-preview per-item v2, 2026-09-14",
         "exportSource": "marketplace-top-items-2026-08-22 (8).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "observedPriceRange": [
-          0.0,
-          250.0
-        ],
         "exclusionTest": "Additional Student $125 excluded"
       }
     },
@@ -157941,9 +157939,9 @@
       "category": "",
       "location": "United States/Florida/Miami",
       "island": "united states/florida/miami",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$100 per person",
-      "priceConfidence": "verified-adult-range",
+      "price": 600.0,
+      "priceLabel": "whole boat",
+      "priceConfidence": "verified-customer-type",
       "qualityScore": 66,
       "currency": "USD",
       "duration": "",
@@ -157968,23 +157966,19 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-14",
       "_unknownFields": {
-        "customerTypeVerified": "Certified Diver",
-        "customerTypeNote": "Must be at least 12 years old",
-        "unit": "per-person",
+        "customerTypeVerified": "Private Charter",
+        "customerTypeNote": "Up to 6 passengers; certified divers add $100 each",
+        "unit": "whole-boat",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
         "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "priceSource": "FareHarbor price-preview per-item v2, 2026-09-14",
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "observedPriceRange": [
-          0.0,
-          100.0
-        ]
+        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance"
       }
     },
     {
