@@ -105,12 +105,12 @@
     'dania beach', 'delray beach', 'doral', 'everglades city', 'fellsmere', 'fort lauderdale',
     'fort myers', 'fort myers beach', 'fort pierce', 'goodland', 'hollywood', 'homestead',
     'islamorada', 'jupiter', 'key biscayne', 'key colony beach', 'key largo', 'key west',
-    'lake park', 'lighthouse point', 'loxahatchee', 'marathon', 'marco island', 'matlacha',
+    'lake park', 'lantana', 'lighthouse point', 'loxahatchee', 'marathon', 'marco island', 'matlacha',
     'miami', 'miami beach', 'miami river', 'miami shores', 'naples', 'naples fl',
     'north fort myers', 'north miami', 'north miami beach', 'ochopee', 'palm beach',
     'palm beach shores', 'palm city', 'parkland', 'pompano beach', 'port charlotte',
     'riviera beach', 'sanibel', 'sanibel island', 'sebastian', 'st james city', 'stock island',
-    'stuart', 'summerland key', 'tavernier', 'vero beach', 'west palm beach', 'weston',
+    'stuart', 'summerland key', 'tamarac', 'tavernier', 'vero beach', 'west palm beach', 'weston',
     ],
     'central florida': [
     'anna maria', 'apollo beach', 'apopka', 'belle isle', 'belleair bluffs', 'beverly hills',
@@ -138,7 +138,7 @@
     'jacksonville beach', 'live oak', 'marianna', 'mary ester', 'mary esther', 'mayport',
     'milton', 'miramar beach', 'navarre', 'navarre beach', 'new smyrna beach', 'niceville',
     'oak hill', 'okaloosa island', 'orange city', 'pace', 'palatka', 'palm valley',
-    'panama city', 'panama city beach', 'pensacola', 'pensacola beach', 'perdido key',
+    'panama city', 'panama city beach', 'pensacola', 'pensacola beach', 'perdido key', 'ponte vedra beach',
     'santa rosa beach', 'shalimar', 'st augustine', 'st. augustine', 'wakulla springs',
     ]
   };
@@ -183,10 +183,104 @@
     return null;
   }
 
-  /** True when `region` is falsy (no filter) or the row is in that region. */
-  function matchesRegion(tour, region) {
-    if (!region) return true;
-    return regionOf(tour) === String(region).trim().toLowerCase();
+  /* ---- city ------------------------------------------------------------------
+
+     The location filter used to offer three regions for ~3,400 tours in 200+
+     municipalities, so a visitor staying in Jacksonville had no way to ask for
+     Jacksonville. The same select now also lists every city, grouped under its
+     region, with a count. A city option's value is "city:<key>"; a bare region
+     value still works, so ?island=north florida links keep resolving.
+
+     The catalogue spells some places more than one way. These collapse the
+     spellings into one city so a place is never listed twice. */
+  var CITY_ALIAS = {
+    'st augustine': 'st. augustine',
+    'st petersburg': 'st. petersburg',
+    'naples fl': 'naples',
+    'fort walton': 'fort walton beach',
+    'ft. walton beach': 'fort walton beach',
+    'mary ester': 'mary esther',
+    'pt canaveral': 'port canaveral',
+    'captiva island': 'captiva',
+    'sanibel island': 'sanibel',
+    'siesta key - turtle beach': 'siesta key',
+    'lido key- ted sperling nature park': 'sarasota'
+  };
+
+  /** The city a row is in (canonical, lowercase), or null when unresolvable. */
+  function cityOf(tour) {
+    var m = municipalityOf(tour);
+    if (!MUNICIPALITY_REGION[m]) {
+      var alt = ((tour && tour._unknownFields) || {}).locationDiffersFromExport;
+      if (!alt) return null;
+      var parts = String(alt).split('/');
+      m = parts[parts.length - 1].trim().toLowerCase();
+      if (!MUNICIPALITY_REGION[m]) return null;
+    }
+    return CITY_ALIAS[m] || m;
+  }
+
+  var SMALL_WORDS = { 'of': 1, 'n': 1 };
+  var LABEL_OVERRIDE = { 'deland': 'DeLand' };
+  /** "st. augustine" -> "St. Augustine", "town 'n' country" -> "Town 'n' Country". */
+  function cityLabel(key) {
+    if (LABEL_OVERRIDE[key]) return LABEL_OVERRIDE[key];
+    return String(key).split(' ').map(function (w, i) {
+      var bare = w.replace(/'/g, '');
+      if (i > 0 && SMALL_WORDS[bare]) return w;
+      return w.replace(/^(['(]?)([a-z])/, function (_, p, c) { return p + c.toUpperCase(); })
+              .replace(/-([a-z])/g, function (_, c) { return '-' + c.toUpperCase(); });
+    }).join(' ');
+  }
+
+  /** True when `value` is falsy (no filter), or the row is in that region or city. */
+  function matchesRegion(tour, value) {
+    if (!value) return true;
+    var v = String(value).trim().toLowerCase();
+    if (v.indexOf('city:') === 0) return cityOf(tour) === v.slice(5);
+    return regionOf(tour) === v;
+  }
+
+  /**
+   * Rebuild a location <select> as: the page's own "All ..." option, then one
+   * <optgroup> per region holding "All of <Region> (n)" and every city in it
+   * with its count. Counts come from `tours`, so a category page passes its
+   * own category set and the numbers match what the visitor will see. Runs
+   * once per select; a value already chosen (e.g. from the URL) is kept.
+   */
+  var REGION_ORDER = ['north florida', 'central florida', 'south florida'];
+  function fillLocationSelect(select, tours) {
+    if (!select || select.getAttribute('data-cities') === '1') return;
+    var byRegion = {}, regionCount = {};
+    (tours || []).forEach(function (t) {
+      var c = cityOf(t), r = c && MUNICIPALITY_REGION[c];
+      if (!r) return;
+      byRegion[r] = byRegion[r] || {};
+      byRegion[r][c] = (byRegion[r][c] || 0) + 1;
+      regionCount[r] = (regionCount[r] || 0) + 1;
+    });
+    var keep = select.value;
+    var first = select.options[0];
+    while (select.lastChild) select.removeChild(select.lastChild);
+    if (first) { first.value = ''; select.appendChild(first); }
+    REGION_ORDER.forEach(function (r) {
+      if (!regionCount[r]) return;
+      var g = document.createElement('optgroup');
+      g.label = cityLabel(r);
+      var all = document.createElement('option');
+      all.value = r;
+      all.textContent = 'All of ' + cityLabel(r) + ' (' + regionCount[r] + ')';
+      g.appendChild(all);
+      Object.keys(byRegion[r]).sort().forEach(function (c) {
+        var o = document.createElement('option');
+        o.value = 'city:' + c;
+        o.textContent = cityLabel(c) + ' (' + byRegion[r][c] + ')';
+        g.appendChild(o);
+      });
+      select.appendChild(g);
+    });
+    if (keep) select.value = keep;
+    select.setAttribute('data-cities', '1');
   }
 
   /* ---- price -------------------------------------------------------------- */
@@ -305,6 +399,9 @@
     municipalityOf: municipalityOf,
     regionOf: regionOf,
     matchesRegion: matchesRegion,
+    cityOf: cityOf,
+    cityLabel: cityLabel,
+    fillLocationSelect: fillLocationSelect,
     isInScope: isInScope,
     drawable: drawable
   };
