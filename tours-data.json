@@ -88922,8 +88922,8 @@
       "location": "United States/Florida/Miami",
       "island": "united states/florida/miami",
       "price": 295.0,
-      "priceLabel": "$295 per person",
-      "priceConfidence": "verified-adult",
+      "priceLabel": "$295 whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 90,
       "currency": "USD",
       "duration": "",
@@ -88948,11 +88948,11 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-19",
       "_unknownFields": {
         "customerTypeVerified": "1 Hour",
         "customerTypeNote": "Private boat \u00b7 Up to 10 guests \u00b7 All equipment included \u00b7 Only 50% deposit required now",
-        "unit": "per-person",
+        "unit": "whole-boat",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
@@ -88961,7 +88961,8 @@
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "imageAbsent": "no image_url"
+        "imageAbsent": "no image_url",
+        "unitFixNote": "s61: \"1 Hour\" private boat, up to 10 guests; was labelled per person. 50% of it is taken as a deposit at booking"
       }
     },
     {
@@ -157891,8 +157892,8 @@
       "location": "United States/Florida/Miami",
       "island": "united states/florida/miami",
       "price": 99.0,
-      "priceLabel": "$99 whole boat",
-      "priceConfidence": "verified-whole-boat",
+      "priceLabel": "$99 per person",
+      "priceConfidence": "verified-per-person",
       "qualityScore": 66,
       "currency": "USD",
       "duration": "",
@@ -157917,11 +157918,11 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-19",
       "_unknownFields": {
         "customerTypeVerified": "Guy",
         "customerTypeNote": "",
-        "unit": "whole-boat",
+        "unit": "per-person",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
@@ -157930,7 +157931,8 @@
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "exclusionTest": "Deposit $20 excluded"
+        "exclusionTest": "Deposit $20 excluded",
+        "unitFixNote": "s61: customer types are \"Guy\"/\"Lady\" seats at the same price (a separate \"Deposit\" type is not the price); was labelled whole boat"
       }
     },
     {
@@ -159918,8 +159920,8 @@
       "location": "United States/Florida/Miami",
       "island": "united states/florida/miami",
       "price": 159.0,
-      "priceLabel": "$159 per craft",
-      "priceConfidence": "verified-whole-unit",
+      "priceLabel": "$159 per person",
+      "priceConfidence": "verified-per-person",
       "qualityScore": 61,
       "currency": "USD",
       "duration": "",
@@ -159944,11 +159946,11 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-19",
       "_unknownFields": {
         "customerTypeVerified": "Guy",
         "customerTypeNote": "Total Price + Fees Must be 21+",
-        "unit": "per-vehicle",
+        "unit": "per-person",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
@@ -159957,7 +159959,8 @@
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "exclusionTest": "Deposit $39 excluded"
+        "exclusionTest": "Deposit $39 excluded",
+        "unitFixNote": "s61: customer types are \"Guy\"/\"Lady\" seats at the same price (a separate \"Deposit\" type is not the price); was labelled whole boat"
       }
     },
     {
@@ -160410,7 +160413,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-19",
       "_unknownFields": {
         "customerTypeVerified": "1 Hour Rent",
         "customerTypeNote": "",
@@ -160423,8 +160426,10 @@
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "item",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "exclusionTest": "LOCK IT IN WITH A DEPOSIT $25 excluded"
-      }
+        "exclusionTest": "LOCK IT IN WITH A DEPOSIT $25 excluded",
+        "scopeNote": "Road-vehicle rental (Polaris Slingshot), same call as 474961 (\"drop slingshot\", Jason 2026-09-19)"
+      },
+      "scope": "out-of-scope-land"
     },
     {
       "id": "469657",
@@ -160487,8 +160492,8 @@
       "location": "United States/Florida/Miami",
       "island": "united states/florida/miami",
       "price": 65.0,
-      "priceLabel": "$65 whole boat",
-      "priceConfidence": "verified-whole-boat",
+      "priceLabel": "$65 per person",
+      "priceConfidence": "verified-per-person",
       "qualityScore": 60,
       "currency": "USD",
       "duration": "",
@@ -160513,11 +160518,11 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-19",
       "_unknownFields": {
         "customerTypeVerified": "Guy",
         "customerTypeNote": "Total Price + Fees Must be 21+",
-        "unit": "whole-boat",
+        "unit": "per-person",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
         "verifiedDates": 4,
@@ -160526,7 +160531,8 @@
         "exportSource": "marketplace-top-items-2026-08-22.csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "exclusionTest": "Deposit $25 excluded"
+        "exclusionTest": "Deposit $25 excluded",
+        "unitFixNote": "s61: customer types are \"Guy\"/\"Lady\" seats at the same price (a separate \"Deposit\" type is not the price); was labelled whole boat"
       }
     },
     {
