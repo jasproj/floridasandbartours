@@ -116060,9 +116060,9 @@
       "category": "",
       "location": "United States/Florida/Destin",
       "island": "united states/florida/destin",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$400 whole boat",
-      "priceConfidence": "verified-whole-boat-range",
+      "price": 225.0,
+      "priceLabel": "$225 whole boat",
+      "priceConfidence": "verified-whole-boat",
       "qualityScore": 52,
       "currency": "USD",
       "duration": "",
@@ -116094,15 +116094,15 @@
         "unit": "whole-boat",
         "minPartySize": 1,
         "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
-        "verifiedDates": 4,
-        "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
+        "verifiedDates": 2,
+        "verifiedOn": "2026-09-20",
+        "priceSource": "FareHarbor live booking flow, browser-verified 2026-09-20 (2 slots, 9/22/26: 9:00 AM and 1:30 PM, both $225 for \"4 Hour Charter\" / 13 people)",
         "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
         "locationSource": "company",
         "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
         "observedPriceRange": [
-          0.0,
-          400.0
+          225.0,
+          225.0
         ]
       }
     },
@@ -120042,61 +120042,6 @@
           14548.75
         ],
         "priceReprobe": "s60 2026-09-11: undated price-preview names base tier 'One Night Charter' at $14548.75, equal to the prior dated high; the $0 low was an empty-date reading"
-      }
-    },
-    {
-      "id": "596820",
-      "pk": 596820,
-      "name": "Block Time",
-      "company": "Legacy Yacht Management",
-      "bookingUrl": "https://fareharbor.com/embeds/book/legacyyachtmgmt/items/596820/?asn=fhdn&asn-ref=walktheplankadventures&ref=walktheplankadventures&bookable-only=yes&full-items=yes&marketplace=yes&flow=no",
-      "category": "",
-      "location": "United States/Florida/Niceville",
-      "island": "united states/florida/niceville",
-      "price": 0.0,
-      "priceLabel": "$0\u2013$4,860 per person",
-      "priceConfidence": "verified-adult-range",
-      "qualityScore": 40,
-      "currency": "USD",
-      "duration": "",
-      "durationText": "",
-      "description": "",
-      "descriptionRaw": "",
-      "descriptionQuality": "",
-      "highlights": [],
-      "tags": [
-        "Boat Tour-Private"
-      ],
-      "image": "https://cdn.filestackcontent.com/XjkiaeERSf2toNwRdH2G",
-      "galleryImages": [],
-      "rating": null,
-      "reviewCount": null,
-      "ratingSource": "",
-      "freeCancellation": true,
-      "timeOfDay": "morning",
-      "capacity": null,
-      "enrichmentSource": "fh-dn-florida-pool-2026-08-22",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": "2026-08-22",
-      "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
-      "_unknownFields": {
-        "customerTypeVerified": "15 Credits",
-        "customerTypeNote": "10% off $5,400",
-        "unit": "per-person",
-        "minPartySize": 1,
-        "baseFareRule": "structural: operator order AND cheapest-eligible agree; inclusion-supersets removed; never price.low",
-        "verifiedDates": 4,
-        "verifiedOn": "2026-08-22",
-        "priceSource": "FareHarbor price-preview per-item v2 (batched 20/req), include_breakdown=yes; undated + 4-date sample",
-        "exportSource": "marketplace-top-items-2026-08-22 (2).csv",
-        "locationSource": "company",
-        "gates": "0 dedupe,1 availability,2 relevance(default-PASS+drop list),3 location,4 price,5 provenance",
-        "observedPriceRange": [
-          0.0,
-          4860.0
-        ]
       }
     },
     {
