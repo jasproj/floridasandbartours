@@ -142,6 +142,8 @@ async function loadTours() {
         // rows marked out of scope. CardFormat.drawable is the ONE definition of
         // "may this row reach a grid"; the six category pages call the same one.
         allTours = window.CardFormat.drawable(allTours);
+        // City picker: every city with its count, grouped by region.
+        window.CardFormat.fillLocationSelect(document.getElementById('island-filter'), allTours);
 
         // Pure crypto shuffle - truly random every time
         allTours = cryptoShuffle([...allTours]);
@@ -781,7 +783,9 @@ function checkURLParams() {
     const params = new URLSearchParams(window.location.search);
     
     const search = params.get('search') || params.get('q');
-    const island = params.get('island') || params.get('area');
+    // ?city=jacksonville is the shareable form of the city picker.
+    const cityParam = params.get('city');
+    const island = cityParam ? 'city:' + cityParam.trim().toLowerCase() : (params.get('island') || params.get('area'));
     const activity = params.get('activity');
     
     if (search) {

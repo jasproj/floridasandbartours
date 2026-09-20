@@ -326,6 +326,8 @@
                 )
             );
             
+            // City picker, counted from this page's own set so the numbers match the grid.
+            window.CardFormat.fillLocationSelect(document.getElementById('location-filter'), displayedTours);
             const locationFilter = document.getElementById('location-filter')?.value || '';
             const durationFilter = document.getElementById('duration-filter')?.value || '';
             const priceFilter = document.getElementById('price-filter')?.value || '';
