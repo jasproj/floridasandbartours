@@ -200065,7 +200065,7 @@
       "statusReason": null,
       "statusFirstSeen": "2026-08-22",
       "statusConsecutiveRuns": 1,
-      "lastUpdated": "2026-08-22",
+      "lastUpdated": "2026-09-19",
       "_unknownFields": {
         "customerTypeVerified": "One Day Rental",
         "customerTypeNote": "24 Hours",
@@ -200081,8 +200081,10 @@
         "observedPriceRange": [
           0.0,
           299.0
-        ]
-      }
+        ],
+        "scopeNote": "Road-vehicle rental (Polaris Slingshot), not a water tour; no public price. Dropped by Jason 2026-09-19."
+      },
+      "scope": "out-of-scope-land"
     },
     {
       "id": "629967",
