@@ -377,6 +377,7 @@
             toursToAdd.forEach(tour => {
                 const card = createTourCard(tour);
                 grid.appendChild(card);
+                var _s = window.CardFormat.schemaScript && window.CardFormat.schemaScript(tour); if (_s) grid.appendChild(_s);
             });
             
             currentIndex = endIndex;
