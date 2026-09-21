@@ -2470,3 +2470,14 @@ button.submit-btn { color: #0D1B2A; }
 /* Was unstyled (0) before clearance was stacked on it; normalised to the 40px
    the sibling blog templates use rather than sitting flush under the header. */
 nav.breadcrumb { padding-top: 40px; }
+
+/* Related-articles block at the foot of blog posts (added 2026-09-21). */
+.blog-related { padding: 48px 0; background: #f7f9fb; }
+.blog-related .section-title { text-align: center; margin-bottom: 24px; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; max-width: 900px; margin: 0 auto; }
+.related-card { background: #fff; border: 1px solid #e5e5e5; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+.related-card img { width: 100%; height: 150px; object-fit: cover; border-radius: 8px; margin-bottom: 12px; }
+.related-card h3 { font-size: 1.05rem; margin: 0 0 8px; }
+.related-card h3 a { color: #1B3A57; text-decoration: none; }
+.related-card h3 a:hover { text-decoration: underline; }
+.related-card p { font-size: 0.92rem; color: #555; margin: 0; }
