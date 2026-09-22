@@ -385,6 +385,42 @@
     return typeof fallbackFn === 'function' ? fallbackFn(tour) : '';
   }
 
+
+  /**
+   * TouristTrip JSON-LD for one card. It mirrors the ribbon: same figure, same
+   * unit words, via the same functions — so a whole-boat charter is a
+   * UnitPriceSpecification with unitText "whole boat…", a per-person fare is a
+   * plain Offer.price, and a row with no usable price gets no offer at all.
+   * No availability is asserted (we cannot verify bookability from here).
+   */
+  function schemaFor(tour) {
+    if (!tour || !tour.name) return null;
+    var out = {
+      '@context': 'https://schema.org',
+      '@type': 'TouristTrip',
+      'name': tour.name,
+      'description': tour.description || '',
+      'touristType': Array.isArray(tour.tags) ? tour.tags.join(', ') : ''
+    };
+    var n = Number(tour.price);
+    var unit = unitPhrase(tour);
+    if (isFinite(n) && n > 0 && tour.bookingUrl) {
+      if (unit === 'per person' || unit === '') {
+        out.offers = { '@type': 'Offer', 'price': n, 'priceCurrency': 'USD', 'url': tour.bookingUrl };
+      } else {
+        out.offers = { '@type': 'Offer', 'url': tour.bookingUrl,
+          'priceSpecification': { '@type': 'UnitPriceSpecification', 'price': n, 'priceCurrency': 'USD', 'unitText': unit } };
+      }
+    }
+    if (tour.company) out.provider = { '@type': 'LocalBusiness', 'name': tour.company };
+    return out;
+  }
+  function schemaScript(tour) {
+    var o = schemaFor(tour); if (!o) return null;
+    var el = document.createElement('script'); el.type = 'application/ld+json';
+    el.textContent = JSON.stringify(o); return el;
+  }
+
   global.CardFormat = {
     HYPHENATED_TOKENS: HYPHENATED_TOKENS,
     isCompound: isCompound,
@@ -403,6 +439,8 @@
     cityLabel: cityLabel,
     fillLocationSelect: fillLocationSelect,
     isInScope: isInScope,
-    drawable: drawable
+    drawable: drawable,
+    schemaFor: schemaFor,
+    schemaScript: schemaScript
   };
 })(typeof window !== 'undefined' ? window : this);

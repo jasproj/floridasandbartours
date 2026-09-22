@@ -216160,7 +216160,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -216220,7 +216222,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -216280,7 +216284,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -216340,7 +216346,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -216400,7 +216408,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 20,
-        "availabilityNext90Days": 84
+        "availabilityNext90Days": 84,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -216462,7 +216471,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 10,
-        "availabilityNext90Days": 42
+        "availabilityNext90Days": 42,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -216522,7 +216532,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 12,
-        "availabilityNext90Days": 118
+        "availabilityNext90Days": 118,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -216591,7 +216603,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 51,
-        "availabilityNext90Days": 164
+        "availabilityNext90Days": 164,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -216678,7 +216691,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 45,
-        "availabilityNext90Days": 147
+        "availabilityNext90Days": 147,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -216756,7 +216770,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 45,
-        "availabilityNext90Days": 147
+        "availabilityNext90Days": 147,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -216834,7 +216849,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 53,
-        "availabilityNext90Days": 173
+        "availabilityNext90Days": 173,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -216903,7 +216919,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 19,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -216963,7 +216981,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 19,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -217023,7 +217043,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 19,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -217083,7 +217105,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 19,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -217143,7 +217167,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 19,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -217203,7 +217229,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 19,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -217263,7 +217291,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 19,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -217323,7 +217353,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 3 people"
       },
       "priceBreakdown": [
         {
@@ -217383,7 +217415,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 3 people"
       },
       "priceBreakdown": [
         {
@@ -217443,7 +217477,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 27,
-        "availabilityNext90Days": 87
+        "availabilityNext90Days": 87,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 3 people"
       },
       "priceBreakdown": [
         {
@@ -217503,7 +217539,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -217563,7 +217601,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -217623,7 +217663,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -217683,7 +217725,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -217743,7 +217787,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -217812,7 +217857,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -217881,7 +217927,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -217968,7 +218015,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -218064,7 +218113,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 405 people"
       },
       "priceBreakdown": [
         {
@@ -218142,7 +218193,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 405 people"
       },
       "priceBreakdown": [
         {
@@ -218220,7 +218273,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 405 people"
       },
       "priceBreakdown": [
         {
@@ -218298,7 +218353,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 405 people"
       },
       "priceBreakdown": [
         {
@@ -218376,7 +218433,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 405 people"
       },
       "priceBreakdown": [
         {
@@ -218454,7 +218513,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 340,
-        "availabilityNext90Days": 1000
+        "availabilityNext90Days": 1000,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -218514,7 +218574,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 403,
-        "availabilityNext90Days": 1182
+        "availabilityNext90Days": 1182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -218574,7 +218635,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 403,
-        "availabilityNext90Days": 1182
+        "availabilityNext90Days": 1182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -218634,7 +218696,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 372,
-        "availabilityNext90Days": 1092
+        "availabilityNext90Days": 1092,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -218703,7 +218766,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 45,
-        "availabilityNext90Days": 143
+        "availabilityNext90Days": 143,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -218763,7 +218827,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 68
+        "availabilityNext90Days": 68,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -218823,7 +218888,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 81,
-        "availabilityNext90Days": 234
+        "availabilityNext90Days": 234,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -218901,7 +218968,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 108,
-        "availabilityNext90Days": 312
+        "availabilityNext90Days": 312,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -218979,7 +219048,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -219048,7 +219119,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 42,
-        "availabilityNext90Days": 142
+        "availabilityNext90Days": 142,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -219126,7 +219198,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 56,
-        "availabilityNext90Days": 176
+        "availabilityNext90Days": 176,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -219213,7 +219286,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -219273,7 +219348,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -219351,7 +219428,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -219429,7 +219508,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -219507,7 +219587,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -219585,7 +219666,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -219663,7 +219745,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -219741,7 +219824,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 29,
-        "availabilityNext90Days": 82
+        "availabilityNext90Days": 82,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -219819,7 +219903,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 29,
-        "availabilityNext90Days": 82
+        "availabilityNext90Days": 82,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -219906,7 +219991,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 48,
-        "availabilityNext90Days": 164
+        "availabilityNext90Days": 164,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -219966,7 +220053,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 50,
-        "availabilityNext90Days": 166
+        "availabilityNext90Days": 166,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -220026,7 +220115,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 25,
-        "availabilityNext90Days": 83
+        "availabilityNext90Days": 83,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -220086,7 +220177,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -220155,7 +220248,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -220224,7 +220319,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -220293,7 +220390,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -220362,7 +220461,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 78,
-        "availabilityNext90Days": 231
+        "availabilityNext90Days": 231,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -220422,7 +220523,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 104,
-        "availabilityNext90Days": 308
+        "availabilityNext90Days": 308,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -220482,7 +220585,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 52,
-        "availabilityNext90Days": 154
+        "availabilityNext90Days": 154,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -220542,7 +220647,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 279,
-        "availabilityNext90Days": 819
+        "availabilityNext90Days": 819,
+        "unit": "per-unit"
       },
       "priceBreakdown": [
         {
@@ -220611,7 +220717,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 279,
-        "availabilityNext90Days": 819
+        "availabilityNext90Days": 819,
+        "unit": "per-unit"
       },
       "priceBreakdown": [
         {
@@ -220680,7 +220787,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -220740,7 +220849,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -220809,7 +220920,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 23,
-        "availabilityNext90Days": 81
+        "availabilityNext90Days": 81,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -220869,7 +220982,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 23,
-        "availabilityNext90Days": 81
+        "availabilityNext90Days": 81,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -220929,7 +221044,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 23,
-        "availabilityNext90Days": 81
+        "availabilityNext90Days": 81,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -220989,7 +221106,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 23,
-        "availabilityNext90Days": 81
+        "availabilityNext90Days": 81,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -221049,7 +221168,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 23,
-        "availabilityNext90Days": 81
+        "availabilityNext90Days": 81,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -221136,7 +221257,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221198,7 +221321,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221260,7 +221385,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221322,7 +221449,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221382,7 +221511,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221444,7 +221575,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221506,7 +221639,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221568,7 +221703,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221628,7 +221765,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -221697,7 +221836,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -221766,7 +221906,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -221826,7 +221967,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -221913,7 +222055,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222027,7 +222170,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222132,7 +222276,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222192,7 +222337,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222252,7 +222398,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222407,7 +222554,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -222472,7 +222621,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -222537,7 +222688,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222620,7 +222772,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222700,7 +222853,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222762,7 +222916,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -222844,7 +222999,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -222908,7 +223065,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -222972,7 +223131,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -223036,7 +223197,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -223100,7 +223263,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -223164,7 +223329,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -223246,7 +223412,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -223329,7 +223496,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -223394,7 +223563,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 223
+        "availabilityNext90Days": 223,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -223514,7 +223685,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 29,
-        "availabilityNext90Days": 86
+        "availabilityNext90Days": 86,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -223592,7 +223764,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 3,
-        "availabilityNext90Days": 3
+        "availabilityNext90Days": 3,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -223873,7 +224046,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -224011,7 +224185,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -224314,7 +224489,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 3 people"
       },
       "priceBreakdown": [
         {
@@ -224374,7 +224551,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -224434,7 +224612,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 34,
-        "availabilityNext90Days": 104
+        "availabilityNext90Days": 104,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -224496,7 +224676,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 34,
-        "availabilityNext90Days": 104
+        "availabilityNext90Days": 104,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -224558,7 +224740,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 17,
-        "availabilityNext90Days": 52
+        "availabilityNext90Days": 52,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -224742,7 +224926,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 297,
-        "availabilityNext90Days": 858
+        "availabilityNext90Days": 858,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -224804,7 +224989,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 22,
-        "availabilityNext90Days": 65
+        "availabilityNext90Days": 65,
+        "unit": "per-person"
       },
       "priceBreakdown": [
         {
@@ -224873,7 +225059,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -224953,7 +225141,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -225031,7 +225221,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225109,7 +225300,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225187,7 +225379,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225265,7 +225458,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225327,7 +225521,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225389,7 +225584,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225469,7 +225665,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225549,7 +225746,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225629,7 +225827,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225709,7 +225908,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225787,7 +225987,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -225847,7 +226049,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225907,7 +226110,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -225967,7 +226171,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -226027,7 +226232,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -226087,7 +226293,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -226147,7 +226354,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 89
+        "availabilityNext90Days": 89,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -226207,7 +226415,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -226276,7 +226485,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226336,7 +226547,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226396,7 +226609,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226456,7 +226671,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226518,7 +226735,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226580,7 +226799,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226642,7 +226863,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226704,7 +226927,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226775,7 +227000,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226846,7 +227073,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226917,7 +227146,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -226988,7 +227219,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227048,7 +227281,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227108,7 +227343,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227168,7 +227405,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "per-unit"
       },
       "priceBreakdown": [
         {
@@ -227237,7 +227475,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 267,
-        "availabilityNext90Days": 780
+        "availabilityNext90Days": 780,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -227306,7 +227546,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 211,
-        "availabilityNext90Days": 610
+        "availabilityNext90Days": 610,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -227375,7 +227617,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 264
+        "availabilityNext90Days": 264,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -227444,7 +227688,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227513,7 +227759,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227591,7 +227839,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 112,
-        "availabilityNext90Days": 532
+        "availabilityNext90Days": 532,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227669,7 +227919,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227729,7 +227981,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 60,
-        "availabilityNext90Days": 180
+        "availabilityNext90Days": 180,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227789,7 +228043,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227849,7 +228105,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 176,
-        "availabilityNext90Days": 530
+        "availabilityNext90Days": 530,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -227909,7 +228166,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 352,
-        "availabilityNext90Days": 1060
+        "availabilityNext90Days": 1060,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -227969,7 +228228,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 264,
-        "availabilityNext90Days": 795
+        "availabilityNext90Days": 795,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -228029,7 +228289,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 34,
-        "availabilityNext90Days": 154
+        "availabilityNext90Days": 154,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -228089,7 +228351,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 17,
-        "availabilityNext90Days": 77
+        "availabilityNext90Days": 77,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -228149,7 +228413,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 17,
-        "availabilityNext90Days": 77
+        "availabilityNext90Days": 77,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -228209,7 +228475,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 18,
-        "availabilityNext90Days": 70
+        "availabilityNext90Days": 70,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -228269,7 +228537,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 18,
-        "availabilityNext90Days": 69
+        "availabilityNext90Days": 69,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -228329,7 +228599,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 19,
-        "availabilityNext90Days": 70
+        "availabilityNext90Days": 70,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -228389,7 +228661,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 11,
-        "availabilityNext90Days": 38
+        "availabilityNext90Days": 38,
+        "unit": "per-person"
       },
       "priceBreakdown": [
         {
@@ -228467,7 +228740,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -228527,7 +228801,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 3 people"
       },
       "priceBreakdown": [
         {
@@ -228587,7 +228863,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 3 people"
       },
       "priceBreakdown": [
         {
@@ -228647,7 +228925,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 3 people"
       },
       "priceBreakdown": [
         {
@@ -228709,7 +228989,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -228771,7 +229053,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -228833,7 +229117,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -228895,7 +229181,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -228957,7 +229245,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 79
+        "availabilityNext90Days": 79,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -229037,7 +229327,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 0,
-        "availabilityNext90Days": 40
+        "availabilityNext90Days": 40,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -229117,7 +229409,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 60,
-        "availabilityNext90Days": 158
+        "availabilityNext90Days": 158,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -229197,7 +229491,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 34
+        "availabilityNext90Days": 34,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -229277,7 +229573,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 341,
-        "availabilityNext90Days": 1001
+        "availabilityNext90Days": 1001,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -229348,7 +229645,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -229410,7 +229708,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 180
+        "availabilityNext90Days": 180,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -229472,7 +229771,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -229534,7 +229834,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -229596,7 +229897,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -229676,7 +229978,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -229765,7 +230068,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -229827,7 +230131,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -229889,7 +230195,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -229951,7 +230259,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "per-person"
       },
       "priceBreakdown": [
         {
@@ -230022,7 +230331,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -230084,7 +230394,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 14,
-        "availabilityNext90Days": 39
+        "availabilityNext90Days": 39,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -230146,7 +230457,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 403,
-        "availabilityNext90Days": 1183
+        "availabilityNext90Days": 1183,
+        "unit": "per-unit"
       },
       "priceBreakdown": [
         {
@@ -230208,7 +230520,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 40,
-        "availabilityNext90Days": 160
+        "availabilityNext90Days": 160,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -230270,7 +230584,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 20,
-        "availabilityNext90Days": 80
+        "availabilityNext90Days": 80,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -230330,7 +230646,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -230408,7 +230726,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -230486,7 +230806,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -230564,7 +230886,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -230642,7 +230966,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -230720,7 +231046,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -230798,7 +231126,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -230876,7 +231206,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -230956,7 +231288,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 104,
-        "availabilityNext90Days": 340
+        "availabilityNext90Days": 340,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -231027,7 +231360,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 76
+        "availabilityNext90Days": 76,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -231089,7 +231424,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 76
+        "availabilityNext90Days": 76,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -231149,7 +231486,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 76
+        "availabilityNext90Days": 76,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -231209,7 +231548,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 76
+        "availabilityNext90Days": 76,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -231269,7 +231610,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 76
+        "availabilityNext90Days": 76,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -231329,7 +231672,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 76
+        "availabilityNext90Days": 76,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -231389,7 +231734,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 63,
-        "availabilityNext90Days": 228
+        "availabilityNext90Days": 228,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -231449,7 +231796,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 76
+        "availabilityNext90Days": 76,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -231511,7 +231860,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 279,
-        "availabilityNext90Days": 819
+        "availabilityNext90Days": 819,
+        "unit": "per-unit"
       },
       "priceBreakdown": [
         {
@@ -231609,7 +231959,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -231671,7 +232023,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 3 people"
       },
       "priceBreakdown": [
         {
@@ -231733,7 +232087,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 558,
-        "availabilityNext90Days": 1638
+        "availabilityNext90Days": 1638,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -231811,7 +232167,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 28,
-        "availabilityNext90Days": 88
+        "availabilityNext90Days": 88,
+        "unit": "per-person"
       },
       "priceBreakdown": [
         {
@@ -231882,7 +232239,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -231944,7 +232302,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232033,7 +232392,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 24,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232113,7 +232473,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 186,
-        "availabilityNext90Days": 546
+        "availabilityNext90Days": 546,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -232193,7 +232555,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 186,
-        "availabilityNext90Days": 546
+        "availabilityNext90Days": 546,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -232273,7 +232637,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 186,
-        "availabilityNext90Days": 546
+        "availabilityNext90Days": 546,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -232353,7 +232719,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -232415,7 +232783,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -232475,7 +232845,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232544,7 +232915,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232604,7 +232976,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 60,
-        "availabilityNext90Days": 180
+        "availabilityNext90Days": 180,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232664,7 +233037,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 60,
-        "availabilityNext90Days": 180
+        "availabilityNext90Days": 180,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232729,7 +233103,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 90
+        "availabilityNext90Days": 90,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232789,7 +233164,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 46,
-        "availabilityNext90Days": 154
+        "availabilityNext90Days": 154,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232858,7 +233234,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 46,
-        "availabilityNext90Days": 154
+        "availabilityNext90Days": 154,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -232936,7 +233313,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 46,
-        "availabilityNext90Days": 154
+        "availabilityNext90Days": 154,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -233009,7 +233387,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -233109,7 +233489,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -233209,7 +233591,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -233309,7 +233693,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -233405,7 +233791,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -233501,7 +233889,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -233579,7 +233969,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 78
+        "availabilityNext90Days": 78,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -233657,7 +234048,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 61,
-        "availabilityNext90Days": 181
+        "availabilityNext90Days": 181,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -233737,7 +234129,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -233835,7 +234229,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -233897,7 +234292,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -233959,7 +234355,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -234019,7 +234416,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -234097,7 +234495,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 1,
-        "availabilityNext90Days": 3
+        "availabilityNext90Days": 3,
+        "unit": "per-person"
       },
       "priceBreakdown": [
         {
@@ -234168,7 +234567,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 28,
-        "availabilityNext90Days": 88
+        "availabilityNext90Days": 88,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -234230,7 +234631,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 58,
-        "availabilityNext90Days": 166
+        "availabilityNext90Days": 166,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -234292,7 +234695,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 29,
-        "availabilityNext90Days": 82
+        "availabilityNext90Days": 82,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -234354,7 +234759,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 29,
-        "availabilityNext90Days": 82
+        "availabilityNext90Days": 82,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -234414,7 +234821,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 58,
-        "availabilityNext90Days": 166
+        "availabilityNext90Days": 166,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 5 people"
       },
       "priceBreakdown": [
         {
@@ -234479,7 +234888,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 41
+        "availabilityNext90Days": 41,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -234545,7 +234955,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 61,
-        "availabilityNext90Days": 181
+        "availabilityNext90Days": 181,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -234607,7 +235018,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 341,
-        "availabilityNext90Days": 1001
+        "availabilityNext90Days": 1001,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -234687,7 +235099,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -234749,7 +235162,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 341,
-        "availabilityNext90Days": 1001
+        "availabilityNext90Days": 1001,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -234827,7 +235241,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 2,
-        "availabilityNext90Days": 3
+        "availabilityNext90Days": 3,
+        "unit": "per-person"
       },
       "priceBreakdown": [
         {
@@ -234896,7 +235311,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 50,
-        "availabilityNext90Days": 166
+        "availabilityNext90Days": 166,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -234974,7 +235391,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 50,
-        "availabilityNext90Days": 166
+        "availabilityNext90Days": 166,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -235043,7 +235462,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 310,
-        "availabilityNext90Days": 910
+        "availabilityNext90Days": 910,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -235103,7 +235523,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -235181,7 +235602,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -235241,7 +235664,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -235301,7 +235726,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -235361,7 +235788,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -235421,7 +235850,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 23,
-        "availabilityNext90Days": 64
+        "availabilityNext90Days": 64,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -235483,7 +235913,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 23,
-        "availabilityNext90Days": 64
+        "availabilityNext90Days": 64,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -235545,7 +235976,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 0,
-        "availabilityNext90Days": 66
+        "availabilityNext90Days": 66,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -235614,7 +236046,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -235692,7 +236126,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 32,
-        "availabilityNext90Days": 134
+        "availabilityNext90Days": 134,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -235752,7 +236187,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -235821,7 +236257,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -235899,7 +236336,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -235959,7 +236398,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -236019,7 +236460,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -236079,7 +236522,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 41,
-        "availabilityNext90Days": 151
+        "availabilityNext90Days": 151,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -236139,7 +236584,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 30,
-        "availabilityNext90Days": 180
+        "availabilityNext90Days": 180,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -236199,7 +236646,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -236259,7 +236708,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 142
+        "availabilityNext90Days": 142,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -236319,7 +236770,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -236379,7 +236832,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 155,
-        "availabilityNext90Days": 455
+        "availabilityNext90Days": 455,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -236439,7 +236894,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -236559,7 +237016,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 42,
-        "availabilityNext90Days": 136
+        "availabilityNext90Days": 136,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -236619,7 +237078,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 68
+        "availabilityNext90Days": 68,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -236679,7 +237140,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 21,
-        "availabilityNext90Days": 68
+        "availabilityNext90Days": 68,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -236741,7 +237204,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -236803,7 +237268,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -236865,7 +237332,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -236925,7 +237394,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -236985,7 +237455,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -237045,7 +237516,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -237107,7 +237579,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 217,
-        "availabilityNext90Days": 636
+        "availabilityNext90Days": 636,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -237169,7 +237642,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 184,
-        "availabilityNext90Days": 568
+        "availabilityNext90Days": 568,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -237249,7 +237724,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 161,
-        "availabilityNext90Days": 497
+        "availabilityNext90Days": 497,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -237338,7 +237815,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 184,
-        "availabilityNext90Days": 568
+        "availabilityNext90Days": 568,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -237418,7 +237897,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 184,
-        "availabilityNext90Days": 568
+        "availabilityNext90Days": 568,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -237480,7 +237961,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -237560,7 +238042,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 403,
-        "availabilityNext90Days": 1183
+        "availabilityNext90Days": 1183,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -237667,7 +238150,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 403,
-        "availabilityNext90Days": 1183
+        "availabilityNext90Days": 1183,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -237772,7 +238256,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 15,
-        "availabilityNext90Days": 62
+        "availabilityNext90Days": 62,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -237850,7 +238335,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -237912,7 +238398,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 68,
-        "availabilityNext90Days": 206
+        "availabilityNext90Days": 206,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -237992,7 +238480,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -238054,7 +238544,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -238116,7 +238608,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 186,
-        "availabilityNext90Days": 546
+        "availabilityNext90Days": 546,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238196,7 +238689,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238258,7 +238752,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 186,
-        "availabilityNext90Days": 546
+        "availabilityNext90Days": 546,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238338,7 +238833,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -238400,7 +238897,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238489,7 +238987,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -238551,7 +239051,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238640,7 +239141,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238729,7 +239231,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 124,
-        "availabilityNext90Days": 364
+        "availabilityNext90Days": 364,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238800,7 +239303,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 62,
-        "availabilityNext90Days": 182
+        "availabilityNext90Days": 182,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238862,7 +239366,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -238924,7 +239429,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 93,
-        "availabilityNext90Days": 273
+        "availabilityNext90Days": 273,
+        "unit": "per-unit"
       },
       "priceBreakdown": [
         {
@@ -238986,7 +239492,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -239066,7 +239574,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 4 people"
       },
       "priceBreakdown": [
         {
@@ -239144,7 +239654,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 86,
-        "availabilityNext90Days": 266
+        "availabilityNext90Days": 266,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 6 people"
       },
       "priceBreakdown": [
         {
@@ -239251,7 +239763,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 527,
-        "availabilityNext90Days": 1547
+        "availabilityNext90Days": 1547,
+        "unit": "per-unit"
       },
       "priceBreakdown": [
         {
@@ -239340,7 +239853,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 279,
-        "availabilityNext90Days": 819
+        "availabilityNext90Days": 819,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -239420,7 +239934,9 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 22,
-        "availabilityNext90Days": 142
+        "availabilityNext90Days": 142,
+        "unit": "whole-boat",
+        "customerTypeNote": "up to 2 people"
       },
       "priceBreakdown": [
         {
@@ -239500,7 +240016,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 100,
-        "availabilityNext90Days": 260
+        "availabilityNext90Days": 260,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -239607,7 +240124,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 208,
-        "availabilityNext90Days": 571
+        "availabilityNext90Days": 571,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -239714,7 +240232,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 22,
-        "availabilityNext90Days": 79
+        "availabilityNext90Days": 79,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -239776,7 +240295,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 22,
-        "availabilityNext90Days": 79
+        "availabilityNext90Days": 79,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -239838,7 +240358,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 22,
-        "availabilityNext90Days": 79
+        "availabilityNext90Days": 79,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -239900,7 +240421,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 22,
-        "availabilityNext90Days": 79
+        "availabilityNext90Days": 79,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -239962,7 +240484,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 22,
-        "availabilityNext90Days": 79
+        "availabilityNext90Days": 79,
+        "unit": "whole-boat"
       },
       "priceBreakdown": [
         {
@@ -240051,7 +240574,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 31,
-        "availabilityNext90Days": 91
+        "availabilityNext90Days": 91,
+        "unit": "per-unit"
       },
       "priceBreakdown": [
         {
@@ -240246,7 +240770,8 @@
         "minPartySize": 1,
         "stockedFrom": "marketplace export 2026-09-21 (Florida fishing search): live, never listed",
         "availabilityNext30Days": 0,
-        "availabilityNext90Days": 1
+        "availabilityNext90Days": 1,
+        "unit": "per-person"
       },
       "priceBreakdown": [
         {
