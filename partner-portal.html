@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner Portal | Florida Sandbar Tours</title>
+<meta name="description" content="Approve your Sunshine Awards spotlight page, send us your photos and crew, and tell us where the award badge will live.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://floridasandbartours.com/partner-portal.html">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2FCXCNE07X"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2FCXCNE07X');</script>
+<link rel="stylesheet" href="/styles.css">
+<script src="/tracking.js" defer></script>
+<style>
+  .pp-wrap{max-width:860px;margin:0 auto;padding:48px 20px 72px}
+  .pp-hero{display:flex;gap:28px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
+  .pp-hero img{width:120px;height:120px;flex:none}
+  .pp-hero h1{font-size:2rem;margin:0 0 8px;line-height:1.2}
+  .pp-hero p{margin:0;font-size:1.05rem;line-height:1.7;max-width:58ch;color:#374553}
+  .pp-draft{background:#f8f8f8;border-left:4px solid #A25C1D;border-radius:8px;
+            padding:16px 20px;margin:0 0 36px;line-height:1.7}
+  .pp-draft strong{color:#1a3a4a}
+  .pp-draft a{color:#A25C1D;font-weight:600;word-break:break-all}
+  .pp-draft.is-hidden{display:none}
+
+  .pp-form fieldset{border:1px solid #dbe1e8;border-radius:10px;padding:22px 22px 10px;
+                    margin:0 0 26px;background:#fff}
+  .pp-form legend{font-weight:700;color:#1a3a4a;font-size:1.05rem;padding:0 10px;
+                  display:flex;align-items:center;gap:10px}
+  .pp-form legend .n{width:26px;height:26px;border-radius:50%;background:#1a3a4a;color:#fff;
+                     font-size:.82rem;display:inline-flex;align-items:center;justify-content:center;flex:none}
+  .pp-form .lead{margin:4px 0 16px;font-size:.93rem;color:#5c6b7a;line-height:1.6}
+  .pp-row{display:grid;gap:14px;grid-template-columns:1fr 1fr;margin-bottom:14px}
+  @media (max-width:640px){.pp-row{grid-template-columns:1fr}}
+  .pp-field{margin-bottom:14px}
+  .pp-field label,.pp-group>span{display:block;font-size:.9rem;font-weight:600;color:#1a3a4a;margin-bottom:6px}
+  .pp-field small{display:block;font-weight:400;color:#5c6b7a;margin-top:2px;line-height:1.5}
+  .pp-field input[type=text],.pp-field input[type=email],.pp-field input[type=tel],
+  .pp-field input[type=url],.pp-field select,.pp-field textarea{
+    width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #c9d2dc;border-radius:7px;
+    font:inherit;font-size:.95rem;background:#fff;color:#1f2a35}
+  .pp-field textarea{min-height:92px;resize:vertical}
+  .pp-field input:focus,.pp-field select:focus,.pp-field textarea:focus{outline:2px solid #A25C1D;outline-offset:1px;border-color:#A25C1D}
+  .pp-group{margin-bottom:16px}
+  .pp-checks{display:grid;gap:8px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
+  .pp-checks label{display:flex;gap:9px;align-items:flex-start;font-size:.93rem;line-height:1.45;
+                   padding:9px 11px;border:1px solid #e3e8ee;border-radius:7px;cursor:pointer;background:#fbfcfd}
+  .pp-checks label:hover{border-color:#A25C1D}
+  .pp-checks input{margin-top:3px;flex:none;accent-color:#A25C1D}
+  .pp-signoff{background:#f3f7f9;border:1px solid #c9d8e0;border-radius:8px;padding:14px 16px;margin:4px 0 14px}
+  .pp-signoff label{display:flex;gap:10px;align-items:flex-start;font-size:.97rem;line-height:1.55;cursor:pointer}
+  .pp-signoff input{margin-top:4px;accent-color:#A25C1D;width:18px;height:18px;flex:none}
+  .pp-submit{display:block;width:100%;padding:15px 20px;border:0;border-radius:8px;background:#A25C1D;
+             color:#fff;font:inherit;font-size:1.05rem;font-weight:700;cursor:pointer}
+  .pp-submit:hover{background:#8a4d17}
+  .pp-submit[disabled]{opacity:.6;cursor:default}
+  .pp-fine{font-size:.85rem;color:#5c6b7a;text-align:center;margin:12px 0 0;line-height:1.6}
+  .pp-done{display:none;border:1px solid #c9d8e0;background:#f3f7f9;border-radius:10px;padding:26px;line-height:1.7}
+  .pp-done h2{margin:0 0 8px;color:#1a3a4a}
+  .pp-done.is-shown{display:block}
+  .pp-error{display:none;color:#8a1d1d;background:#fbeeee;border:1px solid #e6b8b8;border-radius:7px;padding:10px 12px;margin-bottom:12px;font-size:.93rem}
+  .pp-error.is-shown{display:block}
+</style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo-group">
+                <a href="/" class="logo">
+                    <picture><source type="image/webp" srcset="/images/header-logo-160.webp 160w, /images/header-logo-320.webp 320w, /images/header-logo-480.webp 480w" sizes="(max-width: 768px) 93px, 103px"><img src="/images/header-logo.png" alt="Florida Sandbar Tours" class="logo-img" loading="eager" decoding="async" width="1923" height="818"></picture>
+                </a>
+            </div>
+            <nav class="nav-desktop">
+                <a href="/sunshine-awards.html">Sunshine Awards</a>
+                <a href="about.html">About</a>
+                <a href="faq.html">FAQs</a>
+                <a href="/blog/">Blog</a>
+            </nav>
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+        <nav class="nav-mobile">
+            <a href="/sunshine-awards.html">Sunshine Awards</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQs</a>
+            <a href="/blog/">Blog</a>
+        </nav>
+    </header>
+
+  <div class="pp-wrap">
+    <div class="pp-hero">
+      <img src="/images/sunshine-award-2026.png" alt="2026 Sunshine Awards nominee badge" onerror="this.style.display='none'">
+      <div>
+        <h1>Partner Portal</h1>
+        <p>You're a 2026 Sunshine Awards nominee. This is where you check your spotlight page, send us the parts only you can provide, and sign off so we can publish it with your badge. About five minutes.</p>
+      </div>
+    </div>
+
+    <div class="pp-draft is-hidden" id="pp-draft">
+      <strong>Your draft page:</strong> <a id="pp-draft-link" href="#" target="_blank" rel="noopener"></a><br>
+      Open it in a new tab and keep it beside you while you fill this in. It stays hidden from search until you approve it below.
+    </div>
+
+    <div class="pp-done" id="pp-done">
+      <h2>Got it — thank you.</h2>
+      <p>We'll fold your answers into the page, add the award badge, and send you the final link within two business days. If you ticked anything in the last section, Jay will reach out the way you asked.</p>
+      <p><a href="/sunshine-awards.html">Back to the Sunshine Awards</a></p>
+    </div>
+
+    <form class="pp-form" id="pp-form" action="https://formspree.io/f/xkopdave" method="POST">
+      <input type="hidden" name="form_type" value="partner_signoff">
+      <input type="hidden" name="site" value="floridasandbartours">
+      <input type="hidden" name="operator_slug" id="f-slug" value="">
+      <input type="hidden" name="draft_page" id="f-draft" value="">
+      <input type="hidden" name="_subject" id="f-subject" value="Partner sign-off — Florida Sandbar Tours">
+      <input type="text" name="_gotcha" style="display:none !important" tabindex="-1" autocomplete="off">
+
+      <!-- 1 · About you -->
+      <fieldset>
+        <legend><span class="n">1</span> About you</legend>
+        <p class="lead">So we know who signed off and how to reach you.</p>
+        <div class="pp-row">
+          <div class="pp-field"><label for="f-name">Your name</label><input type="text" id="f-name" name="name" required autocomplete="name"></div>
+          <div class="pp-field"><label for="f-biz">Business name</label><input type="text" id="f-biz" name="business_name" required autocomplete="organization"></div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field"><label for="f-email">Email</label><input type="email" id="f-email" name="email" required autocomplete="email"></div>
+          <div class="pp-field"><label for="f-phone">Phone <small>Optional — only if you'd rather we call.</small></label><input type="tel" id="f-phone" name="phone" autocomplete="tel"></div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field"><label for="f-site">Your website</label><input type="url" id="f-site" name="website" placeholder="https://" autocomplete="url"></div>
+          <div class="pp-field"><label for="f-owner">Owner / founder name for the page <small>Leave blank to keep it off.</small></label><input type="text" id="f-owner" name="owner_name"></div>
+        </div>
+      </fieldset>
+
+      <!-- 2 · Your page -->
+      <fieldset>
+        <legend><span class="n">2</span> Your page</legend>
+        <p class="lead">The listing gives us the trips and prices. This is the part that sells. Skip anything that doesn't apply.</p>
+
+        <div class="pp-field">
+          <label for="f-fix">Anything on the draft that's wrong or out of date <small>Route, duration, what's included, capacity, per-person vs whole-boat pricing.</small></label>
+          <textarea id="f-fix" name="corrections"></textarea>
+        </div>
+        <div class="pp-field">
+          <label for="f-quote">In your own words, what makes you different? <small>Two or three sentences. This is the quote we lead with.</small></label>
+          <textarea id="f-quote" name="quote"></textarea>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-crew">Crew names and roles <small>Exactly as you want them printed — captain, mate, guide.</small></label>
+            <textarea id="f-crew" name="crew"></textarea>
+          </div>
+          <div class="pp-field">
+            <label for="f-dock">Check-in point and dock <small>Per departure location if you have more than one.</small></label>
+            <textarea id="f-dock" name="checkin"></textarea>
+          </div>
+        </div>
+        <div class="pp-field">
+          <label for="f-extras">Anything included that guests wouldn't expect <small>And which trips it applies to.</small></label>
+          <input type="text" id="f-extras" name="extras">
+        </div>
+
+        <div class="pp-group">
+          <span>Which ratings should we show?</span>
+          <div class="pp-checks">
+            <label><input type="checkbox" name="ratings[]" value="Tripadvisor"> Tripadvisor</label>
+            <label><input type="checkbox" name="ratings[]" value="Google"> Google</label>
+            <label><input type="checkbox" name="ratings[]" value="Yelp"> Yelp</label>
+          </div>
+        </div>
+
+        <div class="pp-group">
+          <span>Photos</span>
+          <div class="pp-checks">
+            <label><input type="radio" name="photo_permission" value="Use our FareHarbor photos"> Use the photos already on our FareHarbor listings</label>
+            <label><input type="radio" name="photo_permission" value="Sending a link below"> I'll share a link to 6–8 photos below</label>
+            <label><input type="radio" name="photo_permission" value="Will email them"> I'll reply to your email with photos attached</label>
+          </div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field"><label for="f-photos">Photo link <small>Google Drive, Dropbox, WeTransfer — anything we can open.</small></label><input type="url" id="f-photos" name="photo_link" placeholder="https://"></div>
+          <div class="pp-field"><label for="f-logo">Logo link <small>High-res PNG, transparent background if you have it.</small></label><input type="url" id="f-logo" name="logo_link" placeholder="https://"></div>
+        </div>
+        <div class="pp-field">
+          <label for="f-credit">Photo credit line, if needed</label>
+          <input type="text" id="f-credit" name="photo_credit">
+        </div>
+      </fieldset>
+
+      <!-- 3 · Sign-off -->
+      <fieldset>
+        <legend><span class="n">3</span> Sign-off</legend>
+        <p class="lead">Once you approve, we make the page searchable and add the 2026 nominee badge. All we ask in return is one link from your site to the page.</p>
+
+        <div class="pp-signoff">
+          <label><input type="checkbox" name="approved" value="yes" required> I've reviewed the draft and approve publishing it, with the corrections above.</label>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-linkwhere">Where will the link to your spotlight live?</label>
+            <select id="f-linkwhere" name="backlink_location" required>
+              <option value="">Choose one</option>
+              <option>Footer</option>
+              <option>About page</option>
+              <option>Awards / Press / Featured-on page</option>
+              <option>Homepage</option>
+              <option>Blog post</option>
+              <option>Not sure yet — suggest something</option>
+            </select>
+          </div>
+          <div class="pp-field">
+            <label for="f-badge">Want the nominee badge for your own site?</label>
+            <select id="f-badge" name="wants_badge">
+              <option>Yes — send me the badge and embed code</option>
+              <option>No thanks</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+
+      <!-- 4 · Help us get it right -->
+      <fieldset>
+        <legend><span class="n">4</span> Help us get it right</legend>
+        <p class="lead">A few quick ones so the page sends you the right kind of guest.</p>
+
+        <div class="pp-group">
+          <span>How do most guests find you today?</span>
+          <div class="pp-checks">
+            <label><input type="checkbox" name="guest_sources[]" value="Google search"> Google search</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Tripadvisor"> Tripadvisor</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Viator / GetYourGuide / Expedia"> Viator / GetYourGuide / Expedia</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Instagram / Facebook / TikTok"> Instagram / Facebook / TikTok</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Hotels & concierges"> Hotels &amp; concierges</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Word of mouth / repeat"> Word of mouth / repeat guests</label>
+            <label><input type="checkbox" name="guest_sources[]" value="Paid ads"> Paid ads</label>
+          </div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-webwho">Who looks after your website?</label>
+            <select id="f-webwho" name="website_managed_by">
+              <option value="">Choose one</option>
+              <option>I do it myself</option>
+              <option>Someone on the team</option>
+              <option>An outside designer / agency</option>
+              <option>Nobody right now</option>
+              <option>FareHarbor built it</option>
+            </select>
+          </div>
+          <div class="pp-field">
+            <label for="f-ads">Do you run paid ads?</label>
+            <select id="f-ads" name="paid_ads">
+              <option value="">Choose one</option>
+              <option>Yes, Google</option>
+              <option>Yes, Meta (Facebook / Instagram)</option>
+              <option>Yes, both</option>
+              <option>Tried it, stopped</option>
+              <option>Never have</option>
+            </select>
+          </div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-season">Which months are you busiest?</label>
+            <input type="text" id="f-season" name="peak_months" placeholder="e.g. Dec–Mar">
+          </div>
+          <div class="pp-field">
+            <label for="f-fill">Which months would you most like to fill?</label>
+            <input type="text" id="f-fill" name="fill_months" placeholder="e.g. Aug–Oct">
+          </div>
+        </div>
+        <div class="pp-field">
+          <label for="f-challenge">What's the biggest thing standing between you and a fuller boat next season?</label>
+          <textarea id="f-challenge" name="biggest_challenge"></textarea>
+        </div>
+      </fieldset>
+
+      <!-- 5 · While we're here -->
+      <fieldset>
+        <legend><span class="n">5</span> While we're here</legend>
+        <p class="lead">We build and run these sites ourselves. If any of this would be useful, tick it and Jay will reach out — no pitch unless you ask for one.</p>
+
+        <div class="pp-group">
+          <span>I'd like to hear more about…</span>
+          <div class="pp-checks">
+            <label><input type="checkbox" name="interests[]" value="Website refresh or rebuild"> A website refresh or rebuild</label>
+            <label><input type="checkbox" name="interests[]" value="Ranking higher on Google"> Ranking higher on Google</label>
+            <label><input type="checkbox" name="interests[]" value="Google Ads management"> Google Ads, set up and run for me</label>
+            <label><input type="checkbox" name="interests[]" value="AI booking assistant / chat"> An AI assistant that answers guest questions 24/7</label>
+            <label><input type="checkbox" name="interests[]" value="Social media content"> Social media content</label>
+            <label><input type="checkbox" name="interests[]" value="Photo / video shoot"> A photo or video shoot</label>
+            <label><input type="checkbox" name="interests[]" value="Email / text marketing to past guests"> Email or text marketing to past guests</label>
+            <label><input type="checkbox" name="interests[]" value="Featured placement on this site"> Featured placement across our Florida sites</label>
+            <label><input type="checkbox" name="interests[]" value="Something else"> Something else — I'll explain below</label>
+          </div>
+        </div>
+        <div class="pp-row">
+          <div class="pp-field">
+            <label for="f-reach">Best way to reach you</label>
+            <select id="f-reach" name="contact_preference">
+              <option>Email</option>
+              <option>Phone call</option>
+              <option>Text</option>
+            </select>
+          </div>
+          <div class="pp-field">
+            <label for="f-when">Best time</label>
+            <input type="text" id="f-when" name="contact_time" placeholder="e.g. weekday mornings">
+          </div>
+        </div>
+        <div class="pp-field">
+          <label for="f-notes">Anything else</label>
+          <textarea id="f-notes" name="notes"></textarea>
+        </div>
+      </fieldset>
+
+      <div class="pp-error" id="pp-error">Something went wrong sending that. Try again, or just reply to our email with your answers.</div>
+      <button type="submit" class="pp-submit" id="pp-submit">Approve my page &amp; send</button>
+      <p class="pp-fine">No cost, no contract, no paid placement. A nomination can't be bought. We earn a standard referral commission on bookings made through our links, which is why the page is free.</p>
+    </form>
+  </div>
+
+<script>
+(function(){
+  // Pre-fill from the link we send each operator:
+  //   /partner-portal.html?op=swim-with-manatees-homosassa&name=Swim%20With%20Manatees
+  var q=new URLSearchParams(location.search);
+  var op=(q.get('op')||'').replace(/[^a-z0-9-]/gi,'');
+  var name=q.get('name')||'';
+  if(op){
+    var url='https://floridasandbartours.com/partners/'+op+'.html';
+    document.getElementById('f-slug').value=op;
+    document.getElementById('f-draft').value=url;
+    var a=document.getElementById('pp-draft-link');a.href=url;a.textContent=url;
+    document.getElementById('pp-draft').classList.remove('is-hidden');
+  }
+  if(name){document.getElementById('f-biz').value=name;}
+  var biz=document.getElementById('f-biz'),subj=document.getElementById('f-subject');
+  function setSubject(){subj.value='Partner sign-off — '+(biz.value||'Florida Sandbar Tours');}
+  biz.addEventListener('input',setSubject);setSubject();
+
+  var form=document.getElementById('pp-form'),btn=document.getElementById('pp-submit'),err=document.getElementById('pp-error');
+  form.addEventListener('submit',function(e){
+    if(!window.fetch||!window.FormData)return; // fall back to a normal POST
+    e.preventDefault();btn.disabled=true;btn.textContent='Sending…';err.classList.remove('is-shown');
+    fetch(form.action,{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}})
+      .then(function(r){if(!r.ok)throw new Error(r.status);
+        form.style.display='none';document.getElementById('pp-draft').classList.add('is-hidden');
+        document.getElementById('pp-done').classList.add('is-shown');window.scrollTo(0,0);
+        if(window.gtag)gtag('event','partner_signoff',{operator:op||biz.value});})
+      .catch(function(){btn.disabled=false;btn.textContent='Approve my page & send';err.classList.add('is-shown');});
+  });
+})();
+</script>
+</body>
+</html>
