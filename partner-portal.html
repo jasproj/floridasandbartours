@@ -12,6 +12,7 @@
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-2FCXCNE07X');</script>
 <link rel="stylesheet" href="/styles.css">
 <script src="/tracking.js" defer></script>
+<script src="https://upload-widget.cloudinary.com/global/all.js" defer></script>
 <style>
   .pp-wrap{max-width:860px;margin:0 auto;padding:48px 20px 72px}
   .pp-hero{display:flex;gap:28px;align-items:center;flex-wrap:wrap;margin-bottom:22px}
@@ -48,6 +49,16 @@
                    padding:9px 11px;border:1px solid #e3e8ee;border-radius:7px;cursor:pointer;background:#fbfcfd}
   .pp-checks label:hover{border-color:#A25C1D}
   .pp-checks input{margin-top:3px;flex:none;accent-color:#A25C1D}
+  .pp-up{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .pp-upbtn{padding:10px 16px;border:2px solid #1a3a4a;border-radius:7px;background:#1a3a4a;color:#fff;
+            font:inherit;font-size:.93rem;font-weight:600;cursor:pointer}
+  .pp-upbtn:hover{background:#122a37}
+  .pp-upbtn--alt{background:#fff;color:#1a3a4a}
+  .pp-upbtn--alt:hover{background:#f3f7f9}
+  .pp-upnote{font-size:.82rem;color:#5c6b7a}
+  .pp-thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .pp-thumbs:empty{display:none}
+  .pp-thumbs img{width:72px;height:72px;object-fit:cover;border-radius:6px;border:1px solid #dbe1e8;background:#f8f8f8}
   .pp-signoff{background:#f3f7f9;border:1px solid #c9d8e0;border-radius:8px;padding:14px 16px;margin:4px 0 14px}
   .pp-signoff label{display:flex;gap:10px;align-items:flex-start;font-size:.97rem;line-height:1.55;cursor:pointer}
   .pp-signoff input{margin-top:4px;accent-color:#A25C1D;width:18px;height:18px;flex:none}
@@ -169,16 +180,19 @@
 
         <div class="pp-group">
           <span>Photos</span>
-          <div class="pp-checks">
-            <label><input type="radio" name="photo_permission" value="Use our FareHarbor photos"> Use our FareHarbor photos</label>
-            <label><input type="radio" name="photo_permission" value="Sending a link below"> Link to 6–8 photos below</label>
-            <label><input type="radio" name="photo_permission" value="Will email them"> I'll email them</label>
+          <div class="pp-checks" style="margin-bottom:10px">
+            <label><input type="checkbox" name="photo_permission" value="Use our FareHarbor photos" id="f-fhphotos"> Just use our FareHarbor photos</label>
           </div>
+          <div class="pp-up">
+            <button type="button" class="pp-upbtn" id="up-photos">Upload 6–8 photos</button>
+            <button type="button" class="pp-upbtn pp-upbtn--alt" id="up-logo">Upload logo</button>
+            <span class="pp-upnote">JPG, PNG, HEIC, up to 15 MB each. Phone camera roll works.</span>
+          </div>
+          <div class="pp-thumbs" id="thumbs-photos"></div>
+          <div class="pp-thumbs" id="thumbs-logo"></div>
+          <div id="up-hidden"></div>
         </div>
-        <div class="pp-row">
-          <div class="pp-field"><label for="f-photos">Photo link (Drive, Dropbox, WeTransfer)</label><input type="url" id="f-photos" name="photo_link" placeholder="https://"></div>
-          <div class="pp-field"><label for="f-logo">Logo link (high-res PNG)</label><input type="url" id="f-logo" name="logo_link" placeholder="https://"></div>
-        </div>
+        <div class="pp-field"><label for="f-photos">Or paste a link (Drive, Dropbox, WeTransfer)</label><input type="url" id="f-photos" name="photo_link" placeholder="https://"></div>
       </fieldset>
 
       <!-- 3 · Sign-off -->
@@ -323,6 +337,35 @@
   var biz=document.getElementById('f-biz'),subj=document.getElementById('f-subject');
   function setSubject(){subj.value='Partner sign-off — '+(biz.value||'Florida Sandbar Tours');}
   biz.addEventListener('input',setSubject);setSubject();
+
+  // Cloudinary unsigned uploads — URLs ride along in the Formspree email
+  var CLD={cloudName:'euufumgw',uploadPreset:'fst-partner-portal'};
+  function mkWidget(opts,thumbsId,fieldName,maxFiles){
+    var hidden=document.getElementById('up-hidden'),thumbs=document.getElementById(thumbsId);
+    var btn=document.getElementById(opts.btn);
+    btn.addEventListener('click',function(){
+      if(!window.cloudinary){alert('Uploader still loading — try again in a second, or paste a link below.');return;}
+      var w=window.cloudinary.createUploadWidget({
+        cloudName:CLD.cloudName,uploadPreset:CLD.uploadPreset,multiple:maxFiles>1,maxFiles:maxFiles,
+        sources:['local','camera','google_drive','dropbox','url'],resourceType:'image',
+        clientAllowedFormats:['jpg','jpeg','png','heic','webp','gif'],maxFileSize:15000000,
+        tags:['partner-portal',(op||'unknown')],context:{operator:op||'',business:biz.value||''},
+        styles:{palette:{window:'#FFFFFF',windowBorder:'#1a3a4a',tabIcon:'#A25C1D',link:'#A25C1D',action:'#A25C1D',
+                         menuIcons:'#1a3a4a',textDark:'#1a3a4a',textLight:'#FFFFFF',inactiveTabIcon:'#5c6b7a',
+                         error:'#8a1d1d',inProgress:'#A25C1D',complete:'#1a3a4a',sourceBg:'#f8f8f8'}}
+      },function(err,r){
+        if(err||!r||r.event!=='success')return;
+        var url=r.info.secure_url;
+        if(maxFiles===1){thumbs.innerHTML='';[].slice.call(hidden.querySelectorAll('[name="'+fieldName+'"]')).forEach(function(n){n.remove();});}
+        var i=document.createElement('input');i.type='hidden';i.name=fieldName;i.value=url;hidden.appendChild(i);
+        var im=document.createElement('img');im.src=url.replace('/upload/','/upload/c_fill,w_144,h_144,q_auto,f_auto/');im.alt='';thumbs.appendChild(im);
+        if(window.gtag)gtag('event','partner_upload',{kind:fieldName,operator:op||biz.value});
+      });
+      w.open();
+    });
+  }
+  mkWidget({btn:'up-photos'},'thumbs-photos','photo_urls[]',10);
+  mkWidget({btn:'up-logo'},'thumbs-logo','logo_url',1);
 
   var form=document.getElementById('pp-form'),btn=document.getElementById('pp-submit'),err=document.getElementById('pp-error');
   form.addEventListener('submit',function(e){
