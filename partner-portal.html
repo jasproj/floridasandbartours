@@ -94,18 +94,18 @@
       <img src="/images/sunshine-award-2026.png" alt="2026 Sunshine Awards nominee badge" onerror="this.style.display='none'">
       <div>
         <h1>Partner Portal</h1>
-        <p>You're a 2026 Sunshine Awards nominee. This is where you check your spotlight page, send us the parts only you can provide, and sign off so we can publish it with your badge. About five minutes.</p>
+        <p>Check your spotlight page, send us what only you can, and sign off. Five minutes.</p>
       </div>
     </div>
 
     <div class="pp-draft is-hidden" id="pp-draft">
       <strong>Your draft page:</strong> <a id="pp-draft-link" href="#" target="_blank" rel="noopener"></a><br>
-      Open it in a new tab and keep it beside you while you fill this in. It stays hidden from search until you approve it below.
+      Open it in a new tab. It stays hidden until you approve it below.
     </div>
 
     <div class="pp-done" id="pp-done">
       <h2>Got it — thank you.</h2>
-      <p>We'll fold your answers into the page, add the award badge, and send you the final link within two business days. If you ticked anything in the last section, Jay will reach out the way you asked.</p>
+      <p>We'll update the page, add the badge, and send the final link within two business days.</p>
       <p><a href="/sunshine-awards.html">Back to the Sunshine Awards</a></p>
     </div>
 
@@ -120,47 +120,42 @@
       <!-- 1 · About you -->
       <fieldset>
         <legend><span class="n">1</span> About you</legend>
-        <p class="lead">So we know who signed off and how to reach you.</p>
-        <div class="pp-row">
+                <div class="pp-row">
           <div class="pp-field"><label for="f-name">Your name</label><input type="text" id="f-name" name="name" required autocomplete="name"></div>
           <div class="pp-field"><label for="f-biz">Business name</label><input type="text" id="f-biz" name="business_name" required autocomplete="organization"></div>
         </div>
         <div class="pp-row">
           <div class="pp-field"><label for="f-email">Email</label><input type="email" id="f-email" name="email" required autocomplete="email"></div>
-          <div class="pp-field"><label for="f-phone">Phone <small>Optional — only if you'd rather we call.</small></label><input type="tel" id="f-phone" name="phone" autocomplete="tel"></div>
+          <div class="pp-field"><label for="f-phone">Phone</label><input type="tel" id="f-phone" name="phone" autocomplete="tel"></div>
         </div>
         <div class="pp-row">
           <div class="pp-field"><label for="f-site">Your website</label><input type="url" id="f-site" name="website" placeholder="https://" autocomplete="url"></div>
-          <div class="pp-field"><label for="f-owner">Owner / founder name for the page <small>Leave blank to keep it off.</small></label><input type="text" id="f-owner" name="owner_name"></div>
+          <div class="pp-field"><label for="f-owner">Owner name for the page (optional)</label><input type="text" id="f-owner" name="owner_name"></div>
         </div>
       </fieldset>
 
       <!-- 2 · Your page -->
       <fieldset>
         <legend><span class="n">2</span> Your page</legend>
-        <p class="lead">The listing gives us the trips and prices. This is the part that sells. Skip anything that doesn't apply.</p>
+        <p class="lead">Skip anything that doesn't apply.</p>
 
         <div class="pp-field">
-          <label for="f-fix">Anything on the draft that's wrong or out of date <small>Route, duration, what's included, capacity, per-person vs whole-boat pricing.</small></label>
+          <label for="f-fix">Anything wrong or out of date on the draft</label>
           <textarea id="f-fix" name="corrections"></textarea>
         </div>
         <div class="pp-field">
-          <label for="f-quote">In your own words, what makes you different? <small>Two or three sentences. This is the quote we lead with.</small></label>
+          <label for="f-quote">What makes you different? (2–3 sentences — we lead with this)</label>
           <textarea id="f-quote" name="quote"></textarea>
         </div>
         <div class="pp-row">
           <div class="pp-field">
-            <label for="f-crew">Crew names and roles <small>Exactly as you want them printed — captain, mate, guide.</small></label>
+            <label for="f-crew">Crew names and roles</label>
             <textarea id="f-crew" name="crew"></textarea>
           </div>
           <div class="pp-field">
-            <label for="f-dock">Check-in point and dock <small>Per departure location if you have more than one.</small></label>
+            <label for="f-dock">Check-in point and dock</label>
             <textarea id="f-dock" name="checkin"></textarea>
           </div>
-        </div>
-        <div class="pp-field">
-          <label for="f-extras">Anything included that guests wouldn't expect <small>And which trips it applies to.</small></label>
-          <input type="text" id="f-extras" name="extras">
         </div>
 
         <div class="pp-group">
@@ -175,32 +170,28 @@
         <div class="pp-group">
           <span>Photos</span>
           <div class="pp-checks">
-            <label><input type="radio" name="photo_permission" value="Use our FareHarbor photos"> Use the photos already on our FareHarbor listings</label>
-            <label><input type="radio" name="photo_permission" value="Sending a link below"> I'll share a link to 6–8 photos below</label>
-            <label><input type="radio" name="photo_permission" value="Will email them"> I'll reply to your email with photos attached</label>
+            <label><input type="radio" name="photo_permission" value="Use our FareHarbor photos"> Use our FareHarbor photos</label>
+            <label><input type="radio" name="photo_permission" value="Sending a link below"> Link to 6–8 photos below</label>
+            <label><input type="radio" name="photo_permission" value="Will email them"> I'll email them</label>
           </div>
         </div>
         <div class="pp-row">
-          <div class="pp-field"><label for="f-photos">Photo link <small>Google Drive, Dropbox, WeTransfer — anything we can open.</small></label><input type="url" id="f-photos" name="photo_link" placeholder="https://"></div>
-          <div class="pp-field"><label for="f-logo">Logo link <small>High-res PNG, transparent background if you have it.</small></label><input type="url" id="f-logo" name="logo_link" placeholder="https://"></div>
-        </div>
-        <div class="pp-field">
-          <label for="f-credit">Photo credit line, if needed</label>
-          <input type="text" id="f-credit" name="photo_credit">
+          <div class="pp-field"><label for="f-photos">Photo link (Drive, Dropbox, WeTransfer)</label><input type="url" id="f-photos" name="photo_link" placeholder="https://"></div>
+          <div class="pp-field"><label for="f-logo">Logo link (high-res PNG)</label><input type="url" id="f-logo" name="logo_link" placeholder="https://"></div>
         </div>
       </fieldset>
 
       <!-- 3 · Sign-off -->
       <fieldset>
         <legend><span class="n">3</span> Sign-off</legend>
-        <p class="lead">Once you approve, we make the page searchable and add the 2026 nominee badge. All we ask in return is one link from your site to the page.</p>
+        <p class="lead">We publish with your badge. In return, one link from your site to the page.</p>
 
         <div class="pp-signoff">
-          <label><input type="checkbox" name="approved" value="yes" required> I've reviewed the draft and approve publishing it, with the corrections above.</label>
+          <label><input type="checkbox" name="approved" value="yes" required> I approve publishing the draft, with the corrections above.</label>
         </div>
         <div class="pp-row">
           <div class="pp-field">
-            <label for="f-linkwhere">Where will the link to your spotlight live?</label>
+            <label for="f-linkwhere">Where will your link to the page live?</label>
             <select id="f-linkwhere" name="backlink_location" required>
               <option value="">Choose one</option>
               <option>Footer</option>
@@ -208,13 +199,13 @@
               <option>Awards / Press / Featured-on page</option>
               <option>Homepage</option>
               <option>Blog post</option>
-              <option>Not sure yet — suggest something</option>
+              <option>Not sure — suggest one</option>
             </select>
           </div>
           <div class="pp-field">
-            <label for="f-badge">Want the nominee badge for your own site?</label>
+            <label for="f-badge">Nominee badge for your site?</label>
             <select id="f-badge" name="wants_badge">
-              <option>Yes — send me the badge and embed code</option>
+              <option>Yes, send it</option>
               <option>No thanks</option>
             </select>
           </div>
@@ -224,10 +215,9 @@
       <!-- 4 · Help us get it right -->
       <fieldset>
         <legend><span class="n">4</span> Help us get it right</legend>
-        <p class="lead">A few quick ones so the page sends you the right kind of guest.</p>
-
+        
         <div class="pp-group">
-          <span>How do most guests find you today?</span>
+          <span>How do guests find you?</span>
           <div class="pp-checks">
             <label><input type="checkbox" name="guest_sources[]" value="Google search"> Google search</label>
             <label><input type="checkbox" name="guest_sources[]" value="Tripadvisor"> Tripadvisor</label>
@@ -240,7 +230,7 @@
         </div>
         <div class="pp-row">
           <div class="pp-field">
-            <label for="f-webwho">Who looks after your website?</label>
+            <label for="f-webwho">Who runs your website?</label>
             <select id="f-webwho" name="website_managed_by">
               <option value="">Choose one</option>
               <option>I do it myself</option>
@@ -264,16 +254,12 @@
         </div>
         <div class="pp-row">
           <div class="pp-field">
-            <label for="f-season">Which months are you busiest?</label>
-            <input type="text" id="f-season" name="peak_months" placeholder="e.g. Dec–Mar">
-          </div>
-          <div class="pp-field">
-            <label for="f-fill">Which months would you most like to fill?</label>
+            <label for="f-fill">Months you most want to fill</label>
             <input type="text" id="f-fill" name="fill_months" placeholder="e.g. Aug–Oct">
           </div>
         </div>
         <div class="pp-field">
-          <label for="f-challenge">What's the biggest thing standing between you and a fuller boat next season?</label>
+          <label for="f-challenge">Biggest thing between you and a fuller boat next season?</label>
           <textarea id="f-challenge" name="biggest_challenge"></textarea>
         </div>
       </fieldset>
@@ -281,20 +267,20 @@
       <!-- 5 · While we're here -->
       <fieldset>
         <legend><span class="n">5</span> While we're here</legend>
-        <p class="lead">We build and run these sites ourselves. If any of this would be useful, tick it and Jay will reach out — no pitch unless you ask for one.</p>
+        <p class="lead">Tick anything useful and Jay will reach out. No pitch otherwise.</p>
 
         <div class="pp-group">
           <span>I'd like to hear more about…</span>
           <div class="pp-checks">
             <label><input type="checkbox" name="interests[]" value="Website refresh or rebuild"> A website refresh or rebuild</label>
             <label><input type="checkbox" name="interests[]" value="Ranking higher on Google"> Ranking higher on Google</label>
-            <label><input type="checkbox" name="interests[]" value="Google Ads management"> Google Ads, set up and run for me</label>
-            <label><input type="checkbox" name="interests[]" value="AI booking assistant / chat"> An AI assistant that answers guest questions 24/7</label>
+            <label><input type="checkbox" name="interests[]" value="Google Ads management"> Google Ads run for me</label>
+            <label><input type="checkbox" name="interests[]" value="AI booking assistant / chat"> An AI assistant answering guest questions 24/7</label>
             <label><input type="checkbox" name="interests[]" value="Social media content"> Social media content</label>
             <label><input type="checkbox" name="interests[]" value="Photo / video shoot"> A photo or video shoot</label>
             <label><input type="checkbox" name="interests[]" value="Email / text marketing to past guests"> Email or text marketing to past guests</label>
             <label><input type="checkbox" name="interests[]" value="Featured placement on this site"> Featured placement across our Florida sites</label>
-            <label><input type="checkbox" name="interests[]" value="Something else"> Something else — I'll explain below</label>
+            <label><input type="checkbox" name="interests[]" value="Something else"> Something else (explain below)</label>
           </div>
         </div>
         <div class="pp-row">
@@ -306,10 +292,6 @@
               <option>Text</option>
             </select>
           </div>
-          <div class="pp-field">
-            <label for="f-when">Best time</label>
-            <input type="text" id="f-when" name="contact_time" placeholder="e.g. weekday mornings">
-          </div>
         </div>
         <div class="pp-field">
           <label for="f-notes">Anything else</label>
@@ -319,7 +301,7 @@
 
       <div class="pp-error" id="pp-error">Something went wrong sending that. Try again, or just reply to our email with your answers.</div>
       <button type="submit" class="pp-submit" id="pp-submit">Approve my page &amp; send</button>
-      <p class="pp-fine">No cost, no contract, no paid placement. A nomination can't be bought. We earn a standard referral commission on bookings made through our links, which is why the page is free.</p>
+      <p class="pp-fine">No cost, no contract. We earn a standard referral commission on bookings through our links — that's why the page is free.</p>
     </form>
   </div>
 
