@@ -20,7 +20,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-2FCXCNE07X');
+  /*ga-gate*/(function(){var tz='';try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone||''}catch(e){}if(navigator.webdriver||/HeadlessChrome/.test(navigator.userAgent))return;var c=function(){gtag('config','G-2FCXCNE07X')};if(!/^Asia\/(Singapore|Shanghai|Hong_Kong|Chongqing|Harbin|Urumqi)$/.test(tz)){c();return;}var d=false,ev=['pointermove','touchstart','scroll','keydown'];function go(){if(d)return;d=true;ev.forEach(function(e){removeEventListener(e,go)});c()}ev.forEach(function(e){addEventListener(e,go,{passive:true})})})();
 </script>
 
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TouristDestination", "name": "Key West \u2014 Florida Sandbar Tours", "description": "The southernmost city in the continental U.S. \u2014 a sandbar tour, sunset cruise, and snorkel destination on its own terms.", "url": "https://floridasandbartours.com/key-west.html"}</script>
