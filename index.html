@@ -51,7 +51,10 @@
     <link rel="preload" as="image" href="logo.webp" type="image/webp" fetchpriority="high">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"></noscript>
+    <link rel="preload" as="image" href="florida-sandbar-hero-1-800.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
+    <link rel="preload" as="image" href="florida-sandbar-hero-1-1600.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
     
     <link rel="stylesheet" href="styles.css">
     
@@ -177,7 +180,8 @@
   ]
 }
 </script>
-    <link rel="stylesheet" href="/sponsor-slot.css">
+    <link rel="stylesheet" href="/sponsor-slot.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/sponsor-slot.css"></noscript>
     <script src="/sponsor-slot.js" defer></script>
 </head>
 <body>
@@ -306,7 +310,7 @@
             
             <div class="area-cards">
                 <a href="key-west.html" class="area-card">
-                    <div class="area-card-image" style="background-image: url('key-west-area.jpg')"></div>
+                    <div class="area-card-image" style="background-image: url('/images/key-west-area-640.webp')"></div>
                     <div class="area-card-content">
                         <h3>South Florida</h3>
                         <p>Duval Street • Mallory Square • Sandbars</p>
@@ -315,7 +319,7 @@
                 </a>
                 
                 <a href="stock-island.html" class="area-card">
-                    <div class="area-card-image" style="background-image: url('/florida-sandbar-hero-5.jpg')"></div>
+                    <div class="area-card-image" style="background-image: url('/images/florida-sandbar-hero-5-640.webp')"></div>
                     <div class="area-card-content">
                         <h3>Central Florida</h3>
                         <p>Local Marinas • Backcountry • Fishing</p>
@@ -409,7 +413,7 @@
 <!-- prerender:start (static snapshot; page JS re-renders live) --><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$199 per craft</span>
-            <img src="/assets/heroes/dolphin-tours.jpg" alt="2 Hour Jet Ski Excursion" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="/assets/heroes/dolphin-tours-800.webp" alt="2 Hour Jet Ski Excursion" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">St. Petersburg</span>
         </div>
         <div class="tour-card-content">
@@ -422,7 +426,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$1,399 whole boat</span>
-            <img src="/assets/heroes/dolphin-tours.jpg" alt="Top Shelf | 38' Sea Ray Luxury Day Yacht | Half Day Charter" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="/assets/heroes/dolphin-tours-800.webp" alt="Top Shelf | 38' Sea Ray Luxury Day Yacht | Half Day Charter" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Lakewood Ranch</span>
         </div>
         <div class="tour-card-content">
@@ -435,7 +439,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon-fallback">Price at booking</span>
-            <img src="/assets/heroes/dolphin-tours.jpg" alt="Full Day Trip" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="/assets/heroes/dolphin-tours-800.webp" alt="Full Day Trip" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Pensacola Beach</span>
         </div>
         <div class="tour-card-content">
@@ -448,7 +452,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$400 whole boat, up to 12 guests</span>
-            <img src="https://cdn.filestackcontent.com/GiSoroy4TiuKGcpWQHDM" alt="Jelly Ball Party Package" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/GiSoroy4TiuKGcpWQHDM" alt="Jelly Ball Party Package" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Clearwater</span>
         </div>
         <div class="tour-card-content">
@@ -461,7 +465,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$575 whole boat, up to 4 people</span>
-            <img src="https://cdn.filestackcontent.com/iuMcbJZSr2dBftgOCPd9" alt="Three Hour Shark Hunt" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/iuMcbJZSr2dBftgOCPd9" alt="Three Hour Shark Hunt" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Fort Myers</span>
         </div>
         <div class="tour-card-content">
@@ -474,7 +478,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$399 whole boat, up to 4 guests</span>
-            <img src="https://images.pexels.com/photos/2469078/pexels-photo-2469078.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="The Lost Treasure of Deadman's Island" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://images.pexels.com/photos/2469078/pexels-photo-2469078.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=800" alt="The Lost Treasure of Deadman's Island" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Gulf Breeze</span>
         </div>
         <div class="tour-card-content">
@@ -487,7 +491,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$275 per craft</span>
-            <img src="https://cdn.filestackcontent.com/sGzfAAUlQdWOAMwyy3UM" alt="Jet Ski Tour The Caloosahatchee River" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/sGzfAAUlQdWOAMwyy3UM" alt="Jet Ski Tour The Caloosahatchee River" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Cape Coral</span>
         </div>
         <div class="tour-card-content">
@@ -500,7 +504,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$900 whole boat</span>
-            <img src="https://cdn.filestackcontent.com/NdwoonEySb6JWvNtWjCt" alt="Four Hour Charter (AM)" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/NdwoonEySb6JWvNtWjCt" alt="Four Hour Charter (AM)" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Key West</span>
         </div>
         <div class="tour-card-content">
@@ -513,7 +517,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$800 whole boat</span>
-            <img src="https://cdn.filestackcontent.com/KrJ1ohhWQOOD2e7n2J3Q" alt="Private Sunset Dolphin Tiki Boat Cruise" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/KrJ1ohhWQOOD2e7n2J3Q" alt="Private Sunset Dolphin Tiki Boat Cruise" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Sarasota</span>
         </div>
         <div class="tour-card-content">
@@ -526,7 +530,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$125 per craft</span>
-            <img src="https://cdn.filestackcontent.com/rIDuO9S86u6NRc2cuBRw" alt="WaveRunner Rentals" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/rIDuO9S86u6NRc2cuBRw" alt="WaveRunner Rentals" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Marco Island</span>
         </div>
         <div class="tour-card-content">
@@ -539,7 +543,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$34.95 per person</span>
-            <img src="https://cdn.filestackcontent.com/kZ2TGRldRj6IeGa4uG6L" alt="Sunset Cruise" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/kZ2TGRldRj6IeGa4uG6L" alt="Sunset Cruise" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Madeira Beach</span>
         </div>
         <div class="tour-card-content">
@@ -552,7 +556,7 @@
     </div><div class="tour-card">
         <div class="tour-card-img">
             <span class="price-ribbon">$60 per person</span>
-            <img src="https://cdn.filestackcontent.com/hxC76xEEQvm8iiiTJirN" alt="Chassahowizka Exploration Kayak Tour" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours.jpg'">
+            <img src="https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/hxC76xEEQvm8iiiTJirN" alt="Chassahowizka Exploration Kayak Tour" loading="lazy" width="400" height="300" onerror="this.src='/assets/heroes/dolphin-tours-800.webp'">
             <span class="tour-location-badge">Homosassa</span>
         </div>
         <div class="tour-card-content">
