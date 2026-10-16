@@ -3,7 +3,12 @@
 // Local + Pexels-licensed; CREDITS.md records the source slug
 // "friendly-dolphin-swimming-in-panama-city-s-pristine-waters", which verifies
 // as Florida from the source URL rather than from our own caption.
-const FALLBACK_IMAGE = '/assets/heroes/dolphin-tours.jpg';
+const FALLBACK_IMAGE = '/assets/heroes/dolphin-tours-800.webp';
+// s65: ask Filestack for an 800px webp instead of the original.
+function cardImage(url) {
+    const m = /^https:\/\/cdn\.filestackcontent\.com\/([A-Za-z0-9]{15,25})(?:\/convert\?.*)?$/.exec(url || '');
+    return m ? `https://cdn.filestackcontent.com/resize=w:800/output=format:webp,quality:75/${m[1]}` : url;
+}
 
 
 /* ============================================
@@ -118,14 +123,15 @@ async function initApp() {
     // crash on the missing grid anyway, so nothing here currently executes).
     if (!document.getElementById('tours-grid')) return;
     setupEventListeners();
-    await loadTours();
     initMobileMenu();
     initStickyHeader();
     initMobileCTA();
-    initWeather();
-    initWeatherTicker(); // Live weather ticker
     initializeFAQs();
-    checkURLParams();
+    // s65: tours-data.json is 9.7 MB and the grid is prerendered; fetch it and
+    // the weather after first paint instead of competing with the hero.
+    const heavy = async () => { await loadTours(); initWeather(); initWeatherTicker(); checkURLParams(); };
+    const start = () => setTimeout(heavy, 300);
+    if (document.readyState === 'complete') start(); else window.addEventListener('load', start, { once: true });
 }
 
 // ============================================
@@ -135,7 +141,7 @@ async function initApp() {
 async function loadTours() {
     try {
         // Cache-bust to ensure fresh data
-        const response = await fetch('/tours-data.json?t=' + Date.now());
+        const response = await fetch('/tours-data.json');
         const _raw = await response.json();
         allTours = Array.isArray(_raw) ? _raw : _raw.tours;
         // Hide tours with a dead FareHarbor booking link (audit 2026-05-28) and
@@ -416,7 +422,7 @@ function createTourCard(tour, index) {
     card.innerHTML = `
         <div class="tour-card-img">
             ${priceBadge}
-            <img src="${tour.image || FALLBACK_IMAGE}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'">
+            <img src="${cardImage(tour.image) || FALLBACK_IMAGE}" alt="${tour.name}" loading="lazy" width="400" height="300" onerror="this.src='${FALLBACK_IMAGE}'">
             <span class="tour-location-badge">${tour.location.split('/').pop()}</span>
         </div>
         <div class="tour-card-content">
