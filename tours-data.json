@@ -8674,9 +8674,9 @@
       "timeOfDay": "morning",
       "capacity": null,
       "enrichmentSource": "",
-      "status": "active",
-      "statusReason": null,
-      "statusFirstSeen": null,
+      "status": "inactive",
+      "statusReason": "fareharbor-archived",
+      "statusFirstSeen": "2026-10-25",
       "statusConsecutiveRuns": null,
       "lastUpdated": "2026-08-25",
       "_unknownFields": {
