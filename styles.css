@@ -2489,3 +2489,56 @@ nav.breadcrumb { padding-top: 40px; }
 .related-card h3 a { color: #1B3A57; text-decoration: none; }
 .related-card h3 a:hover { text-decoration: underline; }
 .related-card p { font-size: 0.92rem; color: #555; margin: 0; }
+
+/* ── s66 mobile audit: activity-hub hero rebuild (replaces the ≤120px
+   collapsed .hero-section.hero-photo spec, retired 2026-10-27). ────── */
+.fst-hero{position:relative;min-height:440px;height:60vh;max-height:620px;display:flex;align-items:flex-end;color:#fff;background:#1B3A57 var(--hero-bg) center/cover no-repeat;overflow:hidden}
+.fst-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,25,40,.18) 0%,rgba(10,25,40,.45) 45%,rgba(10,25,40,.92) 100%);pointer-events:none}
+.fst-hero__inner{position:relative;z-index:1;width:100%;max-width:1100px;margin:0 auto;padding:24px 20px 26px;box-sizing:border-box}
+.fst-hero__eyebrow{margin:0 0 8px;font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#FFB36B}
+.fst-hero h1{margin:0 0 10px;font-size:2rem;line-height:1.12;font-weight:800;color:#fff;letter-spacing:-.01em;text-shadow:0 2px 12px rgba(0,0,0,.35)}
+.fst-hero__sub{margin:0 0 18px;font-size:1rem;line-height:1.45;color:rgba(255,255,255,.92);max-width:560px}
+.fst-hero__cta{display:block;width:100%;box-sizing:border-box;text-align:center;padding:15px 20px;background:#E8832A;color:#fff !important;font-weight:700;font-size:1.05rem;border-radius:10px;text-decoration:none;min-height:48px}
+.fst-hero__cta:hover{background:#d2731f}
+.fst-hero__chips{display:flex;gap:8px;margin-top:14px;white-space:nowrap;overflow:hidden}
+.fst-hero__chips span{flex:0 0 auto;padding:6px 11px;border:1px solid rgba(255,255,255,.45);border-radius:999px;font-size:.78rem;font-weight:600;color:#fff;background:rgba(255,255,255,.08)}
+.fst-top-picks{padding:28px 0 8px;background:#FDF8F0}
+.fst-top-picks h2{font-size:1.35rem;color:#1B3A57;margin:0 0 14px}
+.fst-top-picks__grid{display:grid;grid-template-columns:1fr;gap:16px}
+@media (min-width:768px){
+  .fst-hero{min-height:480px;height:70vh}
+  .fst-hero__inner{padding:40px 24px 44px}
+  .fst-hero h1{font-size:3rem;max-width:760px}
+  .fst-hero__sub{font-size:1.15rem}
+  .fst-hero__cta{display:inline-block;width:auto;padding:15px 36px}
+  .fst-top-picks{padding:40px 0 10px}
+  .fst-top-picks__grid{grid-template-columns:repeat(3,1fr);gap:24px}
+}
+@media (prefers-reduced-motion:reduce){.fst-hero{height:auto}}
+
+/* ── s66 mobile audit: homepage hero — visible H1, taller hero, no empty ad band ── */
+.hero-h1--visible{font-size:2.6rem;line-height:1.1;font-weight:800;color:#fff;margin:0 0 10px;text-shadow:0 2px 14px rgba(0,0,0,.45);letter-spacing:-.01em}
+.hero-logo-pic{display:block;margin:0 auto 10px;line-height:0}
+.hero-home .hero-overlay{background:linear-gradient(180deg,rgba(10,25,40,.25) 0%,rgba(10,25,40,.35) 50%,rgba(10,25,40,.75) 100%)}
+.fst-ad-leaderboard{margin:24px auto}
+.fst-ad-leaderboard:not(:has(.sponsor-slot[data-fill-state="filled"])){display:none}
+@media (max-width:768px){
+  .hero-home{min-height:440px;justify-content:flex-end}
+  .hero-home .hero-content{padding:24px 20px 22px;width:100%}
+  .hero-home .hero-logo{margin-bottom:8px}
+  .hero-home .hero-logo-pic{display:none}
+  .hero-home .hero-h1--visible{font-size:1.95rem;text-align:left}
+  .hero-home .hero-subtitle{display:block;font-size:.95rem;text-align:left;margin:0 0 14px;color:rgba(255,255,255,.9)}
+  .hero-home .hero-search{margin:0}
+  .hero-home .hero-search .search-input-wrap{margin:0 0 8px}
+  .quick-tags-wrapper{mask-image:none;-webkit-mask-image:none;overflow-x:auto;overflow-y:hidden;padding:12px 16px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .quick-tags-wrapper::-webkit-scrollbar{display:none}
+  .quick-tags{animation:none;width:max-content;padding-right:16px}
+  .quick-tags button:nth-child(n+17){display:none}
+  .fst-ad-leaderboard{display:none}
+}
+@media (max-width:499px){.hero-home{min-height:440px}.hero-home .hero-subtitle{display:block}}
+@media (max-width:768px){.fst-about-top{padding-top:28px !important;padding-bottom:36px !important}.advertise-hero{padding:48px 20px !important}}
+/* sticky bar stays hidden while the hero is on screen (set by inline observer on index.html) */
+@media (max-width:768px){.mobile-sticky-bar.is-hidden{transform:translateY(110%);transition:transform .25s ease}.mobile-sticky-bar{transition:transform .25s ease}.hero-home .hero-h1--visible{font-size:1.8rem}}
+@media (max-width:768px){.advertise-hero h1{font-size:1.55rem !important;line-height:1.2 !important;overflow-wrap:normal;word-break:keep-all}}
