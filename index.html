@@ -225,15 +225,13 @@
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="hero-logo">
-                <h1 class="hero-h1">
-                    <span class="sr-only">Florida sandbar tours, boat trips and water activities</span>
-                    <picture>
-                        <source srcset="logo.webp" type="image/webp">
-                        <img src="logo.png" alt="Florida Sandbar Tours" class="hero-logo-img" width="512" height="512" fetchpriority="high">
-                    </picture>
-                </h1>
+                <picture class="hero-logo-pic">
+                    <source srcset="logo.webp" type="image/webp">
+                    <img src="logo.png" alt="" class="hero-logo-img" width="512" height="512" fetchpriority="high">
+                </picture>
+                <h1 class="hero-h1 hero-h1--visible">Florida sandbar tours, boat trips and water activities</h1>
             </div>
-            <p class="hero-subtitle">Over 3,000 tours from local Florida operators.</p>
+            <p class="hero-subtitle">Over 3,000 tours from local Florida operators — Tampa Bay to the Keys.</p>
             
             <div class="hero-search">
                 <div class="search-input-wrap">
@@ -298,7 +296,7 @@
         </div>
     </section>
 
-    <div class="container" style="margin-top: 24px; margin-bottom: 24px;">
+    <div class="container fst-ad-leaderboard">
         <div class="sponsor-slot" data-slot-id="hero-leaderboard" data-slot-format="leaderboard"></div>
     </div>
 
@@ -730,7 +728,7 @@
     </footer>
 
     <!-- MOBILE STICKY BAR -->
-    <div class="mobile-sticky-bar" id="mobile-sticky-bar">
+    <div class="mobile-sticky-bar is-hidden" id="mobile-sticky-bar">
         <div class="mobile-sticky-bar-content">
             <div class="mobile-sticky-info">
                 <div class="mobile-sticky-count"><span id="sticky-tour-count">731</span> Florida Tours</div>
@@ -746,5 +744,6 @@
     <script src="image-optimization.js"></script>
 <div class="sponsor-slot" data-slot-id="mobile-sticky" data-slot-format="mobile-sticky"></div>
     <script src="/tracking.js" defer></script>
+<script>(function(){var h=document.querySelector('.hero-home'),b=document.getElementById('mobile-sticky-bar');if(!h||!b||!('IntersectionObserver' in window)){if(b)b.classList.remove('is-hidden');return;}new IntersectionObserver(function(e){b.classList.toggle('is-hidden',e[0].isIntersecting);},{threshold:0.05}).observe(h);})();</script>
 </body>
 </html>
